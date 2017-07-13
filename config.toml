@@ -1,0 +1,47 @@
+baseurl = "http://hugo.spf13.com/"
+title = "Freiraum - Hackerspace Ulm e.V."
+author = "Der Andere"
+copyright = "2017"
+canonifyurls = true
+paginate = 50
+theme = "BluestNight"
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+[outputs]
+    home = ["HTML", "CSS"]
+
+[Params]
+    tagline = "zsamma baschdla" # Subtitle of your site
+    description = "Here is a description of my site that will appear in search engine results - W00t!" # Description of your site
+    authorbox = false
+    post_navigation = false
+    # HashOver requires PHP running on the server
+    # and cannot be hosted on a different domain
+    hide_readingtime = true
+    hashover = false
+
+
+# Uncomment this section to use a background image on your site
+# https://themes.gohugo.io/theme/BluestNight/docs/site/appearance/
+#[Params.background]
+#    src = "/images/background.png"
+#    fit_width = true
+#    tile = false
+
+[Params.widgets]
+    #search = true                 # Not working Enable a search bar widget
+    recent_articles = true # Enable "Recent arcticles" widget
+    categories = true # Enable "Categories" widget
+    tags = true # Enable "Tags" widget
+    tags_counter = true # Enable tag count on tag widgets
+    upcoming_events = true
+
+[Params.color]
+    page_background = "#252525"
+    main_background = "#f6f6f6"
+    alt_background = "#f9f9f9"
+    main_text = "#241c1c"
+    alt_text = "#241c1c"
+    accent = "#4ccec3"
+    accent_text = "#241c1c"
