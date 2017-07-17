@@ -8,41 +8,23 @@ weight = 1
 ### Was bietet der Freiraum?
 
   * **Räumlichkeiten**  
-Der Freiraum bietet Platz für eigene Projekte und deren Umsetzung oder auch
-nur zum gegenseitigen Treffen und Austausch.  
-[![](http://hackerspace-ulm.de/wp-
-content/uploads/2012/11/tafel_small.jpg)](http://frrm.de/wp-
-content/uploads/2012/11/tafel_small.jpg)[![mate_small](http://hackerspace-
-ulm.de/wp-content/uploads/2012/11/mate_small.jpg)](http://hackerspace-
-ulm.de/wp-content/uploads/2012/11/mate_small.jpg)
+Der Freiraum bietet Platz für eigene Projekte und deren Umsetzung oder auch nur zum gegenseitigen Treffen und Austausch.  
+[![](/uploads/2012/11/tafel_small.jpg)](http://frrm.de/wp-content/uploads/2012/11/tafel_small.jpg)
+[![mate_small](/uploads/2012/11/mate_small.jpg)](/uploads/2012/11/mate_small.jpg)
 
   * **Ausrüstung**  
-Im Freiraum steht verschiedenste Ausrüstung (z.B. Beamer, Lötequipment,
-Oszilloskop, Nähmaschine, Werkzeuge) bereit. Daneben gibt es noch einen
-Elektronikschrank mit Bauteilen und zahlreiche andere Geräte.  
-[![oszi_small](http://hackerspace-ulm.de/wp-
-content/uploads/2012/11/oszi_small.jpg)](http://hackerspace-ulm.de/wp-
-content/uploads/2012/11/oszi_small.jpg)[![schrank_small](http://hackerspace-
-ulm.de/wp-content/uploads/2012/11/schrank_small.jpg)](http://hackerspace-
-ulm.de/wp-content/uploads/2012/11/schrank_small.jpg)
+Im Freiraum steht verschiedenste Ausrüstung (z.B. Beamer, Lötequipment, Oszilloskop, Nähmaschine, Werkzeuge) bereit. Daneben gibt es noch einen Elektronikschrank mit Bauteilen und zahlreiche andere Geräte.  
+[![oszi_small](/uploads/2012/11/oszi_small.jpg)](/uploads/2012/11/oszi_small.jpg)
+[![schrank_small](/uploads/2012/11/schrank_small.jpg)](/uploads/2012/11/schrank_small.jpg)
 
   * **Wissen und Erfahrung**  
-Je nach eigenem Kenntnisstand finden sich im Freiraum auch Menschen, die einem
-bei einzelnen Problemen weiterhelfen können. Das Teilen von Wissen und das
-gemeinsame Lernen gehören zu den Grundideen von Hackerspaces.
+Je nach eigenem Kenntnisstand finden sich im Freiraum auch Menschen, die einem bei einzelnen Problemen weiterhelfen können. Das Teilen von Wissen und das gemeinsame Lernen gehören zu den Grundideen von Hackerspaces.
 
   * **Veranstaltungen**  
-Immer mal wieder finden im Freiraum Veranstaltungen statt. Einige regelmäßige
-Veranstaltungen findest du unter [Veranstaltungen](?page_id=31).
+Immer mal wieder finden im Freiraum Veranstaltungen statt. Einige regelmäßige Veranstaltungen findest du unter [Veranstaltungen]({{< relref "events.md" >}}).
 
 ### Was noch?
-
-Prinzipiell ist der Freiraum offen für alle Ideen und neuen Anregungen, sprich
-ein _Freiraum_. Wenn du also ein Projekt verwirklichen willst, das nicht in
-den beschriebenen Rahmen fällt, komm einfach auf uns zu.
+Prinzipiell ist der Freiraum offen für alle Ideen und neuen Anregungen, sprich ein _Freiraum_. Wenn du also ein Projekt verwirklichen willst, das nicht in den beschriebenen Rahmen fällt, komm einfach auf uns zu.
 
 ### Interesse?
-
-Dann am besten einfach mal vorbeikommen. Adresse und weitere Infos findest du
-unter [Kontakt](?page_id=7).
-
+Dann am besten einfach mal vorbeikommen. Adresse und weitere Infos findest du unter [Kontakt]({{< relref "contact.md" >}}).

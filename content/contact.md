@@ -13,18 +13,11 @@ Die beste Möglichkeit Kontakt aufzunehmen ist einfach mal vorbei zu kommen:
 
 {{< osm_frrm >}}
 
+  * **Email**: Einfach eine Nachricht an: vorstand (_at_) lists.hackerspace-ulm.de  
 
-[Karte auf osm.org
-anschauen](http://www.openstreetmap.org/?lat=48.4004245&lon=9.991462&zoom=18&layers=M&mlat=48.40060&mlon=9.99131)  
-ansonsten Kontakt per
-
-  * **Email**: Einfach eine Nachricht an: vorstand (_at) lists.hackerspace-ulm.de  
-_
-
-  * **Jabber MUC**: freiraum@conference.jabber.ccc.de
-  * **Matrix:** [#freiraum](https://matrix.lvl3.org/#/room/#freiraum:matrix.lvl3.org)
+  * **Matrix**: [#freiraum](https://matrix.lvl3.org/#/room/#freiraum:matrix.lvl3.org)
   * **Twitter**: [@freiraum_ulm](https://twitter.com/freiraum_ulm)
-  * **Facebook: **[HackerspaceUlm](https://www.facebook.com/HackerspaceUlm/)
-  * **Telefon:** 0731 / 2806434
+  * **Facebook**: [HackerspaceUlm](https://www.facebook.com/HackerspaceUlm/)
+  * **Telefon**: 0731 / 2806434
 
 **Mailingliste registrieren:** <http://lists.hackerspace-ulm.de/listinfo/info>
