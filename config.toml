@@ -3,7 +3,7 @@ title = "Freiraum - Hackerspace Ulm e.V."
 author = "Der Andere"
 copyright = "2017"
 canonifyurls = true
-paginate = 50
+paginate = 7
 theme = "BluestNight"
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
@@ -14,7 +14,7 @@ PygmentsStyle = "monokai"
 [Params]
     tagline = "zsamma baschdla" # Subtitle of your site
     description = "Here is a description of my site that will appear in search engine results - W00t!" # Description of your site
-    authorbox = false
+    authorbox = true
     post_navigation = false
     # HashOver requires PHP running on the server
     # and cannot be hosted on a different domain
@@ -32,6 +32,7 @@ PygmentsStyle = "monokai"
 [Params.widgets]
     #search = true                 # Not working Enable a search bar widget
     recent_articles = true # Enable "Recent arcticles" widget
+    doorsensor = true # Enable "Categories" widget
     categories = true # Enable "Categories" widget
     tags = true # Enable "Tags" widget
     tags_counter = true # Enable tag count on tag widgets
