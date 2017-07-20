@@ -1,0 +1,32 @@
+<article itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+  {{- if .Params.thumbnail -}}
+  <div>
+    <figure>
+      <a href="{{ .Permalink }}">
+        <img src="{{ .Params.thumbnail | absURL }}" alt="{{ .Title }}" />
+      </a>
+    </figure>
+  </div>
+  {{- end -}}
+  <div>
+    <header class="post-list-title">
+      <a href="{{ .Permalink }}">
+        <h4 itemprop="headline">{{ .Title }}</h4>
+      </a>
+      <div class="metadata">
+        <span class="fa fa-clock-o"></span>
+        <time datetime="{{ .Date.Format "2006-01-02" }}" itemprop="datePublished">{{ .Date.Format "January 02, 2006" }}</time>
+      </div>
+    </header>
+    <div class="post-list-summary" itemprop="description">
+      <p>
+        {{- $page := . -}}
+        {{- with .Description -}}
+          {{ . | markdownify }} <a href="{{ $page.Permalink }}">[Read more...]</a>
+        {{- else -}}
+          {{ .Summary | markdownify }}{{ if .Truncated }} <a href="{{ $page.Permalink }}">[Read more...]</a>{{ end }}
+        {{- end -}}
+      </p>
+    </div>
+  </div>
+</article>

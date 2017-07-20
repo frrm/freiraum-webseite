@@ -1,0 +1,18 @@
+{{- if .Site.Params.widgets.upcoming_events -}}
+<div class="widget">
+	<header>
+		<h4><span class="fa fa-calendar"></span> <a href="{{ "index.ics" | absLangURL }}">Upcoming Events</a></h4>
+	</header>
+	<ul>
+		{{- range first 5 (sort $.Site.Data.events "startDatetime" "asc") -}}
+		<li itemscope itemtype="http://schema.org/Event">
+      <h6 itemprop="name">{{ .name }}</h6>
+			<time datetime="{{ dateFormat "2006-01-02T15:04:05" .startDatetime }}" content="{{ dateFormat "2006-01-02T15:04:05" .startDatetime }}" itemprop="startDate">{{ dateFormat "2006/01/02 @ 15:04" .startDatetime }}</time>
+			-
+			<time datetime="{{ dateFormat "2006-01-02T15:04:05" .endDatetime }}" content="{{ dateFormat "2006-01-02T15:04:05" .endDatetime }}" itemprop="endDate">{{ dateFormat "2006/01/02 @ 15:04" .endDatetime }}</time>
+      <br/><span itemprop="about">{{ .description }}</span>
+    </li>
+		{{- end -}}
+	</ul>
+</div>
+{{- end -}}
