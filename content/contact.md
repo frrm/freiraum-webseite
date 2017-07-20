@@ -4,6 +4,7 @@ date = "2017-07-01"
 menu = "main"
 hide_authorbox = true
 weight = 1
+hide_readingtime = true
 +++
 Die beste Möglichkeit Kontakt aufzunehmen ist einfach mal vorbei zu kommen:
 
