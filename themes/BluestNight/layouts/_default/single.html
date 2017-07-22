@@ -17,9 +17,9 @@
           {{ range $index, $category := .Params.categories }}{{ if gt $index 0 }}, {{ end }}<a href="{{ "categories/" | absLangURL }}{{ . | urlize | lower }}" rel="category">{{ . | humanize | title }}</a>{{ end }}
         </span>
         {{- end -}}
-        {{- if not .Params.hide_readingtime -}}
+<!--         {{- if not .Params.hide_readingtime -}}
         <span class="row-item">Estimated reading time: ~<span itemprop="timeRequired">{{ .ReadingTime }} minutes</span></span>
-        {{- end -}}
+        {{- end -}} -->
       </p>
       {{ end }}
     </header>

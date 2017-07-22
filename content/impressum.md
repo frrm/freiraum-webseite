@@ -3,10 +3,13 @@ title = "Impressum"
 date = "2017-07-17"
 menu = "main"
 hide_authorbox = true
+<<<<<<< HEAD
 weight = 1
 hide_readingtime = true
+=======
+weight = 7
+>>>>>>> 0308d519aac6291a4ce22ee8746e7801b41833cb
 +++
-
 Hackerspace-Ulm e.V.
 Platzgasse 18, 89073 Ulm
 
