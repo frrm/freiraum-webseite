@@ -38,6 +38,10 @@ PygmentsStyle = "monokai"
     tags_counter = true # Enable tag count on tag widgets
     upcoming_events = true
 
+[Params.social]
+    wiki = "https://crocell.crystaldown.de"
+    github = "frrm"
+
 [Params.color]
     page_background = "#252525"
     main_background = "#f6f6f6"

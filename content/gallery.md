@@ -3,7 +3,7 @@ title = "Galerie"
 date = "2017-07-01"
 menu = "main"
 hide_authorbox = true
-weight = 1
+weight = 3
 +++
 Hier findet ihr Fotos von Projekten, Banalem, Beweisfotos und solche, die es
 werden wollen.
