@@ -3,12 +3,8 @@ title = "Sensoren"
 date = "2017-07-01"
 menu = "main"
 hide_authorbox = true
-<<<<<<< HEAD
-weight = 1
-hide_readingtime = true
-=======
 weight = 2
->>>>>>> 0308d519aac6291a4ce22ee8746e7801b41833cb
+hide_readingtime = true
 +++
 * Aktueller Türstatus:  
 

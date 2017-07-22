@@ -5,7 +5,6 @@ menu = "main"
 hide_authorbox = true
 weight = 6
 hide_readingtime = true
-=======
 +++
 Die beste Möglichkeit Kontakt aufzunehmen ist einfach mal vorbei zu kommen:
 

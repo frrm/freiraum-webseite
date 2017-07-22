@@ -3,12 +3,8 @@ title = "Galerie"
 date = "2017-07-01"
 menu = "main"
 hide_authorbox = true
-<<<<<<< HEAD
-weight = 1
-hide_readingtime = true
-=======
 weight = 3
->>>>>>> 0308d519aac6291a4ce22ee8746e7801b41833cb
+hide_readingtime = true
 +++
 Hier findet ihr Fotos von Projekten, Banalem, Beweisfotos und solche, die es
 werden wollen.
