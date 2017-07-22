@@ -127,6 +127,9 @@
           {{ with .Site.Params.social.youtube }}<a href="https://www.youtube.com/user/{{ . }}">
             <span class="fa fa-youtube"></span>
           </a>{{ end }}
+          {{ with .Site.Params.social.wiki }}<a href="{{ . }}">
+            <span class="fa fa-wikipedia-w"></span>
+          </a>{{ end }}
         </div>
       </footer>
     </div>

@@ -3,7 +3,7 @@ title = "Veranstaltungen"
 date = "2017-07-01"
 menu = "main"
 hide_authorbox = true
-weight = 1
+weight = 4
 +++
 Zur Zeit gibts es folgende regelmäßige Veranstaltungen:
 

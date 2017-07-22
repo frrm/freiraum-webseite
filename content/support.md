@@ -3,7 +3,7 @@ title = "Unterstützung"
 date = "2017-07-01"
 menu = "main"
 hide_authorbox = true
-weight = 1
+weight = 5
 +++
 Der Freiraum kann nur weiterexistieren, wenn sich genügend Mitglieder finden, die bereit sind einen Teil der Miete zu übernehmen. Üblicherweise beträgt der Mitgliedsbeitrag 25€/Monat, allerdings ist bei Nachfrage auch ein ermäßigter Beitrag von 10€/Monat möglich.
 
