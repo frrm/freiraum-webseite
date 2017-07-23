@@ -16,6 +16,8 @@ Die beste Möglichkeit Kontakt aufzunehmen ist einfach mal vorbei zu kommen:
   * **Email**: Einfach eine Nachricht an: vorstand (_at_) lists.hackerspace-ulm.de  
 
   * **Matrix**: [#freiraum](https://matrix.lvl3.org/#/room/#freiraum:matrix.lvl3.org)
+  * **Github**: [frrm](https://github.com/frrm)
+  * **Wiki**: https://crocell.crystaldown.de/
   * **Twitter**: [@freiraum_ulm](https://twitter.com/freiraum_ulm)
   * **Facebook**: [HackerspaceUlm](https://www.facebook.com/HackerspaceUlm/)
   * **Telefon**: 0731 / 2806434
