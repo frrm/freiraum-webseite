@@ -14,9 +14,11 @@
         <h4 itemprop="headline">{{ .Title }}</h4>
       </a>
       <p id="post-metadata" class="row">
-        <span class="fa fa-clock-o"></span>
-        <time datetime="{{ .Date.Format "2006-01-02" }}" itemprop="datePublished">{{ .Date.Format "January 02, 2006" }}</time>
-        <span> by {{ .Params.author}} in </span>
+        <span class="row-item">
+          <span class="fa fa-clock-o"></span>
+          <time datetime="{{ .Date.Format "2006-01-02" }}" itemprop="datePublished">{{ .Date.Format "January 02, 2006" }}</time>
+          <span> by {{ .Params.author}} in </span>
+        </span>
         {{- if .Params.categories -}}
         <span class="row-item">
           <span class="fa fa-folder"></span>
