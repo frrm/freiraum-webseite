@@ -13,11 +13,17 @@
       <a href="{{ .Permalink }}">
         <h4 itemprop="headline">{{ .Title }}</h4>
       </a>
-      <div class="metadata">
+      <p id="post-metadata" class="row">
         <span class="fa fa-clock-o"></span>
         <time datetime="{{ .Date.Format "2006-01-02" }}" itemprop="datePublished">{{ .Date.Format "January 02, 2006" }}</time>
-        <span> by {{ .Params.author}}</span>
-      </div>
+        <span> by {{ .Params.author}} in </span>
+        {{- if .Params.categories -}}
+        <span class="row-item">
+          <span class="fa fa-folder"></span>
+          {{ range $index, $category := .Params.categories }}{{ if gt $index 0 }}, {{ end }}<a href="{{ "categories/" | absLangURL }}{{ . | urlize | lower }}" rel="category">{{ . | humanize | title }}</a>{{ end }}
+        </span>
+        {{- end -}}
+      </p>
     </header>
     <div class="post-list-summary" itemprop="description">
       <p>
