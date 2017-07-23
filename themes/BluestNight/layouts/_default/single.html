@@ -9,6 +9,7 @@
         <span class="row-item">
           <span class="fa fa-clock-o"></span>
           <time datetime="{{ .Date.Format "2006-01-02" }}" content="{{ .Date.Format "2006-01-02" }}" itemprop="datePublished">{{.Date.Format "January 02, 2006"}}</time>
+          <span> by {{ .Params.author}} in </span>
         </span>
         {{- end -}}
         {{- if .Params.categories -}}
@@ -45,25 +46,6 @@
     		{{- end -}}
     	</ul>
     </div>
-    {{- end -}}
-    {{- if and (.Site.Params.authorbox) (not .Params.hide_authorbox) -}}
-    {{- range $.Site.Data.members -}}
-    	{{- if or (and (and (isset $.Site.Params "author") (not (isset $.Params "author"))) (eq .Name $.Site.Params.author )) (and (isset $.Params "author") (eq .Name $.Params.author)) -}}
-    	<div id="authorbox" class="row vcenter memberbox" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    		<div class="row-item member-avatar" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-    				<img alt="{{ .Name }} avatar" src="{{ with .Img }}{{ . | absURL }}{{ else }}{{ "images/profile.jpg" | absURL }}{{ end }}" itemprop="contentUrl" />
-    		</div>
-    		<div class="row-item member-bio">
-    			<div>
-    				<span class="widget-title">About <span itemprop="name">{{ .Name }}</span></span>
-    			</div>
-    			<p itemprop="description">
-    				{{- .Bio -}}
-    			</p>
-    		</div>
-    	</div>
-    	{{- end -}}
-    {{- end -}}
     {{- end -}}
   </article>
   {{- if or (and (.Site.Params.post_navigation) (not (eq .Params.post_navigation false))) (.Params.post_navigation) -}}

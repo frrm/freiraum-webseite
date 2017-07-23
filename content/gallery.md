@@ -2,7 +2,6 @@
 title = "Galerie"
 date = "2017-07-01"
 menu = "main"
-hide_authorbox = true
 weight = 3
 hide_readingtime = true
 +++

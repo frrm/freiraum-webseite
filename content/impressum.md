@@ -2,7 +2,6 @@
 title = "Impressum"
 date = "2017-07-17"
 menu = "main"
-hide_authorbox = true
 weight = 7
 hide_readingtime = true
 +++

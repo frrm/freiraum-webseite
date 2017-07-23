@@ -16,6 +16,7 @@
       <div class="metadata">
         <span class="fa fa-clock-o"></span>
         <time datetime="{{ .Date.Format "2006-01-02" }}" itemprop="datePublished">{{ .Date.Format "January 02, 2006" }}</time>
+        <span> by {{ .Params.author}}</span>
       </div>
     </header>
     <div class="post-list-summary" itemprop="description">

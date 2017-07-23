@@ -2,7 +2,6 @@
 title = "Unterstützung"
 date = "2017-07-01"
 menu = "main"
-hide_authorbox = true
 weight = 5
 hide_readingtime = true
 +++

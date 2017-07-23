@@ -2,7 +2,6 @@
 title = "Veranstaltungen"
 date = "2017-07-01"
 menu = "main"
-hide_authorbox = true
 weight = 4
 hide_readingtime = true
 +++

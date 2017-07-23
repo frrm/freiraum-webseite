@@ -2,7 +2,6 @@
 title = "Kontakt"
 date = "2017-07-01"
 menu = "main"
-hide_authorbox = true
 weight = 6
 hide_readingtime = true
 +++
