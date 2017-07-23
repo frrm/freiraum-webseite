@@ -7,9 +7,13 @@ p { margin-bottom: 1rem; }
 p, li { line-height: 1.5; }
 ul {
   list-style: none;
-  margin-left: 2rem;
   margin-bottom: 1rem;
 }
+
+#post-article ul{
+    margin-left: 2rem;
+}
+
 ul > li > ul { margin-bottom: 0; }
 main ul { list-style: disc outside; }
 
