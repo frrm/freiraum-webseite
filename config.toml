@@ -25,7 +25,7 @@ PygmentsStyle = "monokai"
 # Uncomment this section to use a background image on your site
 # https://themes.gohugo.io/theme/BluestNight/docs/site/appearance/
 [Params.background]
-    src = "https://frrm.github.io/images/glitch_02.jpg"
+    #src = "/images/glitch_01.jpg"
     #fit_width = true
     #tile = false
 
