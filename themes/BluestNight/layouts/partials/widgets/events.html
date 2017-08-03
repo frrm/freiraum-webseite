@@ -6,7 +6,7 @@
 	<ul>
 		{{- range first 5 (sort $.Site.Data.events "startDatetime" "asc") -}}
 		<li itemscope itemtype="http://schema.org/Event">
-      <h6 itemprop="name">{{ .name }}</h6>
+      <b itemprop="name">{{ .name }}</b><br>
 			<time datetime="{{ dateFormat "2006-01-02T15:04:05" .startDatetime }}" content="{{ dateFormat "2006-01-02T15:04:05" .startDatetime }}" itemprop="startDate">{{ dateFormat "2006/01/02 @ 15:04" .startDatetime }}</time>
 			-
 			<time datetime="{{ dateFormat "2006-01-02T15:04:05" .endDatetime }}" content="{{ dateFormat "2006-01-02T15:04:05" .endDatetime }}" itemprop="endDate">{{ dateFormat "2006/01/02 @ 15:04" .endDatetime }}</time>

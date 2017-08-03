@@ -1,5 +1,9 @@
 /* Widgets */
 
+.widget{
+  margin-bottom: 2em;
+}
+
 .widget header, #main-nav {
   text-transform: uppercase;
   margin: 0.5rem 0;
