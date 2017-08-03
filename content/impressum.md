@@ -8,10 +8,7 @@ hide_readingtime = true
 Hackerspace-Ulm e.V.
 Platzgasse 18, 89073 Ulm
 
-Inhaltlich verantwortlich gemäß § 55 Abs. 2 RStV: John Doe
-
-### Technischer Hinweis
-Diese Webseiten wurden mit Hilfe eines modernen Elektronengehirns des Typs x86 entwickelt. Bitte entfernt diesen Absatz wenn ihr die Webseite freigebt.
+Inhaltlich verantwortlich gemäß § 55 Abs. 2 RStV: Georg Thoma
 
 ### Haftungsausschluss:
 

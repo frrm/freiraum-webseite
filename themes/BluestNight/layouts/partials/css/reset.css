@@ -18,6 +18,14 @@ ul {
     margin-left: 2rem;
 }
 
+#post-article ol{
+    margin-left: 2rem;
+}
+
+#post-list ol{
+    margin-left: 2rem;
+}
+
 
 ul > li > ul { margin-bottom: 0; }
 main ul { list-style: disc outside; }

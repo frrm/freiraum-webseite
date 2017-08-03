@@ -1,8 +1,22 @@
 {{- if .Site.Params.widgets.doorsensor -}}
 <div class="widget">
+	<script src="/modules/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript">
+		try{
+			$(document).ready(function() {
+				$("#door_status").text("404: Data not available.");
+				$.get('https://crocell.crystaldown.de/door',function(data){
+					$("#door_status").text("200: Door is " + data);
+				});
+			});
+		}catch(err){
+			$("#door_status").text("404: Data not available.");
+		}
+ </script>
+
 	<header>
 		<h4><span class="fa fa-key"></span> Türsensor</h4>
 	</header>
-	<iframe style="border: 0; padding: 0; margin: 0;" src="http://frrm.de/sensors/door_status.txt" scrolling="no" id="status_frame" width="200" height="30"></iframe>
+	<div id="door_status"></div>
 </div>
 {{- end -}}
