@@ -17,7 +17,6 @@ deploy:
   local_dir: public
   github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
   repo: frrm/frrm.github.io
-  fqdn: frrm.github.io
   # target is master branch
   target_branch: master
   # only deploy from master of github.com/frrm/freiraum-hugo.git
