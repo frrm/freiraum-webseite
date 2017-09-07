@@ -1,0 +1,25 @@
+sudo: disabled
+
+# Clean and don't fail
+install:
+  # for every branch
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.26/hugo_0.26_Linux-64bit.tar.gz | tar xf
+  - rm -rf public || exit 0
+
+# Build the website
+script:
+  - ./hugo -v
+
+# Deploy to GitHub pages
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: public
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  repo: https://github.com/frrm/frrm.github.io.git
+  fqdn: frrm.github.io
+  # target is master branch
+  target_branch: master
+  # only deploy from master of github.com/frrm/freiraum-hugo.git
+  on:
+    branch: master
