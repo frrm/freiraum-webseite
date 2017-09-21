@@ -6,7 +6,7 @@
 			$(document).ready(function() {
 				$("#door_status").text("404: Data not available.");
 				$.get('https://crocell.crystaldown.de/door',function(data){
-					$("#door_status").text("200: Door is " + data);
+					$("#door_status").text("Door is <em>" + data + "</em>");
 				});
 			});
 		}catch(err){
