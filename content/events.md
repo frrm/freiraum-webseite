@@ -14,4 +14,4 @@ Offenes Treffen ist zum Kennenlernen, Labern, Basteln und gemeinsamen schauen vo
 Der Ulmer [OpenStreetMap-Stammtisch](http://wiki.openstreetmap.org/wiki/Ulm_Neu-Ulm/Stammtisch) trifft sich im Freiraum.
 
 * **Freifunktreffen**
-Termine findet man auf dem [Freifunkwiki)](https://wiki.freifunk.net/Freifunk_Ulm/Treffen)
+Termine findet man auf dem [Freifunkwiki](https://wiki.freifunk.net/Freifunk_Ulm/Treffen)
