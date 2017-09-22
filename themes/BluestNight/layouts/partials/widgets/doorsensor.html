@@ -6,17 +6,17 @@
 			$(document).ready(function() {
 				$("#door_status").text("404: Data not available.");
 				$.get('https://crocell.crystaldown.de/door',function(data){
-					$("#door_status").text("200: Door is " + data);
+					$("#door_status").text(data);
 				});
 			});
 		}catch(err){
-			$("#door_status").text("404: Data not available.");
+			$("#door_status").text("broken");
 		}
  </script>
 
 	<header>
 		<h4><span class="fa fa-key"></span> Türsensor</h4>
 	</header>
-	<div id="door_status"></div>
+	Door is <b><span id="door_status"></span></b>.
 </div>
 {{- end -}}
