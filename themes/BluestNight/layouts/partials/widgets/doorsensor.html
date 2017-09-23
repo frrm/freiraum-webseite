@@ -4,7 +4,7 @@
 	<script type="text/javascript">
 		try{
 			$(document).ready(function() {
-				$("#door_status").text("404: Data not available.");
+				$("#door_status").text("broken"); //404: Data not available
 				$.get('https://crocell.crystaldown.de/door',function(data){
 					$("#door_status").text(data);
 				});
@@ -17,6 +17,6 @@
 	<header>
 		<h4><span class="fa fa-key"></span> Türsensor</h4>
 	</header>
-	Door is <del><b><span id="door_status"></span></b></del> currently not to be trusted.
+	Door is <b><span id="door_status"></span></b>!
 </div>
 {{- end -}}
