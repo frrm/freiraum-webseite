@@ -25,9 +25,9 @@ PygmentsStyle = "monokai"
 # Uncomment this section to use a background image on your site
 # https://themes.gohugo.io/theme/BluestNight/docs/site/appearance/
 [Params.background]
-    src = "/images/glitch_01.jpg"
-    fit_width = true
-    tile = false
+#    src = "/images/glitch_01.jpg"
+#    fit_width = true
+#    tile = false
 
 [Params.widgets]
     #search = true                 # Not working Enable a search bar widget
