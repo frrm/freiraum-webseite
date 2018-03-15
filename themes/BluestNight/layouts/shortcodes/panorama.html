@@ -1,0 +1,17 @@
+<script type="text/javascript" src="/modules/pannellum.js"></script>
+    <style>
+    #{{ .Get "name" }} {
+        width: 600px;
+        height: 400px;
+    }
+    </style>
+
+<link rel="stylesheet" href="/modules/pannellum.css"/>
+<div id="{{ .Get "name" }}"></div>
+<script>
+pannellum.viewer('{{ .Get "name" }}', {
+    "type": "equirectangular",
+    "panorama": "{{ .Get "src" }}",
+    "autoLoad": true
+});
+</script>
