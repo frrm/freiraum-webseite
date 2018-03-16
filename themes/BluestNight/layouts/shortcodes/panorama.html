@@ -12,6 +12,8 @@
 pannellum.viewer('{{ .Get "name" }}', {
     "type": "equirectangular",
     "panorama": "{{ .Get "src" }}",
-    "autoLoad": true
+    "autoLoad": true,
+    "showZoomCtrl": false,
+    "hotSpotDebug": true
 });
 </script>

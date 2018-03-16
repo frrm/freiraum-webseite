@@ -12,9 +12,6 @@ Der Freiraum bietet Platz für eigene Projekte und deren Umsetzung oder auch nur
 [![](/uploads/2012/11/tafel_small.jpg)](http://frrm.de/wp-content/uploads/2012/11/tafel_small.jpg)
 [![mate_small](/uploads/2012/11/mate_small.jpg)](/uploads/2012/11/mate_small.jpg)
 
-{{< panorama src="/images/pano_werkstatt.jpg" name="werkstatt">}}
-{{< panorama src="/images/pano_main.jpg" name="main">}}
-
   * **Ausrüstung**  
 Im Freiraum steht verschiedenste Ausrüstung (z.B. Beamer, Lötequipment, Oszilloskop, Nähmaschine, Werkzeuge) bereit. Daneben gibt es noch einen Elektronikschrank mit Bauteilen und zahlreiche andere Geräte.  
 [![oszi_small](/uploads/2012/11/oszi_small.jpg)](/uploads/2012/11/oszi_small.jpg)
