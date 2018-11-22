@@ -1,5 +1,5 @@
 baseurl = "https://frrm.github.io/"
-title = "Freiraum - Hackerspace Ulm e.V."
+title = "Freiraum"
 author = "Der Andere"
 copyright = "2017"
 canonifyurls = true
@@ -12,7 +12,7 @@ PygmentsStyle = "monokai"
     home = ["HTML", "CSS"]
 
 [Params]
-    tagline = "zsamma baschdla" # Subtitle of your site
+#    tagline = "ZSAMMA BASCHDLA" # Subtitle of your site
     description = "Here is a description of my site that will appear in search engine results - W00t!" # Description of your site
     authorbox = true
     post_navigation = false
@@ -20,8 +20,8 @@ PygmentsStyle = "monokai"
     # and cannot be hosted on a different domain
     hide_readingtime = true
     hashover = false
-
-
+    title2 = "Chaos Computr Club Ulm"
+    clubname = "Hackerspace Ulm e.V."
 # Uncomment this section to use a background image on your site
 # https://themes.gohugo.io/theme/BluestNight/docs/site/appearance/
 [Params.background]
