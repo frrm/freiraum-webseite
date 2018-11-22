@@ -68,7 +68,7 @@ header a:link, header a:visited, #site-header header a:hover, #site-header heade
   padding: 1rem 2rem;
 }
 
-#site-title, #site-tagline {
+#site-title, #site-title2, #site-title3, #site-tagline {
   text-transform: uppercase;
   font-weight: bold;
   display:inline-block;
@@ -77,7 +77,29 @@ header a:link, header a:visited, #site-header header a:hover, #site-header heade
 
 #site-title {
   font-size: 3rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.15rem;
+  /* letter-spacing: 0.2rem */
+}
+
+#site-title2 {
+  font-size: 1.2rem;
+  padding-bottom: 0.05rem;
+  letter-spacing: 0.15rem
+}
+
+#site-title3 {
+  font-size: 3rem;
+  padding-bottom: 0.1rem;
+  /* letter-spacing: 0.58rem */
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid rgb(0, 0, 0);
+  margin: 0.5em 0;
+  padding: 0; 
 }
 
 #site-tagline {

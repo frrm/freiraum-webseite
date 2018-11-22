@@ -2,7 +2,7 @@
 title = "Impressum"
 date = "2017-07-17"
 menu = "main"
-weight = 7
+weight = 8
 hide_readingtime = true
 +++
 Hackerspace-Ulm e.V.
