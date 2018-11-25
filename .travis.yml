@@ -3,7 +3,7 @@ sudo: disabled
 # Clean and don't fail
 install:
   # for every branch
-  - curl -L https://github.com/gohugoio/hugo/releases/download/v0.26/hugo_0.26_Linux-64bit.tar.gz | tar xz
+  - curl -L https://github.com/gohugoio/hugo/releases/download/v0.51/hugo_0.51_Linux-64bit.tar.gz | tar xz
   - rm -rf public || exit 0
 
 # Build the website
@@ -13,6 +13,7 @@ script:
 # Deploy to GitHub pages
 deploy:
   provider: pages
+  fqdn: www.frrm.de
   skip_cleanup: true
   local_dir: public
   github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
