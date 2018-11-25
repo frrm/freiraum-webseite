@@ -45,9 +45,7 @@
         <header class="small-text-center medium-text-left">
           <a href="{{ .Site.BaseURL }}">
             <span id="site-title" itemprop="name">{{ .Site.Title }} - {{ .Site.Params.clubname }}</span><br>
-            <!-- <span id="site-title2" itemprop="name" class="span.stretch"> </span><br> -->
-            <!-- <hr class="small-text-center medium-text-left" width="300" style="color: #000000;"></hr> -->
-            <span id="site-title3" itemprop="name">{{ .Site.Params.title2 }}</span>
+            <span id="site-title2" itemprop="name">{{ .Site.Params.title2 }}</span>
             {{ with .Site.Params.tagline }}<br/><span id="site-tagline">{{ . }}</span>{{ end }}
           </a>
         </header>
