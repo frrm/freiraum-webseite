@@ -20,9 +20,9 @@ PygmentsStyle = "monokai"
     # and cannot be hosted on a different domain
     hide_readingtime = true
     hashover = false
-    title2 = "Chaos Computr Club Ulm"
+    title2 = "Chaos Computer Club Ulm"
     clubname = "Hackerspace Ulm e.V."
-    num_events = 3 # Number of events shown in the side bar
+    num_events = 10 # Number of events shown in the side bar
 
 # Uncomment this section to use a background image on your site
 # https://themes.gohugo.io/theme/BluestNight/docs/site/appearance/
