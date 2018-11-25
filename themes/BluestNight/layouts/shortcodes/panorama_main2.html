@@ -1,0 +1,74 @@
+<script type="text/javascript" src="/modules/pannellum.js"></script>
+    <style>
+    #pano_main{
+        width: 600px;
+        height: 400px;
+    }
+    </style>
+
+<link rel="stylesheet" href="/modules/pannellum.css"/>
+<div id="pano_main"></div>
+<script>
+pannellum.viewer('pano_main', {
+    "default": {
+        "firstScene": "main",
+    },
+    "scenes": {
+        "main": {
+                "type": "equirectangular",
+                "panorama": "/images/pano2_main.jpg",
+                "autoLoad": true,
+                "showZoomCtrl": false,
+                "hotSpots": [
+                    {
+                        "pitch": -10,
+                        "yaw": 168,
+                        "type": "scene",
+                        "text": "Werkstatt",
+                        "sceneId": "werkstatt"
+                    },
+                    {
+                        "pitch": -11,
+                        "yaw": 146,
+                        "type": "scene",
+                        "text": "Chillout",
+                        "sceneId": "chillout"
+                    },
+
+                    ]
+                },
+        "werkstatt": {
+                "type": "equirectangular",
+                 "hotSpotDebug": true,
+                "panorama": "/images/pano2_werkstatt.jpg",
+                "autoLoad": true,
+                "showZoomCtrl": false,
+                "hotSpots": [
+                    {
+                        "pitch": -11,
+                        "yaw": 140,
+                        "type": "scene",
+                        "text": "Ḿain",
+                        "sceneId": "main"
+                    }
+                    ]
+                },                
+        "chillout": {
+                "type": "equirectangular",
+                 "hotSpotDebug": true,
+                "panorama": "/images/pano2_chillout.jpg",
+                "autoLoad": true,
+                "showZoomCtrl": false,
+                "hotSpots": [
+                    {
+                        "pitch": -1,
+                        "yaw": 57,
+                        "type": "scene",
+                        "text": "Main",
+                        "sceneId": "main"
+                    }
+                    ]
+                }
+    }
+});
+</script>
