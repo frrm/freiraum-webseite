@@ -81,13 +81,13 @@ header a:link, header a:visited, #site-header header a:hover, #site-header heade
   /* letter-spacing: 0.2rem */
 }
 
-#site-title2 {
+/* #site-title2 {
   font-size: 1.2rem;
   padding-bottom: 0.05rem;
   letter-spacing: 0.15rem
-}
+} */
 
-#site-title3 {
+#site-title2 {
   font-size: 3rem;
   padding-bottom: 0.1rem;
   /* letter-spacing: 0.58rem */

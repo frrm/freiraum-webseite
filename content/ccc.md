@@ -2,7 +2,7 @@
 title = "CCC Ulm"
 date = "2018-11-01"
 menu = "main"
-weight = 5
+weight = 2
 hide_readingtime = true
 +++
 

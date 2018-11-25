@@ -4,6 +4,7 @@ date = "2017-07-17"
 menu = "main"
 weight = 8
 hide_readingtime = true
+hidden = true
 +++
 Hackerspace-Ulm e.V.
 Platzgasse 18, 89073 Ulm

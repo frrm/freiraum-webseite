@@ -1,7 +1,7 @@
 baseurl = "https://frrm.github.io/"
 title = "Freiraum"
 author = "Der Andere"
-copyright = "2017"
+copyright = "2018"
 canonifyurls = true
 paginate = 7
 theme = "BluestNight"
@@ -22,6 +22,8 @@ PygmentsStyle = "monokai"
     hashover = false
     title2 = "Chaos Computr Club Ulm"
     clubname = "Hackerspace Ulm e.V."
+    num_events = 3 # Number of events shown in the side bar
+
 # Uncomment this section to use a background image on your site
 # https://themes.gohugo.io/theme/BluestNight/docs/site/appearance/
 [Params.background]
@@ -50,3 +52,8 @@ PygmentsStyle = "monokai"
     alt_text = "#241c1c"
     accent = "#4ccec3"
     accent_text = "#241c1c"
+
+# [[menu.main]]
+# name = "About"
+# url = "/about"
+# weight = 1
