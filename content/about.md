@@ -8,9 +8,12 @@ hide_readingtime = true
 ### Was bietet der Freiraum?
 
   * **Räumlichkeiten**  
-Der Freiraum bietet Platz für eigene Projekte und deren Umsetzung oder auch nur zum gegenseitigen Treffen und Austausch.  
-[![](/uploads/2012/11/tafel_small.jpg)](http://frrm.de/wp-content/uploads/2012/11/tafel_small.jpg)
-[![mate_small](/uploads/2012/11/mate_small.jpg)](/uploads/2012/11/mate_small.jpg)
+Der Freiraum bietet Platz für eigene Projekte und deren Umsetzung oder auch nur zum gegenseitigen Treffen und Austausch. Hier könnt ihr euch selber umschauen:
+<!-- [![](/uploads/2012/11/tafel_small.jpg)](http://frrm.de/wp-content/uploads/2012/11/tafel_small.jpg)
+[![mate_small](/uploads/2012/11/mate_small.jpg)](/uploads/2012/11/mate_small.jpg) -->
+
+
+{{< panorama_main2>}}
 
   * **Ausrüstung**  
 Im Freiraum steht verschiedenste Ausrüstung (z.B. Beamer, Lötequipment, Oszilloskop, Nähmaschine, Werkzeuge) bereit. Daneben gibt es noch einen Elektronikschrank mit Bauteilen und zahlreiche andere Geräte.  
