@@ -2,7 +2,7 @@
 * {
   box-sizing: border-box;
 }
-body { font-family: "Clear Sans", sans-serif; }
+body { font-family: "Lato", sans-serif; }
 p { margin-bottom: 1rem; }
 p, li { line-height: 1.5; }
 ul {

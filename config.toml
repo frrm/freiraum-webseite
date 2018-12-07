@@ -50,7 +50,7 @@ PygmentsStyle = "monokai"
     alt_background = "#f9f9f9"
     main_text = "#241c1c"
     alt_text = "#241c1c"
-    accent = "#4ccec3"
+    accent = "#4ccea2"
     accent_text = "#241c1c"
 
 # [[menu.main]]
