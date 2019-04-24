@@ -1,7 +1,7 @@
 {{- if .Site.Params.widgets.upcoming_events -}}
 <div class="widget">
 	<header>
-		<h4><span class="fa fa-calendar"></span> <a href="{{ "index.ics" | absLangURL }}">Upcoming Events</a></h4>
+		<h4><span class="fa fa-calendar"></span>Upcoming Events</h4>
 	</header>
 	<ul>
 		{{- range first .Site.Params.num_events (where (sort $.Site.Data.events "startDatetime" "asc") "startDatetime" "ge" (now.Format "2006-01-02")) -}}
