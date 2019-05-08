@@ -1,10 +1,10 @@
 {{- if .Site.Params.widgets.upcoming_events -}}
 <div class="widget">
 	<header>
-		<h4><span class="fa fa-calendar"></span> <a href="{{ "index.ics" | absLangURL }}">Upcoming Events</a></h4>
+		<h4><span class="fa fa-calendar"></span>Upcoming Events</h4>
 	</header>
 	<ul>
-		{{- range first .Site.Params.num_events (sort $.Site.Data.events "startDatetime" "asc") -}}
+		{{- range first .Site.Params.num_events (where (sort $.Site.Data.events "startDatetime" "asc") "startDatetime" "ge" (now.Format "2006-01-02")) -}}
 		<li itemscope itemtype="http://schema.org/Event">
       <b itemprop="name">{{ .name }}</b><br>
 			<time datetime="{{ dateFormat "2006-01-02T15:04:05" .startDatetime }}" content="{{ dateFormat "2006-01-02T15:04:05" .startDatetime }}" itemprop="startDate">{{ dateFormat "2006/01/02 @ 15:04" .startDatetime }}</time>
