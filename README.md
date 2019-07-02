@@ -1,25 +1,13 @@
-hugoBasicExample
-==========
+Webseiten-Inhalt für frrm.de
+============================
 
-This is an example site for [Hugo](http://gohugo.io/).
+Dieses Respository enthält alle Daten (Inhalte, Bilder, Templates etc.) für frrm.de, v.a.:
 
-It is intended to be a demo site for the various [Hugo themes][].
-
-# Using
-
-1. First, [install Hugo](http://gohugo.io/overview/installing/);
-2. Then, clone this repository;
-3. Clone the [Hugo themes][];
-4. Run Hugo and select the theme of your choosing.
-
-In other words:
-
-<pre><code>git clone https://github.com/spf13/HugoBasicExample.git
-cd HugoBasicExample
-git clone --recursive https://github.com/spf13/hugoThemes.git themes
-hugo server -t <em>themename</em>
-</code></pre>
-
-Enjoy!
-
-[Hugo themes]: https://github.com/spf13/hugoThemes
+- `content/`  
+  Inhalt der Webseiten als Markdown
+- `data/events/`  
+  Termine als Markdown-Metadaten
+- `static/`  
+  Bilder usw.
+  
+Aus diesen Daten werden dann durch Travis-CI mittels Hugo die HTML-Seiten erstellt und auf https://github.com/frrm/frrm.github.io abgelegt.
