@@ -1,0 +1,44 @@
+ul.events-by-month .date-marker {
+    height: 2ex;
+    padding-right: 0.25ex;
+    vertical-align: middle;
+}
+ul.events-by-month time {
+    word-spacing: 0.3ex;
+    vertical-align: middle;
+}
+ul.events-by-month .location-marker {
+    height: 2ex;
+    padding-left: 0.5ex;
+    padding-right: 0.5ex;
+    vertical-align: middle;
+}
+ul.events-by-month .event-location {
+    vertical-align: middle;
+}
+
+ul.events-side .date-marker {
+    height: 2ex;
+    padding-right: 0.25ex;
+    vertical-align: middle;
+}
+ul.events-side time {
+    word-spacing: 0.7ex;
+    vertical-align: middle;
+}
+ul.events-side .location-marker {
+    height: 2ex;
+    padding-left: 0.5ex;
+    padding-right: 0.5ex;
+    vertical-align: middle;
+}
+ul.events-side .event-location {
+    vertical-align: middle;
+}
+
+h2 {
+    font-size: 1.8rem !important;
+}
+h3 {
+    font-size: 1.3rem !important;
+}

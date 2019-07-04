@@ -1,4 +1,7 @@
 @import url("css/reset.css");@import url("css/fonts/stylesheet.css");
+{{ range .Site.Params.custom_css -}}
+@import url("{{ . }}");
+{{ end }}
 {{- $.Scratch.Set "page_bg" "#000000" -}}{{- $.Scratch.Set "main_bg" "#050505" -}}{{- $.Scratch.Set "alt_bg" "#252525" -}}
 {{- $.Scratch.Set "body_text" "#e2e2e2" -}}{{- $.Scratch.Set "alt_body_text" "#ffffff" -}}
 {{- $.Scratch.Set "accent" "#2c8cef" -}}{{- $.Scratch.Set "header_text" "#e2e2e2" -}}

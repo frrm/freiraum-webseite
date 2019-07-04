@@ -1,20 +1,24 @@
 {{- if .Site.Params.widgets.upcoming_events -}}
 <div class="widget">
 	<header>
-		<h4><span class="fa fa-calendar"></span> Upcoming Events</h4>
+		<h4><a href="/events/#termine"><span class="fa fa-calendar"></span> Upcoming Events</a></h4>
 	</header>
-	<ul>
+	<ul class="events-side">
 		{{- range first .Site.Params.num_events (where (sort $.Site.Data.events "startDatetime" "asc") "startDatetime" "ge" (now.Format "2006-01-02")) -}}
 		<li itemscope itemtype="http://schema.org/Event">
       <b itemprop="name">{{ .name }}:</b>
 	  <span itemprop="about">{{ .description }}</span><br>
-	  <img class="date-marker" style="height: 2ex; vertical-align: middle" src="/images/marker-time.svg">
-	  <time style="vertical-align: middle; word-spacing: 0.7ex;" datetime="{{ dateFormat "2006-01-02T15:04:05" .startDatetime }}" content="{{ dateFormat "2006-01-02T15:04:05" .startDatetime }}" itemprop="startDate">{{ dateFormat "2006-01-02 15:04" .startDatetime }}</time>
+	  <span style="white-space: nowrap">
+	  <img class="date-marker" src="/images/marker-time.svg">
+	  <time datetime="{{ dateFormat "2006-01-02T15:04:05" .startDatetime }}" content="{{ dateFormat "2006-01-02T15:04:05" .startDatetime }}" itemprop="startDate">{{ dateFormat "2006-01-02 15:04" .startDatetime }}</time>
+	  </span>&nbsp;
 	  <!--
 	  -
 	  <time datetime="{{ dateFormat "2006-01-02T15:04:05" .endDatetime }}" content="{{ dateFormat "2006-01-02T15:04:05" .endDatetime }}" itemprop="endDate">{{ dateFormat "2006/01/02 @ 15:04" .endDatetime }}</time>
-          <br/>--><img class="location-marker" style="height: 2ex; padding-left: 0.5ex; vertical-align: middle;" src="/images/marker-location.svg">
-	  <span style="vertical-align: middle;" itemprop="location">{{ .location }}</span>
+          <br/>--><span style="white-space: nowrap">
+	  <img class="location-marker" src="/images/marker-location.svg">
+	  <span class="event-location" itemprop="location">{{ .location }}</span>
+	  </span>
     </li>
 		{{- end -}}
 	</ul>
