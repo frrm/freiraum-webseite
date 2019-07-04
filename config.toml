@@ -15,15 +15,15 @@ DefaultContentLanguage = "de"
 
 [Params]
 #    tagline = "ZSAMMA BASCHDLA" # Subtitle of your site
-    description = "Here is a description of my site that will appear in search engine results - W00t!" # Description of your site
+    description = "Freiraum - Hackerspace Ulm e.V." # Description of your site
+    title2 = "Chaos Computer Club Ulm"
+    clubname = "Hackerspace Ulm e.V."
     authorbox = true
     post_navigation = false
     # HashOver requires PHP running on the server
     # and cannot be hosted on a different domain
     hide_readingtime = true
     hashover = false
-    title2 = "Chaos Computer Club Ulm"
-    clubname = "Hackerspace Ulm e.V."
     num_events = 10 # Number of events shown in the side bar
     custom_css = ["css/custom.css"]
 

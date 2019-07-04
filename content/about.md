@@ -1,5 +1,5 @@
 +++
-title = "About"
+title = "Freiraum"
 date = "2017-07-01"
 menu = "main"
 weight = 1
