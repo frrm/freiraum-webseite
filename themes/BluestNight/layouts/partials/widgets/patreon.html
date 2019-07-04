@@ -3,7 +3,7 @@
 	<a href="https://patreon.com/{{ . }}">
 		{{- $.Scratch.Set "patreon_banner_url" "images/patreon_white.png" -}}
 		{{- with $.Site.Params.widgets.patreon_banner -}}{{- $.Scratch.Set "patreon_banner_url" . -}}{{- end -}}
-    <img id="patreon-banner" src="{{ $.Scratch.Get "patreon_banner_url" | absURL }}" alt="Patreon Banner" title="Support me on Patreon!" />
+    <img id="patreon-banner" src="{{ $.Scratch.Get "patreon_banner_url" | relURL }}" alt="Patreon Banner" title="Support me on Patreon!" />
   </a>
 </div>
 {{- end -}}

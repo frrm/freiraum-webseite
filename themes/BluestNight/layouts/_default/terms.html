@@ -15,7 +15,7 @@
           {{- $.Scratch.Add "link" $data.Plural -}}
           {{- $.Scratch.Add "link" "/" -}}
           {{- ($.Scratch.Add "link" $val.Name) -}}
-          <a href="{{ $.Scratch.Get "link" | urlize | absLangURL }}">{{ $val.Name }}</a> ({{ $val.Count }})
+          <a href="{{ $.Scratch.Get "link" | urlize | relURL }}">{{ $val.Name }}</a> ({{ $val.Count }})
         </li>
       </div>
       {{ end }}

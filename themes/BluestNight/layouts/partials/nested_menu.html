@@ -6,7 +6,7 @@
       {{- if .HasChildren -}}
       <label class="button{{if or ($page.IsMenuCurrent "main" .) ($page.HasMenuCurrent "main" .) }} active{{end}}" for="nav-{{ .Name | plainify | urlize }}">
       {{- end -}}
-        <a class="main-nav{{ if not .HasChildren }} button{{if or ($page.IsMenuCurrent "main" .) ($page.HasMenuCurrent "main" .) }} active{{end}}{{end}}" href="{{ .URL | absLangURL }}" >
+        <a class="main-nav{{ if not .HasChildren }} button{{if or ($page.IsMenuCurrent "main" .) ($page.HasMenuCurrent "main" .) }} active{{end}}{{end}}" href="{{ .URL | relURL }}" >
           {{ .Name | upper }}{{ if .HasChildren }}&nbsp;&nbsp;<span class="nav-arrow">&#9656;</span>{{ end }}
         </a>
       {{- if .HasChildren -}}

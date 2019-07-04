@@ -15,7 +15,7 @@
         {{- if .Params.categories -}}
         <span class="row-item">
           <span class="fa fa-folder"></span>
-          {{ range $index, $category := .Params.categories }}{{ if gt $index 0 }}, {{ end }}<a href="{{ "categories/" | absLangURL }}{{ . | urlize | lower }}" rel="category">{{ . | humanize | title }}</a>{{ end }}
+          {{ range $index, $category := .Params.categories }}{{ if gt $index 0 }}, {{ end }}<a href="{{ "categories/" | relURL }}{{ . | urlize | lower }}" rel="category">{{ . | humanize | title }}</a>{{ end }}
         </span>
         {{- end -}}
 <!--         {{- if not .Params.hide_readingtime -}}
@@ -27,7 +27,7 @@
     <div class="post-content">
       {{- if .Params.thumbnail -}}
       <figure class="thumbnail">
-        <img src="{{ .Params.thumbnail | absURL }}" alt="{{ .Title }}">
+        <img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }}">
       </figure>
       {{- end -}}
       {{ if and (isset .Params "enable_toc") (eq .Params.enable_toc true) }}{{ .TableOfContents }}{{ end }}
@@ -41,7 +41,7 @@
     		<li itemprop="relatedUrl" itemscope itemtype="http://schema.org/URL">
     			{{- $.Scratch.Set "link" "/tags/" -}}
     			{{- $.Scratch.Add "link" . -}}
-    			<a class="row-item button" href="{{ $.Scratch.Get "link" | lower | urlize | absLangURL }}" rel="tag" itemprop="url">{{ . | humanize | lower }}</a>
+    			<a class="row-item button" href="{{ $.Scratch.Get "link" | lower | urlize | relURL }}" rel="tag" itemprop="url">{{ . | humanize | lower }}</a>
     		</li>
     		{{- end -}}
     	</ul>
@@ -69,8 +69,8 @@
     {{- if (.Site.Params.hashover) -}}
       <div id="hashover"></div>
       <script>var canon_url = (document.querySelector('link[rel="canonical"]') != null) ? '?canon_url=' + encodeURIComponent(document.querySelector('link[rel="canonical"]').getAttribute('href')) : ''; document.write('<script src="/hashover.php' + canon_url + '"><\/script>');</script>
-      <script defer type="text/javascript" src="{{ .Site.BaseURL }}hashover.php"></script>
-      <script defer type="text/javascript" src="{{ .Site.BaseURL }}js/hashoverride.js"></script>
+      <script defer type="text/javascript" src="{{ "/" | relURL }}hashover.php"></script>
+      <script defer type="text/javascript" src="{{ "/" | relURL }}js/hashoverride.js"></script>
       <noscript>You must have JavaScript enabled to use the comments.</noscript>
     {{- else -}}
       {{- with .Site.Params.muut -}}

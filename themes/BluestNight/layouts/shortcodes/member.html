@@ -3,7 +3,7 @@
 	{{ if (eq $name .Name) }}
 	<div class="row vcenter memberbox">
 		<div class="member-avatar" class="row-item">
-				<img alt="{{ .Name }} profile picture" src="{{ with .Img }}{{ . | absURL }}{{ else }}{{ "images/profile.jpg" | absURL }}{{ end }}">
+				<img alt="{{ .Name }} profile picture" src="{{ with .Img }}{{ . | relURL }}{{ else }}{{ "images/profile.jpg" | relURL }}{{ end }}">
 		</div>
 		<div class="row-item member-bio">
 			<div>

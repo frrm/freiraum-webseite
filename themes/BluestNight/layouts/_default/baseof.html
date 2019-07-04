@@ -16,9 +16,9 @@
     {{- if .Params.tags -}}
       <meta name="keywords" itemprop="keywords" content="{{ delimit .Params.tags "," }}" id="keywords">
     {{- end -}}
-    <link rel="canonical" href="{{ .URL | absURL }}">
+    <link rel="canonical" href="{{ .URL | relURL }}">
     <link rel="prefetch stylesheet" type="text/css" href="/css/font-awesome.min.css">
-    {{ if $.Site.Params.hashover }}<link rel="prefetch stylesheet" type="text/css" href="{{ "hashover/comments.css" | absLangURL }}">{{ end }}
+    {{ if $.Site.Params.hashover }}<link rel="prefetch stylesheet" type="text/css" href="{{ "hashover/comments.css" | relURL }}">{{ end }}
     <link rel="prefetch stylesheet" type="text/css" href="/styles.css">
     {{ if (and (isset $.Site.Params.piwik "host") ($.Site.Params.piwik.enable)) -}}
     <script type="text/javascript">
@@ -43,7 +43,7 @@
     <div id="site-container">
       <div id="site-header">
         <header class="small-text-center medium-text-left">
-          <a href="{{ .Site.BaseURL }}">
+          <a href="{{ "/" | relURL }}">
             <span id="site-title" itemprop="name">{{ .Site.Title }} - {{ .Site.Params.clubname }}</span><br>
             <span id="site-title2" itemprop="name">{{ .Site.Params.title2 }}</span>
             {{ with .Site.Params.tagline }}<br/><span id="site-tagline">{{ . }}</span>{{ end }}
@@ -136,10 +136,10 @@
     </div>
     {{- if $.Site.Params.widgets.search -}}
     <script src="https://unpkg.com/lunr/lunr.js"></script>
-    <script src="{{ "js/search.min.js" | absLangURL }}" type="text/javascript"></script>
+    <script src="{{ "js/search.min.js" | relURL }}" type="text/javascript"></script>
     <script>
       var lunrIndex = undefined;
-      loadIndex("{{ "index.json" | absURL }}").then(
+      loadIndex("{{ "index.json" | relURL }}").then(
         function(index) { lunrIndex = index; },
         function(status){}
       );

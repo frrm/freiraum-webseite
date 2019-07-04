@@ -3,7 +3,7 @@
   <div>
     <figure>
       <a href="{{ .Permalink }}">
-        <img src="{{ .Params.thumbnail | absURL }}" alt="{{ .Title }}" />
+        <img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }}" />
       </a>
     </figure>
   </div>
@@ -22,7 +22,7 @@
         {{- if .Params.categories -}}
         <span class="row-item">
           <span class="fa fa-folder"></span>
-          {{ range $index, $category := .Params.categories }}{{ if gt $index 0 }}, {{ end }}<a href="{{ "categories/" | absLangURL }}{{ . | urlize | lower }}" rel="category">{{ . | humanize | title }}</a>{{ end }}
+          {{ range $index, $category := .Params.categories }}{{ if gt $index 0 }}, {{ end }}<a href="{{ "categories/" | relURL }}{{ . | urlize | lower }}" rel="category">{{ . | humanize | title }}</a>{{ end }}
         </span>
         {{- end -}}
       </p>

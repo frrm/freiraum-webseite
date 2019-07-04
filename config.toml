@@ -1,4 +1,5 @@
-baseurl = "https://frrm.de/"
+baseurl = ""
+relativeurls = true
 title = "Freiraum"
 author = "Der Andere"
 copyright = "2018"
