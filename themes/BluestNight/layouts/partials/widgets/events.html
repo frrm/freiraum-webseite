@@ -6,12 +6,15 @@
 	<ul>
 		{{- range first .Site.Params.num_events (where (sort $.Site.Data.events "startDatetime" "asc") "startDatetime" "ge" (now.Format "2006-01-02")) -}}
 		<li itemscope itemtype="http://schema.org/Event">
-      <b itemprop="name">{{ .name }}</b><br>
-			<time datetime="{{ dateFormat "2006-01-02T15:04:05" .startDatetime }}" content="{{ dateFormat "2006-01-02T15:04:05" .startDatetime }}" itemprop="startDate">{{ dateFormat "2006/01/02 @ 15:04" .startDatetime }}</time>
-			<!--
-			-
-			<time datetime="{{ dateFormat "2006-01-02T15:04:05" .endDatetime }}" content="{{ dateFormat "2006-01-02T15:04:05" .endDatetime }}" itemprop="endDate">{{ dateFormat "2006/01/02 @ 15:04" .endDatetime }}</time>
-      <br/>--><span itemprop="about">{{ .description }}</span>
+      <b itemprop="name">{{ .name }}:</b>
+	  <span itemprop="about">{{ .description }}</span><br>
+	  <img class="date-marker" style="height: 2ex; vertical-align: middle" src="/images/marker-time.svg">
+	  <time style="vertical-align: middle; word-spacing: 0.7ex;" datetime="{{ dateFormat "2006-01-02T15:04:05" .startDatetime }}" content="{{ dateFormat "2006-01-02T15:04:05" .startDatetime }}" itemprop="startDate">{{ dateFormat "2006-01-02 15:04" .startDatetime }}</time>
+	  <!--
+	  -
+	  <time datetime="{{ dateFormat "2006-01-02T15:04:05" .endDatetime }}" content="{{ dateFormat "2006-01-02T15:04:05" .endDatetime }}" itemprop="endDate">{{ dateFormat "2006/01/02 @ 15:04" .endDatetime }}</time>
+          <br/>--><img class="location-marker" style="height: 2ex; padding-left: 0.5ex; vertical-align: middle;" src="/images/marker-location.svg">
+	  <span style="vertical-align: middle;" itemprop="location">{{ .location }}</span>
     </li>
 		{{- end -}}
 	</ul>
