@@ -1,7 +1,12 @@
 {{ define "main_content" }}
   <main class="row-item small-full medium-two-thirds">
 		<header id="page-header">
+		    <!-- manually translate hardcoded names -->
+		    {{- if eq .Title "Categories" -}}
+			<h1 id="page-title">Kategorien</h1>
+		    {{- else -}}
 			<h1 id="page-title">{{ .Title }}</h1>
+		    {{- end -}}
 		</header>
 
     {{ .Content }}
@@ -15,7 +20,7 @@
           {{- $.Scratch.Add "link" $data.Plural -}}
           {{- $.Scratch.Add "link" "/" -}}
           {{- ($.Scratch.Add "link" $val.Name) -}}
-          <a href="{{ $.Scratch.Get "link" | urlize | relURL }}">{{ $val.Name }}</a> ({{ $val.Count }})
+          <a href="{{ $.Scratch.Get "link" | urlize | relURL }}">{{ $val.Name | title }}</a> ({{ $val.Count }})
         </li>
       </div>
       {{ end }}

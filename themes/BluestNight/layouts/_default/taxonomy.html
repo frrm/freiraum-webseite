@@ -2,7 +2,12 @@
   <main id="post-list" class="row-item small-full medium-two-thirds">
     {{- if not .IsHome -}}
 		<header id="page-header">
+		    <!-- manually translate hardcoded names -->
+		    {{- if eq .Data.Plural "categories" -}}
+			<h1 id="page-title">{{ "Kategorie" | title }}: {{ .Title }}</h1>
+		    {{- else -}}
 			<h1 id="page-title">{{ .Data.Singular | title }}: {{ .Title }}</h1>
+		    {{- end -}}
 		</header>
 		{{- end -}}
     {{- .Content -}}
