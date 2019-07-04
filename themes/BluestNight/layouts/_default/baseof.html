@@ -3,7 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{- .Title -}}</title>
+    <title>
+	{{- if eq .Title $.Site.Title -}}
+	    {{- .Title -}}
+        {{- else -}}
+	    {{- replace (replace .Title "Categories" "Kategorien") "Posts" "Blog" }} - {{ $.Site.Title -}}
+	{{- end -}}
+    </title>
     {{- $.Scratch.Set "desc" "" -}}
     {{- with $.Site.Params.description -}}{{- $.Scratch.Set "desc" . -}}{{- end -}}
     {{- with .Summary -}}{{- $.Scratch.Set "desc" . -}}{{- end -}}

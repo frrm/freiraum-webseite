@@ -2,11 +2,7 @@
   <main class="row-item small-full medium-two-thirds">
 		<header id="page-header">
 		    <!-- manually translate hardcoded names -->
-		    {{- if eq .Title "Categories" -}}
-			<h1 id="page-title">Kategorien</h1>
-		    {{- else -}}
-			<h1 id="page-title">{{ .Title }}</h1>
-		    {{- end -}}
+		    <h1 id="page-title">{{ replace .Title "Categories" "Kategorien" }}</h1>
 		</header>
 
     {{ .Content }}

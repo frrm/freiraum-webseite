@@ -3,11 +3,7 @@
     {{- if not .IsHome -}}
 		<header id="page-header">
 		    <!-- manually translate hardcoded names -->
-		    {{- if eq .Data.Plural "categories" -}}
-			<h1 id="page-title">{{ "Kategorie" | title }}: {{ .Title }}</h1>
-		    {{- else -}}
-			<h1 id="page-title">{{ .Data.Singular | title }}: {{ .Title }}</h1>
-		    {{- end -}}
+		    <h1 id="page-title">{{ replace .Data.Singular "category" "Kategorie" | title }}: {{ .Title }}</h1>
 		</header>
 		{{- end -}}
     {{- .Content -}}
