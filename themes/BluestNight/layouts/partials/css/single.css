@@ -1,10 +1,10 @@
 /* Site main - single */
 
-#post-metadata a {
+.post-metadata a {
   color: {{ .Get "body_text" }};
 }
 
-#post-tags {
+.post-tags {
   margin: 1rem 0.4rem 1rem;
 }
 

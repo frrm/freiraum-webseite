@@ -13,7 +13,7 @@
       <a href="{{ .Permalink }}">
         <h4 itemprop="headline">{{ .Title }}</h4>
       </a>
-      <p id="post-metadata" class="row">
+      <p class="post-metadata row">
         <span class="row-item">
           <span class="fa fa-clock-o"></span>
           <time datetime="{{ .Date.Format "2006-01-02" }}" itemprop="datePublished">{{ .Date.Format "January 02, 2006" }}</time>
@@ -28,7 +28,6 @@
       </p>
     </header>
     <div class="post-list-summary" itemprop="description">
-      <p>
         {{- $page := . -}}
         {{- with .Description -}}
           {{ . | markdownify }} <a href="{{ $page.Permalink }}">[Read more...]</a>
@@ -36,7 +35,6 @@
           <!-- {{ .Summary | markdownify }}{{ if .Truncated }} <a href="{{ $page.Permalink }}">[Read more...]</a>{{ end }} -->
           {{ .Content }}
         {{- end -}}
-      </p>
     </div>
   </div>
 </article>

@@ -30,7 +30,7 @@
 body {
   background-color: {{ .Get "page_bg" }};
   background-attachment: fixed;
-  {{ if (not (eq (.Get "background_src") "")) }}
+  {{ if (.Get "background_src") }}
   background-image: url("{{ .Get "background_src" }}");
   background-repeat: {{ .Get "background_tile" }};
   background-size: {{ .Get "background_fit" }};

@@ -7,7 +7,7 @@
     background-color: #ffffff !important;
     color: #000000 !important;
   }
-  .post-comments, aside, #site-header, footer, #authorbox, #post-tags {
+  .post-comments, aside, #site-header, footer, #authorbox, .post-tags {
     display: none !important;
   }
   a:link:after, a:visited:after {

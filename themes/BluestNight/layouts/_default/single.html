@@ -4,7 +4,7 @@
     <header id="page-header">
       <h1 itemprop="headline">{{ .Title }}</h1>
       {{- if or (not .Date.IsZero) (.Params.categories) -}}
-      <p id="post-metadata" class="row">
+      <p class="post-metadata row">
         {{- if not .Date.IsZero -}}
         <span class="row-item">
           <!-- <span class="fa fa-clock-o"></span> -->
@@ -24,17 +24,17 @@
       </p>
       {{ end }}
     </header>
-    <div id="post-content">
+    <div class="post-content">
       {{- if .Params.thumbnail -}}
       <figure class="thumbnail">
         <img src="{{ .Params.thumbnail | absURL }}" alt="{{ .Title }}">
       </figure>
       {{- end -}}
       {{ if and (isset .Params "enable_toc") (eq .Params.enable_toc true) }}{{ .TableOfContents }}{{ end }}
-      <span itemprop="articleBody">{{ .Content }}</span>
+      <div itemprop="articleBody" style="display: inline">{{ .Content }}</div>
     </div>
     {{- if .Params.tags -}}
-    <div id="post-tags">
+    <div class="post-tags">
     	<ul class="menu">
         <li class="row-item">{{if (eq (len .Site.Taxonomies.tags) 1) }}<i class="fa fa-tag"></i>{{ else }}<i class="fa fa-tags"></i>{{ end }}&nbsp;&nbsp;</li>
     		{{- range .Params.tags -}}

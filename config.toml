@@ -7,6 +7,7 @@ paginate = 7
 theme = "BluestNight"
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
+DefaultContentLanguage = "de"
 
 [outputs]
     home = ["HTML", "CSS"]
