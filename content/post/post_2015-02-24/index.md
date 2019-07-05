@@ -15,4 +15,4 @@ Ein Muss für jeden der sich für den NSA-Überwachungs-Skandal und Freiheit im 
 
 Citizenfour / Freitag / 27.02.2015 / 20:00 / Hackerspace-Ulm
 
-[![citizenfour](/post/post_2015-02-24/citizenfour-300x159.jpg)](/post/post_2015-02-24/citizenfour.jpg)(image by [Mr.w00t](https://www.flickr.com/photos/34053642@N05/))
+[![citizenfour](citizenfour-300x159.jpg)](citizenfour.jpg)(image by [Mr.w00t](https://www.flickr.com/photos/34053642@N05/))

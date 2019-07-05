@@ -10,4 +10,4 @@ Coders Night ist ein Abend um zusammen oder einzeln, hauptsache entspannt, an Pr
 Für die ruhige Atmosphäre sorgen Aufnahmen der [SpaceNight](https://www.youtube.com/watch?v=CpznCSeqMxw) (bekannt von ARD-alpha) die auf dem Beamer gezeigt werden. Heute sollen dann um spätestens
 19:00 die Türe offen sein.
 
-[![Earth_Eastern_Hemisphere](/post/post_2014-12-12/Earth_Eastern_Hemisphere-300x300.jpg)](/post/post_2014-12-12/Earth_Eastern_Hemisphere.jpg)
+[![Earth_Eastern_Hemisphere](Earth_Eastern_Hemisphere-300x300.jpg)](Earth_Eastern_Hemisphere.jpg)

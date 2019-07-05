@@ -11,4 +11,4 @@ Coders Night ist ein Abend um zusammen oder einzeln, hauptsache entspannt, an Pr
 
 Für die ruhige Atmosphäre sorgen Aufnahmen der [SpaceNight](https://www.youtube.com/watch?v=CpznCSeqMxw) (bekannt von ARD-alpha) die auf dem Beamer gezeigt werden. Die Türen sollen dann um spätestens 19:00 offen sein.
 
-[![640px-Water_ice_clouds_hanging_above_Tharsis_PIA02653_black_background](/post/post_2015-02-14/640px-Water_ice_clouds_hanging_above_Tharsis_PIA02653_black_background-300x300.jpg)](/post/post_2015-02-14/640px-Water_ice_clouds_hanging_above_Tharsis_PIA02653_black_background.jpg)
+[![640px-Water_ice_clouds_hanging_above_Tharsis_PIA02653_black_background](640px-Water_ice_clouds_hanging_above_Tharsis_PIA02653_black_background-300x300.jpg)](640px-Water_ice_clouds_hanging_above_Tharsis_PIA02653_black_background.jpg)

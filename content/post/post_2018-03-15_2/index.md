@@ -10,4 +10,4 @@ Am Donnerstag in 14 Tagen (29.03.) spricht Ferdinand über Consciousness/das men
 
 Die Slides zum Vortrag gibts [hier (englisch)](https://rwxrwx.de/talks/lt_consciousness.html).
 
-![descartes](/post/post_2018-03-15_2/descartes.jpg)
+![descartes](descartes.jpg)

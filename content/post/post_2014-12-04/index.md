@@ -5,7 +5,7 @@ date = "2014-12-04"
 categories = ["Ankündigungen"]
 hide_readingtime = true
 +++
-![logo_freifunknet](/post/post_2014-12-04/logo_freifunknet.png)
+![logo_freifunknet](logo_freifunknet.png)
 
 Freifunk ist eine Bürgerinitiative die versucht offene und dezentrale WLAN-Netze in Bürgerhand aufzubauen. In Ulm gab es schon erste Versuche, allerdings ist es leider wieder eingeschlafen.
 

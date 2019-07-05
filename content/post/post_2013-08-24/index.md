@@ -14,9 +14,9 @@ We also found out that the VNA is a really good instrument for testing different
 
 There were also other things happening. Some people presented their projects ideas and other people were giving comments and new ideas to them. This way the projects can get lots of input and some problems can be solved. It’s also an opportunity to get other people interested of the project and get them on board. To make something together makes it more fun.
 
-[![2013-08-23_00-42-28_312](/post/post_2013-08-24/2013-08-23_00-42-28_312-300x224.jpg)](/post/post_2013-08-24/2013-08-23_00-42-28_312.jpg)[![2013-08-23_00-44-13_812](/post/post_2013-08-24/2013-08-23_00-44-13_812-300x224.jpg)](/post/post_2013-08-24/2013-08-23_00-44-13_812.jpg)
+[![2013-08-23_00-42-28_312](2013-08-23_00-42-28_312-300x224.jpg)](2013-08-23_00-42-28_312.jpg)[![2013-08-23_00-44-13_812](2013-08-23_00-44-13_812-300x224.jpg)](2013-08-23_00-44-13_812.jpg)
 
 Measuring a [discone antenna](http://en.wikipedia.org/wiki/Discone_antenna) with vector network analyzer. Discone antennas are wideband antennas (in this case about 80 – 500 MHz).
 
-[![foto](/post/post_2013-08-24/foto-224x300.jpg)](/post/post_2013-08-24/foto.jpg)
+[![foto](foto-224x300.jpg)](foto.jpg)
 Making modifications to a data projector.

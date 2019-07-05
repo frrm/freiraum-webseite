@@ -19,4 +19,4 @@ Peter Foschum und Jani Leinonen vom Hackerspace Ulm e.V.
 
 Der Vortrag findet am Donnerstag 8. Dezember um 19 Uhr im [Freiraum (Hackerspace Ulm)]({{< relref "contact.md" >}}) statt.
 
-[![prusa_i3_mk2](/post/post_2016-12-04/Prusa_i3_MK2-220x300.jpg)](/post/post_2016-12-04/Prusa_i3_MK2.jpg)
+[![prusa_i3_mk2](Prusa_i3_MK2-220x300.jpg)](Prusa_i3_MK2.jpg)

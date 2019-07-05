@@ -8,4 +8,4 @@ hide_readingtime = true
 
 Am kommenden Donnerstag (22.02.) stellt Peter die Fräsgrundlagen mit CNC-Fräsmaschinen vor. Hintergrund ist der Plan dieses Jahr im Freiraum eine Fräsmaschine zu bauen.
 
-![milling](/post/post_2018-02-15/milling.jpg)
+![milling](milling.jpg)

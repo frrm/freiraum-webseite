@@ -7,4 +7,4 @@ hide_readingtime = true
 +++
 We are building our new 3D printer. Soon we can print cases and custom parts for other projects (like [SatNOGS](https://satnogs.org/ "SatNOGS" )).
 
-[![IMG_20160304_004548](/post/post_2016-03-14/IMG_20160304_004548-300x225.jpg)](/post/post_2016-03-14/IMG_20160304_004548.jpg)
+[![IMG_20160304_004548](IMG_20160304_004548-300x225.jpg)](IMG_20160304_004548.jpg)

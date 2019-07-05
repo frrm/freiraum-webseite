@@ -6,7 +6,7 @@ categories = ["Log"]
 hide_readingtime = true
 +++
 
-![HackRF_Stepper](/post/post_2018-09-13/HackRF_Stepper.jpg)
+![HackRF_Stepper](HackRF_Stepper.jpg)
 
 Wir hatten vor unserem Umbau und der CPU18 regelmäßig Vorträge am letzen Donnerstag im Monat gehalten. Deswegen hier schon mal eine Ankündigung: Peter spricht am 25.10. über Schrittmotoren, Jani am 29.11. über SDR. Beim SDR Vortrag wollen wir ein kleines Hands-On machen (Funksteckdose, Autoschlüssel etc.)
 	

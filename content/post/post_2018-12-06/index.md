@@ -15,26 +15,26 @@ Wenn neue Leute im Freiraum vorbeikommen gibt es einen Punkt, an dem wir erklär
 Das Projekt ist sozusagen ein etwas zu groß geratener Akkupack, der hilft einen Bioladen/Ökobauern auf dem Feld mit Strom zu versorgen. Verwendet werden hier gebrauchte Pedelec-Akkus, die 1.2kwh Kapazität bei 1kh Leistung zu Verfügung stellen. 
 
 
-![rueckblick_01](/post/post_2018-12-06/rueckblick_01.jpg)
-![rueckblick_02](/post/post_2018-12-06/rueckblick_02.jpg)
-![rueckblick_03](/post/post_2018-12-06/rueckblick_15.png)
+![rueckblick_01](rueckblick_01.jpg)
+![rueckblick_02](rueckblick_02.jpg)
+![rueckblick_03](rueckblick_15.png)
 
 Offgrid-box mit custom reverse-current protection board.
 
 
 **FGPA-Board (tdotu)**
 
-![rueckblick_03](/post/post_2018-12-06/rueckblick_03.png)
+![rueckblick_03](rueckblick_03.png)
 
 **K40-Modifikationen und Engraver (Georg)**
 
 Der K40 wird kontinuierlich erweitert, 2018 ist ein höhenverstellbares Cutbed dazu gekommen. Momentan baut Georg an einem Laser-Engraver, hier soll es auch mal einen Workshop zum selbermachen geben.
 
-![rueckblick_04](/post/post_2018-12-06/rueckblick_04.jpg)
+![rueckblick_04](rueckblick_04.jpg)
 
 Cutbed
 
-![rueckblick_05](/post/post_2018-12-06/rueckblick_05.jpg)
+![rueckblick_05](rueckblick_05.jpg)
 
 Engraver
 
@@ -42,7 +42,7 @@ Engraver
 
 Da sich jay-pee etwas mit Mikrofon-Arrays auskennt, haben wir jetzt auch einen Jarvis am laufen.
 
-![rueckblick_06](/post/post_2018-12-06/rueckblick_06.jpg)
+![rueckblick_06](rueckblick_06.jpg)
 
 Raspberry mit Respeaker
 
@@ -51,7 +51,7 @@ Raspberry mit Respeaker
 
 Jani reverse-engineered verschiedene Dinge, manche darf man auch hier zeigen.
 
-![rueckblick_07](/post/post_2018-12-06/rueckblick_07.jpg)
+![rueckblick_07](rueckblick_07.jpg)
 
 Wlan base-station
 
@@ -60,9 +60,9 @@ Wlan base-station
 
 Hier gibts nur kleinere Projekte, wie Stempel für die #CPU18, NFC-Stick (via NODE) oder einen Ausflug in die Welt der Graphen.
 
-![rueckblick_08](/post/post_2018-12-06/rueckblick_08.jpg)
-![rueckblick_09](/post/post_2018-12-06/rueckblick_09.jpg)
-![rueckblick_10](/post/post_2018-12-06/rueckblick_10.png)
+![rueckblick_08](rueckblick_08.jpg)
+![rueckblick_09](rueckblick_09.jpg)
+![rueckblick_10](rueckblick_10.png)
 
 
 
@@ -70,19 +70,19 @@ Hier gibts nur kleinere Projekte, wie Stempel für die #CPU18, NFC-Stick (via NO
 
 Hier nochmal eine Übersicht über die letzten Änderungen im Freiraum.
 
-![rueckblick_11](/post/post_2018-12-06/rueckblick_11.jpg)
+![rueckblick_11](rueckblick_11.jpg)
 
 Überreste der #CPU18
 
-![rueckblick_12](/post/post_2018-12-06/rueckblick_12.jpg)
+![rueckblick_12](rueckblick_12.jpg)
 
 Fräse und (neuer) 3D-Drucker
 
-![rueckblick_13](/post/post_2018-12-06/rueckblick_13.jpg)
+![rueckblick_13](rueckblick_13.jpg)
 
 Dashboard mit Nahverkehr-Verbindungen
 
-![rueckblick_14](/post/post_2018-12-06/rueckblick_14.jpg)
+![rueckblick_14](rueckblick_14.jpg)
 
 Renovierte Küche
 
