@@ -3,14 +3,16 @@
   <article id="post-article" {{ if (eq .Section "post") }}itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"{{ else }}itemscope itemtype="http://schema.org/Article"{{ end }}{{ if .Params.tags }} itemref="keywords desc"{{ else }} itemref="desc"{{ end }}>
     <header id="page-header">
       <h1 itemprop="headline">{{ .Title }}</h1>
-      {{- if or (not .Date.IsZero) (.Params.categories) -}}
+      {{- if or (and (not .Date.IsZero) (hasPrefix .Permalink "/post/")) (.Params.categories) -}}
       <p class="post-metadata row">
         {{- if not .Date.IsZero -}}
+        {{- if hasPrefix .Permalink "/post/" -}}
         <span class="row-item">
           <span class="fa fa-clock-o"></span>
           <time datetime="{{ .Date.Format "2006-01-02" }}" itemprop="datePublished">{{ .Date.Format "2006-01-02" }}</time>
           <span> by {{ .Params.author}} in </span>
         </span>
+        {{- end -}}
         {{- end -}}
         {{- if .Params.categories -}}
         <span class="row-item">
