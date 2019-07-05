@@ -9,16 +9,16 @@ hide_readingtime = true
 
   * **Räumlichkeiten**  
 Der Freiraum bietet Platz für eigene Projekte und deren Umsetzung oder auch nur zum gegenseitigen Treffen und Austausch. Hier könnt ihr euch selber umschauen:
-<!-- [![](/uploads/2012/11/tafel_small.jpg)](http://frrm.de/wp-content/uploads/2012/11/tafel_small.jpg)
-[![mate_small](/uploads/2012/11/mate_small.jpg)](/uploads/2012/11/mate_small.jpg) -->
+<!-- [![](/images/tafel_small.jpg)](/images/tafel_small.jpg)
+[![mate_small](/images/mate_small.jpg)](/images/mate_small.jpg) -->
 
 
 {{< panorama_main2>}}
 
   * **Ausrüstung**  
 Im Freiraum steht verschiedenste Ausrüstung (z.B. Beamer, Lötequipment, Oszilloskop, Nähmaschine, Werkzeuge) bereit. Daneben gibt es noch einen Elektronikschrank mit Bauteilen und zahlreiche andere Geräte.  
-[![oszi_small](/uploads/2012/11/oszi_small.jpg)](/uploads/2012/11/oszi_small.jpg)
-[![schrank_small](/uploads/2012/11/schrank_small.jpg)](/uploads/2012/11/schrank_small.jpg)
+![oszi_small](/images/oszi_small.jpg)
+![schrank_small](/images/schrank_small.jpg)
 
   * **Wissen und Erfahrung**  
 Je nach eigenem Kenntnisstand finden sich im Freiraum auch Menschen, die einem bei einzelnen Problemen weiterhelfen können. Das Teilen von Wissen und das gemeinsame Lernen gehören zu den Grundideen von Hackerspaces.

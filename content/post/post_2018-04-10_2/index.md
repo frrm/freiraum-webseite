@@ -6,7 +6,7 @@ categories = ["Log"]
 hide_readingtime = true
 +++
 
-![opencola](/uploads/2018/04/opencola.jpg)
+![opencola](/post/post_2018-04-10_2/opencola.jpg)
 
 Jetzt, da die Sonne langsam wieder in den Keller scheint, werden wir wieder durstiger. Nur gut, dass im Rahmen des Chaos-Treffs am Montag 16.04. wieder OpenCola gekocht wird ;)
 

@@ -12,4 +12,4 @@ Falls ihr kurzentschlossen seid, könnt ihr auch spontan vorbeikommen (Eintritts
 
 Die Homepage zur #CPU strotzt leider nicht vor Informationen und die Informationen die zu finden sind, sind gut versteckt. Hier der Link zu den [Talks](https://pretalx.chaos-party-ulm.de/cpu19/schedule/)
 
-![#CPU19](/uploads/2019/06/logo_alpha.png)  
+![#CPU19](/post/post_2019-06-17/logo_alpha.png)  

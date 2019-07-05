@@ -8,6 +8,6 @@ hide_readingtime = true
 
 Nach seinem letzten Vortrag über Reverse-Engineering spricht Jani am Donnerstag 12.04. über Platinenlayout mit KiCad.
 
-![kicad](/uploads/2018/04/kicad.jpg)
+![kicad](/post/post_2018-04-10/kicad.jpg)
 
-Die Slides zu Reverse-Engineering findet ihr [hier](/uploads/2018/04/ReverseEngineering.pdf).
+Die Slides zu Reverse-Engineering findet ihr [hier](/post/post_2018-04-10/ReverseEngineering.pdf).

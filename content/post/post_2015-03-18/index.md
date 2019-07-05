@@ -13,6 +13,6 @@ Wer also noch nie mit OpenWrt zu tun hatte, aber dem Linux nicht ganz fremd ist,
 
 Jeder ist willkommen! :-)
 
-[![south_park](/uploads/2015/03/south_park-300x225.png)](/uploads/2015/03/south_park.png)
+[![south_park](/post/post_2015-03-18/south_park-300x225.png)](/post/post_2015-03-18/south_park.png)
 
 Hier der [WRT54G](https://de.wikipedia.org/wiki/Linksys_WRT54G) – Namensgeber für das OpenWrt-Projekt – in seiner Rolle als “Internet” in der Fernsehserie “South Park” ;-)

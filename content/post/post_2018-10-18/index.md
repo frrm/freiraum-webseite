@@ -6,6 +6,6 @@ categories = ["Log"]
 hide_readingtime = true
 +++
 
-![Schlüsseldienst](/uploads/2018/10/schluesseldienst.jpg)
+![Schlüsseldienst](/post/post_2018-10-18/schluesseldienst.jpg)
 
 Wenn das nächste mal die Tür hinter einem zufällt und man den Schlüssel vergessen hat, wird man sich wünschen am 01.11. 20:00h bei Rolands Schlüsseldienst-Workshop im Freiraum gewesen zu sein :)	

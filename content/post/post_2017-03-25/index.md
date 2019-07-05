@@ -10,6 +10,6 @@ Wir haben uns ein neues Logo gebastelt (Robot-Graphik von [the noun project](htt
 Das Farbschema lehnt sich an die 80er und 90er an - mir fällt gerade auf, dass wir da garnicht so weit von Vaporwave entfernt sind. Hat jemand Vorschläge?
 
 
-[![robot_1](/uploads/2017/03/robot_1.png)](/uploads/2017/03/robot_1.png)
-[![robot_2](/uploads/2017/03/robot_2.png)](/uploads/2017/03/robot_2.png)
-[![text](/uploads/2017/03/text.png)](/uploads/2017/03/text.png)
+[![robot_1](/post/post_2017-03-25/robot_1.png)](/post/post_2017-03-25/robot_1.png)
+[![robot_2](/post/post_2017-03-25/robot_2.png)](/post/post_2017-03-25/robot_2.png)
+[![text](/post/post_2017-03-25/text.png)](/post/post_2017-03-25/text.png)

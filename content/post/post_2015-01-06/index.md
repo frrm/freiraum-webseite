@@ -9,4 +9,4 @@ Nach dem erfolgreichen Treffen gegen Ende des letzten Jahres soll weiter geplant
 
 Das kommende Freifunktreffen findet am **14.01.2015** ab 19:00 in den Räumen des Hackerspace Ulm statt (Platzgasse 18). Wie immer ist jeder willkommen.
 
-[![freifunk-router](/uploads/2015/01/freifunk-router-300x158.png)](/uploads/2015/01/freifunk-router.png)
+[![freifunk-router](/post/post_2015-01-06/freifunk-router-300x158.png)](/post/post_2015-01-06/freifunk-router.png)
