@@ -11,4 +11,4 @@ We will learn how to report the bugs in the most effective way, or , if possible
 
 There is some more information available in a Facebook group called [Debian/Ubuntu GNU/Linux Hacking Meetings in Ulm](https://www.facebook.com/groups/1551713658479995/). You can registrate to the event in [Meetup.](http://www.meetup.com/UlmHackers/events/228552266/)
 
-The Bug Squashing Party starts on Sunday 21st of February 2016 at 10 am in [Hackerspace Ulm (aka Freiraum).]({{< relref "contact.md" >}})
+The Bug Squashing Party starts on Sunday 21st of February 2016 at 10 am in [Hackerspace Ulm (aka Freiraum).](/contact)
