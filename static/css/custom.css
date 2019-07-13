@@ -1,3 +1,70 @@
+/***
+* Custom styles, by rk@simple-is-better.org
+***/
+
+/*** improved default styles ***/
+h2 {
+    font-size: 1.8rem !important;
+}
+h3 {
+    font-size: 1.3rem !important;
+}
+hr {
+    border: 1px solid #c0c0c0 !important;
+    margin-top: 1ex !important;
+    margin-bottom: 0ex !important;
+}
+dl {
+    margin-top: 0;
+}
+dt {
+    font-weight: bold;
+    margin-top: 0.5ex;
+    padding: 0 0.5ex;
+    background-color: #e0e0e0;
+}
+dt::after {
+    content: ":";
+}
+dd p:first-child {
+    margin-top: 0 !important;
+}
+p {
+    margin-top: 0.75rem !important;
+    margin-bottom: 0.75rem !important;
+}
+li p:first-child {
+    margin-top: 0 !important;
+}
+li p:last-child {
+    margin-bottom: 0 !important;
+}
+
+/*** <hr> with text ***/
+.hr-text {
+    position: relative;
+}
+.hr-text span {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    margin-left: 2ex;
+    padding: 0ex 1ex;
+    background-color: white;
+}
+.hr-text:before {
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    top: 50%;
+    height: 2px;
+    width: 100%;
+    content: '';
+    background: #c0c0c0;
+}
+
+
+/*** Events: marker-images ***/
 ul.events-by-month .date-marker {
     height: 2ex;
     padding-right: 0.25ex;
@@ -36,9 +103,29 @@ ul.events-side .event-location {
     vertical-align: middle;
 }
 
-h2 {
-    font-size: 1.8rem !important;
+/*** chaosseminar ***/
+.chaosseminar-info {
 }
-h3 {
-    font-size: 1.3rem !important;
+.chaosseminar-info dl {
+    display: grid;
+    grid-template-columns: max-content auto;
+    padding-top: 0.5ex;
+    margin: 0;
+}
+.chaosseminar-info dt {
+    grid-column: 1;
+    margin-top: 0;
+    padding: 0.25ex;
+    padding-right: 2ex;
+    background-color: #e0e0e0;
+}
+.chaosseminar-info dd {
+    grid-column: 2;
+    margin-left: 1ex;
+    padding: 0.25ex;
+}
+.chaosseminar-info ul {
+    margin-left: 0.25ex !important;
+    margin-bottom: 0ex !important;
+    list-style: disc inside !important;
 }

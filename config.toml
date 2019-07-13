@@ -9,6 +9,7 @@ theme = "BluestNight"
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 DefaultContentLanguage = "de"
+buildFuture = true
 
 [outputs]
     home = ["HTML", "CSS"]
