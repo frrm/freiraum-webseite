@@ -23,6 +23,7 @@
       <meta name="keywords" itemprop="keywords" content="{{ delimit .Params.tags "," }}" id="keywords">
     {{- end -}}
     <link rel="canonical" href="{{ .URL | relURL }}">
+    <link rel="shortcut icon" href="{{ "/favicon.png" | relURL }}">
     <link rel="prefetch stylesheet" type="text/css" href="/css/font-awesome.min.css">
     {{ if $.Site.Params.hashover }}<link rel="prefetch stylesheet" type="text/css" href="{{ "hashover/comments.css" | relURL }}">{{ end }}
     <link rel="prefetch stylesheet" type="text/css" href="/styles.css">
