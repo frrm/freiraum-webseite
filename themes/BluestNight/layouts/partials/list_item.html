@@ -17,7 +17,11 @@
         <span class="row-item">
           <span class="fa fa-clock-o"></span>
           <time datetime="{{ .Date.Format "2006-01-02" }}" itemprop="datePublished">{{ .Date.Format "2006-01-02" }}</time>
+	  {{- if .Params.author -}}
           <span> by {{ .Params.author}} in </span>
+	  {{- else -}}
+	  <span> in </span>
+	  {{- end -}}
         </span>
         {{- if .Params.categories -}}
         <span class="row-item">

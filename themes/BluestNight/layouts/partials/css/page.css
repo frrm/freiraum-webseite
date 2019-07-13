@@ -138,7 +138,8 @@ main a:hover, aside a:hover {
 }
 
 main a, main a:hover {
-  color: {{ .Get "accent" }};
+    color: #40ad88;
+  /* color: {{ .Get "accent" }}; */
 }
 
 main header a:hover, main header a:active, main header a:focus {
