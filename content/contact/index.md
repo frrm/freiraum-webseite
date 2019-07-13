@@ -23,3 +23,29 @@ Die beste Möglichkeit Kontakt aufzunehmen ist einfach mal vorbei zu kommen:
   * **Telefon**: 0731 / 2806434
 
 **Mailingliste registrieren:** <http://lists.hackerspace-ulm.de/listinfo/info>
+
+-----
+
+## Uni Ulm
+
+![](uni.png)
+
+- **Cafe Einstein:** Raum M24/242, im Durchgang N24 nach M24  
+  [OpenStreetMap Cafe Einstein](http://www.openstreetmap.org/?mlat=48.42283&mlon=9.95392#map=18/48.42283/9.95392)
+- **Hörsaal H20:** im Gebäudekreuz O27  
+  [OpenStreetMap H20](http://www.openstreetmap.org/?mlat=48.42277&mlon=9.95750#map=18/48.42277/9.95750" img="/contact/uni_h20.png")
+
+Eingänge:
+
+- Eingang Süd (linker roter Pfeil auf der Karte)
+- Eingang am O27 (rechter roter Pfeil auf der Karte)
+- **Wichtig: Nach 20:00 sind die Uni-Eingänge meist verschlossen, und man kann die Türen nur mit einer Studentenkarte öffen.
+  Solltet ihr vor der verschlossenen Tür stehen, dann meldet euch bei TODO.**
+
+Anfahrt:
+
+- per Fahrrad: Fahrradständer gibt es z.B. beim "Eingang Süd" oder an der ÖPNV-Haltestelle
+- per ÖPNV: bis Haltestelle "Universität Süd",  
+  siehe auch: https://www.uni-ulm.de/einrichtungen/kiz/weiteres/campus-navigation/anfahrt-uni-ulm/anfahrt-oepnv/
+- per Auto: siehe https://www.uni-ulm.de/einrichtungen/kiz/weiteres/campus-navigation/anfahrt-uni-ulm/
+
