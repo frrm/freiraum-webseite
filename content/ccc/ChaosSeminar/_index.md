@@ -1,5 +1,6 @@
 +++
 title = "Chaos-Seminar"
+date = "2099-01-01"
 categories = ["ChaosSeminar"]
 hide_list = true
 +++

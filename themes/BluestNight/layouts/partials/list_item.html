@@ -15,8 +15,12 @@
       </a>
       <p class="post-metadata row">
         <span class="row-item">
+	  {{- if .Params.date -}}
+	    {{- if lt (.Date.Format "2006-01-02") "2099-01-01" -}}
           <span class="fa fa-clock-o"></span>
           <time datetime="{{ .Date.Format "2006-01-02" }}" itemprop="datePublished">{{ .Date.Format "2006-01-02" }}</time>
+	    {{- end -}}
+	  {{- end -}}
 	  {{- if .Params.author -}}
           <span> by {{ .Params.author}} in </span>
 	  {{- else -}}
