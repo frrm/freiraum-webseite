@@ -1,7 +1,7 @@
 Webseiten-Inhalt für frrm.de
 ============================
 
-Autor/Kontakt: Roland <rk@simple-is-better.org>
+Autor/Kontakt zu dieser Anleitung: Roland <rk@simple-is-better.org>
 
 
 # Konzept
