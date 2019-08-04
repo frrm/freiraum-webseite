@@ -34,7 +34,7 @@ Wir quatschen, bestellen Pizza, lachen und beackern Rechner (nicht immer, aber i
 
 ## Projekte
 
-- [ChaosSeminar](http://ulm.ccc.de/ChaosSeminar)
+- [ChaosSeminar](ChaosSeminar/)
 - [dev/radio](http://ulm.ccc.de/dev/radio/)
 
 ## Kontakt
@@ -42,7 +42,7 @@ Wir quatschen, bestellen Pizza, lachen und beackern Rechner (nicht immer, aber i
 - Mail: [mail@ulm.ccc.de](mailto:mail@ulm.ccc.de).
 - Jabber: [jabber.ulm.ccc.de](jabber.ulm.ccc.de)
 
-### Öffentliche Mailinglist
+### Öffentliche Mailingliste
 Hier werdem Infos rund um den CCC Ulm verteilt. Dazu gehören neben allerlei Neuigkeiten aus dem Internet auch Seminartermine usw. Wer sich auf die Liste eintragen möchte, schickt eine Mail an:
 
 [news-request@ulm.ccc.de](mailto:mail@ulm.ccc.de)
