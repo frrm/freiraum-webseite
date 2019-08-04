@@ -1,0 +1,434 @@
+%=========================================================================
+% DocumentClass-Varianten: Standard-A4, Standard-A5, Verkleinern auf A5:
+%-------------------------------------------------------------------------
+% \documentclass[11pt,a4paper,twoside]{article}
+\documentclass{beamer}
+\usepackage{listings}
+\lstset{language=bash}
+\mode<presentation>
+{
+% \setbeamertemplate{background canvas}[vertical shading][bottom=red!10,top=blue!10]
+
+\usetheme{Madrid}
+% \usetheme{Boadilla}
+\usefonttheme[onlysmall]{structurebold}
+\useoutertheme[footline=authortitle]{miniframes}
+\useinnertheme[shadow]{rounded}
+}
+
+\usepackage[T1]{fontenc}
+% \setbeamercovered{transparent}
+
+% \pgfdeclareimage[width=1cm]{debian-logo}{openlogo}
+% \logo{\pgfuseimage{debian-logo}}
+\pgfdeclareimage{scsi-disk-old}{scsi-old}
+\pgfdeclareimage{ide-disk-old}{ide-old}
+\pgfdeclareimage{ide-gross}{ide-new-gross}
+\pgfdeclareimage{ide}{ide-new}
+\pgfdeclareimage{panic}{dont}
+
+\title{Pimp my dontpanic}
+\author{Ulrich Dangel Alexander Bernauer Tobias Rehfeld}
+
+\begin{document}
+
+\begin{frame}
+    \titlepage
+    \begin{center}
+    \pgfuseimage{panic}
+    \end{center}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Übersicht}
+    \tableofcontents
+\end{frame}
+
+\section{Begriffsklärung}
+
+\begin{frame}
+    \frametitle{Software Raid}
+    \begin{itemize}
+        \item Redudant Array of Inexpensive Disks
+        \item Verschiedene Betriebsmodi
+            \begin{itemize}
+                \item 0 - Stripping
+                \item 1 - Mirroring
+                \item 5 - Performance + Parität
+            \end{itemize}
+        \item Wird vom Kernel automatisch erkannt
+    \end{itemize}
+\end{frame}
+\begin{frame}
+    \frametitle{lvm - Logical Volume Manager}
+    \begin{itemize}
+        \item Abstrahierung von Block Devices
+        \item Block Device -> Physical Volume
+        \item Volume Gruppen, bestehen min. 1 Physical Volume
+        \item Logical Volume in Volume Gruppen
+        \item Keine automatische Erkennung im Kern, initrd
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{initrd - Initial Ramdisk}
+    \begin{itemize}
+        \item Bootloader lädt den Kernel und die initrd
+        \item Ramdisk wird als / rw gemountet
+        \item /linuxrc wird ausgeführt
+        \item Beim beenden wird /sbin/init gestartet
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{pxe - Preboot Execution Environment}
+    \begin{itemize}
+        \item dhcp Request
+        \item Dateiname + Server stehen in der Antwort
+        \item Dateiname wird per tftp geladen
+        \item Lädt weitere Teile nach
+    \end{itemize}
+\end{frame}
+
+
+\section{Orginal Setup}
+\subsection{Hardware}
+\begin{frame}
+    \frametitle{Eingebaute Hardware}
+    \begin{itemize}
+        \item 4x 9GB SCSI Platten
+        \item 1x 160 GB IDE Platte
+    \end{itemize}
+\end{frame}
+\subsection{Partitionen}
+\begin{frame}
+    \frametitle{Partionen - SCSI}
+    \begin{itemize}
+        \item Die SCSI Platten sind alle gleich formatiert
+        \pgfuseimage{scsi-disk-old}
+                \item 1. Partion ca.  15 MB - Raid 1 - /boot
+                \item 2. Partition ca. 2 GB - Raid 1 - /rescue
+                \item 3. Partition ca. 7 GB - Raid 5 - /
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Partitionen - IDE}
+    \begin{itemize}
+        \item Eine grosse Partition 
+        \pgfuseimage{ide-disk-old}
+        \item 1. Partion ca. 160 GB /data
+    \end{itemize}
+\end{frame}
+
+\section{Geplantes Setup}
+\subsection{Hardware}
+\begin{frame}
+    \frametitle{Neue Hardware}
+    \begin{itemize}
+        \item 2x320 GB IDE Platten
+        \item 1x160 GB IDE Platten
+    \end{itemize}
+\end{frame}
+\subsection{Partitionen}
+\begin{frame}
+    \frametitle{Partitionen - Überblick}
+            \pgfuseimage{ide}
+            \pgfuseimage{ide-gross}
+            \pgfuseimage{ide-gross}
+\end{frame}
+\begin{frame}
+    \frametitle{Partitionen - Kleine Platte}
+    \pgfuseimage{ide}
+    \begin{itemize}
+        \item 1 ca.  50 MB - Raid 1 - /boot
+        \item 2 ca.   5 GB - Raid 1 - /rescue
+        \item 3 ca.  30 GB - Raid 5 - lvm - system 
+        \item 4 ca. 125 GB - Raid 5 - lvm - archiv
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Partitionen - Grosse Platte}
+    \pgfuseimage{ide-gross}
+    \begin{itemize}
+        \item 1 ca.  50 MB - Raid 1 - /boot
+        \item 2 ca.   5 GB - Raid 1 - /rescue
+        \item 3 ca.  30 GB - Raid 5 - lvm - system 
+        \item 4 ca. 125 GB - Raid 5 - lvm - archiv
+        \item 5 ca. 160 GB - Raid 1 - lvm - ?
+    \end{itemize}
+\end{frame}
+
+\section{Endgültiges Setup}
+\begin{frame}
+    \frametitle{Die Unendliche Geschichte - 1}
+               Downtime: 0h\\
+               ETA: 6h, inkl. Probleme
+
+               \begin{itemize}
+                   \item Rechner ausgeschaltet
+                       \pause
+                   \item Alles ausgebaut, neuer Controller eingebaut, Platten angeschlossen
+                       \pause
+                   \item Bildschirm schwarz
+               \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Die Unendliche Geschichte - 2}
+               Downtime: 1h\\
+               ETA: 6h, inkl. kleinerer Probleme
+
+               \begin{itemize}
+                   \item Alte Konfiguration wieder hergestellt 
+                       \pause
+                   \item Alles ausgebaut, neuer Controller ausgebaut, Platten ausgebaut 
+                       \pause
+                   \item Bildschirm schwarz
+               \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Die Unendliche Geschichte - 3}
+               Downtime: 2h\\
+               ETA: 6h, ohne Probleme
+
+               \begin{itemize}
+                   \item Problem mit Geld bewerfen
+                       \pause
+                   \item Neue CPU, neues Board, neues Ram
+                       \pause
+                   \item Problem gibt hoffentlich nach
+               \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Die Unendliche Geschichte - 4}
+               Downtime: 4h\\
+               ETA: 6h, ohne Probleme
+
+               \begin{itemize}
+                   \item Board eingebaut
+                       \pause
+                   \item Alles angeschlossen
+                       \pause
+                   \item Dauernd cmos Fehler
+               \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Die Unendliche Geschichte - 5}
+               Downtime: 6h\\
+               ETA: 8h, ohne Probleme
+
+               \begin{itemize}
+                   \item Anderes Netzteil ausprobiert
+                       \pause
+                   \item Ram getauscht
+                       \pause
+                   \item Dauernd cmos Fehler
+                       \pause
+                   \item Neues Board kaufen, nach 20 Uhr - warten.
+               \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+    \frametitle{Die Unendliche Geschichte - 6}
+               Downtime: >16h\\
+               ETA: 8h, ohne Probleme
+
+               \begin{itemize}
+                   \item Neues Board mit mehr SATA Anschlüsse ;)
+                       \pause
+                   \item Keine Cmos Fehler mehr \alert{HEUREKA!}
+                       \pause
+                   \item Selbstgebauter Kernel bootet nicht, nicht debuggt.
+                       \pause
+                   \item Standard grml Kernel genommen
+               \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+    \frametitle{Die Unendliche Geschichte - $\infty$}
+               Downtime: >17h\\
+               ETA: 8h, ohne Probleme
+
+               \begin{itemize}
+                   \item Netzwerktreiber fehlt im netboot Package
+                       \pause
+                   \item Treiber suchen
+                       \pause
+                   \item Gigabit Karte in ethernet 100 \ldots
+                       \pause
+                   \item Bug in der initrd von Grml
+                       \pause
+                    \begin{lstlisting}
+modprobe unionfs && UNIONFS=yes
+                    \end{lstlisting}
+               \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Die Unendliche Geschichte - $\infty$}
+               Downtime: >24h\\
+               ETA: 6h, ohne Probleme
+
+               \begin{itemize}
+                   \item Bleibt beim starten von init hängen
+                       \pause
+                   \item hm\ldots
+                       \pause
+                   \item Alles manuell gemacht
+                       \pause
+                   \item Rescue System steht
+               \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Die Unendliche Geschichte - $\infty$}
+               Downtime: LANG :(\\
+               ETA: 2h, ohne Probleme
+
+               \begin{itemize}
+                   \item Altes System kopiert
+                       \pause
+                   \item Gestartet
+                       \pause
+                   \item Dienste wieder hergestellt
+                       \pause
+                   \item Tut. echo tut | mail \&\& Kino
+               \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+    \frametitle{Die Unendliche Geschichte - $\infty$}
+               Downtime: LANG :(\\
+               ETA: 0h
+
+               \begin{itemize}
+                   \item SMS mit Inhalt: dontpanic steht.
+                       \pause
+                   \item Hingefahren
+                       \pause
+                   \item Monitor schwarz
+                       \pause
+                   \item gestartet, stress test
+               \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Die Unendliche Geschichte - $\infty$}
+               Downtime: LANG :(\\
+               ETA: 0h
+
+               \begin{itemize}
+                   \item Funktioniert alles
+                       \pause
+                   \item Teilweise komisches Verhalten
+                       \pause
+                   \item Wird heiss, stürzt aber nicht ab
+                       \pause
+                   \item Ok, geht: echo tut | mail \ldots
+               \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Die Unendliche Geschichte - $\infty$}
+               Downtime: 2 Tage mit Unterbrechung\\
+               ETA: 2h
+
+               \begin{itemize}
+                   \item Dontpanic steht am nächsten Morgen
+                       \pause
+                   \item Sehr komisches Verhalten
+                       \pause
+                   \item memtest kein Problem
+                       \pause
+                   \item memtest auf dem Notebook kein Problem
+                       \pause
+                   \item Erst mal schlafen.
+               \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Die Unendliche Geschichte - $\infty$}
+               Downtime: 2 Tage mit Unterbrechung\\
+               ETA: 1h
+
+               \begin{itemize}
+                   \item Cmos Fehler im BIOS 
+                       \pause
+                   \item Sehr sehr komisches Verhalten
+                       \pause
+                   \item Tut gar nichts mehr
+                       \pause
+                   \item Bootet nicht mehr 
+                       \pause
+                   \item Warscheinlich CPU, aber nach 20 Uhr
+               \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Die Unendliche Geschichte - $\infty$}
+               Downtime: 3 Tage mit Unterbrechung\\
+               ETA: xh
+
+               \begin{itemize}
+                   \item Alte Festplatten besorg
+                   \item Neue CPU gekauft
+                       \pause
+                   \item Neue CPU eingebaut, gleicher Fehler
+                       \pause
+                   \item DNS Server hingestellt, Webseiten laufen wieder
+               \end{itemize}
+\end{frame}
+
+
+
+\begin{frame}
+    \frametitle{Die Unendliche Geschichte - $\infty$}
+               Downtime: 5 Tage mit Unterbrechung\\
+               ETA: 8h, ohne Probleme
+
+               \begin{itemize}
+                   \item Neues Board, CPU, Ram gekauft
+                       \pause
+                   \item Eingebaut
+                       \pause
+                   \item Problem unter Geld zusammengebrochen, funktioniert
+               \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Die Unendliche Geschichte - $\infty$}
+               Downtime: 5 Tage mit mehreren Unterbrechung\\
+               ETA: ---
+
+               \begin{itemize}
+                   \item 1 Festplatte kaputt
+                       \pause
+                   \item 2. Auffällig
+                       \pause
+                   \item Zu spät, nächster Tag Feiertag, aber läuft
+               \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Die Unendliche Geschichte - $\infty$}
+               Downtime: 5 Tage mit mehreren Unterbrechung\\
+               ETA: ---
+
+               \begin{itemize}
+                   \item Festplatte getauscht
+                       \pause
+                   \item Läuft.
+               \end{itemize}
+\end{frame}
+\begin{frame}
+    \frametitle{Die Unendliche Geschichte - $\infty$}
+    Und das ganze jetzt in der Praxis ;)
+\end{frame}
+\end{document}

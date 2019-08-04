@@ -1,0 +1,26 @@
++++
+title = "Geschichte der Webentwicklung"
+date = "2014-04-14"
+categories = ["ChaosSeminar"]
+
+[ChaosSeminar]
+Thema = ""
+Termin = ""
+Ort = "Uni Ulm, Hörsaal H20"
+Vortragende = "dome"
+Archiv = [
+	["", "http://archiv.ulm.ccc.de/chaosseminar/201404-web/cs-201404-web_audio.mp3", "48220611"],
+	["", "http://archiv.ulm.ccc.de/chaosseminar/201404-web/cs-201404-web_audio.ogg", "35872143"],
+	["", "http://archiv.ulm.ccc.de/chaosseminar/201404-web/cs-201404-web_audio.opus", "33372680"],
+	["", "http://archiv.ulm.ccc.de/chaosseminar/201404-web/cs-201404-web_video.m4v", "57825588"],
+	["", "http://archiv.ulm.ccc.de/chaosseminar/201404-web/cs-201404-web_video.mp4", "87642594"],
+	["", "http://archiv.ulm.ccc.de/chaosseminar/201404-web/cs-201404-web_video.ogv", "51572736"],
+	["", "http://archiv.ulm.ccc.de/chaosseminar/201404-web/cs-201404-web_video.webm", "347251452"],
+	["", "http://archiv.ulm.ccc.de/chaosseminar/201404-web/cs-201404-web_video_high.mp4", "648396174"]
+	]
++++
+
+{{< chaosseminar >}}
+
+Eine subjektive Zeitreise und Überblick über die Geschichte der Webentwicklung und verschiedene Web-Technologien,
+inklusive einer kleinen Live Demonstration wie Web-Anwendungen entwickelt werden können, ohne dabei Bluthochdruck zu bekommen. =)

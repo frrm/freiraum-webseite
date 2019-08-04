@@ -1,0 +1,192 @@
+Chaosseminar Turtle-Grafik
+Beispiele
+
+(Anm: _cXXX entspricht einem char(XXX).)
+
+----
+
+Logo-Sprache
+/fd 100 lt 90 fd 50\
+
+Verkuerzt
+
+fffffffff
+9f
+
+3f7l9f
+
+Position merken
+/fd 10 pos 1 lt 20 fd 100 jmp 1 rt 30 fd 80 jmp 1\
+pffffffj
+10fpll10fjrr10f
+10f[ll10f]rr10f <-- das tut hier nicht!
+
+Klammern
+10*(fl)
+
+Quadrat
+4(FL)
+
+Dreieck
+3(F8l)
+
+Herz
+Lp15(flf)18fj15(frf)18f
+
+Fraktal
+f3l4(fL)3rff
+2*{f3l4(fL)3rff}
+3*{f3l4(fL)3rff}
+4*{f3l4(fL)3rf}
+Schneeflocke
+f4lf8rf4lf
+3*{f4lf8rf4lf}
+Peano
+fL3(fR)3(fL)fRf
+2*{fL3(fR)3(fL)fRf}
+3*{fL3(fR)3(fL)fRf}
+Baum
+2*{ff2p2lfj2rfjf}
+3*{ff2p2lfj2rfjf}
+3*{ff4plfjrfjufjdfj}
+4*{ff4plfjrfjufjdfj}
+Sierpinski
+f8lf8rf8rf8lf
+3*{f8lf8rf8rf8lf}
+3*{fp8lf8rfjf}
+
+Teppich
+5(3fL)R
+2*{5(3(f)L)R}
+3*{5(3(f)L)R}
+U4*{5(3(f)L)R}
+
+Schnee 3D
+f4uf4dLfRRfL4df4uf
+2*{f4uf4dLfRRfL4df4uf}
+3*{f4uf4dLfRRfL4df4uf}
+4*{f4uf4dLfRRfL4df4uf}
+
+Wuerfel
+4(5(FU)DL)
+
+Prisma
+3(5(FU)D8l)
+
+Pyramide
+3(10f10l4u12fRR12fLL4drr)
+
+Octaeder
+3(5(FL)3rU3l)
+
+Kugel
+4(24(fuf)3l)
+2(4(24(fuf)3l)6(fuf))
+
+Stern
+12(F10l)
+4(8(10f9l)7fU3b)
+
+Spirale
+42(ifL)
+50(flu)
+
+Girlande
+25(FLL2FLLFRfLu)
+
+Marco auf Chinesisch
+L10*sRv6*(vvR)LLvR6*vRrvbl5*sRsssRvvv10*s
+L10*s4*(fbR)bR6*(vRv)LvvvLvvvLlvbrLsssRssssLLrsvvrv5*s
+
+Shift out - shift in
+10f/lt 95\10f
+30(12f/lt 175\)
+
+Beispiel fuer Laufvariable i
+10(10f10bifU7f7bDibRfL)
+
+4D-Turtle
+Schraube?
+500(flau)
+500(flua)
+500(flu)
+500(fl)
+ffac
+2(24(fu)5a)
+3(4(5(10fU)DL)uuaal)
+3(5(f4aff8cff4a)UL)
+Tesseract
+4(5(9f6a9f9b6cU)DL)A9fC4(5(9fU)DL)
+aul4(5(9f6a9f9b6cU)DL)A9fC4(5(9fU)DL)
+ul4alu4(5(9f6a9f9b6cU)DL)A9fC4(5(9fU)DL)
+
+Sonstiges---
+Brechung
+turbredm;
+turbrede;
+Magic Eye
+turstedm;
+
+Flaechen malen
+imagesc(turbild('+24(fl) +L24(fl)'));
+imagesc(turbild('+24(fl) -L24(fl)'));
+imagesc(turbild('+24(fl) &L24(fl)'));
+imagesc(turbild('+24(fl) #L24(fl)'));
+
+Bildverarbeitung auf Turtle-Basis
+Match-demo
+f4(24(fl)L)/get 50 50 shlv 1 3 mtch 3 shlv 1 0 jmp 1\
+
+Kantenverfolgungsdemo
+/bld 4.5 cny\30(3kpf)
+/bld 4.9 cny\9g10(RRffLssL4go)
+
+Blobdemo
+/bld 4.5 bw 50 blob jmp 3\fff
+
+Lustig
+2(4(2fU)RfL)6f6bRfL4(2fU)R5fss
+p9f2p4u2fD3fsjDll5fjDrr5fsjppDll5fjDrr5fjLLu5f9(su)
+6(5fU20fuu8fdd2fU2fU2fdd8fuu20fU5f2l) 20fL20f
+Haus
+5(5(FU)DL)UF2l3(5(FD)U8l)
+Lichtschnitt
+6(2(fU7fUf)2l)Dp3l7(p20fjr)j15spU20(ifL)sj9u20sp4(5(4fU)DL)j
+Kraehenfuss einfach selbermachen
+4(5(20fU)DL)3(3sRU)5fL10fU5f
+3(3fRU)
+
+Kardanische Aufhaengung
+p12(ifL)sj2(pi(LL)4fU10fsj)4fU6f24(fu)
+
+Zirkel und Lineal
+4(FLp)/crc 2 1 jmp 1 crc 3 2 skk 1 2 5 nop jmp 3 aim 6\30f30b
+4(FLp)/crc 2 1 jmp 1 crc 3 2 skk 1 2 5 nop jmp 5 aim 6 rt 20 sgk 1 7 jmp 8 jmp 8\30f30b
+Goldener Schnitt
+_-_c010fb_c010/_c010pos_-1_c010fd_-50_-pos_-2_c010fd_-50_-pos_-3_c010lt_-90_-fd_-50_-pos_-4_c010crc_-3_-1_c010aim_-1_c010fd_-100_-bk_-100_c010sgk_-1_-5_c010nop_c010jmp_-6_c010pos_-7_c010jmp_-1_c010crc_-7_-2_c010aim_-2_c010\_c010_c010
+Inkommensurabilitaet
+fb_c0104(FLp)_c010/aim_-2_c010fd_-200_c010jmp_-4_c010aim_-2_c010crc_-1_-1_c010sgk_-1_-6_c010jmp_-7_c010crc_-2_-2_c010jmp_-2_-aim_-1_c010sgk_-2_-8_c010jmp_-9_c010rt_-135_c010fd_-100_c010_c010_c010_c010
+
+pp5(F4l/crc 1 1\)
+
+Programmieren
+: kr 24(fl) ; 5(f/cmd kr\)
+: Haus 2(FL) 4(F8r) 14lFL ; /cmd Haus\
+
+Schlitz
+10(p4(fuf)8(fdf)4(fuf)sjRfL)_c010p_c01010(p4(fdf)8(fuf)4(fdf)sjRfL)_c010sj_c01012sU_c010r20fLL40f_c010_c010_c010
+
+Keil auf Flaeche
+_-_c010fbpp40(ifL)sj_c010R15s_c010R15sR_c0102(4(30fR)uu)4d_c01030fUu17f_c01017bR30fL17f17b_c010sj_c010U20fD_c010L20f_c010_c010_c010_c010
+
+Strich-Multiplikation 312 x 23
+_-_c010LL15sRR_c010_c010p_c0103r_c0102(sL5FRR5FL)_c01010s_c0103(sL5FRR5FL)_c010sj_c010LssR3l_c0103(sR5FLL5FR)_c01010s_c0101(sR5FLL5FR)_c01010s_c0102(sR5FLL5FR)_c010_c010_c010_c010
+
+T-Leiter
+/pos_-1\_c0105sL30b60fL10fL25fR25fL10fL25fR25fL10f_c010/jmp_-1\_c0105bL5s_c010/pos_-2\_c0103f_c010/crc_-2_-2\_c010RR13s_c010/pos_-3\_c0103f_c010/crc_-3_-3\_c010/jmp_-1\_c010L30s/ce_-50_-100\RR60s/ce_-50_-100\RR30sL30s/ce_-50_-200\_c010_c010_c010_c010
+
+Kegelschnitt
+flu_c010/pos_-1\_c0107(10fU7(is)L24(iflif)L7(is)RRD)_c010/jmp_-1\_c01020fU14fD_c0105(10fU7(is)L24(iflif)L7(is)RRD)_c010_c010_c010
+flu_c010/pos_-1\_c0107(10fU7(is)L24(iflif)L7(is)RRD)_c010/jmp_-1\_c01020fU14fD_c0105(10fU7(i(ss))L24(i(ff)li(ff))L7(i(ss))RRD)_c010_c010_c010
+
+
