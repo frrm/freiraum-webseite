@@ -1,5 +1,6 @@
 +++
 title = "Chaos-Seminar"
+categories = ["ChaosSeminar"]
 hide_list = true
 +++
 

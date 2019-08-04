@@ -11,7 +11,7 @@
   <div>
     <header class="post-list-title">
       <a href="{{ .Permalink }}">
-        <h4 itemprop="headline">{{ .Title }}</h4>
+        <h2 itemprop="headline">{{ .Title }}</h2>
       </a>
       <p class="post-metadata row">
         <span class="row-item">
@@ -38,7 +38,7 @@
         {{- else -}}
           <!-- {{ .Summary | markdownify }}{{ if .Truncated }} <a href="{{ $page.Permalink }}">[Read more...]</a>{{ end }} -->
 	  <!-- fix relative URLs of blogposts -->
-          {{ replaceRE " (src|href)=\"([^\"/:]([^\":]|:[^/])*)\"" (add (add " $1=\"" $.Permalink) "$2\"") .Content | safeHTML }}
+          {{ replaceRE " (src|href)=\"([^\"/:]([^\":]|:[^/])*)\"" (add (add " $1=\"" $.Permalink) "$2\"") .Content | replaceRE " href=\"[^\"]*/(mailto:[^\"]*)\"" " href=\"$1\"" | safeHTML }}
         {{- end -}}
     </div>
   </div>

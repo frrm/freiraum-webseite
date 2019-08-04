@@ -9,6 +9,15 @@ h2 {
 h3 {
     font-size: 1.3rem !important;
 }
+h4 {
+    font-size: 1.1rem !important;
+}
+h5 {
+    font-size: 1.0rem !important;
+}
+h6 {
+    font-size: 0.9rem !important;
+}
 hr {
     border: 1px solid #c0c0c0 !important;
     margin-top: 1ex !important;
@@ -115,14 +124,14 @@ ul.events-side .event-location {
 .chaosseminar-info dt {
     grid-column: 1;
     margin-top: 0;
-    padding: 0.25ex;
+    padding: 0.5ex;
     padding-right: 2ex;
     background-color: #e0e0e0;
 }
 .chaosseminar-info dd {
     grid-column: 2;
     margin-left: 1ex;
-    padding: 0.25ex;
+    padding: 0.5ex;
 }
 .chaosseminar-info ul {
     margin-left: 0.25ex !important;
