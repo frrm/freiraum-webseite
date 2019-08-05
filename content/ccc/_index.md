@@ -28,13 +28,13 @@ Jeden Montag Abend geschehen merkwürdige Dinge. Doch lest selbst.
 - Akademiker
 - und viele andere
 
-... treffen sich normalerweise jede Woche zum Chaos-Treff montags ab ca. 19:30 Uhr im Freiraum.
+... treffen sich normalerweise jede Woche zum Chaos-Treff montags ab ca. 20:00 Uhr im Freiraum.
 
 Wir quatschen, bestellen Pizza, lachen und beackern Rechner (nicht immer, aber immer öfter). Wer meint, dass er hinreichend Chaos-kompatibel ist, soll einfach mal vorbeischauen. Wir fressen niemanden und außer einer gesunden Portion Neugier erwarten wir keine Vorkenntnisse. Niemand soll aber erwarten, dass ihm ein komplettes Vollprogramm geboten wird. Jeder muss schon selbst seinen Mund aufmachen und seinen Teil zum Gelingen des Abends beitragen. Wir sind kein Kindergarten.
 
 ## Projekte
 
-- [ChaosSeminar](ChaosSeminar/)
+- [ChaosSeminar](chaosseminar/)
 - [dev/radio](http://www.devradio.de)
 
 ## Kontakt
@@ -50,8 +50,3 @@ Hier werdem Infos rund um den CCC Ulm verteilt. Dazu gehören neben allerlei Neu
 mit einem subscribe im Body der Mail. Analog geht ein unsubscribe. Beiträge schickt man an:
 
 [news@ulm.ccc.de](mailto:news@ulm.ccc.de)
-
-## Archiv
-
-- Alte Webseite
-- ...
