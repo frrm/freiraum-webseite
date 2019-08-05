@@ -12,6 +12,7 @@ Platzgasse 18, 89073 Ulm
 vorstand(at)frrm.de
 Inhaltlich verantwortlich gemäß § 55 Abs. 2 RStV: Georg Thoma
 
+
 ### Haftungsausschluss:
 
 Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
@@ -93,6 +94,6 @@ und am Schloss-Symbol in der Browserzeile.
 Die Nutzung unserer Webseite erfolgt ohne Angabe personenbezogener Daten. 
 Informationen zu einem Zugriff auf unseren Internetauftritt werden grundsätzlich nicht erfasst.
 
-### Mailinglisten
+#### Mailinglisten
 Die Daten, die Sie für die Anmeldung an einer oder mehrerer Mailinglisten angegeben haben, werden von uns ausschließlich für diesen Zweck verwendet. Es werden keine Daten an Dritte weitergegeben.
 Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
