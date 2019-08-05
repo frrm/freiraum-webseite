@@ -35,7 +35,7 @@ Wir quatschen, bestellen Pizza, lachen und beackern Rechner (nicht immer, aber i
 ## Projekte
 
 - [ChaosSeminar](ChaosSeminar/)
-- [dev/radio](http://ulm.ccc.de/dev/radio/)
+- [dev/radio](http://www.devradio.de)
 
 ## Kontakt
 

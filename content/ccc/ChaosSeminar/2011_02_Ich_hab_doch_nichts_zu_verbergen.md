@@ -21,7 +21,7 @@ Archiv = [
 
 {{< chaosseminar >}}
 
-Folien: http://ulm.ccc.de/~matou/nichts_zu_verbergen.pdf
+Folien: http://dontpanic.ulm.ccc.de/~matou/nichts_zu_verbergen.pdf
 
 Wir fordern von unserem Staat, dass dieser uns vor bösen Menschen beschützt. Dafür braucht der Staat unsere Daten. In den letzten Jahren kamen immer wieder neue Ideen auf, wie diese Daten gesammelt werden können.
 

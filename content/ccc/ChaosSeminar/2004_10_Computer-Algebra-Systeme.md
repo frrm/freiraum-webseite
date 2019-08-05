@@ -14,6 +14,6 @@ Archiv = [
 
 {{< chaosseminar >}}
 
-Unterlagen: http://ulm.ccc.de/chaos-seminar/computeralgebrasysteme/
+Unterlagen: https://ulm.ccc.de/old/chaos-seminar/computeralgebrasysteme/
 
 Dieser Vortrag gibt einen Einblick in die verschiedensten Computeralgebrasysteme wie Maple, Matlab, Mathematica etc. Aber auch freie Systeme wie MuPAD, GNU Octave und Maxima sollen vorgestellt werden. Mit praktischen Anwendungsbeispielen wird die Syntax und die Handhabung des Systems kurz erläutert und anschließend die Vor- und Nachteile von kommerzieller und freier Software diskutiert.

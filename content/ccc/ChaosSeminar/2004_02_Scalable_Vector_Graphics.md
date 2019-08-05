@@ -18,6 +18,6 @@ Archiv = [
 
 {{< chaosseminar >}}
 
-Unterlagen: http://ulm.ccc.de/chaos-seminar/svg/
+Unterlagen: http://dontpanic.ulm.ccc.de/~schabi/svg/
 
 SVG soll nach der Meinung des W3C der zukünftige Standard für Vektor-Grafiken und Multimedia-Inhalte sein. Dieser Vortrag gibt eine Übersicht der Features dieses Web-Grafik-Formates, und stellt einige Beispiele der verfügbaren Software vor.
