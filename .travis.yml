@@ -3,7 +3,7 @@ sudo: disabled
 # Clean and don't fail
 install:
   # for every branch
-  - curl -L https://github.com/gohugoio/hugo/releases/download/v0.51/hugo_0.51_Linux-64bit.tar.gz | tar xz
+  - curl -L https://github.com/gohugoio/hugo/releases/download/v0.56.3/hugo_0.56.3_Linux-64bit.tar.gz | tar xz
   - rm -rf public || exit 0
 
 # Build the website
