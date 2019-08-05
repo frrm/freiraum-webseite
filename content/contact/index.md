@@ -40,7 +40,9 @@ Eingänge:
 - Eingang Süd (linker roter Pfeil auf der Karte)
 - Eingang am O27 (rechter roter Pfeil auf der Karte)
 - **Wichtig: Nach 20:00 sind die Uni-Eingänge meist verschlossen, und man kann die Türen nur mit einer Studentenkarte öffen.
-  Solltet ihr vor der verschlossenen Tür stehen, dann meldet euch bei TODO.**
+  Solltet ihr vor der verschlossenen Tür stehen, dann:**
+  - **Cafe Einstein**: meldet euch bei 0731 50 26012, oder geht von außen zum Cafe Einstein (siehe Karte) und klopft an die Scheibe
+  - **H20**: TODO
 
 Anfahrt:
 
