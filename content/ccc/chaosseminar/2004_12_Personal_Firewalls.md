@@ -8,11 +8,11 @@ Thema = ""
 Termin = ""
 Vortragende = "Alexander Bernauer, Ansgar Wiechers, [Jonathan Häberle](http://dreampulse.de)"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200412-pfw/cs-200412-pfw_56k_audio.ogg", "33429917"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200412-pfw/cs-200412-pfw_96k_audio.mp3", "64305327"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200412-pfw/cs-200412-pfw_slides.pdf", "296090"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200412-pfw/cs-200412-pfw_video.mp4", "185533351"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200412-pfw/cs-200412-pfw_video.ogv", "159791444"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200412-pfw/cs-200412-pfw_56k_audio.ogg", "33429917"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200412-pfw/cs-200412-pfw_96k_audio.mp3", "64305327"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200412-pfw/cs-200412-pfw_slides.pdf", "296090"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200412-pfw/cs-200412-pfw_video.mp4", "185533351"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200412-pfw/cs-200412-pfw_video.ogv", "159791444"]
 	]
 +++
 

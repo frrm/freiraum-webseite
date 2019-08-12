@@ -9,13 +9,13 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Marcus"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201605-ipv6/cs-201605-ipv6_audio.mp3", "40103751"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201605-ipv6/cs-201605-ipv6_audio.ogg", "18063835"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201605-ipv6/cs-201605-ipv6_audio.opus", "30988675"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201605-ipv6/cs-201605-ipv6_video.m4v", "46588280"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201605-ipv6/cs-201605-ipv6_video.mp4", "70564624"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201605-ipv6/cs-201605-ipv6_video.ogv", "288270309"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201605-ipv6/cs-201605-ipv6_video_high.mp4", "260202940"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201605-ipv6/cs-201605-ipv6_audio.mp3", "40103751"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201605-ipv6/cs-201605-ipv6_audio.ogg", "18063835"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201605-ipv6/cs-201605-ipv6_audio.opus", "30988675"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201605-ipv6/cs-201605-ipv6_video.m4v", "46588280"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201605-ipv6/cs-201605-ipv6_video.mp4", "70564624"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201605-ipv6/cs-201605-ipv6_video.ogv", "288270309"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201605-ipv6/cs-201605-ipv6_video_high.mp4", "260202940"]
 	]
 +++
 

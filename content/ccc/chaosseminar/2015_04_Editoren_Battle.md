@@ -9,13 +9,13 @@ Termin = "2015-04-13 20:15"
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Heiko, Marco, Marcus, Matou, Meillo, Phil"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201504-editorbattle/cs-201504-editorbattle_audio.mp3", "65133237"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201504-editorbattle/cs-201504-editorbattle_audio.ogg", "47249921"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201504-editorbattle/cs-201504-editorbattle_audio.opus", "43770967"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201504-editorbattle/cs-201504-editorbattle_video.m4v", "76310707"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201504-editorbattle/cs-201504-editorbattle_video.mp4", "110383690"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201504-editorbattle/cs-201504-editorbattle_video.ogv", "492144525"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201504-editorbattle/cs-201504-editorbattle_video_high.mp4", "645864418"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201504-editorbattle/cs-201504-editorbattle_audio.mp3", "65133237"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201504-editorbattle/cs-201504-editorbattle_audio.ogg", "47249921"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201504-editorbattle/cs-201504-editorbattle_audio.opus", "43770967"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201504-editorbattle/cs-201504-editorbattle_video.m4v", "76310707"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201504-editorbattle/cs-201504-editorbattle_video.mp4", "110383690"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201504-editorbattle/cs-201504-editorbattle_video.ogv", "492144525"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201504-editorbattle/cs-201504-editorbattle_video_high.mp4", "645864418"]
 	]
 +++
 

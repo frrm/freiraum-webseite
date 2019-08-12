@@ -9,13 +9,13 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Georg Gottleuber"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200907-linuxkernel/cs-200907-kernel_audio.mp3", "70127804"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200907-linuxkernel/cs-200907-kernel_audio.ogg", "55416099"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200907-linuxkernel/cs-200907-kernel_video.m4v", "78901038"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200907-linuxkernel/cs-200907-kernel_video.mp4", "151103347"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200907-linuxkernel/cs-200907-kernel_video.ogv", "170961201"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200907-linuxkernel/cs-200907-kernel_video_high.mp4", "502993625"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200907-linuxkernel/cs-200907-linuxkernel_slides.pdf", "146671"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200907-linuxkernel/cs-200907-kernel_audio.mp3", "70127804"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200907-linuxkernel/cs-200907-kernel_audio.ogg", "55416099"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200907-linuxkernel/cs-200907-kernel_video.m4v", "78901038"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200907-linuxkernel/cs-200907-kernel_video.mp4", "151103347"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200907-linuxkernel/cs-200907-kernel_video.ogv", "170961201"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200907-linuxkernel/cs-200907-kernel_video_high.mp4", "502993625"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200907-linuxkernel/cs-200907-linuxkernel_slides.pdf", "146671"]
 	]
 +++
 

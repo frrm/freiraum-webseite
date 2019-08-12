@@ -9,12 +9,12 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Michael Feiri"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200904-ps-interpreter-html5/cs-200904-ps-interpreter-html5_audio.mp3", "57979559"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200904-ps-interpreter-html5/cs-200904-ps-interpreter-html5_audio.ogg", "44815139"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200904-ps-interpreter-html5/cs-200904-ps-interpreter-html5_video.m4v", "78558875"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200904-ps-interpreter-html5/cs-200904-ps-interpreter-html5_video.mp4", "427830060"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200904-ps-interpreter-html5/cs-200904-ps-interpreter-html5_video.ogv", "267563030"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200904-ps-interpreter-html5/cs-200904-ps-interpreter-html5_video_high.mp4", "326407831"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200904-ps-interpreter-html5/cs-200904-ps-interpreter-html5_audio.mp3", "57979559"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200904-ps-interpreter-html5/cs-200904-ps-interpreter-html5_audio.ogg", "44815139"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200904-ps-interpreter-html5/cs-200904-ps-interpreter-html5_video.m4v", "78558875"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200904-ps-interpreter-html5/cs-200904-ps-interpreter-html5_video.mp4", "427830060"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200904-ps-interpreter-html5/cs-200904-ps-interpreter-html5_video.ogv", "267563030"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200904-ps-interpreter-html5/cs-200904-ps-interpreter-html5_video_high.mp4", "326407831"]
 	]
 +++
 

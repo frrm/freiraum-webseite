@@ -9,11 +9,11 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H22"
 Vortragende = "Stefan Schlott"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200607-ubipriv/cs-200607-ubipriv_audio.mp3", "70225241"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200607-ubipriv/cs-200607-ubipriv_audio.ogg", "52420298"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200607-ubipriv/cs-200607-ubipriv_slides.pdf", "1825553"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200607-ubipriv/cs-200607-ubipriv_video.mp4", "287215931"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200607-ubipriv/cs-200607-ubipriv_video.ogv", "137898279"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200607-ubipriv/cs-200607-ubipriv_audio.mp3", "70225241"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200607-ubipriv/cs-200607-ubipriv_audio.ogg", "52420298"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200607-ubipriv/cs-200607-ubipriv_slides.pdf", "1825553"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200607-ubipriv/cs-200607-ubipriv_video.mp4", "287215931"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200607-ubipriv/cs-200607-ubipriv_video.ogv", "137898279"]
 	]
 +++
 

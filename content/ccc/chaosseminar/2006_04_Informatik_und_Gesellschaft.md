@@ -9,13 +9,13 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Frank Kargl"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200604-informatik/cs-200604-informatik_audio.mp3", "53208864"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200604-informatik/cs-200604-informatik_audio.ogg", "31151688"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200604-informatik/cs-200604-informatik_slides.pdf", "534295"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200604-informatik/cs-200604-informatik_video.3gp", "36984168"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200604-informatik/cs-200604-informatik_video.m4v", "84771284"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200604-informatik/cs-200604-informatik_video.mp4", "168059204"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200604-informatik/cs-200604-informatik_video.ogv", "142028491"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200604-informatik/cs-200604-informatik_audio.mp3", "53208864"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200604-informatik/cs-200604-informatik_audio.ogg", "31151688"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200604-informatik/cs-200604-informatik_slides.pdf", "534295"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200604-informatik/cs-200604-informatik_video.3gp", "36984168"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200604-informatik/cs-200604-informatik_video.m4v", "84771284"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200604-informatik/cs-200604-informatik_video.mp4", "168059204"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200604-informatik/cs-200604-informatik_video.ogv", "142028491"]
 	]
 +++
 

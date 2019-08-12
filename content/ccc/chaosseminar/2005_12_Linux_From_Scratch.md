@@ -9,13 +9,13 @@ Termin = "2005-12-12 20:07:30"
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Nico Roeser"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200512-lfs/cs-200512-lfs_56k_audio.ogg", "49452274"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200512-lfs/cs-200512-lfs_96k_audio.mp3", "80746579"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200512-lfs/cs-200512-lfs_slides.pdf", "135794"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200512-lfs/cs-200512-lfs_video.3gp", "34294993"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200512-lfs/cs-200512-lfs_video.m4v", "339214433"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200512-lfs/cs-200512-lfs_video.mp4", "248636320"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200512-lfs/cs-200512-lfs_video.ogv", "130439419"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200512-lfs/cs-200512-lfs_56k_audio.ogg", "49452274"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200512-lfs/cs-200512-lfs_96k_audio.mp3", "80746579"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200512-lfs/cs-200512-lfs_slides.pdf", "135794"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200512-lfs/cs-200512-lfs_video.3gp", "34294993"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200512-lfs/cs-200512-lfs_video.m4v", "339214433"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200512-lfs/cs-200512-lfs_video.mp4", "248636320"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200512-lfs/cs-200512-lfs_video.ogv", "130439419"]
 	]
 +++
 

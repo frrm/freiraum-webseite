@@ -8,13 +8,13 @@ Thema = ""
 Termin = ""
 Vortragende = "Markus Schaber"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200510-java/cs-200510-java_56k_audio.ogg", "53003301"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200510-java/cs-200510-java_96k_audio.mp3", "87217344"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200510-java/cs-200510-java_slides.pdf", "185364"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200510-java/cs-200510-java_video.3gp", "37796118"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200510-java/cs-200510-java_video.m4v", "366418835"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200510-java/cs-200510-java_video.mp4", "268939702"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200510-java/cs-200510-java_video.ogv", "163888732"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200510-java/cs-200510-java_56k_audio.ogg", "53003301"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200510-java/cs-200510-java_96k_audio.mp3", "87217344"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200510-java/cs-200510-java_slides.pdf", "185364"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200510-java/cs-200510-java_video.3gp", "37796118"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200510-java/cs-200510-java_video.m4v", "366418835"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200510-java/cs-200510-java_video.mp4", "268939702"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200510-java/cs-200510-java_video.ogv", "163888732"]
 	]
 +++
 

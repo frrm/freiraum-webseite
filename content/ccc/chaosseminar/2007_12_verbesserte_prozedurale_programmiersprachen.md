@@ -9,11 +9,11 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Christian Heinlein"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200712-prozprog/cs-200712-prozprog_audio.mp3", "85408914"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200712-prozprog/cs-200712-prozprog_audio.ogg", "62629023"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200712-prozprog/cs-200712-prozprog_video.m4v", "173477861"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200712-prozprog/cs-200712-prozprog_video.mp4", "410023308"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200712-prozprog/cs-200712-prozprog_video.ogv", "403279024"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200712-prozprog/cs-200712-prozprog_audio.mp3", "85408914"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200712-prozprog/cs-200712-prozprog_audio.ogg", "62629023"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200712-prozprog/cs-200712-prozprog_video.m4v", "173477861"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200712-prozprog/cs-200712-prozprog_video.mp4", "410023308"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200712-prozprog/cs-200712-prozprog_video.ogv", "403279024"]
 	]
 +++
 

@@ -8,7 +8,7 @@ Thema = ""
 Termin = ""
 Vortragende = "Volker Birk"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/199902-alternativeos/cs-199902-alternativeos_slides.pdf", "351733"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/199902-alternativeos/cs-199902-alternativeos_slides.pdf", "351733"]
 	]
 +++
 

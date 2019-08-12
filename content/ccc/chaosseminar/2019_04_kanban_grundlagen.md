@@ -9,13 +9,13 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Marcus"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201904-kanban/cs-201904-kanban_audio.mp3", "63341237"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201904-kanban/cs-201904-kanban_audio.ogg", "45933914"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201904-kanban/cs-201904-kanban_audio.opus", "44785372"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201904-kanban/cs-201904-kanban_video.m4v", "74062201"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201904-kanban/cs-201904-kanban_video.mp4", "101719633"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201904-kanban/cs-201904-kanban_video.ogv", "314067711"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201904-kanban/cs-201904-kanban_video_high.mp4", "258513012"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201904-kanban/cs-201904-kanban_audio.mp3", "63341237"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201904-kanban/cs-201904-kanban_audio.ogg", "45933914"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201904-kanban/cs-201904-kanban_audio.opus", "44785372"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201904-kanban/cs-201904-kanban_video.m4v", "74062201"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201904-kanban/cs-201904-kanban_video.mp4", "101719633"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201904-kanban/cs-201904-kanban_video.ogv", "314067711"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201904-kanban/cs-201904-kanban_video_high.mp4", "258513012"]
 	]
 +++
 

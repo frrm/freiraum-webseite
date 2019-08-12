@@ -9,12 +9,12 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Alexander Bernauer"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201201-Bitcoins/cs-201201-Bitcoins_audio.mp3", "72871706"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201201-Bitcoins/cs-201201-Bitcoins_audio.ogg", "53655657"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201201-Bitcoins/cs-201201-Bitcoins_video.m4v", "91457697"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201201-Bitcoins/cs-201201-Bitcoins_video.mp4", "160667105"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201201-Bitcoins/cs-201201-Bitcoins_video.ogv", "529687024"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201201-Bitcoins/cs-201201-Bitcoins_video_high.mp4", "604681749"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201201-Bitcoins/cs-201201-Bitcoins_audio.mp3", "72871706"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201201-Bitcoins/cs-201201-Bitcoins_audio.ogg", "53655657"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201201-Bitcoins/cs-201201-Bitcoins_video.m4v", "91457697"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201201-Bitcoins/cs-201201-Bitcoins_video.mp4", "160667105"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201201-Bitcoins/cs-201201-Bitcoins_video.ogv", "529687024"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201201-Bitcoins/cs-201201-Bitcoins_video_high.mp4", "604681749"]
 	]
 +++
 

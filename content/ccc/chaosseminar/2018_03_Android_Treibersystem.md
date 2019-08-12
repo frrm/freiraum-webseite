@@ -9,13 +9,13 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Max"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201803-android-treiber/cs-201803-android-treiber_audio.mp3", "39395572"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201803-android-treiber/cs-201803-android-treiber_audio.ogg", "27294465"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201803-android-treiber/cs-201803-android-treiber_audio.opus", "27997786"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201803-android-treiber/cs-201803-android-treiber_video.m4v", "43887168"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201803-android-treiber/cs-201803-android-treiber_video.mp4", "53581617"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201803-android-treiber/cs-201803-android-treiber_video.ogv", "164203215"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201803-android-treiber/cs-201803-android-treiber_video_high.mp4", "127808773"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201803-android-treiber/cs-201803-android-treiber_audio.mp3", "39395572"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201803-android-treiber/cs-201803-android-treiber_audio.ogg", "27294465"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201803-android-treiber/cs-201803-android-treiber_audio.opus", "27997786"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201803-android-treiber/cs-201803-android-treiber_video.m4v", "43887168"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201803-android-treiber/cs-201803-android-treiber_video.mp4", "53581617"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201803-android-treiber/cs-201803-android-treiber_video.ogv", "164203215"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201803-android-treiber/cs-201803-android-treiber_video_high.mp4", "127808773"]
 	]
 +++
 

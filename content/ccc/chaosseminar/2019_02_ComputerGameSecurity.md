@@ -9,13 +9,13 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Dennis"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201902-computer-game-security/cs-201902-computer-game-security_audio.mp3", "24572127"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201902-computer-game-security/cs-201902-computer-game-security_audio.ogg", "17093260"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201902-computer-game-security/cs-201902-computer-game-security_audio.opus", "18326398"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201902-computer-game-security/cs-201902-computer-game-security_video.m4v", "30615574"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201902-computer-game-security/cs-201902-computer-game-security_video.mp4", "40688577"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201902-computer-game-security/cs-201902-computer-game-security_video.ogv", "120025243"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201902-computer-game-security/cs-201902-computer-game-security_video_high.mp4", "107276670"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201902-computer-game-security/cs-201902-computer-game-security_audio.mp3", "24572127"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201902-computer-game-security/cs-201902-computer-game-security_audio.ogg", "17093260"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201902-computer-game-security/cs-201902-computer-game-security_audio.opus", "18326398"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201902-computer-game-security/cs-201902-computer-game-security_video.m4v", "30615574"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201902-computer-game-security/cs-201902-computer-game-security_video.mp4", "40688577"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201902-computer-game-security/cs-201902-computer-game-security_video.ogv", "120025243"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201902-computer-game-security/cs-201902-computer-game-security_video_high.mp4", "107276670"]
 	]
 +++
 

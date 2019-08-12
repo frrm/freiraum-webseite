@@ -9,11 +9,11 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Tobias Rehfeld"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200810-meinungsfreiheit/cs-200810-meinungsfreiheit_audio.mp3", "135009792"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200810-meinungsfreiheit/cs-200810-meinungsfreiheit_video.m4v", "137406220"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200810-meinungsfreiheit/cs-200810-meinungsfreiheit_video.mp4", "289012095"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200810-meinungsfreiheit/cs-200810-meinungsfreiheit_video.ogv", "665415941"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200810-meinungsfreiheit/cs-200810-meinungsfreiheit_video_high.mp4", "574625301"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200810-meinungsfreiheit/cs-200810-meinungsfreiheit_audio.mp3", "135009792"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200810-meinungsfreiheit/cs-200810-meinungsfreiheit_video.m4v", "137406220"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200810-meinungsfreiheit/cs-200810-meinungsfreiheit_video.mp4", "289012095"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200810-meinungsfreiheit/cs-200810-meinungsfreiheit_video.ogv", "665415941"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200810-meinungsfreiheit/cs-200810-meinungsfreiheit_video_high.mp4", "574625301"]
 	]
 +++
 

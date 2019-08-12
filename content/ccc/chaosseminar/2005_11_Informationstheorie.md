@@ -8,13 +8,13 @@ Thema = ""
 Termin = ""
 Vortragende = "Alexander Bernauer und Stephanie Wist"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200511-infotheorie/cs-200511-infotheorie_56k_audio.ogg", "49155079"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200511-infotheorie/cs-200511-infotheorie_96k_audio.mp3", "82793088"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200511-infotheorie/cs-200511-infotheorie_slides.pdf", "726651"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200511-infotheorie/cs-200511-infotheorie_video.3gp", "56978117"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200511-infotheorie/cs-200511-infotheorie_video.m4v", "347807843"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200511-infotheorie/cs-200511-infotheorie_video.mp4", "232262971"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200511-infotheorie/cs-200511-infotheorie_video.ogv", "125260301"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200511-infotheorie/cs-200511-infotheorie_56k_audio.ogg", "49155079"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200511-infotheorie/cs-200511-infotheorie_96k_audio.mp3", "82793088"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200511-infotheorie/cs-200511-infotheorie_slides.pdf", "726651"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200511-infotheorie/cs-200511-infotheorie_video.3gp", "56978117"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200511-infotheorie/cs-200511-infotheorie_video.m4v", "347807843"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200511-infotheorie/cs-200511-infotheorie_video.mp4", "232262971"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200511-infotheorie/cs-200511-infotheorie_video.ogv", "125260301"]
 	]
 +++
 

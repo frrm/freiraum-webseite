@@ -9,13 +9,13 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Marcus Poller"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201412-unicode/cs-201412-unicode_audio.mp3", "85098886"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201412-unicode/cs-201412-unicode_audio.ogg", "63322291"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201412-unicode/cs-201412-unicode_audio.opus", "59840594"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201412-unicode/cs-201412-unicode_video.m4v", "104799850"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201412-unicode/cs-201412-unicode_video.mp4", "158846804"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201412-unicode/cs-201412-unicode_video.ogv", "619178687"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201412-unicode/cs-201412-unicode_video_high.mp4", "794194123"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201412-unicode/cs-201412-unicode_audio.mp3", "85098886"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201412-unicode/cs-201412-unicode_audio.ogg", "63322291"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201412-unicode/cs-201412-unicode_audio.opus", "59840594"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201412-unicode/cs-201412-unicode_video.m4v", "104799850"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201412-unicode/cs-201412-unicode_video.mp4", "158846804"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201412-unicode/cs-201412-unicode_video.ogv", "619178687"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201412-unicode/cs-201412-unicode_video_high.mp4", "794194123"]
 	]
 +++
 

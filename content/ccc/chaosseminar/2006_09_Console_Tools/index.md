@@ -9,11 +9,11 @@ Termin = ""
 Ort = "Unit Ulm, Hörsaal H20"
 Vortragende = "Ulrich Dangel, Alexander Bernauer, Markus Schaber, Stefan Schlott"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200609-contools/cs-200609-contools_audio.mp3", "30261029"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200609-contools/cs-200609-contools_audio.ogg", "22293848"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200609-contools/cs-200609-contools_slides.pdf", "21432"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200609-contools/cs-200609-contools_video.mp4", "484096731"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200609-contools/cs-200609-contools_video.ogv", "278181049"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200609-contools/cs-200609-contools_audio.mp3", "30261029"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200609-contools/cs-200609-contools_audio.ogg", "22293848"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200609-contools/cs-200609-contools_slides.pdf", "21432"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200609-contools/cs-200609-contools_video.mp4", "484096731"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200609-contools/cs-200609-contools_video.ogv", "278181049"]
 	]
 +++
 

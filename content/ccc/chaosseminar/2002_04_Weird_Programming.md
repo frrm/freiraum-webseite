@@ -8,7 +8,7 @@ Thema = ""
 Termin = ""
 Vortragende = "Markus Schaber"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200204-weirdprog/cs-200204-weirdprog_slides.pdf", "349560"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200204-weirdprog/cs-200204-weirdprog_slides.pdf", "349560"]
 	]
 +++
 

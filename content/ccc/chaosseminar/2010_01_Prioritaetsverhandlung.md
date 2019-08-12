@@ -9,7 +9,7 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Sylvia Kröger, Dr. Christoph Ziegler"
 Archiv = [
-	["Handout", "http://archiv.ulm.ccc.de/chaosseminar/201001-prioritaetsverhandlung/VortragPrioritaetsverhandlung.pdf", "206004"]
+	["Handout", "https://archiv.ulm.ccc.de/chaosseminar/201001-prioritaetsverhandlung/VortragPrioritaetsverhandlung.pdf", "206004"]
 	]
 +++
 

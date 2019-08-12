@@ -9,13 +9,13 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Marco Haschka"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201110-Therapsiden/cs-201110-Therapsiden_audio.mp3", "45143771"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201110-Therapsiden/cs-201110-Therapsiden_audio.ogg", "34841950"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201110-Therapsiden/cs-201110-Therapsiden_audio.opus", "31580148"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201110-Therapsiden/cs-201110-Therapsiden_video.m4v", "48794574"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201110-Therapsiden/cs-201110-Therapsiden_video.mp4", "75342960"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201110-Therapsiden/cs-201110-Therapsiden_video.ogv", "195491175"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201110-Therapsiden/cs-201110-Therapsiden_video_high.mp4", "266610385"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201110-Therapsiden/cs-201110-Therapsiden_audio.mp3", "45143771"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201110-Therapsiden/cs-201110-Therapsiden_audio.ogg", "34841950"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201110-Therapsiden/cs-201110-Therapsiden_audio.opus", "31580148"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201110-Therapsiden/cs-201110-Therapsiden_video.m4v", "48794574"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201110-Therapsiden/cs-201110-Therapsiden_video.mp4", "75342960"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201110-Therapsiden/cs-201110-Therapsiden_video.ogv", "195491175"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201110-Therapsiden/cs-201110-Therapsiden_video_high.mp4", "266610385"]
 	]
 +++
 

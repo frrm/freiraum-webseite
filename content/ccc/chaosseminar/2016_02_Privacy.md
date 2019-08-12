@@ -9,13 +9,13 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Matthias Matousek (matou)"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201602-privacy/cs-201602-privacy_audio.mp3", "50482461"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201602-privacy/cs-201602-privacy_audio.ogg", "35908324"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201602-privacy/cs-201602-privacy_audio.opus", "34603765"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201602-privacy/cs-201602-privacy_video.m4v", "60302066"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201602-privacy/cs-201602-privacy_video.mp4", "89710293"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201602-privacy/cs-201602-privacy_video.ogv", "299126875"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201602-privacy/cs-201602-privacy_video_high.mp4", "520380901"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201602-privacy/cs-201602-privacy_audio.mp3", "50482461"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201602-privacy/cs-201602-privacy_audio.ogg", "35908324"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201602-privacy/cs-201602-privacy_audio.opus", "34603765"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201602-privacy/cs-201602-privacy_video.m4v", "60302066"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201602-privacy/cs-201602-privacy_video.mp4", "89710293"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201602-privacy/cs-201602-privacy_video.ogv", "299126875"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201602-privacy/cs-201602-privacy_video_high.mp4", "520380901"]
 	]
 +++
 

@@ -8,7 +8,7 @@ Thema = ""
 Termin = ""
 Vortragende = "Jürgen Dollinger"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/199904-netiquette/cs-199904-netiquette_slides.pdf", "37066"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/199904-netiquette/cs-199904-netiquette_slides.pdf", "37066"]
 	]
 +++
 

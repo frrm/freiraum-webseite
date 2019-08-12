@@ -9,14 +9,14 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Markus Schnalke"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200903-masqmail/cs-200903-masqmail_audio.mp3", "55655184"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200903-masqmail/cs-200903-masqmail_audio.ogg", "40472733"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200903-masqmail/cs-200903-masqmail_handout.pdf", "96616"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200903-masqmail/cs-200903-masqmail_slides.pdf", "479960"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200903-masqmail/cs-200903-masqmail_video.m4v", "117363644"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200903-masqmail/cs-200903-masqmail_video.mp4", "244993363"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200903-masqmail/cs-200903-masqmail_video.ogv", "226272877"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200903-masqmail/cs-200903-masqmail_video_high.mp4", "2149722035"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200903-masqmail/cs-200903-masqmail_audio.mp3", "55655184"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200903-masqmail/cs-200903-masqmail_audio.ogg", "40472733"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200903-masqmail/cs-200903-masqmail_handout.pdf", "96616"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200903-masqmail/cs-200903-masqmail_slides.pdf", "479960"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200903-masqmail/cs-200903-masqmail_video.m4v", "117363644"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200903-masqmail/cs-200903-masqmail_video.mp4", "244993363"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200903-masqmail/cs-200903-masqmail_video.ogv", "226272877"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200903-masqmail/cs-200903-masqmail_video_high.mp4", "2149722035"]
 	]
 +++
 

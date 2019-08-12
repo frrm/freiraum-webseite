@@ -9,13 +9,13 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "meillo (markus schnalke)"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200911-troff/cs-200911-troff_audio.mp3", "59177012"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200911-troff/cs-200911-troff_audio.ogg", "47511310"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200911-troff/cs-200911-troff_slides.pdf", "10973"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200911-troff/cs-200911-troff_video.m4v", "144462594"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200911-troff/cs-200911-troff_video.mp4", "396345031"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200911-troff/cs-200911-troff_video.ogv", "365886303"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200911-troff/cs-200911-troff_video_high.mp4", "716260516"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200911-troff/cs-200911-troff_audio.mp3", "59177012"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200911-troff/cs-200911-troff_audio.ogg", "47511310"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200911-troff/cs-200911-troff_slides.pdf", "10973"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200911-troff/cs-200911-troff_video.m4v", "144462594"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200911-troff/cs-200911-troff_video.mp4", "396345031"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200911-troff/cs-200911-troff_video.ogv", "365886303"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200911-troff/cs-200911-troff_video_high.mp4", "716260516"]
 	]
 +++
 

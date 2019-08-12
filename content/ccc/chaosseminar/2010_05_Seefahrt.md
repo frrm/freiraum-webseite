@@ -9,12 +9,12 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Marcus"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201005-seefahrt/cs-201005-seefahrt_audio.mp3", "54405225"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201005-seefahrt/cs-201005-seefahrt_audio.ogg", "40249098"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201005-seefahrt/cs-201005-seefahrt_video.m4v", "105476229"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201005-seefahrt/cs-201005-seefahrt_video.mp4", "242094797"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201005-seefahrt/cs-201005-seefahrt_video.ogv", "395414846"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201005-seefahrt/cs-201005-seefahrt_video_high.mp4", "1500654781"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201005-seefahrt/cs-201005-seefahrt_audio.mp3", "54405225"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201005-seefahrt/cs-201005-seefahrt_audio.ogg", "40249098"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201005-seefahrt/cs-201005-seefahrt_video.m4v", "105476229"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201005-seefahrt/cs-201005-seefahrt_video.mp4", "242094797"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201005-seefahrt/cs-201005-seefahrt_video.ogv", "395414846"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201005-seefahrt/cs-201005-seefahrt_video_high.mp4", "1500654781"]
 	]
 +++
 

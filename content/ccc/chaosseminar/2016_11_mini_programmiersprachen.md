@@ -9,13 +9,13 @@ Termin = "2016-11-14 20:15"
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Marco"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201611-diy-programmiersprache/cs-201611-diy-programmiersprache_audio.mp3", "39886674"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201611-diy-programmiersprache/cs-201611-diy-programmiersprache_audio.ogg", "17268619"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201611-diy-programmiersprache/cs-201611-diy-programmiersprache_audio.opus", "32472771"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201611-diy-programmiersprache/cs-201611-diy-programmiersprache_video.m4v", "45444222"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201611-diy-programmiersprache/cs-201611-diy-programmiersprache_video.mp4", "64678068"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201611-diy-programmiersprache/cs-201611-diy-programmiersprache_video.ogv", "247073785"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201611-diy-programmiersprache/cs-201611-diy-programmiersprache_video_high.mp4", "217188004"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201611-diy-programmiersprache/cs-201611-diy-programmiersprache_audio.mp3", "39886674"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201611-diy-programmiersprache/cs-201611-diy-programmiersprache_audio.ogg", "17268619"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201611-diy-programmiersprache/cs-201611-diy-programmiersprache_audio.opus", "32472771"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201611-diy-programmiersprache/cs-201611-diy-programmiersprache_video.m4v", "45444222"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201611-diy-programmiersprache/cs-201611-diy-programmiersprache_video.mp4", "64678068"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201611-diy-programmiersprache/cs-201611-diy-programmiersprache_video.ogv", "247073785"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201611-diy-programmiersprache/cs-201611-diy-programmiersprache_video_high.mp4", "217188004"]
 	]
 +++
 

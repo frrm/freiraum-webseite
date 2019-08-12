@@ -9,12 +9,12 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Giselbert Hinkelmann"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200602-weirdprog3/cs-200602-weirdprog3_56k_audio.ogg", "31308526"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200602-weirdprog3/cs-200602-weirdprog3_96k_audio.mp3", "52932960"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200602-weirdprog3/cs-200602-weirdprog3_video.3gp", "36397364"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200602-weirdprog3/cs-200602-weirdprog3_video.m4v", "84346125"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200602-weirdprog3/cs-200602-weirdprog3_video.mp4", "167320663"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200602-weirdprog3/cs-200602-weirdprog3_video.ogv", "179058064"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200602-weirdprog3/cs-200602-weirdprog3_56k_audio.ogg", "31308526"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200602-weirdprog3/cs-200602-weirdprog3_96k_audio.mp3", "52932960"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200602-weirdprog3/cs-200602-weirdprog3_video.3gp", "36397364"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200602-weirdprog3/cs-200602-weirdprog3_video.m4v", "84346125"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200602-weirdprog3/cs-200602-weirdprog3_video.mp4", "167320663"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200602-weirdprog3/cs-200602-weirdprog3_video.ogv", "179058064"]
 	]
 +++
 

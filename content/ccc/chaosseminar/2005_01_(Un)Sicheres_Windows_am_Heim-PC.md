@@ -8,11 +8,11 @@ Thema = ""
 Termin = ""
 Vortragende = "Volker Birk"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200501-winsec/cs-200501-winsec_56k_audio.ogg", "52216991"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200501-winsec/cs-200501-winsec_96k_audio.mp3", "86114967"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200501-winsec/cs-200501-winsec_slides.pdf", "267961"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200501-winsec/cs-200501-winsec_video.mp4", "223032171"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200501-winsec/cs-200501-winsec_video.ogv", "157238491"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200501-winsec/cs-200501-winsec_56k_audio.ogg", "52216991"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200501-winsec/cs-200501-winsec_96k_audio.mp3", "86114967"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200501-winsec/cs-200501-winsec_slides.pdf", "267961"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200501-winsec/cs-200501-winsec_video.mp4", "223032171"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200501-winsec/cs-200501-winsec_video.ogv", "157238491"]
 	]
 +++
 

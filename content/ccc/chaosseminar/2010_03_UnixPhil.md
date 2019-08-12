@@ -9,12 +9,12 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Markus Schnalke"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201003-unixphil/cs-201003-unixphil_audio.mp3", "61670400"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201003-unixphil/cs-201003-unixphil_audio.ogg", "46081074"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201003-unixphil/cs-201003-unixphil_video.m4v", "70583826"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201003-unixphil/cs-201003-unixphil_video.mp4", "141020200"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201003-unixphil/cs-201003-unixphil_video.ogv", "123864222"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201003-unixphil/cs-201003-unixphil_video_high.mp4", "804615542"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201003-unixphil/cs-201003-unixphil_audio.mp3", "61670400"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201003-unixphil/cs-201003-unixphil_audio.ogg", "46081074"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201003-unixphil/cs-201003-unixphil_video.m4v", "70583826"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201003-unixphil/cs-201003-unixphil_video.mp4", "141020200"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201003-unixphil/cs-201003-unixphil_video.ogv", "123864222"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201003-unixphil/cs-201003-unixphil_video_high.mp4", "804615542"]
 	]
 +++
 

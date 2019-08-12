@@ -9,13 +9,13 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Marcus"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201704-ssh-tunnel/cs-201704-ssh-tunnel_audio.mp3", "65888437"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201704-ssh-tunnel/cs-201704-ssh-tunnel_audio.ogg", "14442107"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201704-ssh-tunnel/cs-201704-ssh-tunnel_audio.opus", "48957490"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201704-ssh-tunnel/cs-201704-ssh-tunnel_video.m4v", "76258792"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201704-ssh-tunnel/cs-201704-ssh-tunnel_video.mp4", "117175991"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201704-ssh-tunnel/cs-201704-ssh-tunnel_video.ogv", "469156640"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201704-ssh-tunnel/cs-201704-ssh-tunnel_video_high.mp4", "559657812"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201704-ssh-tunnel/cs-201704-ssh-tunnel_audio.mp3", "65888437"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201704-ssh-tunnel/cs-201704-ssh-tunnel_audio.ogg", "14442107"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201704-ssh-tunnel/cs-201704-ssh-tunnel_audio.opus", "48957490"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201704-ssh-tunnel/cs-201704-ssh-tunnel_video.m4v", "76258792"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201704-ssh-tunnel/cs-201704-ssh-tunnel_video.mp4", "117175991"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201704-ssh-tunnel/cs-201704-ssh-tunnel_video.ogv", "469156640"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201704-ssh-tunnel/cs-201704-ssh-tunnel_video_high.mp4", "559657812"]
 	]
 +++
 

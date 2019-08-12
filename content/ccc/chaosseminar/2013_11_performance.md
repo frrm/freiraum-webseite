@@ -9,14 +9,14 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "meillo (markus schnalke)"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201311-onperformance/cs-201311-onperformance_audio.mp3", "58137339"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201311-onperformance/cs-201311-onperformance_audio.ogg", "44400640"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201311-onperformance/cs-201311-onperformance_audio.opus", "40305438"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201311-onperformance/cs-201311-onperformance_slides.pdf", "152034"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201311-onperformance/cs-201311-onperformance_video.m4v", "62183977"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201311-onperformance/cs-201311-onperformance_video.mp4", "94556452"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201311-onperformance/cs-201311-onperformance_video.ogv", "231100647"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201311-onperformance/cs-201311-onperformance_video_high.mp4", "331778924"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201311-onperformance/cs-201311-onperformance_audio.mp3", "58137339"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201311-onperformance/cs-201311-onperformance_audio.ogg", "44400640"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201311-onperformance/cs-201311-onperformance_audio.opus", "40305438"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201311-onperformance/cs-201311-onperformance_slides.pdf", "152034"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201311-onperformance/cs-201311-onperformance_video.m4v", "62183977"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201311-onperformance/cs-201311-onperformance_video.mp4", "94556452"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201311-onperformance/cs-201311-onperformance_video.ogv", "231100647"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201311-onperformance/cs-201311-onperformance_video_high.mp4", "331778924"]
 	]
 +++
 

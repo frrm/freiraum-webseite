@@ -9,13 +9,13 @@ Termin = "2011-06-20 20:07,5"
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Berend Eggers"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201106-lockpicking/cs-201106-lockpicking_audio.mp3", "76871576"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201106-lockpicking/cs-201106-lockpicking_audio.ogg", "58442045"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201106-lockpicking/cs-201106-lockpicking_audio.opus", "53316273"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201106-lockpicking/cs-201106-lockpicking_video.m4v", "96488416"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201106-lockpicking/cs-201106-lockpicking_video.mp4", "165138097"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201106-lockpicking/cs-201106-lockpicking_video.ogv", "144402196"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201106-lockpicking/cs-201106-lockpicking_video_high.mp4", "1002533434"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201106-lockpicking/cs-201106-lockpicking_audio.mp3", "76871576"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201106-lockpicking/cs-201106-lockpicking_audio.ogg", "58442045"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201106-lockpicking/cs-201106-lockpicking_audio.opus", "53316273"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201106-lockpicking/cs-201106-lockpicking_video.m4v", "96488416"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201106-lockpicking/cs-201106-lockpicking_video.mp4", "165138097"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201106-lockpicking/cs-201106-lockpicking_video.ogv", "144402196"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201106-lockpicking/cs-201106-lockpicking_video_high.mp4", "1002533434"]
 	]
 +++
 

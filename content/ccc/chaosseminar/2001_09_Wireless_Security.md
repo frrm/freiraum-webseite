@@ -8,7 +8,7 @@ Thema = ""
 Termin = ""
 Vortragende = "Frank Kargl"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200109-wlansec/cs-200109-wlansec_slides.pdf", "837405"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200109-wlansec/cs-200109-wlansec_slides.pdf", "837405"]
 	]
 +++
 

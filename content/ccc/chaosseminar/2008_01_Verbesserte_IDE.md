@@ -9,11 +9,11 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Benjamin Andresen"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200801-ide/cs-200801-ide_audio.mp3", "48726204"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200801-ide/cs-200801-ide_audio.ogg", "36792176"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200801-ide/cs-200801-ide_video.m4v", "97444210"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200801-ide/cs-200801-ide_video.mp4", "213299933"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200801-ide/cs-200801-ide_video.ogv", "220459743"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200801-ide/cs-200801-ide_audio.mp3", "48726204"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200801-ide/cs-200801-ide_audio.ogg", "36792176"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200801-ide/cs-200801-ide_video.m4v", "97444210"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200801-ide/cs-200801-ide_video.mp4", "213299933"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200801-ide/cs-200801-ide_video.ogv", "220459743"]
 	]
 +++
 

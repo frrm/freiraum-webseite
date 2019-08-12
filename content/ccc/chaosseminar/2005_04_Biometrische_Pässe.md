@@ -9,13 +9,13 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Frank Kargl und Stefan Schlott"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200504-epass/cs-200504-epass_56k_audio.ogg", "35877562"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200504-epass/cs-200504-epass_96k_audio.mp3", "60409440"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200504-epass/cs-200504-epass_slides.pdf", "1004318"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200504-epass/cs-200504-epass_video.3gp", "43282942"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200504-epass/cs-200504-epass_video.m4v", "253770968"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200504-epass/cs-200504-epass_video.mp4", "184552276"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200504-epass/cs-200504-epass_video.ogv", "181218760"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200504-epass/cs-200504-epass_56k_audio.ogg", "35877562"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200504-epass/cs-200504-epass_96k_audio.mp3", "60409440"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200504-epass/cs-200504-epass_slides.pdf", "1004318"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200504-epass/cs-200504-epass_video.3gp", "43282942"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200504-epass/cs-200504-epass_video.m4v", "253770968"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200504-epass/cs-200504-epass_video.mp4", "184552276"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200504-epass/cs-200504-epass_video.ogv", "181218760"]
 	]
 +++
 

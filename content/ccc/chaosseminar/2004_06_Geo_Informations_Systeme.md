@@ -8,7 +8,7 @@ Thema = ""
 Termin = ""
 Vortragende = "Markus Schaber"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200406-gis/cs-200406-gis_slides.pdf", "237437"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200406-gis/cs-200406-gis_slides.pdf", "237437"]
 	]
 +++
 

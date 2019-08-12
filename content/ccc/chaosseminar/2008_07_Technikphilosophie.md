@@ -9,12 +9,12 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Michael Feiri"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200807-technikphilosophie/cs-200807-technikphilosophie_audio.mp3", "74853355"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200807-technikphilosophie/cs-200807-technikphilosophie_audio.ogg", "54636443"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200807-technikphilosophie/cs-200807-technikphilosophie_video.m4v", "98120373"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200807-technikphilosophie/cs-200807-technikphilosophie_video.mp4", "230366607"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200807-technikphilosophie/cs-200807-technikphilosophie_video.ogv", "375913461"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200807-technikphilosophie/cs-200807-technikphilosophie_video_high.mp4", "971388518"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200807-technikphilosophie/cs-200807-technikphilosophie_audio.mp3", "74853355"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200807-technikphilosophie/cs-200807-technikphilosophie_audio.ogg", "54636443"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200807-technikphilosophie/cs-200807-technikphilosophie_video.m4v", "98120373"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200807-technikphilosophie/cs-200807-technikphilosophie_video.mp4", "230366607"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200807-technikphilosophie/cs-200807-technikphilosophie_video.ogv", "375913461"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200807-technikphilosophie/cs-200807-technikphilosophie_video_high.mp4", "971388518"]
 	]
 +++
 

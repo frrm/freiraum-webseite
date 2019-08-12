@@ -9,10 +9,10 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Frank Kargl"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200705-vanets/cs-200705-vanets_audio.mp3", "72796212"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200705-vanets/cs-200705-vanets_audio.ogg", "53495342"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200705-vanets/cs-200705-vanets_video.mp4", "515422370"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200705-vanets/cs-200705-vanets_video.ogv", "235317617"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200705-vanets/cs-200705-vanets_audio.mp3", "72796212"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200705-vanets/cs-200705-vanets_audio.ogg", "53495342"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200705-vanets/cs-200705-vanets_video.mp4", "515422370"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200705-vanets/cs-200705-vanets_video.ogv", "235317617"]
 	]
 +++
 

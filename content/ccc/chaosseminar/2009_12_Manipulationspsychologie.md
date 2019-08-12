@@ -9,13 +9,13 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Georg Gottleuber"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200912-manipulationspsychologie/cs-200912-manipmeth_audio.mp3", "49352098"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200912-manipulationspsychologie/cs-200912-manipmeth_audio.ogg", "33888586"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200912-manipulationspsychologie/cs-200912-manipmeth_video.m4v", "60161045"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200912-manipulationspsychologie/cs-200912-manipmeth_video.mp4", "108673351"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200912-manipulationspsychologie/cs-200912-manipmeth_video.ogv", "89567705"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200912-manipulationspsychologie/cs-200912-manipmeth_video_high.mp4", "191874829"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200912-manipulationspsychologie/cs-200912-manipulationspsychologie_slides.pdf", "933275"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200912-manipulationspsychologie/cs-200912-manipmeth_audio.mp3", "49352098"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200912-manipulationspsychologie/cs-200912-manipmeth_audio.ogg", "33888586"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200912-manipulationspsychologie/cs-200912-manipmeth_video.m4v", "60161045"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200912-manipulationspsychologie/cs-200912-manipmeth_video.mp4", "108673351"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200912-manipulationspsychologie/cs-200912-manipmeth_video.ogv", "89567705"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200912-manipulationspsychologie/cs-200912-manipmeth_video_high.mp4", "191874829"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200912-manipulationspsychologie/cs-200912-manipulationspsychologie_slides.pdf", "933275"]
 	]
 +++
 

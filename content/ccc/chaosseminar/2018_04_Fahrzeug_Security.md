@@ -9,13 +9,13 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Heiko"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201804-car-hacking/cs-201804-car-hacking_audio.mp3", "27593188"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201804-car-hacking/cs-201804-car-hacking_audio.ogg", "19265822"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201804-car-hacking/cs-201804-car-hacking_audio.opus", "19704033"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201804-car-hacking/cs-201804-car-hacking_video.m4v", "33447619"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201804-car-hacking/cs-201804-car-hacking_video.mp4", "45939457"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201804-car-hacking/cs-201804-car-hacking_video.ogv", "139253306"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201804-car-hacking/cs-201804-car-hacking_video_high.mp4", "135829247"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201804-car-hacking/cs-201804-car-hacking_audio.mp3", "27593188"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201804-car-hacking/cs-201804-car-hacking_audio.ogg", "19265822"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201804-car-hacking/cs-201804-car-hacking_audio.opus", "19704033"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201804-car-hacking/cs-201804-car-hacking_video.m4v", "33447619"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201804-car-hacking/cs-201804-car-hacking_video.mp4", "45939457"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201804-car-hacking/cs-201804-car-hacking_video.ogv", "139253306"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201804-car-hacking/cs-201804-car-hacking_video_high.mp4", "135829247"]
 	]
 +++
 

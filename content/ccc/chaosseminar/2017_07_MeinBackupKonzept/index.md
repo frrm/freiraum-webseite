@@ -9,13 +9,13 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Marcus"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201707-backup/cs-201707-backup_audio.mp3", "55182151"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201707-backup/cs-201707-backup_audio.ogg", "16103966"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201707-backup/cs-201707-backup_audio.opus", "41521552"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201707-backup/cs-201707-backup_video.m4v", "63642605"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201707-backup/cs-201707-backup_video.mp4", "88229311"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201707-backup/cs-201707-backup_video.ogv", "319133400"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201707-backup/cs-201707-backup_video_high.mp4", "369868881"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201707-backup/cs-201707-backup_audio.mp3", "55182151"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201707-backup/cs-201707-backup_audio.ogg", "16103966"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201707-backup/cs-201707-backup_audio.opus", "41521552"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201707-backup/cs-201707-backup_video.m4v", "63642605"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201707-backup/cs-201707-backup_video.mp4", "88229311"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201707-backup/cs-201707-backup_video.ogv", "319133400"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201707-backup/cs-201707-backup_video_high.mp4", "369868881"]
 	]
 +++
 

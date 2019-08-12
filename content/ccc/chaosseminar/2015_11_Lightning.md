@@ -9,13 +9,13 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Henning, Marco, Björn, Marcus"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201511-lightning/cs-201511-lightning_audio.mp3", "73943294"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201511-lightning/cs-201511-lightning_audio.ogg", "52425973"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201511-lightning/cs-201511-lightning_audio.opus", "50599765"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201511-lightning/cs-201511-lightning_video.m4v", "99660174"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201511-lightning/cs-201511-lightning_video.mp4", "165293117"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201511-lightning/cs-201511-lightning_video.ogv", "542128613"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201511-lightning/cs-201511-lightning_video_high.mp4", "1122193849"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201511-lightning/cs-201511-lightning_audio.mp3", "73943294"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201511-lightning/cs-201511-lightning_audio.ogg", "52425973"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201511-lightning/cs-201511-lightning_audio.opus", "50599765"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201511-lightning/cs-201511-lightning_video.m4v", "99660174"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201511-lightning/cs-201511-lightning_video.mp4", "165293117"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201511-lightning/cs-201511-lightning_video.ogv", "542128613"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201511-lightning/cs-201511-lightning_video_high.mp4", "1122193849"]
 	]
 +++
 

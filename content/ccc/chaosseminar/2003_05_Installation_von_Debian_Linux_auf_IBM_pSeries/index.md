@@ -8,11 +8,11 @@ Thema = ""
 Termin = ""
 Vortragende = "Markus Schaber, Uli Dangel, Volker Birk"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200305-pseries/cs-200305-pseries_56k_audio.ogg", "26158376"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200305-pseries/cs-200305-pseries_96k_audio.mp3", "43179377"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200305-pseries/cs-200305-pseries_slides.pdf", "260925"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200305-pseries/cs-200305-pseries_video.mp4", "123177107"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200305-pseries/cs-200305-pseries_video.ogv", "90079680"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200305-pseries/cs-200305-pseries_56k_audio.ogg", "26158376"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200305-pseries/cs-200305-pseries_96k_audio.mp3", "43179377"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200305-pseries/cs-200305-pseries_slides.pdf", "260925"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200305-pseries/cs-200305-pseries_video.mp4", "123177107"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200305-pseries/cs-200305-pseries_video.ogv", "90079680"]
 	]
 +++
 

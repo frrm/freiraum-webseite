@@ -9,10 +9,10 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Frank Kargl"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200502-semweb/cs-200502-semweb_56k_audio.ogg", "28543851"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200502-semweb/cs-200502-semweb_96k_audio.mp3", "58321728"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200502-semweb/cs-200502-semweb_video.mp4", "184139465"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200502-semweb/cs-200502-semweb_video.ogv", "161888834"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200502-semweb/cs-200502-semweb_56k_audio.ogg", "28543851"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200502-semweb/cs-200502-semweb_96k_audio.mp3", "58321728"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200502-semweb/cs-200502-semweb_video.mp4", "184139465"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200502-semweb/cs-200502-semweb_video.ogv", "161888834"]
 	]
 +++
 

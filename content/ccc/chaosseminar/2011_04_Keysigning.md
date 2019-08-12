@@ -9,13 +9,13 @@ Termin = "2011-04-11; Erklärungen ab 20:07½, Keysigning selbst etwas später"
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Organisation: Matou, Hannes, Nico, weitere"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201104-keysigning/cs-201104-keysigning_audio.mp3", "45902367"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201104-keysigning/cs-201104-keysigning_audio.ogg", "34286029"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201104-keysigning/cs-201104-keysigning_audio.opus", "32359375"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201104-keysigning/cs-201104-keysigning_video.m4v", "62302571"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201104-keysigning/cs-201104-keysigning_video.mp4", "120076011"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201104-keysigning/cs-201104-keysigning_video.ogv", "103981752"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201104-keysigning/cs-201104-keysigning_video_high.mp4", "534681993"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201104-keysigning/cs-201104-keysigning_audio.mp3", "45902367"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201104-keysigning/cs-201104-keysigning_audio.ogg", "34286029"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201104-keysigning/cs-201104-keysigning_audio.opus", "32359375"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201104-keysigning/cs-201104-keysigning_video.m4v", "62302571"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201104-keysigning/cs-201104-keysigning_video.mp4", "120076011"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201104-keysigning/cs-201104-keysigning_video.ogv", "103981752"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201104-keysigning/cs-201104-keysigning_video_high.mp4", "534681993"]
 	]
 +++
 

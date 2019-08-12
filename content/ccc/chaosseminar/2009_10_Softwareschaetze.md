@@ -9,12 +9,12 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "meillo (markus schnalke)"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200910-softwareschaetze/cs-200910-softwareschaetze_audio.mp3", "79120980"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200910-softwareschaetze/cs-200910-softwareschaetze_audio.ogg", "62411512"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200910-softwareschaetze/cs-200910-softwareschaetze_video.m4v", "123810395"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200910-softwareschaetze/cs-200910-softwareschaetze_video.mp4", "301777644"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200910-softwareschaetze/cs-200910-softwareschaetze_video.ogv", "266048985"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200910-softwareschaetze/cs-200910-softwareschaetze_video_high.mp4", "413407416"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200910-softwareschaetze/cs-200910-softwareschaetze_audio.mp3", "79120980"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200910-softwareschaetze/cs-200910-softwareschaetze_audio.ogg", "62411512"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200910-softwareschaetze/cs-200910-softwareschaetze_video.m4v", "123810395"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200910-softwareschaetze/cs-200910-softwareschaetze_video.mp4", "301777644"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200910-softwareschaetze/cs-200910-softwareschaetze_video.ogv", "266048985"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200910-softwareschaetze/cs-200910-softwareschaetze_video_high.mp4", "413407416"]
 	]
 +++
 

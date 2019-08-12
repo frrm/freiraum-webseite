@@ -8,7 +8,7 @@ Thema = ""
 Termin = ""
 Vortragende = "Alexander Bernauer"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200403-can/cs-200403-can_slides.pdf", "991792"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200403-can/cs-200403-can_slides.pdf", "991792"]
 	]
 +++
 

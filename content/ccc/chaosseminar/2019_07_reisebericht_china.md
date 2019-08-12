@@ -9,13 +9,13 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Marcus"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201907-china/cs-201907-china_audio.mp3", "62230772"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201907-china/cs-201907-china_audio.ogg", "43569824"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201907-china/cs-201907-china_audio.opus", "44013582"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201907-china/cs-201907-china_video.m4v", "75452272"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201907-china/cs-201907-china_video.mp4", "112907785"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201907-china/cs-201907-china_video.ogv", "404576315"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201907-china/cs-201907-china_video_high.mp4", "376157095"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201907-china/cs-201907-china_audio.mp3", "62230772"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201907-china/cs-201907-china_audio.ogg", "43569824"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201907-china/cs-201907-china_audio.opus", "44013582"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201907-china/cs-201907-china_video.m4v", "75452272"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201907-china/cs-201907-china_video.mp4", "112907785"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201907-china/cs-201907-china_video.ogv", "404576315"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201907-china/cs-201907-china_video_high.mp4", "376157095"]
 	]
 +++
 

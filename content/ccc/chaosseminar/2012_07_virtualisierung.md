@@ -9,13 +9,13 @@ Termin = "2012-07-09 20:07.5"
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Björn Wiedersheim"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201207-virtualisierung/cs-201207-virtualisierung_audio.mp3", "63381420"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201207-virtualisierung/cs-201207-virtualisierung_audio.ogg", "47867953"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201207-virtualisierung/cs-201207-virtualisierung_slides.pdf", "72361"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201207-virtualisierung/cs-201207-virtualisierung_video.m4v", "66456433"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201207-virtualisierung/cs-201207-virtualisierung_video.mp4", "100948127"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201207-virtualisierung/cs-201207-virtualisierung_video.ogv", "235605034"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201207-virtualisierung/cs-201207-virtualisierung_video_high.mp4", "352679301"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201207-virtualisierung/cs-201207-virtualisierung_audio.mp3", "63381420"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201207-virtualisierung/cs-201207-virtualisierung_audio.ogg", "47867953"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201207-virtualisierung/cs-201207-virtualisierung_slides.pdf", "72361"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201207-virtualisierung/cs-201207-virtualisierung_video.m4v", "66456433"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201207-virtualisierung/cs-201207-virtualisierung_video.mp4", "100948127"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201207-virtualisierung/cs-201207-virtualisierung_video.ogv", "235605034"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201207-virtualisierung/cs-201207-virtualisierung_video_high.mp4", "352679301"]
 	]
 +++
 

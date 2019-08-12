@@ -8,11 +8,11 @@ Thema = ""
 Termin = ""
 Vortragende = "Markus Schaber"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200402-svg/cs-200402-svg_56k_audio.ogg", "25458145"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200402-svg/cs-200402-svg_96k_audio.mp3", "43232689"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200402-svg/cs-200402-svg_slides.pdf", "110557"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200402-svg/cs-200402-svg_video.mp4", "136421136"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200402-svg/cs-200402-svg_video.ogv", "104829480"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200402-svg/cs-200402-svg_56k_audio.ogg", "25458145"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200402-svg/cs-200402-svg_96k_audio.mp3", "43232689"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200402-svg/cs-200402-svg_slides.pdf", "110557"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200402-svg/cs-200402-svg_video.mp4", "136421136"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200402-svg/cs-200402-svg_video.ogv", "104829480"]
 	]
 +++
 

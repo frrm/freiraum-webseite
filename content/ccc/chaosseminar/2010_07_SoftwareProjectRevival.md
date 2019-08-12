@@ -9,13 +9,13 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Markus Schnalke"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201007-projectrevival/cs-201007-projectrevival_audio.mp3", "50556343"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201007-projectrevival/cs-201007-projectrevival_audio.ogg", "37853267"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201007-projectrevival/cs-201007-projectrevival_slides.pdf", "30092"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201007-projectrevival/cs-201007-projectrevival_video.m4v", "54122236"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201007-projectrevival/cs-201007-projectrevival_video.mp4", "85632064"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201007-projectrevival/cs-201007-projectrevival_video.ogv", "72330172"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201007-projectrevival/cs-201007-projectrevival_video_high.mp4", "823704901"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201007-projectrevival/cs-201007-projectrevival_audio.mp3", "50556343"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201007-projectrevival/cs-201007-projectrevival_audio.ogg", "37853267"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201007-projectrevival/cs-201007-projectrevival_slides.pdf", "30092"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201007-projectrevival/cs-201007-projectrevival_video.m4v", "54122236"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201007-projectrevival/cs-201007-projectrevival_video.mp4", "85632064"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201007-projectrevival/cs-201007-projectrevival_video.ogv", "72330172"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201007-projectrevival/cs-201007-projectrevival_video_high.mp4", "823704901"]
 	]
 +++
 

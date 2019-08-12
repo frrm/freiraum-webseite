@@ -8,7 +8,7 @@ Thema = ""
 Termin = ""
 Vortragende = "Frank Kargl"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200009-javaintro/cs-200009-javaintro_slides.pdf", "388842"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200009-javaintro/cs-200009-javaintro_slides.pdf", "388842"]
 	]
 +++
 

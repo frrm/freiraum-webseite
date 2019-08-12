@@ -9,12 +9,12 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "verschiedene"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201002-lightningtalks/cs-201002-lightningtalks_audio.mp3", "74739200"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201002-lightningtalks/cs-201002-lightningtalks_audio.ogg", "53616957"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201002-lightningtalks/cs-201002-lightningtalks_video.m4v", "96182326"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201002-lightningtalks/cs-201002-lightningtalks_video.mp4", "192372792"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201002-lightningtalks/cs-201002-lightningtalks_video.ogv", "185462837"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201002-lightningtalks/cs-201002-lightningtalks_video_high.mp4", "1076538692"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201002-lightningtalks/cs-201002-lightningtalks_audio.mp3", "74739200"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201002-lightningtalks/cs-201002-lightningtalks_audio.ogg", "53616957"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201002-lightningtalks/cs-201002-lightningtalks_video.m4v", "96182326"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201002-lightningtalks/cs-201002-lightningtalks_video.mp4", "192372792"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201002-lightningtalks/cs-201002-lightningtalks_video.ogv", "185462837"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201002-lightningtalks/cs-201002-lightningtalks_video_high.mp4", "1076538692"]
 	]
 +++
 

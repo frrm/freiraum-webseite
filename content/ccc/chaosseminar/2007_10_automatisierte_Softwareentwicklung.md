@@ -9,7 +9,7 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H22"
 Vortragende = "Volker Birk"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200710-softwareentwicklung/cs-200710-softwareentwicklung_video.mp4", "844735942"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200710-softwareentwicklung/cs-200710-softwareentwicklung_video.mp4", "844735942"]
 	]
 +++
 

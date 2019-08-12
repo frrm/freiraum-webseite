@@ -9,10 +9,10 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Alvar Freude"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200703-zensur/cs-200703-zensur_audio.mp3", "95302792"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200703-zensur/cs-200703-zensur_audio.ogg", "68999649"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200703-zensur/cs-200703-zensur_video.mp4", "603743245"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200703-zensur/cs-200703-zensur_video.ogv", "358920253"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200703-zensur/cs-200703-zensur_audio.mp3", "95302792"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200703-zensur/cs-200703-zensur_audio.ogg", "68999649"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200703-zensur/cs-200703-zensur_video.mp4", "603743245"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200703-zensur/cs-200703-zensur_video.ogv", "358920253"]
 	]
 +++
 

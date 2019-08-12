@@ -9,10 +9,10 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Volker Birk"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200702-oo/cs-200702-oo_audio.mp3", "69281698"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200702-oo/cs-200702-oo_audio.ogg", "50259586"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200702-oo/cs-200702-oo_video.mp4", "527981856"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200702-oo/cs-200702-oo_video.ogv", "221117676"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200702-oo/cs-200702-oo_audio.mp3", "69281698"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200702-oo/cs-200702-oo_audio.ogg", "50259586"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200702-oo/cs-200702-oo_video.mp4", "527981856"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200702-oo/cs-200702-oo_video.ogv", "221117676"]
 	]
 +++
 

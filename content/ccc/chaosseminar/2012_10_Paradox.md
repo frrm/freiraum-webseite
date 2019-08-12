@@ -9,12 +9,12 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Marco Haschka"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201210-paradox/cs-201210-paradox_audio.mp3", "45234939"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201210-paradox/cs-201210-paradox_audio.ogg", "33210061"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201210-paradox/cs-201210-paradox_video.m4v", "59904032"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201210-paradox/cs-201210-paradox_video.mp4", "107798897"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201210-paradox/cs-201210-paradox_video.ogv", "386176970"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201210-paradox/cs-201210-paradox_video_high.mp4", "429750666"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201210-paradox/cs-201210-paradox_audio.mp3", "45234939"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201210-paradox/cs-201210-paradox_audio.ogg", "33210061"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201210-paradox/cs-201210-paradox_video.m4v", "59904032"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201210-paradox/cs-201210-paradox_video.mp4", "107798897"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201210-paradox/cs-201210-paradox_video.ogv", "386176970"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201210-paradox/cs-201210-paradox_video_high.mp4", "429750666"]
 	]
 +++
 

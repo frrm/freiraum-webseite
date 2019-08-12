@@ -9,13 +9,13 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Nico, Matou"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201102-nichtszuverbergen/cs-201102-nichtszuverbergen_audio.mp3", "24083331"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201102-nichtszuverbergen/cs-201102-nichtszuverbergen_audio.ogg", "17720351"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201102-nichtszuverbergen/cs-201102-nichtszuverbergen_audio.opus", "16835048"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201102-nichtszuverbergen/cs-201102-nichtszuverbergen_video.m4v", "40498150"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201102-nichtszuverbergen/cs-201102-nichtszuverbergen_video.mp4", "85593534"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201102-nichtszuverbergen/cs-201102-nichtszuverbergen_video.ogv", "76330962"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201102-nichtszuverbergen/cs-201102-nichtszuverbergen_video_high.mp4", "377637921"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201102-nichtszuverbergen/cs-201102-nichtszuverbergen_audio.mp3", "24083331"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201102-nichtszuverbergen/cs-201102-nichtszuverbergen_audio.ogg", "17720351"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201102-nichtszuverbergen/cs-201102-nichtszuverbergen_audio.opus", "16835048"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201102-nichtszuverbergen/cs-201102-nichtszuverbergen_video.m4v", "40498150"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201102-nichtszuverbergen/cs-201102-nichtszuverbergen_video.mp4", "85593534"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201102-nichtszuverbergen/cs-201102-nichtszuverbergen_video.ogv", "76330962"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201102-nichtszuverbergen/cs-201102-nichtszuverbergen_video_high.mp4", "377637921"]
 	]
 +++
 

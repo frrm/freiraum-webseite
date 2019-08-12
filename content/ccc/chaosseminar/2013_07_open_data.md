@@ -9,13 +9,13 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Michi"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201307-opendata/cs-201307-opendata_audio.mp3", "45781159"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201307-opendata/cs-201307-opendata_audio.ogg", "33800192"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201307-opendata/cs-201307-opendata_audio.opus", "31379645"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201307-opendata/cs-201307-opendata_video.m4v", "60434669"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201307-opendata/cs-201307-opendata_video.mp4", "106826604"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201307-opendata/cs-201307-opendata_video.ogv", "302640466"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201307-opendata/cs-201307-opendata_video_high.mp4", "390021493"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201307-opendata/cs-201307-opendata_audio.mp3", "45781159"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201307-opendata/cs-201307-opendata_audio.ogg", "33800192"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201307-opendata/cs-201307-opendata_audio.opus", "31379645"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201307-opendata/cs-201307-opendata_video.m4v", "60434669"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201307-opendata/cs-201307-opendata_video.mp4", "106826604"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201307-opendata/cs-201307-opendata_video.ogv", "302640466"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201307-opendata/cs-201307-opendata_video_high.mp4", "390021493"]
 	]
 +++
 

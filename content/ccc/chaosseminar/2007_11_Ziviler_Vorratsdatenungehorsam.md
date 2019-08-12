@@ -9,11 +9,11 @@ Termin = "2007-11-12 20:07½"
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Marcel Linden, Michael Feiri, Stefan Schlott, Nico Roeser; ggf. weitere"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200711-vorrat/cs-200711-vorrat_audio.mp3", "84974498"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200711-vorrat/cs-200711-vorrat_audio.ogg", "66156194"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200711-vorrat/cs-200711-vorrat_slides.pdf", "196337"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200711-vorrat/cs-200711-vorrat_video.mp4", "780358583"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200711-vorrat/cs-200711-vorrat_video.ogv", "522057535"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200711-vorrat/cs-200711-vorrat_audio.mp3", "84974498"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200711-vorrat/cs-200711-vorrat_audio.ogg", "66156194"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200711-vorrat/cs-200711-vorrat_slides.pdf", "196337"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200711-vorrat/cs-200711-vorrat_video.mp4", "780358583"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200711-vorrat/cs-200711-vorrat_video.ogv", "522057535"]
 	]
 +++
 

@@ -9,13 +9,13 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Felix"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201512-buchempfehlungen/cs-201512-buchempfehlungen_audio.mp3", "39826592"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201512-buchempfehlungen/cs-201512-buchempfehlungen_audio.ogg", "29444033"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201512-buchempfehlungen/cs-201512-buchempfehlungen_audio.opus", "27786401"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201512-buchempfehlungen/cs-201512-buchempfehlungen_video.m4v", "47915841"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201512-buchempfehlungen/cs-201512-buchempfehlungen_video.mp4", "71573264"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201512-buchempfehlungen/cs-201512-buchempfehlungen_video.ogv", "277073710"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201512-buchempfehlungen/cs-201512-buchempfehlungen_video_high.mp4", "480376989"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201512-buchempfehlungen/cs-201512-buchempfehlungen_audio.mp3", "39826592"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201512-buchempfehlungen/cs-201512-buchempfehlungen_audio.ogg", "29444033"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201512-buchempfehlungen/cs-201512-buchempfehlungen_audio.opus", "27786401"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201512-buchempfehlungen/cs-201512-buchempfehlungen_video.m4v", "47915841"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201512-buchempfehlungen/cs-201512-buchempfehlungen_video.mp4", "71573264"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201512-buchempfehlungen/cs-201512-buchempfehlungen_video.ogv", "277073710"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201512-buchempfehlungen/cs-201512-buchempfehlungen_video_high.mp4", "480376989"]
 	]
 +++
 

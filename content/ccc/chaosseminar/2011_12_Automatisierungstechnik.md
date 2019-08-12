@@ -9,13 +9,13 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Markus Schaber"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201112-automatisierung/cs-201112-automatisierung_audio.mp3", "61202286"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201112-automatisierung/cs-201112-automatisierung_audio.ogg", "45961234"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201112-automatisierung/cs-201112-automatisierung_audio.opus", "42883548"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201112-automatisierung/cs-201112-automatisierung_video.m4v", "70357453"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201112-automatisierung/cs-201112-automatisierung_video.mp4", "125538301"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201112-automatisierung/cs-201112-automatisierung_video.ogv", "483880889"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201112-automatisierung/cs-201112-automatisierung_video_high.mp4", "619491072"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201112-automatisierung/cs-201112-automatisierung_audio.mp3", "61202286"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201112-automatisierung/cs-201112-automatisierung_audio.ogg", "45961234"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201112-automatisierung/cs-201112-automatisierung_audio.opus", "42883548"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201112-automatisierung/cs-201112-automatisierung_video.m4v", "70357453"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201112-automatisierung/cs-201112-automatisierung_video.mp4", "125538301"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201112-automatisierung/cs-201112-automatisierung_video.ogv", "483880889"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201112-automatisierung/cs-201112-automatisierung_video_high.mp4", "619491072"]
 	]
 +++
 

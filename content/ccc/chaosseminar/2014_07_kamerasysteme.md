@@ -9,13 +9,13 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Marco Haschka"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201407-kamerasysteme/cs-201407-kamerasysteme_audio.mp3", "98727217"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201407-kamerasysteme/cs-201407-kamerasysteme_audio.ogg", "75032381"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201407-kamerasysteme/cs-201407-kamerasysteme_audio.opus", "70182748"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201407-kamerasysteme/cs-201407-kamerasysteme_video.m4v", "129697476"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201407-kamerasysteme/cs-201407-kamerasysteme_video.mp4", "205286594"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201407-kamerasysteme/cs-201407-kamerasysteme_video.ogv", "227258368"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201407-kamerasysteme/cs-201407-kamerasysteme_video_high.mp4", "929050002"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201407-kamerasysteme/cs-201407-kamerasysteme_audio.mp3", "98727217"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201407-kamerasysteme/cs-201407-kamerasysteme_audio.ogg", "75032381"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201407-kamerasysteme/cs-201407-kamerasysteme_audio.opus", "70182748"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201407-kamerasysteme/cs-201407-kamerasysteme_video.m4v", "129697476"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201407-kamerasysteme/cs-201407-kamerasysteme_video.mp4", "205286594"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201407-kamerasysteme/cs-201407-kamerasysteme_video.ogv", "227258368"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201407-kamerasysteme/cs-201407-kamerasysteme_video_high.mp4", "929050002"]
 	]
 +++
 

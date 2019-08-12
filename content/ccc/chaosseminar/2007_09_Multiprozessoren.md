@@ -9,8 +9,8 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Alexander Bernauer, Markus Schaber"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200709-multithread/cs-200709-multithread_slides.pdf", "314010"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200709-multithread/cs-200709-multithreading_video.mp4", "638402057"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200709-multithread/cs-200709-multithread_slides.pdf", "314010"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200709-multithread/cs-200709-multithreading_video.mp4", "638402057"]
 	]
 +++
 

@@ -9,13 +9,13 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Jürgen"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201806-fraktale/cs-201806-fraktale_audio.mp3", "61526510"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201806-fraktale/cs-201806-fraktale_audio.ogg", "42165894"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201806-fraktale/cs-201806-fraktale_audio.opus", "46960349"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201806-fraktale/cs-201806-fraktale_video.m4v", "70440594"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201806-fraktale/cs-201806-fraktale_video.mp4", "90931018"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201806-fraktale/cs-201806-fraktale_video.ogv", "310764469"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201806-fraktale/cs-201806-fraktale_video_high.mp4", "239259523"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201806-fraktale/cs-201806-fraktale_audio.mp3", "61526510"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201806-fraktale/cs-201806-fraktale_audio.ogg", "42165894"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201806-fraktale/cs-201806-fraktale_audio.opus", "46960349"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201806-fraktale/cs-201806-fraktale_video.m4v", "70440594"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201806-fraktale/cs-201806-fraktale_video.mp4", "90931018"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201806-fraktale/cs-201806-fraktale_video.ogv", "310764469"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201806-fraktale/cs-201806-fraktale_video_high.mp4", "239259523"]
 	]
 +++
 

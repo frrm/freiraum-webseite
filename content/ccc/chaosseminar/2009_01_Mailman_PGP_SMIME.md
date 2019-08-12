@@ -9,12 +9,12 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Joost van Baal"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200901-mailman/cs-200901-mailman_audio.mp3", "47151282"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200901-mailman/cs-200901-mailman_audio.ogg", "34535452"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200901-mailman/cs-200901-mailman_video.m4v", "62163555"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200901-mailman/cs-200901-mailman_video.mp4", "131680109"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200901-mailman/cs-200901-mailman_video.ogv", "175603943"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200901-mailman/cs-200901-mailman_video_high.mp4", "234872991"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200901-mailman/cs-200901-mailman_audio.mp3", "47151282"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200901-mailman/cs-200901-mailman_audio.ogg", "34535452"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200901-mailman/cs-200901-mailman_video.m4v", "62163555"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200901-mailman/cs-200901-mailman_video.mp4", "131680109"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200901-mailman/cs-200901-mailman_video.ogv", "175603943"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200901-mailman/cs-200901-mailman_video_high.mp4", "234872991"]
 	]
 +++
 

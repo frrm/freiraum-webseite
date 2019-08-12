@@ -9,14 +9,14 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Michael Müller"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201111-Userinterfaces/cs-201111-Userinterfaces_audio.mp3", "47807739"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201111-Userinterfaces/cs-201111-Userinterfaces_audio.ogg", "34665516"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201111-Userinterfaces/cs-201111-Userinterfaces_audio.opus", "32940125"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201111-Userinterfaces/cs-201111-Userinterfaces_slides.pdf", "16187707"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201111-Userinterfaces/cs-201111-Userinterfaces_video.m4v", "58102231"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201111-Userinterfaces/cs-201111-Userinterfaces_video.mp4", "108022340"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201111-Userinterfaces/cs-201111-Userinterfaces_video.ogv", "548108914"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201111-Userinterfaces/cs-201111-Userinterfaces_video_high.mp4", "629094255"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201111-Userinterfaces/cs-201111-Userinterfaces_audio.mp3", "47807739"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201111-Userinterfaces/cs-201111-Userinterfaces_audio.ogg", "34665516"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201111-Userinterfaces/cs-201111-Userinterfaces_audio.opus", "32940125"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201111-Userinterfaces/cs-201111-Userinterfaces_slides.pdf", "16187707"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201111-Userinterfaces/cs-201111-Userinterfaces_video.m4v", "58102231"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201111-Userinterfaces/cs-201111-Userinterfaces_video.mp4", "108022340"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201111-Userinterfaces/cs-201111-Userinterfaces_video.ogv", "548108914"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201111-Userinterfaces/cs-201111-Userinterfaces_video_high.mp4", "629094255"]
 	]
 +++
 

@@ -9,12 +9,12 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Tobias Rehfeld"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200803-datenschutz/cs-200803-datenschutz_audio.mp3", "57779722"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200803-datenschutz/cs-200803-datenschutz_audio.ogg", "41672241"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200803-datenschutz/cs-200803-datenschutz_video.m4v", "116528555"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200803-datenschutz/cs-200803-datenschutz_video.mp4", "279027690"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200803-datenschutz/cs-200803-datenschutz_video.ogv", "258673109"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200803-datenschutz/cs-200803-datenschutz_video_high.mp4", "404982136"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200803-datenschutz/cs-200803-datenschutz_audio.mp3", "57779722"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200803-datenschutz/cs-200803-datenschutz_audio.ogg", "41672241"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200803-datenschutz/cs-200803-datenschutz_video.m4v", "116528555"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200803-datenschutz/cs-200803-datenschutz_video.mp4", "279027690"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200803-datenschutz/cs-200803-datenschutz_video.ogv", "258673109"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200803-datenschutz/cs-200803-datenschutz_video_high.mp4", "404982136"]
 	]
 +++
 

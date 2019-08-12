@@ -8,12 +8,12 @@ Thema = ""
 Termin = ""
 Vortragende = "Michael Feiri"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200309-dnet/cs-200309-distnet_audio.mp3", "55979625"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200309-dnet/cs-200309-distnet_audio.ogg", "39156655"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200309-dnet/cs-200309-distnet_video.m4v", "58551901"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200309-dnet/cs-200309-distnet_video.mp4", "99236067"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200309-dnet/cs-200309-distnet_video.ogv", "85230858"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200309-dnet/cs-200309-dnet_slides.pdf", "1302390"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200309-dnet/cs-200309-distnet_audio.mp3", "55979625"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200309-dnet/cs-200309-distnet_audio.ogg", "39156655"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200309-dnet/cs-200309-distnet_video.m4v", "58551901"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200309-dnet/cs-200309-distnet_video.mp4", "99236067"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200309-dnet/cs-200309-distnet_video.ogv", "85230858"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200309-dnet/cs-200309-dnet_slides.pdf", "1302390"]
 	]
 +++
 

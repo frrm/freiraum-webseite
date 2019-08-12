@@ -9,13 +9,13 @@ Termin = "2016-10-10 20:15"
 Ort = "Uni Ulm, Hörsaal H22"
 Vortragende = "meillo"
 Archiv = [
-    ["", "http://archiv.ulm.ccc.de/chaosseminar/201610-encoding/cs-201610-encoding_audio.mp3",  "83045400"],
-    ["", "http://archiv.ulm.ccc.de/chaosseminar/201610-encoding/cs-201610-encoding_audio.ogg",  "34502650"],
-    ["", "http://archiv.ulm.ccc.de/chaosseminar/201610-encoding/cs-201610-encoding_audio.opus", "68612874"],
-    ["", "http://archiv.ulm.ccc.de/chaosseminar/201610-encoding/cs-201610-encoding_video.mp4",  "137619180"],
-    ["", "http://archiv.ulm.ccc.de/chaosseminar/201610-encoding/cs-201610-encoding_video.ogv",  "618118723"],
-    ["", "http://archiv.ulm.ccc.de/chaosseminar/201610-encoding/cs-201610-encoding_video.m4v",  "94700080"],
-    ["", "http://archiv.ulm.ccc.de/chaosseminar/201610-encoding/cs-201610-encoding_video_high.mp4", "505050604"],
+    ["", "https://archiv.ulm.ccc.de/chaosseminar/201610-encoding/cs-201610-encoding_audio.mp3",  "83045400"],
+    ["", "https://archiv.ulm.ccc.de/chaosseminar/201610-encoding/cs-201610-encoding_audio.ogg",  "34502650"],
+    ["", "https://archiv.ulm.ccc.de/chaosseminar/201610-encoding/cs-201610-encoding_audio.opus", "68612874"],
+    ["", "https://archiv.ulm.ccc.de/chaosseminar/201610-encoding/cs-201610-encoding_video.mp4",  "137619180"],
+    ["", "https://archiv.ulm.ccc.de/chaosseminar/201610-encoding/cs-201610-encoding_video.ogv",  "618118723"],
+    ["", "https://archiv.ulm.ccc.de/chaosseminar/201610-encoding/cs-201610-encoding_video.m4v",  "94700080"],
+    ["", "https://archiv.ulm.ccc.de/chaosseminar/201610-encoding/cs-201610-encoding_video_high.mp4", "505050604"],
     ]
 +++
 

@@ -9,13 +9,13 @@ Termin = "2014-01-13 20:15"
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "HEck"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201401-HardwareSoftwareEntwurf/cs-201401-HardwareSoftwareEntwurf_audio.mp3", "37334204"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201401-HardwareSoftwareEntwurf/cs-201401-HardwareSoftwareEntwurf_audio.ogg", "27930624"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201401-HardwareSoftwareEntwurf/cs-201401-HardwareSoftwareEntwurf_audio.opus", "25874149"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201401-HardwareSoftwareEntwurf/cs-201401-HardwareSoftwareEntwurf_video.m4v", "44420988"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201401-HardwareSoftwareEntwurf/cs-201401-HardwareSoftwareEntwurf_video.mp4", "71974527"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201401-HardwareSoftwareEntwurf/cs-201401-HardwareSoftwareEntwurf_video.ogv", "184337219"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201401-HardwareSoftwareEntwurf/cs-201401-HardwareSoftwareEntwurf_video_high.mp4", "257515614"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201401-HardwareSoftwareEntwurf/cs-201401-HardwareSoftwareEntwurf_audio.mp3", "37334204"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201401-HardwareSoftwareEntwurf/cs-201401-HardwareSoftwareEntwurf_audio.ogg", "27930624"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201401-HardwareSoftwareEntwurf/cs-201401-HardwareSoftwareEntwurf_audio.opus", "25874149"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201401-HardwareSoftwareEntwurf/cs-201401-HardwareSoftwareEntwurf_video.m4v", "44420988"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201401-HardwareSoftwareEntwurf/cs-201401-HardwareSoftwareEntwurf_video.mp4", "71974527"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201401-HardwareSoftwareEntwurf/cs-201401-HardwareSoftwareEntwurf_video.ogv", "184337219"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201401-HardwareSoftwareEntwurf/cs-201401-HardwareSoftwareEntwurf_video_high.mp4", "257515614"]
 	]
 +++
 

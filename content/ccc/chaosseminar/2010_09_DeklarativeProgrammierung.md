@@ -9,12 +9,12 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Leo"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201009-deklarativeprogrammierung/cs-201009-deklarativeprogrammierung_audio.mp3", "68493845"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201009-deklarativeprogrammierung/cs-201009-deklarativeprogrammierung_audio.ogg", "50891259"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201009-deklarativeprogrammierung/cs-201009-deklarativeprogrammierung_video.m4v", "139547596"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201009-deklarativeprogrammierung/cs-201009-deklarativeprogrammierung_video.mp4", "284360521"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201009-deklarativeprogrammierung/cs-201009-deklarativeprogrammierung_video.ogv", "213830575"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201009-deklarativeprogrammierung/cs-201009-deklarativeprogrammierung_video_high.mp4", "2262446921"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201009-deklarativeprogrammierung/cs-201009-deklarativeprogrammierung_audio.mp3", "68493845"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201009-deklarativeprogrammierung/cs-201009-deklarativeprogrammierung_audio.ogg", "50891259"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201009-deklarativeprogrammierung/cs-201009-deklarativeprogrammierung_video.m4v", "139547596"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201009-deklarativeprogrammierung/cs-201009-deklarativeprogrammierung_video.mp4", "284360521"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201009-deklarativeprogrammierung/cs-201009-deklarativeprogrammierung_video.ogv", "213830575"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201009-deklarativeprogrammierung/cs-201009-deklarativeprogrammierung_video_high.mp4", "2262446921"]
 	]
 +++
 

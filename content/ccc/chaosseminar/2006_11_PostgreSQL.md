@@ -9,11 +9,11 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Markus Schaber"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200611-postgres/cs-200611-postgres_audio.mp3", "49821518"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200611-postgres/cs-200611-postgres_audio.ogg", "34278235"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200611-postgres/cs-200611-postgres_slides.pdf", "308415"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200611-postgres/cs-200611-postgres_video.mp4", "315568627"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200611-postgres/cs-200611-postgres_video.ogv", "156510198"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200611-postgres/cs-200611-postgres_audio.mp3", "49821518"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200611-postgres/cs-200611-postgres_audio.ogg", "34278235"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200611-postgres/cs-200611-postgres_slides.pdf", "308415"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200611-postgres/cs-200611-postgres_video.mp4", "315568627"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200611-postgres/cs-200611-postgres_video.ogv", "156510198"]
 	]
 +++
 

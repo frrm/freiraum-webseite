@@ -8,13 +8,13 @@ Thema = ""
 Termin = ""
 Vortragende = "Michael Feri"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200509-machacks/cs-200509-machacks_56k_audio.ogg", "39717649"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200509-machacks/cs-200509-machacks_96k_audio.mp3", "80916793"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200509-machacks/cs-200509-machacks_slides.pdf", "138317"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200509-machacks/cs-200509-machacks_video.3gp", "30681372"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200509-machacks/cs-200509-machacks_video.m4v", "339519701"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200509-machacks/cs-200509-machacks_video.mp4", "248735421"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200509-machacks/cs-200509-machacks_video.ogv", "215337946"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200509-machacks/cs-200509-machacks_56k_audio.ogg", "39717649"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200509-machacks/cs-200509-machacks_96k_audio.mp3", "80916793"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200509-machacks/cs-200509-machacks_slides.pdf", "138317"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200509-machacks/cs-200509-machacks_video.3gp", "30681372"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200509-machacks/cs-200509-machacks_video.m4v", "339519701"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200509-machacks/cs-200509-machacks_video.mp4", "248735421"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200509-machacks/cs-200509-machacks_video.ogv", "215337946"]
 	]
 +++
 

@@ -9,13 +9,13 @@ Termin = "2006-01-09 20:07:30"
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Holger, Jürgen, Uli, Alex, ..."
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200601-distrobashing/cs-200601-distrobashing_56k_audio.ogg", "54578501"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200601-distrobashing/cs-200601-distrobashing_96k_audio.mp3", "97663680"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200601-distrobashing/cs-200601-distrobashing_video.3gp", "68378902"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200601-distrobashing/cs-200601-distrobashing_video.m4v", "155677875"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200601-distrobashing/cs-200601-distrobashing_video.mp4", "308866551"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200601-distrobashing/cs-200601-distrobashing_video.ogg", "197189030"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200601-distrobashing/cs-200601-distrobashing_video.ogv", "197189030"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200601-distrobashing/cs-200601-distrobashing_56k_audio.ogg", "54578501"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200601-distrobashing/cs-200601-distrobashing_96k_audio.mp3", "97663680"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200601-distrobashing/cs-200601-distrobashing_video.3gp", "68378902"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200601-distrobashing/cs-200601-distrobashing_video.m4v", "155677875"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200601-distrobashing/cs-200601-distrobashing_video.mp4", "308866551"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200601-distrobashing/cs-200601-distrobashing_video.ogg", "197189030"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200601-distrobashing/cs-200601-distrobashing_video.ogv", "197189030"]
 	]
 +++
 

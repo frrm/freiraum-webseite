@@ -9,10 +9,10 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Attac Ulm"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200704-attac/cs-200704-attac_audio.mp3", "77729959"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200704-attac/cs-200704-attac_audio.ogg", "59965776"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200704-attac/cs-200704-attac_video.mp4", "530133933"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200704-attac/cs-200704-attac_video.ogv", "328517315"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200704-attac/cs-200704-attac_audio.mp3", "77729959"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200704-attac/cs-200704-attac_audio.ogg", "59965776"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200704-attac/cs-200704-attac_video.mp4", "530133933"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200704-attac/cs-200704-attac_video.ogv", "328517315"]
 	]
 +++
 

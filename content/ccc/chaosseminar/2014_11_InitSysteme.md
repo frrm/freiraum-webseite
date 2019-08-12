@@ -9,13 +9,13 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Björn"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201411-initsysteme/cs-201411-initsysteme_audio.mp3", "80322919"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201411-initsysteme/cs-201411-initsysteme_audio.ogg", "53261045"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201411-initsysteme/cs-201411-initsysteme_audio.opus", "53313119"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201411-initsysteme/cs-201411-initsysteme_video.m4v", "86629235"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201411-initsysteme/cs-201411-initsysteme_video.mp4", "116243996"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201411-initsysteme/cs-201411-initsysteme_video.ogv", "477806606"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201411-initsysteme/cs-201411-initsysteme_video_high.mp4", "449691295"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201411-initsysteme/cs-201411-initsysteme_audio.mp3", "80322919"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201411-initsysteme/cs-201411-initsysteme_audio.ogg", "53261045"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201411-initsysteme/cs-201411-initsysteme_audio.opus", "53313119"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201411-initsysteme/cs-201411-initsysteme_video.m4v", "86629235"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201411-initsysteme/cs-201411-initsysteme_video.mp4", "116243996"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201411-initsysteme/cs-201411-initsysteme_video.ogv", "477806606"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201411-initsysteme/cs-201411-initsysteme_video_high.mp4", "449691295"]
 	]
 +++
 

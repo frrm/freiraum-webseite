@@ -9,11 +9,11 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Hagen Pfeifer"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200608-vistanet/cs-200608-vistanet_audio.mp3", "45185358"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200608-vistanet/cs-200608-vistanet_audio.ogg", "27574963"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200608-vistanet/cs-200608-vistanet_slides.pdf", "110177"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200608-vistanet/cs-200608-vistanet_video.mp4", "148456701"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200608-vistanet/cs-200608-vistanet_video.ogv", "114250699"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200608-vistanet/cs-200608-vistanet_audio.mp3", "45185358"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200608-vistanet/cs-200608-vistanet_audio.ogg", "27574963"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200608-vistanet/cs-200608-vistanet_slides.pdf", "110177"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200608-vistanet/cs-200608-vistanet_video.mp4", "148456701"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200608-vistanet/cs-200608-vistanet_video.ogv", "114250699"]
 	]
 +++
 

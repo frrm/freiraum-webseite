@@ -8,7 +8,7 @@ Thema = ""
 Termin = ""
 Vortragende = "Frank Kargl"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/199901-tourdeweb/cs-199901-tourdeweb_slides.pdf", "226702"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/199901-tourdeweb/cs-199901-tourdeweb_slides.pdf", "226702"]
 	]
 +++
 

@@ -9,12 +9,12 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Ulrich Dangel, Alexander Bernauer, Tobias Rehfeld"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200610-dontpanic/cs-200610-dontpanic_audio.mp3", "77354841"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200610-dontpanic/cs-200610-dontpanic_audio.ogg", "55177894"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200610-dontpanic/cs-200610-dontpanic_blub.pdf", "0"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200610-dontpanic/cs-200610-dontpanic_slides.pdf", "908343"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200610-dontpanic/cs-200610-dontpanic_video.mp4", "497703497"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/200610-dontpanic/cs-200610-dontpanic_video.ogv", "307321424"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200610-dontpanic/cs-200610-dontpanic_audio.mp3", "77354841"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200610-dontpanic/cs-200610-dontpanic_audio.ogg", "55177894"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200610-dontpanic/cs-200610-dontpanic_blub.pdf", "0"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200610-dontpanic/cs-200610-dontpanic_slides.pdf", "908343"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200610-dontpanic/cs-200610-dontpanic_video.mp4", "497703497"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/200610-dontpanic/cs-200610-dontpanic_video.ogv", "307321424"]
 	]
 +++
 

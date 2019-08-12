@@ -9,13 +9,13 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Namnatulco"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201403-verification/cs-201403-verification_audio.mp3", "42297084"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201403-verification/cs-201403-verification_audio.ogg", "30810768"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201403-verification/cs-201403-verification_audio.opus", "29471935"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201403-verification/cs-201403-verification_video.m4v", "51284692"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201403-verification/cs-201403-verification_video.mp4", "76451964"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201403-verification/cs-201403-verification_video.ogv", "250169381"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201403-verification/cs-201403-verification_video_high.mp4", "313491123"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201403-verification/cs-201403-verification_audio.mp3", "42297084"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201403-verification/cs-201403-verification_audio.ogg", "30810768"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201403-verification/cs-201403-verification_audio.opus", "29471935"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201403-verification/cs-201403-verification_video.m4v", "51284692"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201403-verification/cs-201403-verification_video.mp4", "76451964"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201403-verification/cs-201403-verification_video.ogv", "250169381"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201403-verification/cs-201403-verification_video_high.mp4", "313491123"]
 	]
 +++
 

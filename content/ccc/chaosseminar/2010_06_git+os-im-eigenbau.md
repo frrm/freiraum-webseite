@@ -9,12 +9,12 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Christian Himpel, matou und phil"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201006-git%2Bownos/cs-201006-git%2Bownos_audio.mp3", "83847314"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201006-git%2Bownos/cs-201006-git%2Bownos_audio.ogg", "63247935"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201006-git%2Bownos/cs-201006-git%2Bownos_video.m4v", "216065144"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201006-git%2Bownos/cs-201006-git%2Bownos_video.mp4", "486051631"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201006-git%2Bownos/cs-201006-git%2Bownos_video.ogv", "398796547"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201006-git%2Bownos/cs-201006-git%2Bownos_video_high.mp4", "3377220190"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201006-git%2Bownos/cs-201006-git%2Bownos_audio.mp3", "83847314"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201006-git%2Bownos/cs-201006-git%2Bownos_audio.ogg", "63247935"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201006-git%2Bownos/cs-201006-git%2Bownos_video.m4v", "216065144"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201006-git%2Bownos/cs-201006-git%2Bownos_video.mp4", "486051631"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201006-git%2Bownos/cs-201006-git%2Bownos_video.ogv", "398796547"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201006-git%2Bownos/cs-201006-git%2Bownos_video_high.mp4", "3377220190"]
 	]
 +++
 

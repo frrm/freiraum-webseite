@@ -9,13 +9,13 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "meillo"
 Archiv = [
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201105-lateinamerika/cs-201105-lateinamerika_audio.mp3", "63712392"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201105-lateinamerika/cs-201105-lateinamerika_audio.ogg", "49526920"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201105-lateinamerika/cs-201105-lateinamerika_audio.opus", "44881625"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201105-lateinamerika/cs-201105-lateinamerika_video.m4v", "73602494"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201105-lateinamerika/cs-201105-lateinamerika_video.mp4", "119594795"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201105-lateinamerika/cs-201105-lateinamerika_video.ogv", "127920070"],
-	["", "http://archiv.ulm.ccc.de/chaosseminar/201105-lateinamerika/cs-201105-lateinamerika_video_high.mp4", "392393485"]
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201105-lateinamerika/cs-201105-lateinamerika_audio.mp3", "63712392"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201105-lateinamerika/cs-201105-lateinamerika_audio.ogg", "49526920"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201105-lateinamerika/cs-201105-lateinamerika_audio.opus", "44881625"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201105-lateinamerika/cs-201105-lateinamerika_video.m4v", "73602494"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201105-lateinamerika/cs-201105-lateinamerika_video.mp4", "119594795"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201105-lateinamerika/cs-201105-lateinamerika_video.ogv", "127920070"],
+	["", "https://archiv.ulm.ccc.de/chaosseminar/201105-lateinamerika/cs-201105-lateinamerika_video_high.mp4", "392393485"]
 	]
 +++
 
