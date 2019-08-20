@@ -28,7 +28,7 @@ Die beste Möglichkeit Kontakt aufzunehmen ist einfach mal vorbei zu kommen:
 
 ## Uni Ulm
 
-![](uni.png)
+![](uni-2.png)
 
 - **Cafe Einstein:** Raum M24/242, im Durchgang N24 nach M24  
   [OpenStreetMap Cafe Einstein](http://www.openstreetmap.org/?mlat=48.42283&mlon=9.95392#map=18/48.42283/9.95392)
@@ -37,8 +37,9 @@ Die beste Möglichkeit Kontakt aufzunehmen ist einfach mal vorbei zu kommen:
 
 Eingänge:
 
-- Eingang Süd (linker roter Pfeil auf der Karte)
+- Eingang Süd (mittiger roter Pfeil auf der Karte)
 - Eingang am O27 (rechter roter Pfeil auf der Karte)
+- Eingang direkt am Cafe Einstein (rote Pfeile oben)
 - **Wichtig: Nach 20:00 sind die Uni-Eingänge meist verschlossen, und man kann die Türen nur mit einer Studentenkarte öffen.
   Solltet ihr vor der verschlossenen Tür stehen, dann:**
   - **Cafe Einstein**: meldet euch bei 0731 50 26012, oder geht von außen zum Cafe Einstein (siehe Karte) und klopft an die Scheibe
