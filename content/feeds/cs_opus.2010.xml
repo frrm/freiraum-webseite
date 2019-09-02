@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+    <channel>
+        <title>Chaosseminar - Vorbis</title>
+        <link>http://ulm.ccc.de/ChaosSeminar/</link>
+        <description>eine regelmäßige Reihe von öffentlichen Seminarvorträgen</description>
+        <language>de-de</language>
+        <category>Technology</category>
+        <pubDate>Fri, 20 Mar 2015 23:40:11 +0100</pubDate>
+        <lastBuildDate>Fri, 20 Mar 2015 23:40:11 +0100</lastBuildDate>
+        <itunes:author>CCC Erfa Ulm</itunes:author>
+        <itunes:owner>
+            <itunes:name>CCC Erfa Ulm</itunes:name>
+            <itunes:email>mail@ulm.ccc.de</itunes:email>
+        </itunes:owner>
+	<itunes:explicit>no</itunes:explicit>	
+	<itunes:keywords>ccc,chaos,chaosseminar,hacking,computer,technology,society</itunes:keywords>
+        <itunes:category text="International">
+            <itunes:category text="German"/>
+        </itunes:category>
+        <itunes:category text="Technology" />
+    </channel>
+</rss>

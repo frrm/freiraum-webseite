@@ -1,0 +1,1335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+    <channel>
+        <title>Chaosseminar - MP4 plus PDF</title>
+        <link>http://ulm.ccc.de/ChaosSeminar/</link>
+        <description>eine regelmäßige Reihe von öffentlichen Seminarvorträgen</description>
+        <language>de-de</language>
+        <category>Technology</category>
+        <pubDate>Fr, 12 Jul 2019 14:05:03 +0200</pubDate>
+        <lastBuildDate>Fr, 12 Jul 2019 14:05:03 +0200</lastBuildDate>
+        <itunes:author>CCC Erfa Ulm</itunes:author>
+        <itunes:owner>
+            <itunes:name>CCC Erfa Ulm</itunes:name>
+            <itunes:email>mail@ulm.ccc.de</itunes:email>
+        </itunes:owner>
+	<itunes:explicit>no</itunes:explicit>	
+	<itunes:keywords>ccc,chaos,chaosseminar,hacking,computer,technology,society</itunes:keywords>
+        <itunes:category text="International">
+            <itunes:category text="German"/>
+        </itunes:category>
+        <itunes:category text="Technology" />
+        <item>
+            <title>CS201002: Lightningtalks</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2010/02_Lightning</link>
+            <description>Lightning talks sind kurze Vortraege bei denen es auch keiner grossen Planung bedarf.
+
+Themen: RTSJ - Echtzeit in Java (matou); Backscatter (Juergen); Apple Marketing (Marcus); QT (Marcus); BSD Sockets (Marcus); xterm und die Windowmanager (Juergen)</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201002-lightningtalks/cs-201002-lightningtalks_video.mp4</guid>
+            <pubDate>Mon, 8 Feb 2010 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Lightning talks sind kurze Vortraege bei denen es auch keiner grossen Planung bedarf.
+
+Themen: RTSJ - Echtzeit in Java (matou); Backscatter (Juergen); Apple Marketing (Marcus); QT (Marcus); BSD Sockets (Marcus); xterm und die Windowmanager (Juergen) ...</itunes:subtitle>
+            <itunes:summary>Lightning talks sind kurze Vortraege bei denen es auch keiner grossen Planung bedarf.
+
+Themen: RTSJ - Echtzeit in Java (matou); Backscatter (Juergen); Apple Marketing (Marcus); QT (Marcus); BSD Sockets (Marcus); xterm und die Windowmanager (Juergen)</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201002-lightningtalks/cs-201002-lightningtalks_video.mp4" length="192372792" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201003: Unix Philosphie</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2010/03_UnixPhil</link>
+            <description>Ein Vortrag über die wahre Genialität von Unix.
+
+Unix ist ein beeindruckendes Betriebssystem und eine erstklassige Programmsammlung. Doch dies ist beides letztlich nur eine Folge. Das eigentlich besondere an Unix ist seine Philosophie. Die Unix Philosophie ist eine Sammlung von Konzepte und Designziele die in Unix umgesetzt wurden.
+
+Dieser Vortrag wird die Unix Philosophie vorstellen und erklären weshalb sie zu hervorragender Software führt.
+
+Neben den rein technischen Aspekten bietet die Unix Philosophie aber auch Anreize für das tägliche Leben. Sie ist mehr als Richtlinien um gute Software zu erzeugen, sie ist eine Inspiration in vielerlei Hinsicht.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201003-unixphil/cs-201003-unixphil_video.mp4</guid>
+            <pubDate>Mon, 8 March 2010 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Ein Vortrag über die wahre Genialität von Unix.
+
+Unix ist ein beeindruckendes Betriebssystem und eine erstklassige Programmsammlung. Doch dies ist beides letztlich nur eine Folge. Das eigentlich besondere an Unix ist seine Philosophie. Die Unix Phil ...</itunes:subtitle>
+            <itunes:summary>Ein Vortrag über die wahre Genialität von Unix.
+
+Unix ist ein beeindruckendes Betriebssystem und eine erstklassige Programmsammlung. Doch dies ist beides letztlich nur eine Folge. Das eigentlich besondere an Unix ist seine Philosophie. Die Unix Philosophie ist eine Sammlung von Konzepte und Designziele die in Unix umgesetzt wurden.
+
+Dieser Vortrag wird die Unix Philosophie vorstellen und erklären weshalb sie zu hervorragender Software führt.
+
+Neben den rein technischen Aspekten bietet die Unix Philosophie aber auch Anreize für das tägliche Leben. Sie ist mehr als Richtlinien um gute Software zu erzeugen, sie ist eine Inspiration in vielerlei Hinsicht.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201003-unixphil/cs-201003-unixphil_video.mp4" length="141020200" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201004: Lightningtalks</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2010/04_Lightning3</link>
+            <description>Verschiedene Leute halten Kurzvorträge zu verschiedenen Themen:
+* Enigma (Hannes)
+* Knoten (Marcus)
+* alternative Suchmaschinen (Jürgen)</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201004-lightningtalks/cs-201004-lightningtalks_video.mp4</guid>
+            <pubDate>Mon, 12 April 2010 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Verschiedene Leute halten Kurzvorträge zu verschiedenen Themen:
+* Enigma (Hannes)
+* Knoten (Marcus)
+* alternative Suchmaschinen (Jürgen) ...</itunes:subtitle>
+            <itunes:summary>Verschiedene Leute halten Kurzvorträge zu verschiedenen Themen:
+* Enigma (Hannes)
+* Knoten (Marcus)
+* alternative Suchmaschinen (Jürgen)</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201004-lightningtalks/cs-201004-lightningtalks_video.mp4" length="139866050" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201005: Seefahrt</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2010/03_UnixPhil</link>
+            <description>Fortsetzung von /dev/radio: Klugscheißerfragen gern gehört.
+
+* Wie sieht eine Straße im Wasser aus?
+* Wie verhalte ich mich, wenn ich drei grüne Lichter über dem Wasser sehe?
+* Warum bewegt sich das Schiff fort und wie steuere ich das?
+* Welcher Schein berechtigt mich?
+* Was bitte passiert beim "fieren der Großschot" und warum behauptest du, es sei Deutsch?
+
+Wir (der CCC) sprechen über Themen aus Gesellschaft, Politik, Technik und Kultur. Ich stelle den Vortrag unter die Überschrift "Technik"</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201005-seefahrt/cs-201005-seefahrt_video.mp4</guid>
+            <pubDate>Mon, 10 May 2010 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Fortsetzung von /dev/radio: Klugscheißerfragen gern gehört.
+
+* Wie sieht eine Straße im Wasser aus?
+* Wie verhalte ich mich, wenn ich drei grüne Lichter über dem Wasser sehe?
+* Warum bewegt sich das Schiff fort und wie steuere ich das?
+* Welcher  ...</itunes:subtitle>
+            <itunes:summary>Fortsetzung von /dev/radio: Klugscheißerfragen gern gehört.
+
+* Wie sieht eine Straße im Wasser aus?
+* Wie verhalte ich mich, wenn ich drei grüne Lichter über dem Wasser sehe?
+* Warum bewegt sich das Schiff fort und wie steuere ich das?
+* Welcher Schein berechtigt mich?
+* Was bitte passiert beim "fieren der Großschot" und warum behauptest du, es sei Deutsch?
+
+Wir (der CCC) sprechen über Themen aus Gesellschaft, Politik, Technik und Kultur. Ich stelle den Vortrag unter die Überschrift "Technik"</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201005-seefahrt/cs-201005-seefahrt_video.mp4" length="242094797" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201006: Git + CylonOS und PC-SYNNOS</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2010/06_git%2Bos-im-eigenbau</link>
+            <description>* Git-Vortrag: Git ist eine Versionsverwaltungssoftware, die hauptsächlich zur Entwicklung und Pflege des Linux Kerns implementiert wurde.
+
+In den letzten Jahren erfreut sich Git immer wachsender Beliebtheit und es hat sich eine große Entwickler- und Anwendergemeinde darum gebildet.
+
+Viele Projekte haben ihre Versionsverwaltung vom zentralen SVN oder CVS auf das verteilte Git umgestellt.
+
+In diesem Vortrag wird eine leicht verdauliche Einführung in die verteilte Versionsverwaltung mit Git gegeben. Um den Umstieg von SVN und CVS zu erleichtern werden an geeigneter Stelle die wichtigsten Unterschiede erläutert. Nach der Einführung in die gängigsten Konzepte werden typische Workflows vorgestellt, welche die Vorteile von Git unterstreichen.
+
+* CylonOS und PC-SYNNOS Vortrag: Wie baut man ein Spielzeugbetriebssystem. Erfahrungen aus dem gleichnamigen Seminar.
+
+Das Seminar "Betriebssysteme im Eigenbau" wird bereits längere Zeit vom Institut für Verteilte Systeme an der Uni Ulm angeboten. Es geht darum, was so ein Betriebssystem eigentlich zu leisten hat. Speicherverwaltung, Scheduling, Verwaltung von Treibern,...
+
+Das Besondere: Im Seminar wird die Programmiersprache Java verwendet, was für hardwarenahe Programmierung bislang eher unüblich ist.
+
+Wir möchten kurz vorstellen, wie unser Ansatz aussieht und was wir bisher alles erreicht und implementiert haben.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201006-git+ownos/cs-201006-git+ownos_video.mp4</guid>
+            <pubDate>Mon, 14 June 2010 20:00:00 +0200</pubDate>
+            <itunes:subtitle>* Git-Vortrag: Git ist eine Versionsverwaltungssoftware, die hauptsächlich zur Entwicklung und Pflege des Linux Kerns implementiert wurde.
+
+In den letzten Jahren erfreut sich Git immer wachsender Beliebtheit und es hat sich eine große Entwickler- un ...</itunes:subtitle>
+            <itunes:summary>* Git-Vortrag: Git ist eine Versionsverwaltungssoftware, die hauptsächlich zur Entwicklung und Pflege des Linux Kerns implementiert wurde.
+
+In den letzten Jahren erfreut sich Git immer wachsender Beliebtheit und es hat sich eine große Entwickler- und Anwendergemeinde darum gebildet.
+
+Viele Projekte haben ihre Versionsverwaltung vom zentralen SVN oder CVS auf das verteilte Git umgestellt.
+
+In diesem Vortrag wird eine leicht verdauliche Einführung in die verteilte Versionsverwaltung mit Git gegeben. Um den Umstieg von SVN und CVS zu erleichtern werden an geeigneter Stelle die wichtigsten Unterschiede erläutert. Nach der Einführung in die gängigsten Konzepte werden typische Workflows vorgestellt, welche die Vorteile von Git unterstreichen.
+
+* CylonOS und PC-SYNNOS Vortrag: Wie baut man ein Spielzeugbetriebssystem. Erfahrungen aus dem gleichnamigen Seminar.
+
+Das Seminar "Betriebssysteme im Eigenbau" wird bereits längere Zeit vom Institut für Verteilte Systeme an der Uni Ulm angeboten. Es geht darum, was so ein Betriebssystem eigentlich zu leisten hat. Speicherverwaltung, Scheduling, Verwaltung von Treibern,...
+
+Das Besondere: Im Seminar wird die Programmiersprache Java verwendet, was für hardwarenahe Programmierung bislang eher unüblich ist.
+
+Wir möchten kurz vorstellen, wie unser Ansatz aussieht und was wir bisher alles erreicht und implementiert haben.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201006-git+ownos/cs-201006-git+ownos_video.mp4" length="486051631" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201007: Software Project Revival</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2010/07_SoftwareProjectRevival</link>
+            <description>Ein Vortrag mit Erfahrungen und Tipps über meine Wiederbelebungsversuche von masqmail.
+
+Masqmail wurde 1999-2002 entwickelt und ist 2005 verwaist. Im Herbst 2008 habe ich es, im Rahmen meiner Diplomarbeit, übernommen. Seit diesem Frühjahr arbeite ich aktiv daran. Ein altes Projekt zu übernehmen ist anders als ein neues Projekt frisch zu beginnen. Dieser Vortrag vermittelt Erfahrungswissen.
+
+Zur Vorbereitung ist mein masqmail-Vortrag sicher interessant, man muss ihn aber nicht gesehen haben um diesem Vortrag folgen zu können.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201007-projectrevival/cs-201007-projectrevival_slides.pdf</guid>
+            <pubDate>Mon, 17 July 2010 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Ein Vortrag mit Erfahrungen und Tipps über meine Wiederbelebungsversuche von masqmail.
+
+Masqmail wurde 1999-2002 entwickelt und ist 2005 verwaist. Im Herbst 2008 habe ich es, im Rahmen meiner Diplomarbeit, übernommen. Seit diesem Frühjahr arbeite i ...</itunes:subtitle>
+            <itunes:summary>Ein Vortrag mit Erfahrungen und Tipps über meine Wiederbelebungsversuche von masqmail.
+
+Masqmail wurde 1999-2002 entwickelt und ist 2005 verwaist. Im Herbst 2008 habe ich es, im Rahmen meiner Diplomarbeit, übernommen. Seit diesem Frühjahr arbeite ich aktiv daran. Ein altes Projekt zu übernehmen ist anders als ein neues Projekt frisch zu beginnen. Dieser Vortrag vermittelt Erfahrungswissen.
+
+Zur Vorbereitung ist mein masqmail-Vortrag sicher interessant, man muss ihn aber nicht gesehen haben um diesem Vortrag folgen zu können.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201007-projectrevival/cs-201007-projectrevival_slides.pdf" length="30092" type="application/pdf" />
+        </item>
+        <item>
+            <title>CS201007: Software Project Revival</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2010/07_SoftwareProjectRevival</link>
+            <description>Ein Vortrag mit Erfahrungen und Tipps über meine Wiederbelebungsversuche von masqmail.
+
+Masqmail wurde 1999-2002 entwickelt und ist 2005 verwaist. Im Herbst 2008 habe ich es, im Rahmen meiner Diplomarbeit, übernommen. Seit diesem Frühjahr arbeite ich aktiv daran. Ein altes Projekt zu übernehmen ist anders als ein neues Projekt frisch zu beginnen. Dieser Vortrag vermittelt Erfahrungswissen.
+
+Zur Vorbereitung ist mein masqmail-Vortrag sicher interessant, man muss ihn aber nicht gesehen haben um diesem Vortrag folgen zu können.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201007-projectrevival/cs-201007-projectrevival_video.mp4</guid>
+            <pubDate>Mon, 17 July 2010 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Ein Vortrag mit Erfahrungen und Tipps über meine Wiederbelebungsversuche von masqmail.
+
+Masqmail wurde 1999-2002 entwickelt und ist 2005 verwaist. Im Herbst 2008 habe ich es, im Rahmen meiner Diplomarbeit, übernommen. Seit diesem Frühjahr arbeite i ...</itunes:subtitle>
+            <itunes:summary>Ein Vortrag mit Erfahrungen und Tipps über meine Wiederbelebungsversuche von masqmail.
+
+Masqmail wurde 1999-2002 entwickelt und ist 2005 verwaist. Im Herbst 2008 habe ich es, im Rahmen meiner Diplomarbeit, übernommen. Seit diesem Frühjahr arbeite ich aktiv daran. Ein altes Projekt zu übernehmen ist anders als ein neues Projekt frisch zu beginnen. Dieser Vortrag vermittelt Erfahrungswissen.
+
+Zur Vorbereitung ist mein masqmail-Vortrag sicher interessant, man muss ihn aber nicht gesehen haben um diesem Vortrag folgen zu können.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201007-projectrevival/cs-201007-projectrevival_video.mp4" length="85632064" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201009: Deklarative Programmierung</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2010/09_DeklarativeProgrammierung</link>
+            <description>Ein Obst ist der Apfel. Jedes Obst ist gesund. Ist ein Apfel gesund?
+
+Toaster->toasten( Toastbrot );
+
+Menschen habe viele Wege gesucht, ihre Probleme in einer Zwischensprache zu modellieren. Dies sind die "Paradigmen" der Programmierung.
+
+Leo wollte eigentlich einen Vortrag über "Paradigmen der Programmierung" halten, hat aber gemerkt, dass auch das Teilgebiet schon genügend her gibt um den Vortrag zu füllen.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201009-deklarativeprogrammierung/cs-201009-deklarativeprogrammierung_video.mp4</guid>
+            <pubDate>Mon, 13 September 2010 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Ein Obst ist der Apfel. Jedes Obst ist gesund. Ist ein Apfel gesund?
+
+Toaster->toasten( Toastbrot );
+
+Menschen habe viele Wege gesucht, ihre Probleme in einer Zwischensprache zu modellieren. Dies sind die "Paradigmen" der Programmierung.
+
+Leo wollte e ...</itunes:subtitle>
+            <itunes:summary>Ein Obst ist der Apfel. Jedes Obst ist gesund. Ist ein Apfel gesund?
+
+Toaster->toasten( Toastbrot );
+
+Menschen habe viele Wege gesucht, ihre Probleme in einer Zwischensprache zu modellieren. Dies sind die "Paradigmen" der Programmierung.
+
+Leo wollte eigentlich einen Vortrag über "Paradigmen der Programmierung" halten, hat aber gemerkt, dass auch das Teilgebiet schon genügend her gibt um den Vortrag zu füllen.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201009-deklarativeprogrammierung/cs-201009-deklarativeprogrammierung_video.mp4" length="284360521" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201010: De-Mail</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2010/10_deMail</link>
+            <description>Fast jeder hat schon davon gehört; kaum jemand weiß, was es wirklich ist und macht.
+
+Die De-Mail soll Kommunikation über das Internet sicher und vertrauenswürdig machen. Doch hält sie das, was sie verspricht?</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201010-demail/cs-201010-demail_slides.pdf</guid>
+            <pubDate>Mon, 11 October 2010 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Fast jeder hat schon davon gehört; kaum jemand weiß, was es wirklich ist und macht.
+
+Die De-Mail soll Kommunikation über das Internet sicher und vertrauenswürdig machen. Doch hält sie das, was sie verspricht? ...</itunes:subtitle>
+            <itunes:summary>Fast jeder hat schon davon gehört; kaum jemand weiß, was es wirklich ist und macht.
+
+Die De-Mail soll Kommunikation über das Internet sicher und vertrauenswürdig machen. Doch hält sie das, was sie verspricht?</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201010-demail/cs-201010-demail_slides.pdf" length="205652" type="application/pdf" />
+        </item>
+        <item>
+            <title>CS201010: De-Mail</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2010/10_deMail</link>
+            <description>Fast jeder hat schon davon gehört; kaum jemand weiß, was es wirklich ist und macht.
+
+Die De-Mail soll Kommunikation über das Internet sicher und vertrauenswürdig machen. Doch hält sie das, was sie verspricht?</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201010-demail/cs-201010-demail_video.mp4</guid>
+            <pubDate>Mon, 11 October 2010 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Fast jeder hat schon davon gehört; kaum jemand weiß, was es wirklich ist und macht.
+
+Die De-Mail soll Kommunikation über das Internet sicher und vertrauenswürdig machen. Doch hält sie das, was sie verspricht? ...</itunes:subtitle>
+            <itunes:summary>Fast jeder hat schon davon gehört; kaum jemand weiß, was es wirklich ist und macht.
+
+Die De-Mail soll Kommunikation über das Internet sicher und vertrauenswürdig machen. Doch hält sie das, was sie verspricht?</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201010-demail/cs-201010-demail_video.mp4" length="217093475" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201011: Worst Wide Web</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2010/11_WorstWideWeb</link>
+            <description>Das Web ist kaputt.
+
+Dies ist die kurze und treffende Zusammenfassung dieses Chaosseminar-Vortrags, in dem Nico an Hand einiger Beispiele zeigt, was man so alles im Web finden kann, das nicht funktioniert. Oder das zwar funktioniert, aber aus Sicht eines Hackers nicht schön ist.
+
+Sowohl unbedeutende als auch bekannte Sites werden etwas durch den Kakao gezogen und das Publikum wird um Nennung demonstrierenswerter Defekte gebeten. Zwischendurch werden, je nach Bedarf, noch ein paar technische Hintergründe bzw. Details erläutert.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201011-worstwideweb/cs-201011-worstwideweb_video.mp4</guid>
+            <pubDate>Mon, 8 November 2010 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Das Web ist kaputt.
+
+Dies ist die kurze und treffende Zusammenfassung dieses Chaosseminar-Vortrags, in dem Nico an Hand einiger Beispiele zeigt, was man so alles im Web finden kann, das nicht funktioniert. Oder das zwar funktioniert, aber aus Sicht ei ...</itunes:subtitle>
+            <itunes:summary>Das Web ist kaputt.
+
+Dies ist die kurze und treffende Zusammenfassung dieses Chaosseminar-Vortrags, in dem Nico an Hand einiger Beispiele zeigt, was man so alles im Web finden kann, das nicht funktioniert. Oder das zwar funktioniert, aber aus Sicht eines Hackers nicht schön ist.
+
+Sowohl unbedeutende als auch bekannte Sites werden etwas durch den Kakao gezogen und das Publikum wird um Nennung demonstrierenswerter Defekte gebeten. Zwischendurch werden, je nach Bedarf, noch ein paar technische Hintergründe bzw. Details erläutert.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201011-worstwideweb/cs-201011-worstwideweb_video.mp4" length="241310044" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201012: Mach-O Executable Format</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2010/12_Mach_O</link>
+            <description>Der Vortrag geht zunächst auf die Details des unixoiden Programmstart unter Mac OS X ein. Im zweiten Teil geht es um die Optimierung des kleinstmöglichen Mach-O Executable für Mac OS X v10.6, welches 1 Byte kleiner ist als das bisher kleinste bekannte Mach-O Executable von Amit Singh: http://osxbook.com/blog/2009/03/15/crafting-a-tiny-mach-o-executable/.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201012-machofun/cs-201012-machofun_slides.pdf</guid>
+            <pubDate>Mon, 13 December 2010 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Der Vortrag geht zunächst auf die Details des unixoiden Programmstart unter Mac OS X ein. Im zweiten Teil geht es um die Optimierung des kleinstmöglichen Mach-O Executable für Mac OS X v10.6, welches 1 Byte kleiner ist als das bisher kleinste bekan ...</itunes:subtitle>
+            <itunes:summary>Der Vortrag geht zunächst auf die Details des unixoiden Programmstart unter Mac OS X ein. Im zweiten Teil geht es um die Optimierung des kleinstmöglichen Mach-O Executable für Mac OS X v10.6, welches 1 Byte kleiner ist als das bisher kleinste bekannte Mach-O Executable von Amit Singh: http://osxbook.com/blog/2009/03/15/crafting-a-tiny-mach-o-executable/.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201012-machofun/cs-201012-machofun_slides.pdf" length="40569" type="application/pdf" />
+        </item>
+        <item>
+            <title>CS201012: Mach-O Executable Format</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2010/12_Mach_O</link>
+            <description>Der Vortrag geht zunächst auf die Details des unixoiden Programmstart unter Mac OS X ein. Im zweiten Teil geht es um die Optimierung des kleinstmöglichen Mach-O Executable für Mac OS X v10.6, welches 1 Byte kleiner ist als das bisher kleinste bekannte Mach-O Executable von Amit Singh: http://osxbook.com/blog/2009/03/15/crafting-a-tiny-mach-o-executable/.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201012-machofun/cs-201012-machofun_video.mp4</guid>
+            <pubDate>Mon, 13 December 2010 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Der Vortrag geht zunächst auf die Details des unixoiden Programmstart unter Mac OS X ein. Im zweiten Teil geht es um die Optimierung des kleinstmöglichen Mach-O Executable für Mac OS X v10.6, welches 1 Byte kleiner ist als das bisher kleinste bekan ...</itunes:subtitle>
+            <itunes:summary>Der Vortrag geht zunächst auf die Details des unixoiden Programmstart unter Mac OS X ein. Im zweiten Teil geht es um die Optimierung des kleinstmöglichen Mach-O Executable für Mac OS X v10.6, welches 1 Byte kleiner ist als das bisher kleinste bekannte Mach-O Executable von Amit Singh: http://osxbook.com/blog/2009/03/15/crafting-a-tiny-mach-o-executable/.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201012-machofun/cs-201012-machofun_video.mp4" length="222842602" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201102: Privatsphäre</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2011/02_Ich_hab_doch_nichts_zu_verbergen</link>
+            <description>Wir fordern von unserem Staat, dass dieser uns vor bösen Menschen beschützt. Dafür braucht der Staat unsere Daten. In den letzten Jahren kamen immer wieder neue Ideen auf, wie diese Daten gesammelt werden können.
+
+Was passiert eigentlich mit den gesammelten Daten? Wie weit ist das Sammeln von Daten in Ordnung? Gibt es Daten, die wir lieber nicht hergeben möchten?</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201102-nichtszuverbergen/cs-201102-nichtszuverbergen_video.mp4</guid>
+            <pubDate>Mon, 14 February 2010 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Wir fordern von unserem Staat, dass dieser uns vor bösen Menschen beschützt. Dafür braucht der Staat unsere Daten. In den letzten Jahren kamen immer wieder neue Ideen auf, wie diese Daten gesammelt werden können.
+
+Was passiert eigentlich mit den g ...</itunes:subtitle>
+            <itunes:summary>Wir fordern von unserem Staat, dass dieser uns vor bösen Menschen beschützt. Dafür braucht der Staat unsere Daten. In den letzten Jahren kamen immer wieder neue Ideen auf, wie diese Daten gesammelt werden können.
+
+Was passiert eigentlich mit den gesammelten Daten? Wie weit ist das Sammeln von Daten in Ordnung? Gibt es Daten, die wir lieber nicht hergeben möchten?</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201102-nichtszuverbergen/cs-201102-nichtszuverbergen_video.mp4" length="85593534" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201103: Erde bei Nacht</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2011/03_Nacht</link>
+            <description>Die Erde bei Nacht ist eine Projektion von vielen Einzelbildern und zeigt Nacht über der ganzen Erdkugel.
+
+In allen Kontinenten sehen wir Lichterscheinungen, die eine Wirklichkeit wieder und wider spiegeln. Der Blick in den Himmel wird so der Romantik enthoben und bis auf ein einziges einzelnes natürliches Licht der Gesellschaft preisgegeben.
+
+Im Anschluss daran haben wir aus aktuellem Anlass über die Technik von Atomkraftwerken diskutiert und versucht, einige widersprüchliche Berichte aufzuklären.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201103-erdebeinacht/cs-201103-erdebeinacht_video.mp4</guid>
+            <pubDate>Mon, 14 March 2010 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Die Erde bei Nacht ist eine Projektion von vielen Einzelbildern und zeigt Nacht über der ganzen Erdkugel.
+
+In allen Kontinenten sehen wir Lichterscheinungen, die eine Wirklichkeit wieder und wider spiegeln. Der Blick in den Himmel wird so der Romanti ...</itunes:subtitle>
+            <itunes:summary>Die Erde bei Nacht ist eine Projektion von vielen Einzelbildern und zeigt Nacht über der ganzen Erdkugel.
+
+In allen Kontinenten sehen wir Lichterscheinungen, die eine Wirklichkeit wieder und wider spiegeln. Der Blick in den Himmel wird so der Romantik enthoben und bis auf ein einziges einzelnes natürliches Licht der Gesellschaft preisgegeben.
+
+Im Anschluss daran haben wir aus aktuellem Anlass über die Technik von Atomkraftwerken diskutiert und versucht, einige widersprüchliche Berichte aufzuklären.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201103-erdebeinacht/cs-201103-erdebeinacht_video.mp4" length="207788207" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201104: Keysigning-Party</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2011/04_Keysigning</link>
+            <description>Im Chaosseminar im April unterschreiben wir alle gegenseitig unsere OpenPGP-Keys. Zuvor gibt es von ein paar Organisatoren Erklärungen zu der Prozedur.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201104-keysigning/cs-201104-keysigning_video.mp4</guid>
+            <pubDate>Mon, 11 April 2011 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Im Chaosseminar im April unterschreiben wir alle gegenseitig unsere OpenPGP-Keys. Zuvor gibt es von ein paar Organisatoren Erklärungen zu der Prozedur. ...</itunes:subtitle>
+            <itunes:summary>Im Chaosseminar im April unterschreiben wir alle gegenseitig unsere OpenPGP-Keys. Zuvor gibt es von ein paar Organisatoren Erklärungen zu der Prozedur.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201104-keysigning/cs-201104-keysigning_video.mp4" length="120076011" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201105: In Lateinamerika</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2011/05_InLateinamerika</link>
+            <description>Waehrend meiner Reise durch Suedamerika habe ich viel gesehen und hatte viel Zeit nachzudenken. Ich will meine Eindruecke und Gedanken mit euch teilen. Ich will an Beispielen erklaeren wie die Welt dort unten aussieht, wie sich dort Software Libre manifestiert, wie Technik genutzt wird. Hauptsaechlich werde ich den Blick eines Computerfaszinierten auf das Erlebte beschreiben.
+
+Der Vortrag wird schwach strukturiert sein, eher die Wiedergabe einer Brainstormingsession.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201105-lateinamerika/cs-201105-lateinamerika_video.mp4</guid>
+            <pubDate>Mon, 9 May 2011 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Waehrend meiner Reise durch Suedamerika habe ich viel gesehen und hatte viel Zeit nachzudenken. Ich will meine Eindruecke und Gedanken mit euch teilen. Ich will an Beispielen erklaeren wie die Welt dort unten aussieht, wie sich dort Software Libre man ...</itunes:subtitle>
+            <itunes:summary>Waehrend meiner Reise durch Suedamerika habe ich viel gesehen und hatte viel Zeit nachzudenken. Ich will meine Eindruecke und Gedanken mit euch teilen. Ich will an Beispielen erklaeren wie die Welt dort unten aussieht, wie sich dort Software Libre manifestiert, wie Technik genutzt wird. Hauptsaechlich werde ich den Blick eines Computerfaszinierten auf das Erlebte beschreiben.
+
+Der Vortrag wird schwach strukturiert sein, eher die Wiedergabe einer Brainstormingsession.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201105-lateinamerika/cs-201105-lateinamerika_video.mp4" length="119594795" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201106: Aufsperrtechnik</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2011/06_Aufsperrtechnik</link>
+            <description>Auf jeder Hackerkonferenz findet man mittlerweile Lockpicking und das Öffnen von Schlössern mittels Schlagschlüsseln geistert immer wieder durch die Medien. Das ist aber noch lange nicht alles aus dem weiten Feld der Aufsperrtechnik. Dieser Vortrag soll einen systematischen Überblick über die verschiedenen Techniken und Werkzeuge geben, mit denen Schlösser und Schließmechanismen überwunden werden können.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201106-lockpicking/cs-201106-lockpicking_video.mp4</guid>
+            <pubDate>Mon, 20 June 2011 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Auf jeder Hackerkonferenz findet man mittlerweile Lockpicking und das Öffnen von Schlössern mittels Schlagschlüsseln geistert immer wieder durch die Medien. Das ist aber noch lange nicht alles aus dem weiten Feld der Aufsperrtechnik. Dieser Vortrag ...</itunes:subtitle>
+            <itunes:summary>Auf jeder Hackerkonferenz findet man mittlerweile Lockpicking und das Öffnen von Schlössern mittels Schlagschlüsseln geistert immer wieder durch die Medien. Das ist aber noch lange nicht alles aus dem weiten Feld der Aufsperrtechnik. Dieser Vortrag soll einen systematischen Überblick über die verschiedenen Techniken und Werkzeuge geben, mit denen Schlösser und Schließmechanismen überwunden werden können.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201106-lockpicking/cs-201106-lockpicking_video.mp4" length="165138097" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201107: Creative Coding</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2011/07_Creative_Coding</link>
+            <description>Der Vortrag beschäftigt sich mit dem kreativen Umgang mit Code, der generativen Gestaltung mittels Algorithmen und der Visualisierung von Daten.
+Es wird dabei auf verschiedene Werkzeuge eingegangen und beispielhaft erläutert wie diese eingesetzt werden können.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201107-creativecoding/cs-201107-creativecoding_video.mp4</guid>
+            <pubDate>Mon, 11 July 2011 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Der Vortrag beschäftigt sich mit dem kreativen Umgang mit Code, der generativen Gestaltung mittels Algorithmen und der Visualisierung von Daten.
+Es wird dabei auf verschiedene Werkzeuge eingegangen und beispielhaft erläutert wie diese eingesetzt wer ...</itunes:subtitle>
+            <itunes:summary>Der Vortrag beschäftigt sich mit dem kreativen Umgang mit Code, der generativen Gestaltung mittels Algorithmen und der Visualisierung von Daten.
+Es wird dabei auf verschiedene Werkzeuge eingegangen und beispielhaft erläutert wie diese eingesetzt werden können.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201107-creativecoding/cs-201107-creativecoding_video.mp4" length="110157896" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201109: Sicherheit für Produktionsmaschinen</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2011/09_Sichere_Produktion</link>
+            <description>Vortrag zur Sicherheit in Netzen von Produktionsmaschinen. Gerade werden viele Maschinen, die Sachen produzieren ans Internet angeschlossen, mit der Sicherheit ist es leider nicht gut bestellt.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201109-produktionsmaschinen/cs-201109-produktionsmaschinen_video.mp4</guid>
+            <pubDate>Mon, 12 September 2011 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Vortrag zur Sicherheit in Netzen von Produktionsmaschinen. Gerade werden viele Maschinen, die Sachen produzieren ans Internet angeschlossen, mit der Sicherheit ist es leider nicht gut bestellt. ...</itunes:subtitle>
+            <itunes:summary>Vortrag zur Sicherheit in Netzen von Produktionsmaschinen. Gerade werden viele Maschinen, die Sachen produzieren ans Internet angeschlossen, mit der Sicherheit ist es leider nicht gut bestellt.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201109-produktionsmaschinen/cs-201109-produktionsmaschinen_video.mp4" length="184280727" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201202: node.js</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2012/02_node.js</link>
+            <description>"Node's goal is to provide an easy way to build scalable network programs.
+Almost no function in Node directly performs I/O, so the process never blocks." (Quelle: http://nodejs.org/)
+
+Trotz seines recht jungen Projektalters (existent seit 2009) hat node.js enorm an Popularität gewonnen.
+Das Projekt wird auf GitHub entwickelt und hat dort inzwischen von der Anzahl an Beobachtern
+das "Ruby on Rails" Projekt überholt.
+
+Wir werden auf die Motivation hinter serverseitigem JavaScript eingehen und die Plattform node.js vorstellen.
+Was sind die Charakteristika des Projekts? Wieso bietet sich ausgerechnet JavaScript hierfür als Sprache an?
+Wann macht es Sinn damit zu arbeiten?
+
+Außerdem wollen wir einige praktische Bibliotheken vorstellen. So etwa socket.io, eine Cross-Browser
+Implementierung der WebSockets Spezifikation, die es ermöglicht bequem "realtime web apps" zu erstellen.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201202-node.js/cs-201202-node.js_video.mp4</guid>
+            <pubDate>Mon, 13 February 2012 20:00:00 +0100</pubDate>
+            <itunes:subtitle>"Node's goal is to provide an easy way to build scalable network programs.
+Almost no function in Node directly performs I/O, so the process never blocks." (Quelle: http://nodejs.org/)
+
+Trotz seines recht jungen Projektalters (existent seit 2009) hat n ...</itunes:subtitle>
+            <itunes:summary>"Node's goal is to provide an easy way to build scalable network programs.
+Almost no function in Node directly performs I/O, so the process never blocks." (Quelle: http://nodejs.org/)
+
+Trotz seines recht jungen Projektalters (existent seit 2009) hat node.js enorm an Popularität gewonnen.
+Das Projekt wird auf GitHub entwickelt und hat dort inzwischen von der Anzahl an Beobachtern
+das "Ruby on Rails" Projekt überholt.
+
+Wir werden auf die Motivation hinter serverseitigem JavaScript eingehen und die Plattform node.js vorstellen.
+Was sind die Charakteristika des Projekts? Wieso bietet sich ausgerechnet JavaScript hierfür als Sprache an?
+Wann macht es Sinn damit zu arbeiten?
+
+Außerdem wollen wir einige praktische Bibliotheken vorstellen. So etwa socket.io, eine Cross-Browser
+Implementierung der WebSockets Spezifikation, die es ermöglicht bequem "realtime web apps" zu erstellen.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201202-node.js/cs-201202-node.js_video.mp4" length="177192124" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201203: Chaos Macht Schule</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2012/03_Chaos_macht_Schule</link>
+            <description>Seit einigen Jahren engagieren sich Erfa-Kreise in der Zusammenarbeit mit Bildungsinstitutionen. Es geht darum, Schülern unsere Sicht auf Technologien, wie dem Internet, näher zu bringen. Im Mittelpunkt stehen dabei Besuche und Veranstaltungen an Schulen. Auch der Erfa Ulm hat jetzt ein bisschen Erfahrung mit „Chaos macht Schule“ gesammelt und im Rahmen dieses Chaosseminars möchten wir davon berichten.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201203-ChaosMachtSchule/cs-201203-ChaosMachtSchule_video.mp4</guid>
+            <pubDate>Mon, 12 March 2012 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Seit einigen Jahren engagieren sich Erfa-Kreise in der Zusammenarbeit mit Bildungsinstitutionen. Es geht darum, Schülern unsere Sicht auf Technologien, wie dem Internet, näher zu bringen. Im Mittelpunkt stehen dabei Besuche und Veranstaltungen an Sc ...</itunes:subtitle>
+            <itunes:summary>Seit einigen Jahren engagieren sich Erfa-Kreise in der Zusammenarbeit mit Bildungsinstitutionen. Es geht darum, Schülern unsere Sicht auf Technologien, wie dem Internet, näher zu bringen. Im Mittelpunkt stehen dabei Besuche und Veranstaltungen an Schulen. Auch der Erfa Ulm hat jetzt ein bisschen Erfahrung mit „Chaos macht Schule“ gesammelt und im Rahmen dieses Chaosseminars möchten wir davon berichten.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201203-ChaosMachtSchule/cs-201203-ChaosMachtSchule_video.mp4" length="123014809" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201204: mmh (meillo's mail handler)</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2012/04_mmh</link>
+            <description>Das Thema des Vortrags ist gleichfalls Masterarbeitsthema des Vortragenden. In ihr soll das angestaubte nmh in Form der experimentellen Version mmh modernisiert werden.
+
+Mmh sowie nmh (New Mail Handler) sind Mail User Agents (MUA oder Mail Client) im MH-Stil. Solche bestehen aus einer Sammlung von Einzelprogrammen, die jeweils eine Teilaufgabe uebernehmen. So gibt es beispielsweise scan um die Mails eines Folders aufzulisten, show um eine Mail anzuzeigen, comp um eine neue Mail zu verfassen, repl um zu antworten, refile um Mails in andere Folder zu verschieben, und viele mehr. Mit MH Mails zu bearbeiten ist wie mit den klassischen Unix-Tools Dateien zu bearbeiten. Damit stehen dem erfahrenen Nutzer auch all die Scripting- und Automatisierungsmoeglichkeiten zur Verfuegung die er von der Unix Shell schon kennt.
+
+MH ist fuer Liebhaber der Unix-Philosophie, die endlich mal einen konzeptionell schoenen Mail Client verwenden wollen.
+
+Dieser Vortrag stellt mmh vor und zeigt schrittweise wie man es einrichtet und anpasst. Dieser Vortrag geht auch auf persoenliche Erfahrungen in der Arbeit am Projekt und mit der Community ein.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201204-mmh/cs-201204-mmh_video.mp4</guid>
+            <pubDate>Mon, 16 April 2012 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Das Thema des Vortrags ist gleichfalls Masterarbeitsthema des Vortragenden. In ihr soll das angestaubte nmh in Form der experimentellen Version mmh modernisiert werden.
+
+Mmh sowie nmh (New Mail Handler) sind Mail User Agents (MUA oder Mail Client) im  ...</itunes:subtitle>
+            <itunes:summary>Das Thema des Vortrags ist gleichfalls Masterarbeitsthema des Vortragenden. In ihr soll das angestaubte nmh in Form der experimentellen Version mmh modernisiert werden.
+
+Mmh sowie nmh (New Mail Handler) sind Mail User Agents (MUA oder Mail Client) im MH-Stil. Solche bestehen aus einer Sammlung von Einzelprogrammen, die jeweils eine Teilaufgabe uebernehmen. So gibt es beispielsweise scan um die Mails eines Folders aufzulisten, show um eine Mail anzuzeigen, comp um eine neue Mail zu verfassen, repl um zu antworten, refile um Mails in andere Folder zu verschieben, und viele mehr. Mit MH Mails zu bearbeiten ist wie mit den klassischen Unix-Tools Dateien zu bearbeiten. Damit stehen dem erfahrenen Nutzer auch all die Scripting- und Automatisierungsmoeglichkeiten zur Verfuegung die er von der Unix Shell schon kennt.
+
+MH ist fuer Liebhaber der Unix-Philosophie, die endlich mal einen konzeptionell schoenen Mail Client verwenden wollen.
+
+Dieser Vortrag stellt mmh vor und zeigt schrittweise wie man es einrichtet und anpasst. Dieser Vortrag geht auch auf persoenliche Erfahrungen in der Arbeit am Projekt und mit der Community ein.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201204-mmh/cs-201204-mmh_video.mp4" length="148579363" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201205: Whitespace</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2012/05_whitespace</link>
+            <description>Eine kleine Einführung in die Programmiersprache Whitespace.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201205-whitespace/cs-201205-whitespace_video.mp4</guid>
+            <pubDate>Mon, 14 May 2012 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Eine kleine Einführung in die Programmiersprache Whitespace. ...</itunes:subtitle>
+            <itunes:summary>Eine kleine Einführung in die Programmiersprache Whitespace.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201205-whitespace/cs-201205-whitespace_video.mp4" length="78931524" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201206: OpenBSD</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2012/06_openbsd</link>
+            <description>Über das Betriebssystem OpenBSD.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201206-openbsd/cs-201206-openbsd_slides.pdf</guid>
+            <pubDate>Mon, 11 Jun 2012 20:07:30 +0200</pubDate>
+            <itunes:subtitle>Über das Betriebssystem OpenBSD. ...</itunes:subtitle>
+            <itunes:summary>Über das Betriebssystem OpenBSD.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201206-openbsd/cs-201206-openbsd_slides.pdf" length="495251" type="application/pdf" />
+        </item>
+        <item>
+            <title>CS201206: OpenBSD</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2012/06_openbsd</link>
+            <description>Über das Betriebssystem OpenBSD.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201206-openbsd/cs-201206-openbsd_video.mp4</guid>
+            <pubDate>Mon, 11 Jun 2012 20:07:30 +0200</pubDate>
+            <itunes:subtitle>Über das Betriebssystem OpenBSD. ...</itunes:subtitle>
+            <itunes:summary>Über das Betriebssystem OpenBSD.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201206-openbsd/cs-201206-openbsd_video.mp4" length="143792078" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201207: Virtualisierung</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2012/07_virtualisierung</link>
+            <description>Durch die immer größer werdende Rechenkapazität von Desktop-PCs ist es auch mit normaler Hardware möglich, andere Systeme zu emulieren oder zu virtualisieren. Der Vortrag soll einen Überblick über Techniken und verfügbare Implementierungen geben.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201207-virtualisierung/cs-201207-virtualisierung_slides.pdf</guid>
+            <pubDate>Mon, 9 Jul 2012 20:07:30 +0200</pubDate>
+            <itunes:subtitle>Durch die immer größer werdende Rechenkapazität von Desktop-PCs ist es auch mit normaler Hardware möglich, andere Systeme zu emulieren oder zu virtualisieren. Der Vortrag soll einen Überblick über Techniken und verfügbare Implementierungen gebe ...</itunes:subtitle>
+            <itunes:summary>Durch die immer größer werdende Rechenkapazität von Desktop-PCs ist es auch mit normaler Hardware möglich, andere Systeme zu emulieren oder zu virtualisieren. Der Vortrag soll einen Überblick über Techniken und verfügbare Implementierungen geben.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201207-virtualisierung/cs-201207-virtualisierung_slides.pdf" length="72361" type="application/pdf" />
+        </item>
+        <item>
+            <title>CS201207: Virtualisierung</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2012/07_virtualisierung</link>
+            <description>Durch die immer größer werdende Rechenkapazität von Desktop-PCs ist es auch mit normaler Hardware möglich, andere Systeme zu emulieren oder zu virtualisieren. Der Vortrag soll einen Überblick über Techniken und verfügbare Implementierungen geben.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201207-virtualisierung/cs-201207-virtualisierung_video.mp4</guid>
+            <pubDate>Mon, 9 Jul 2012 20:07:30 +0200</pubDate>
+            <itunes:subtitle>Durch die immer größer werdende Rechenkapazität von Desktop-PCs ist es auch mit normaler Hardware möglich, andere Systeme zu emulieren oder zu virtualisieren. Der Vortrag soll einen Überblick über Techniken und verfügbare Implementierungen gebe ...</itunes:subtitle>
+            <itunes:summary>Durch die immer größer werdende Rechenkapazität von Desktop-PCs ist es auch mit normaler Hardware möglich, andere Systeme zu emulieren oder zu virtualisieren. Der Vortrag soll einen Überblick über Techniken und verfügbare Implementierungen geben.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201207-virtualisierung/cs-201207-virtualisierung_video.mp4" length="100948127" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201209: Damals</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2012/09_damals</link>
+            <description>Als wir die Computer noch selbst geschnitzt haben. Wir erzählen ein bisschen aus alten Zeiten. Wer mag kann seinen ersten Rechner mitbringen.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201209-damals/cs-201209-damals_video.mp4</guid>
+            <pubDate>Mon, 10 Sep 2012 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Als wir die Computer noch selbst geschnitzt haben. Wir erzählen ein bisschen aus alten Zeiten. Wer mag kann seinen ersten Rechner mitbringen. ...</itunes:subtitle>
+            <itunes:summary>Als wir die Computer noch selbst geschnitzt haben. Wir erzählen ein bisschen aus alten Zeiten. Wer mag kann seinen ersten Rechner mitbringen.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201209-damals/cs-201209-damals_video.mp4" length="174121709" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201210: Paradoxien und Antinomien</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2012/10_Paradox</link>
+            <description>Ist Licht ein Teilchen oder eine Welle? Kann es sein, dass der beste Sportstar der Antike es nicht schafft, eine Schildkröte zu überholen? Kann ein kleiner Dämon den zweiten Hauptsatz der Thermodynamik austricksen? Egal, wie die Antwort lautet, oder ob sie überhaupt existiert, allein das Nachdenken über scheinbare oder echte Widersprüche, den Paradoxien und Antinomien, hat immer wieder zu neuen Erkenntnissen geführt. Dieser Vortrag pickt einige Rosinen aus dem großen Fundus.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201210-paradox/cs-201210-paradox_video.mp4</guid>
+            <pubDate>Mon, 8 Oct 2012 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Ist Licht ein Teilchen oder eine Welle? Kann es sein, dass der beste Sportstar der Antike es nicht schafft, eine Schildkröte zu überholen? Kann ein kleiner Dämon den zweiten Hauptsatz der Thermodynamik austricksen? Egal, wie die Antwort lautet, ode ...</itunes:subtitle>
+            <itunes:summary>Ist Licht ein Teilchen oder eine Welle? Kann es sein, dass der beste Sportstar der Antike es nicht schafft, eine Schildkröte zu überholen? Kann ein kleiner Dämon den zweiten Hauptsatz der Thermodynamik austricksen? Egal, wie die Antwort lautet, oder ob sie überhaupt existiert, allein das Nachdenken über scheinbare oder echte Widersprüche, den Paradoxien und Antinomien, hat immer wieder zu neuen Erkenntnissen geführt. Dieser Vortrag pickt einige Rosinen aus dem großen Fundus.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201210-paradox/cs-201210-paradox_video.mp4" length="107798897" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201211: Battle of programming languages</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2012/11_battle</link>
+            <description>Zu Wettbewerb angetreten sind: Octave/Matlab, Ruby, VHDL, PHP, Whitespace, C, JavaScript, Haskell und Cellang.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201211-battle/cs-201211-battle_video.mp4</guid>
+            <pubDate>Mon, 12 Nov 2012 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Zu Wettbewerb angetreten sind: Octave/Matlab, Ruby, VHDL, PHP, Whitespace, C, JavaScript, Haskell und Cellang. ...</itunes:subtitle>
+            <itunes:summary>Zu Wettbewerb angetreten sind: Octave/Matlab, Ruby, VHDL, PHP, Whitespace, C, JavaScript, Haskell und Cellang.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201211-battle/cs-201211-battle_video.mp4" length="177149504" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201301: Port Scan Techniken</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2013/01_port_scanning</link>
+            <description>Ein Überblick über eingesetzte TCP/IP Scantechniken.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201301-portscans/cs-201301-portscans_video.mp4</guid>
+            <pubDate>Mon, 14 Jan 2013 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Ein Überblick über eingesetzte TCP/IP Scantechniken. ...</itunes:subtitle>
+            <itunes:summary>Ein Überblick über eingesetzte TCP/IP Scantechniken.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201301-portscans/cs-201301-portscans_video.mp4" length="92899830" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201302: HOWTO Lockpick</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2013/02_lockpicking2</link>
+            <description>Ein Vortrag über die Technik zur zerstörungsfreien Öffnung von Schlössern. Dieser Vortrag schließt an den Vortrag "Aufsperrtechnik" vom Juni 2011 an.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201302-lockpicking2/cs-201302-lockpicking2_video.mp4</guid>
+            <pubDate>Mon, 11 Feb 2013 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Ein Vortrag über die Technik zur zerstörungsfreien Öffnung von Schlössern. Dieser Vortrag schließt an den Vortrag "Aufsperrtechnik" vom Juni 2011 an. ...</itunes:subtitle>
+            <itunes:summary>Ein Vortrag über die Technik zur zerstörungsfreien Öffnung von Schlössern. Dieser Vortrag schließt an den Vortrag "Aufsperrtechnik" vom Juni 2011 an.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201302-lockpicking2/cs-201302-lockpicking2_video.mp4" length="70808794" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201304: Lightningtalks</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2013/04_lightningtalks</link>
+            <description>Verschiedene Kurzbeiträge zu den Themen "Deutsche Bahn reverseengineering", IPV6, Bücherrezension, Fernsehserienverwaltung und SVG.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201304-lightningtalks/cs-201304-lightningtalks_video.mp4</guid>
+            <pubDate>Mon, 8 Apr 2013 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Verschiedene Kurzbeiträge zu den Themen "Deutsche Bahn reverseengineering", IPV6, Bücherrezension, Fernsehserienverwaltung und SVG. ...</itunes:subtitle>
+            <itunes:summary>Verschiedene Kurzbeiträge zu den Themen "Deutsche Bahn reverseengineering", IPV6, Bücherrezension, Fernsehserienverwaltung und SVG.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201304-lightningtalks/cs-201304-lightningtalks_video.mp4" length="100088552" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201305: Selfmade OSHW Homeautomation</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2013/05_homeautomation</link>
+            <description>Eine energiesparende und trotzdem kosteneffektive Beleuchtung mit LEDs, zusätzlich Rollläden, Steckdosen und noch einiges mehr Steuern und alles als Open Source Hardware.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201305-homeautomation/cs-201305-homeautomation_video.mp4</guid>
+            <pubDate>Mon, 13 May 2013 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Eine energiesparende und trotzdem kosteneffektive Beleuchtung mit LEDs, zusätzlich Rollläden, Steckdosen und noch einiges mehr Steuern und alles als Open Source Hardware. ...</itunes:subtitle>
+            <itunes:summary>Eine energiesparende und trotzdem kosteneffektive Beleuchtung mit LEDs, zusätzlich Rollläden, Steckdosen und noch einiges mehr Steuern und alles als Open Source Hardware.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201305-homeautomation/cs-201305-homeautomation_video.mp4" length="109342365" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201306: Lightningtalks</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2013/06_lightningtalks</link>
+            <description>Verschiedene Kurzbeiträge zu den Themen Sicherheit in IT-Systemen, Lasercutter, Raspberry-Pi, Software für Kleinkinder, Datentypen in Perl</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201306-lightningtalks/cs-201306-lightningtalks_video.mp4</guid>
+            <pubDate>Mon, 10 Jun 2013 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Verschiedene Kurzbeiträge zu den Themen Sicherheit in IT-Systemen, Lasercutter, Raspberry-Pi, Software für Kleinkinder, Datentypen in Perl ...</itunes:subtitle>
+            <itunes:summary>Verschiedene Kurzbeiträge zu den Themen Sicherheit in IT-Systemen, Lasercutter, Raspberry-Pi, Software für Kleinkinder, Datentypen in Perl</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201306-lightningtalks/cs-201306-lightningtalks_video.mp4" length="133116101" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201307: Open Data</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2013/07_open_data</link>
+            <description>Es ist höchste Zeit, dass es zu diesem Thema ein ChaosSeminar gibt! Immer mehr technische Enthusiasten entdecken unser politisches System als Spielwiese und sind dabei Ideen aus der freien Softwarewelt in die Politik zu übertragen. Geschlossene Datenhaltung ist nicht mehr - Open Data ist jetzt angesagt!
+
+Laut Wikipedia bezeichnet Open Data "die freie Verfügbar- und Nutzbarkeit von [...] Daten. Sie beruht auf der Annahme, dass vorteilhafte Entwicklungen eingeleitet werden, wenn Daten für jedermann frei zugänglich gemacht werden".
+
+Was genau "vorteilhafte Entwicklungen" und "freie Daten" sein können werde ich versuchen in diesem Vortrag anschaulich zu beantworten. Zentrale Fragestellungen sind:
+
+ * Was ist die Idee und Motivation hinter Open Data?
+ * Wie ist der Stand? Welche Daten sind bereits befreit?
+ * Was haben etwa kreative Menschen aller Art mit frei verfügbaren Datensätzen angestellt?
+
+Ich will hier insbesondere auch auf die aktuellen Entwicklungen in Deutschland / Ulm eingehen. Wir haben vor etwa zwei Jahren die Hochschulgruppe datalove und das Projekt ulmAPI.de ins Leben gerufen und seither einige Projekte im Open Data Kontext verwirklicht, zwei Open Data Barcamps veranstaltet und waren auf lokaler und regionaler Ebene beratend im Gespräch mit Verwaltungen und Ämtern.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201307-opendata/cs-201307-opendata_video.mp4</guid>
+            <pubDate>Mon, 8 Jul 2013 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Es ist höchste Zeit, dass es zu diesem Thema ein ChaosSeminar gibt! Immer mehr technische Enthusiasten entdecken unser politisches System als Spielwiese und sind dabei Ideen aus der freien Softwarewelt in die Politik zu übertragen. Geschlossene Date ...</itunes:subtitle>
+            <itunes:summary>Es ist höchste Zeit, dass es zu diesem Thema ein ChaosSeminar gibt! Immer mehr technische Enthusiasten entdecken unser politisches System als Spielwiese und sind dabei Ideen aus der freien Softwarewelt in die Politik zu übertragen. Geschlossene Datenhaltung ist nicht mehr - Open Data ist jetzt angesagt!
+
+Laut Wikipedia bezeichnet Open Data "die freie Verfügbar- und Nutzbarkeit von [...] Daten. Sie beruht auf der Annahme, dass vorteilhafte Entwicklungen eingeleitet werden, wenn Daten für jedermann frei zugänglich gemacht werden".
+
+Was genau "vorteilhafte Entwicklungen" und "freie Daten" sein können werde ich versuchen in diesem Vortrag anschaulich zu beantworten. Zentrale Fragestellungen sind:
+
+ * Was ist die Idee und Motivation hinter Open Data?
+ * Wie ist der Stand? Welche Daten sind bereits befreit?
+ * Was haben etwa kreative Menschen aller Art mit frei verfügbaren Datensätzen angestellt?
+
+Ich will hier insbesondere auch auf die aktuellen Entwicklungen in Deutschland / Ulm eingehen. Wir haben vor etwa zwei Jahren die Hochschulgruppe datalove und das Projekt ulmAPI.de ins Leben gerufen und seither einige Projekte im Open Data Kontext verwirklicht, zwei Open Data Barcamps veranstaltet und waren auf lokaler und regionaler Ebene beratend im Gespräch mit Verwaltungen und Ämtern.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201307-opendata/cs-201307-opendata_video.mp4" length="106826604" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201310: Das Unix-Prinzip. Die experimentelle Textengine</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2013/10_textengine</link>
+            <description>Unix-Prinzip kann man den Grundsatz „Software ist Text” nennen. Dieses Prinzip zu ergründen, indem der Text nicht als bloße Zeichenkette, sondern als geparste Struktur implementiert wird, ist der Zweck der experimentellen Textengine, die in diesem Vortrag vorgestellt wird.
+
+Projektwebsite: http://text-engine.de</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201310-textengine/cs-201310-textengine_video.mp4</guid>
+            <pubDate>Mon, 14 Oct 2013 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Unix-Prinzip kann man den Grundsatz „Software ist Text” nennen. Dieses Prinzip zu ergründen, indem der Text nicht als bloße Zeichenkette, sondern als geparste Struktur implementiert wird, ist der Zweck der experimentellen Textengine, die in dies ...</itunes:subtitle>
+            <itunes:summary>Unix-Prinzip kann man den Grundsatz „Software ist Text” nennen. Dieses Prinzip zu ergründen, indem der Text nicht als bloße Zeichenkette, sondern als geparste Struktur implementiert wird, ist der Zweck der experimentellen Textengine, die in diesem Vortrag vorgestellt wird.
+
+Projektwebsite: http://text-engine.de</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201310-textengine/cs-201310-textengine_video.mp4" length="64766068" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201311: On Performance</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2013/11_performance</link>
+            <description>In diesem Vortrag geht es um Gedanken zur Performance von Software und Software-Systemen. Anhand von Beispielen werden verschiedenen Seiten des Themas beleuchtet und diskutiert.
+
+Ziel des Vortrags ist es, Erfahrungswissen zum Erkennen von problematischen Performance-Optimierungen mitzugeben und ein umfassenderes Verständnis der Thematik zu vermitteln.
+
+Vortragswebsite: http://marmaro.de/docs/chaosseminar/on-performance/</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201311-onperformance/cs-201311-onperformance_video.mp4</guid>
+            <pubDate>Mon, 11 Nov 2013 20:00:00 +0100</pubDate>
+            <itunes:subtitle>In diesem Vortrag geht es um Gedanken zur Performance von Software und Software-Systemen. Anhand von Beispielen werden verschiedenen Seiten des Themas beleuchtet und diskutiert.
+
+Ziel des Vortrags ist es, Erfahrungswissen zum Erkennen von problematisc ...</itunes:subtitle>
+            <itunes:summary>In diesem Vortrag geht es um Gedanken zur Performance von Software und Software-Systemen. Anhand von Beispielen werden verschiedenen Seiten des Themas beleuchtet und diskutiert.
+
+Ziel des Vortrags ist es, Erfahrungswissen zum Erkennen von problematischen Performance-Optimierungen mitzugeben und ein umfassenderes Verständnis der Thematik zu vermitteln.
+
+Vortragswebsite: http://marmaro.de/docs/chaosseminar/on-performance/</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201311-onperformance/cs-201311-onperformance_video.mp4" length="94556452" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201311: On Performance</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2013/11_performance</link>
+            <description>In diesem Vortrag geht es um Gedanken zur Performance von Software und Software-Systemen. Anhand von Beispielen werden verschiedenen Seiten des Themas beleuchtet und diskutiert.
+
+Ziel des Vortrags ist es, Erfahrungswissen zum Erkennen von problematischen Performance-Optimierungen mitzugeben und ein umfassenderes Verständnis der Thematik zu vermitteln.
+
+Vortragswebsite: http://marmaro.de/docs/chaosseminar/on-performance/</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201311-onperformance/cs-201311-onperformance_slides.pdf</guid>
+            <pubDate>Mon, 11 Nov 2013 20:00:00 +0100</pubDate>
+            <itunes:subtitle>In diesem Vortrag geht es um Gedanken zur Performance von Software und Software-Systemen. Anhand von Beispielen werden verschiedenen Seiten des Themas beleuchtet und diskutiert.
+
+Ziel des Vortrags ist es, Erfahrungswissen zum Erkennen von problematisc ...</itunes:subtitle>
+            <itunes:summary>In diesem Vortrag geht es um Gedanken zur Performance von Software und Software-Systemen. Anhand von Beispielen werden verschiedenen Seiten des Themas beleuchtet und diskutiert.
+
+Ziel des Vortrags ist es, Erfahrungswissen zum Erkennen von problematischen Performance-Optimierungen mitzugeben und ein umfassenderes Verständnis der Thematik zu vermitteln.
+
+Vortragswebsite: http://marmaro.de/docs/chaosseminar/on-performance/</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201311-onperformance/cs-201311-onperformance_slides.pdf" length="152034" type="application/pdf" />
+        </item>
+        <item>
+            <title>CS201312: Der elektronische Personalausweis</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2013/12_personalausweis</link>
+            <description>Der elektronische Personalausweis. Eine Leidensgeschichte. Von Promos mit der Bildzeitung, defekter Software und dem technischen Totalversagen. JETZT NEU mit einem hohlen Innenminister-Spruch zum Sammeln in jeder Packung!</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201312-personalausweis/cs-201312-personalausweis_video.mp4</guid>
+            <pubDate>Mon, 9 Dec 2013 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Der elektronische Personalausweis. Eine Leidensgeschichte. Von Promos mit der Bildzeitung, defekter Software und dem technischen Totalversagen. JETZT NEU mit einem hohlen Innenminister-Spruch zum Sammeln in jeder Packung! ...</itunes:subtitle>
+            <itunes:summary>Der elektronische Personalausweis. Eine Leidensgeschichte. Von Promos mit der Bildzeitung, defekter Software und dem technischen Totalversagen. JETZT NEU mit einem hohlen Innenminister-Spruch zum Sammeln in jeder Packung!</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201312-personalausweis/cs-201312-personalausweis_video.mp4" length="353597158" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201401: Hardware- und Softwareentwurf einer Maschine zur Prozesssteuerung</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2014/01_HardwareSoftwareEntwurf</link>
+            <description>Halbleiter werden aus Stoffen mit mehreren Schichten zusammengefügt. Je präziser man die Schichtübergänge fertigen kann, desto genauer kann man das Verhalten des Bauteiles voraussagen. Atomic Layer Deposition (ALD) ist ein Verfahren, um ein Gas zur chemischen Reaktion zu bringen und dabei diese Schicht zu verändern. Im speziellen Beispiel soll auf ein Werkstück eine Atomlage Aluminium aufgebracht werden, damit das Alumium im nächsten Schritt mit Sauerstoff reagiert. Es ensteht ein Stück Silizium mit einer Lage Aluminiumoxid. Aluminiumoxid ist ein Nichtleiter und das entstehende Bauteil nennt sich MOSFET (Metall Oxide Semiconductor Field Effect Transistor).
+
+HEck packt noch eine Menge Elektrotechnikwissen oben drauf und erklärt, was an der Maschine austauschbedürftig war, was er entworfen hat und das ganze Verfahren drum herum.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201401-HardwareSoftwareEntwurf/cs-201401-HardwareSoftwareEntwurf_video.mp4</guid>
+            <pubDate>Mon, 13 Jan 2014 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Halbleiter werden aus Stoffen mit mehreren Schichten zusammengefügt. Je präziser man die Schichtübergänge fertigen kann, desto genauer kann man das Verhalten des Bauteiles voraussagen. Atomic Layer Deposition (ALD) ist ein Verfahren, um ein Gas zu ...</itunes:subtitle>
+            <itunes:summary>Halbleiter werden aus Stoffen mit mehreren Schichten zusammengefügt. Je präziser man die Schichtübergänge fertigen kann, desto genauer kann man das Verhalten des Bauteiles voraussagen. Atomic Layer Deposition (ALD) ist ein Verfahren, um ein Gas zur chemischen Reaktion zu bringen und dabei diese Schicht zu verändern. Im speziellen Beispiel soll auf ein Werkstück eine Atomlage Aluminium aufgebracht werden, damit das Alumium im nächsten Schritt mit Sauerstoff reagiert. Es ensteht ein Stück Silizium mit einer Lage Aluminiumoxid. Aluminiumoxid ist ein Nichtleiter und das entstehende Bauteil nennt sich MOSFET (Metall Oxide Semiconductor Field Effect Transistor).
+
+HEck packt noch eine Menge Elektrotechnikwissen oben drauf und erklärt, was an der Maschine austauschbedürftig war, was er entworfen hat und das ganze Verfahren drum herum.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201401-HardwareSoftwareEntwurf/cs-201401-HardwareSoftwareEntwurf_video.mp4" length="71974527" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201402: Elektromagnetische Verträglichkeit an ausgewählten BUS-Systemen</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2014/02_EMV</link>
+            <description>Alle elektrisch betriebenen Geräte generieren mehr oder weniger stark ausgeprägte elektromagnetische Felder, lassen sich aber auch von Feldern ab einer gewissen Intensität selbst beeinflussen. Dies kann eventuell gewollt sein (z.B. bei drahtloser Kommunikation), aber natürlich auch ungewollte Effekte wie Fehlfunktionen oder den kompletten Ausfall von Geräten zur Folge haben. Richtlinien zur elektromagnetischen Verträglichkeit auf nationaler sowie internationaler Ebene definieren, welche Intensität von elektronischen Geräten ohne Fehlfunktion toleriert werden müssen.
+
+Der Vortrag startet mit einen kurzen Einblick in die Grundlagen der Elektrotechnik, die nötig sind um die Entstehung und die Auswirkungen von elektromagnetischen Feldern zu veranschaulichen. Wichtige Themen in dem Zusammenhang sind der Übergang von idealen zu realen Bauteilen bei Steigerung der Frequenz, die Auswirkungen der Manipulation von räumlichen Dimensionen und wechselseitige Beeinflussungsmöglichkeiten - (unbewusste) Kopplungen. Die verschiedenen Aspekte werden durch bekannte Beispiele aus der realen Welt verdeutlicht, z.B. warum das Kabel der USB-Maus nicht zum Anschließen einer USB-Festplatte geeignet ist.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201402-emv/cs-201402-emv_video.mp4</guid>
+            <pubDate>Mon, 10 Feb 2014 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Alle elektrisch betriebenen Geräte generieren mehr oder weniger stark ausgeprägte elektromagnetische Felder, lassen sich aber auch von Feldern ab einer gewissen Intensität selbst beeinflussen. Dies kann eventuell gewollt sein (z.B. bei drahtloser K ...</itunes:subtitle>
+            <itunes:summary>Alle elektrisch betriebenen Geräte generieren mehr oder weniger stark ausgeprägte elektromagnetische Felder, lassen sich aber auch von Feldern ab einer gewissen Intensität selbst beeinflussen. Dies kann eventuell gewollt sein (z.B. bei drahtloser Kommunikation), aber natürlich auch ungewollte Effekte wie Fehlfunktionen oder den kompletten Ausfall von Geräten zur Folge haben. Richtlinien zur elektromagnetischen Verträglichkeit auf nationaler sowie internationaler Ebene definieren, welche Intensität von elektronischen Geräten ohne Fehlfunktion toleriert werden müssen.
+
+Der Vortrag startet mit einen kurzen Einblick in die Grundlagen der Elektrotechnik, die nötig sind um die Entstehung und die Auswirkungen von elektromagnetischen Feldern zu veranschaulichen. Wichtige Themen in dem Zusammenhang sind der Übergang von idealen zu realen Bauteilen bei Steigerung der Frequenz, die Auswirkungen der Manipulation von räumlichen Dimensionen und wechselseitige Beeinflussungsmöglichkeiten - (unbewusste) Kopplungen. Die verschiedenen Aspekte werden durch bekannte Beispiele aus der realen Welt verdeutlicht, z.B. warum das Kabel der USB-Maus nicht zum Anschließen einer USB-Festplatte geeignet ist.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201402-emv/cs-201402-emv_video.mp4" length="80682285" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201403: Software Verification</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2014/03_verifikation</link>
+            <description>Software schreiben ist schwierig. Ein Tool, das immer wieder kurze Zeit auf kommt, um danach wieder zu verschwinden, ist die (automatische, statische) Verifikation von Software. Ziel ist, mit einem Algorithmus fest zu stellen, ob ein Programm "korrekt" funktioniert. In diesem Vortrag geht es hauptsächlich darum klar zu machen, warum Verifikation sich nicht wirklich durchgesetzt hat, was denn "korrekt" heißen soll, wofür man Verifikation sonst noch einsetzen kann, und letztlich was man aus das ganze lernen kann ohne es anwenden zu müssen.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201403-verification/cs-201403-verification_video.mp4</guid>
+            <pubDate>Mon, 10 Mar 2014 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Software schreiben ist schwierig. Ein Tool, das immer wieder kurze Zeit auf kommt, um danach wieder zu verschwinden, ist die (automatische, statische) Verifikation von Software. Ziel ist, mit einem Algorithmus fest zu stellen, ob ein Programm "korrekt ...</itunes:subtitle>
+            <itunes:summary>Software schreiben ist schwierig. Ein Tool, das immer wieder kurze Zeit auf kommt, um danach wieder zu verschwinden, ist die (automatische, statische) Verifikation von Software. Ziel ist, mit einem Algorithmus fest zu stellen, ob ein Programm "korrekt" funktioniert. In diesem Vortrag geht es hauptsächlich darum klar zu machen, warum Verifikation sich nicht wirklich durchgesetzt hat, was denn "korrekt" heißen soll, wofür man Verifikation sonst noch einsetzen kann, und letztlich was man aus das ganze lernen kann ohne es anwenden zu müssen.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201403-verification/cs-201403-verification_video.mp4" length="76451964" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201404: Geschichte der Webentwicklung</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2014/04_web_history</link>
+            <description>Eine subjektive Zeitreise und Überblick über die Geschichte der Webentwicklung und verschiedene Web-Technologien,
+inklusive einer kleinen Live Demonstration wie Web-Anwendungen entwickelt werden können, ohne dabei Bluthochdruck zu bekommen =)</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201404-web/cs-201404-web_video.mp4</guid>
+            <pubDate>Mon, 14 Apr 2014 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Eine subjektive Zeitreise und Überblick über die Geschichte der Webentwicklung und verschiedene Web-Technologien,
+inklusive einer kleinen Live Demonstration wie Web-Anwendungen entwickelt werden können, ohne dabei Bluthochdruck zu bekommen =) ...</itunes:subtitle>
+            <itunes:summary>Eine subjektive Zeitreise und Überblick über die Geschichte der Webentwicklung und verschiedene Web-Technologien,
+inklusive einer kleinen Live Demonstration wie Web-Anwendungen entwickelt werden können, ohne dabei Bluthochdruck zu bekommen =)</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201404-web/cs-201404-web_video.mp4" length="87642594" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201405: Eine Einführung in die Kategorientheorie</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2014/05_kategorien</link>
+            <description>Eine Einführung in die Kategorientheorie mit Beispielen in Haskell</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201405-kategorien/cs-201405-kategorien_video.mp4</guid>
+            <pubDate>Mon, 12 May 2014 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Eine Einführung in die Kategorientheorie mit Beispielen in Haskell ...</itunes:subtitle>
+            <itunes:summary>Eine Einführung in die Kategorientheorie mit Beispielen in Haskell</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201405-kategorien/cs-201405-kategorien_video.mp4" length="215780799" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201406: Mathemagie</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2014/06_mathe</link>
+            <description>Die Mathematik bietet viel praktisches aber, zumindest je nach Sichtweise auch vergnügliches bis unglaubliches. Der Vortrag stellt zunächst Fourierreihen vor, weil die vor ein paar Monaten im Chaosseminar zu sehen waren und es da noch viel zu sagen gab. Als Abfallprodukt lösen wir das Basler Problem. Das führt zu einem sehr mathematischen Thema der Riemannschen Zetafunktion. Aus der Abteilung Magie zeigen wir schliesslich, dass 1+2+3+4+...= -1/12.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201406-mathemagie/cs-201406-mathemagie_video.mp4</guid>
+            <pubDate>Mon, 16 Jun 2014 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Die Mathematik bietet viel praktisches aber, zumindest je nach Sichtweise auch vergnügliches bis unglaubliches. Der Vortrag stellt zunächst Fourierreihen vor, weil die vor ein paar Monaten im Chaosseminar zu sehen waren und es da noch viel zu sagen  ...</itunes:subtitle>
+            <itunes:summary>Die Mathematik bietet viel praktisches aber, zumindest je nach Sichtweise auch vergnügliches bis unglaubliches. Der Vortrag stellt zunächst Fourierreihen vor, weil die vor ein paar Monaten im Chaosseminar zu sehen waren und es da noch viel zu sagen gab. Als Abfallprodukt lösen wir das Basler Problem. Das führt zu einem sehr mathematischen Thema der Riemannschen Zetafunktion. Aus der Abteilung Magie zeigen wir schliesslich, dass 1+2+3+4+...= -1/12.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201406-mathemagie/cs-201406-mathemagie_video.mp4" length="78193588" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201407: Kamerasysteme</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2014/07_kamerasysteme</link>
+            <description>Wenn man "Fliegende Augen" hoert, denkt man heute nicht an neues Spiel unter Medizinstudenten sondern man denkt an Drohnen mit Kamerasystemen an Bord. Kameras sind heute in Autos, in Telefonen, in (optischen) Maeusen, in Tollcollect-Bruecken in 70-Euro-Spielzeughubschraubern. Nicht zu vergessen sind die Kameras, die in der Industrie die Produktion ueberwachen und steuern helfen. Kameraelektronik ist also ein allgegenwaertiger Teil unseres Lebens, und darum geht es in diesem Vortrag. Kameras als technischer Nachbau eines Auges zusaetzlich mit Beleuchtung, Auswerteeinheit und Schnittstellen bilden dann im Zusammenwirken Kamerasysteme. Insbesondere werden Auge und Kamera verglichen, Bildverarbeitung als die zugehoerige Softwarediziplin vorgestellt und behandelt, Anekdoten aus ueber vierzig Jahren Kamerasystementwicklung zum Besten gegeben und es wird versucht ein Ausblick zu geben, was die Zukunft hier bringen koennte.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201407-kamerasysteme/cs-201407-kamerasysteme_video.mp4</guid>
+            <pubDate>Mon, 14 Jul 2014 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Wenn man "Fliegende Augen" hoert, denkt man heute nicht an neues Spiel unter Medizinstudenten sondern man denkt an Drohnen mit Kamerasystemen an Bord. Kameras sind heute in Autos, in Telefonen, in (optischen) Maeusen, in Tollcollect-Bruecken in 70-Eur ...</itunes:subtitle>
+            <itunes:summary>Wenn man "Fliegende Augen" hoert, denkt man heute nicht an neues Spiel unter Medizinstudenten sondern man denkt an Drohnen mit Kamerasystemen an Bord. Kameras sind heute in Autos, in Telefonen, in (optischen) Maeusen, in Tollcollect-Bruecken in 70-Euro-Spielzeughubschraubern. Nicht zu vergessen sind die Kameras, die in der Industrie die Produktion ueberwachen und steuern helfen. Kameraelektronik ist also ein allgegenwaertiger Teil unseres Lebens, und darum geht es in diesem Vortrag. Kameras als technischer Nachbau eines Auges zusaetzlich mit Beleuchtung, Auswerteeinheit und Schnittstellen bilden dann im Zusammenwirken Kamerasysteme. Insbesondere werden Auge und Kamera verglichen, Bildverarbeitung als die zugehoerige Softwarediziplin vorgestellt und behandelt, Anekdoten aus ueber vierzig Jahren Kamerasystementwicklung zum Besten gegeben und es wird versucht ein Ausblick zu geben, was die Zukunft hier bringen koennte.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201407-kamerasysteme/cs-201407-kamerasysteme_video.mp4" length="205286594" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201409: Android Malware over USB</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2014/09_malware</link>
+            <description>In dem Talk geht es darum aufzuzeigen wie auf einem Desktop PC, durch ein verbundenes Android das verschiedene physische Geräte vortäuschen kann, unerwünschte Aktionen oder Software ausgeführt werden kann.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201409-androidmalware/cs-201409-androidmalware_video.mp4</guid>
+            <pubDate>Mon, 8 Sep 2014 20:00:00 +0200</pubDate>
+            <itunes:subtitle>In dem Talk geht es darum aufzuzeigen wie auf einem Desktop PC, durch ein verbundenes Android das verschiedene physische Geräte vortäuschen kann, unerwünschte Aktionen oder Software ausgeführt werden kann. ...</itunes:subtitle>
+            <itunes:summary>In dem Talk geht es darum aufzuzeigen wie auf einem Desktop PC, durch ein verbundenes Android das verschiedene physische Geräte vortäuschen kann, unerwünschte Aktionen oder Software ausgeführt werden kann.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201409-androidmalware/cs-201409-androidmalware_video.mp4" length="81548330" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201410: Brain Computer Interfaces</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2014/10_BCI</link>
+            <description>Dem Computer Befehle erteilen ohne dafür einen einzigen Muskel zu bewegen. Kate und matou werden euch an diesem Abend zeigen, welche Möglichkeiten es gibt, Gehirnaktivität zu messen, zu interpretieren und Systeme zu bauen die diese als Input verwenden.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201410-bci/cs-201410-bci_video.mp4</guid>
+            <pubDate>Mon, 13 Oct 2014 20:07:00 +0200</pubDate>
+            <itunes:subtitle>Dem Computer Befehle erteilen ohne dafür einen einzigen Muskel zu bewegen. Kate und matou werden euch an diesem Abend zeigen, welche Möglichkeiten es gibt, Gehirnaktivität zu messen, zu interpretieren und Systeme zu bauen die diese als Input verwen ...</itunes:subtitle>
+            <itunes:summary>Dem Computer Befehle erteilen ohne dafür einen einzigen Muskel zu bewegen. Kate und matou werden euch an diesem Abend zeigen, welche Möglichkeiten es gibt, Gehirnaktivität zu messen, zu interpretieren und Systeme zu bauen die diese als Input verwenden.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201410-bci/cs-201410-bci_video.mp4" length="101139013" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201411: Init-Systeme</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2014/11_InitSysteme</link>
+            <description>Der Vortag beschreibt zum einen technische Aspekte und Herangehensweisen von existierenden Init-Systemen. Zum anderen gibt es aber eine Reihe von Umbrüchen in vielen Distributionen und auch soziale Aspekte spielen eine erhebliche Rolle.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201411-initsysteme/cs-201411-initsysteme_video.mp4</guid>
+            <pubDate>Mon, 10 Nov 2014 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Der Vortag beschreibt zum einen technische Aspekte und Herangehensweisen von existierenden Init-Systemen. Zum anderen gibt es aber eine Reihe von Umbrüchen in vielen Distributionen und auch soziale Aspekte spielen eine erhebliche Rolle. ...</itunes:subtitle>
+            <itunes:summary>Der Vortag beschreibt zum einen technische Aspekte und Herangehensweisen von existierenden Init-Systemen. Zum anderen gibt es aber eine Reihe von Umbrüchen in vielen Distributionen und auch soziale Aspekte spielen eine erhebliche Rolle.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201411-initsysteme/cs-201411-initsysteme_video.mp4" length="116243996" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201412: Spaß mit Übersetzen und Unicode</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2014/12_uebersetzen</link>
+            <description>Das Thema lang erklärt:
+Es sind zwei Teilvorträge. Der erste fasst die Geschichten zusammen, die Marcus und seine Sprachschüler an Fehlübersetzungen und lustigen Missverständnissen hatten und soll dabei leichtfüßig in mögliche Gedankengänge von Fremdsprachen einführen. Vortragssprache ist Deutsch. Die angerissen Sprachen umfassen Deutsch - Englisch - Portugiesisch - Russisch - Polnisch und abhängig davon wie gut die Zuarbeiter sind auch noch Finnisch und Türkisch in gaaanz grob.
+Der zweite Teil stürzt sich auf das Schriftsystem. Es geht um Unicode. Der Vortrag ist noch nicht ganz sauber umrissen, aber er wird Endianess, Codierungen, dass Unicode Consortium und Teile aus den Codepages enthalten.
+Zur Selbstorientierung hier ein paar Leitfragen:
+Wie funktioniert lowercase() für Alphabete unterschiedlicher Buchstabenzahl?
+Was ist alphabetische Sortierung, wenn meine Musiksammlung auch russische Interpreten enthält?
+Wie vergleiche ich zwei Strings?
+Die Compose-Taste.
+Viel Spaß und bis Montag!
+Marcus</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201412-unicode/cs-201412-unicode_video.mp4</guid>
+            <pubDate>Mon, 08 Dec 2014 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Das Thema lang erklärt:
+Es sind zwei Teilvorträge. Der erste fasst die Geschichten zusammen, die Marcus und seine Sprachschüler an Fehlübersetzungen und lustigen Missverständnissen hatten und soll dabei leichtfüßig in mögliche Gedankengänge v ...</itunes:subtitle>
+            <itunes:summary>Das Thema lang erklärt:
+Es sind zwei Teilvorträge. Der erste fasst die Geschichten zusammen, die Marcus und seine Sprachschüler an Fehlübersetzungen und lustigen Missverständnissen hatten und soll dabei leichtfüßig in mögliche Gedankengänge von Fremdsprachen einführen. Vortragssprache ist Deutsch. Die angerissen Sprachen umfassen Deutsch - Englisch - Portugiesisch - Russisch - Polnisch und abhängig davon wie gut die Zuarbeiter sind auch noch Finnisch und Türkisch in gaaanz grob.
+Der zweite Teil stürzt sich auf das Schriftsystem. Es geht um Unicode. Der Vortrag ist noch nicht ganz sauber umrissen, aber er wird Endianess, Codierungen, dass Unicode Consortium und Teile aus den Codepages enthalten.
+Zur Selbstorientierung hier ein paar Leitfragen:
+Wie funktioniert lowercase() für Alphabete unterschiedlicher Buchstabenzahl?
+Was ist alphabetische Sortierung, wenn meine Musiksammlung auch russische Interpreten enthält?
+Wie vergleiche ich zwei Strings?
+Die Compose-Taste.
+Viel Spaß und bis Montag!
+Marcus</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201412-unicode/cs-201412-unicode_video.mp4" length="158846804" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201501: RFID Malware</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2015/01_RFID_Malware</link>
+            <description>Jeglichem Input nicht zu trauen ist einer der Grundsätze in der Software Security. Selbst wenn man sich versucht an diesen Grundsatz zu halten, ist es nicht immer einfach alles richtig zu machen. Es gibt beispielsweise immer mehr Input der nicht so offensichtlich ist. Zum Beispiel RFID Tags (wie elektronische Reisepässe oder RFID-basierte Preisschilder), so kann es sein, dass ein Reisepass plötzlich sämtliche Systems zur Passüberprüfung am Flughafen lahmlegt. Es wurde sogar schon gezeigt, dass es möglich ist Viren, Würmer und dergleichen auf RFID Tags unterzubringen.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201501-rfid-malware/cs-201501-rfid-malware_video.mp4</guid>
+            <pubDate>Mon, 12 Jan 2015 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Jeglichem Input nicht zu trauen ist einer der Grundsätze in der Software Security. Selbst wenn man sich versucht an diesen Grundsatz zu halten, ist es nicht immer einfach alles richtig zu machen. Es gibt beispielsweise immer mehr Input der nicht so o ...</itunes:subtitle>
+            <itunes:summary>Jeglichem Input nicht zu trauen ist einer der Grundsätze in der Software Security. Selbst wenn man sich versucht an diesen Grundsatz zu halten, ist es nicht immer einfach alles richtig zu machen. Es gibt beispielsweise immer mehr Input der nicht so offensichtlich ist. Zum Beispiel RFID Tags (wie elektronische Reisepässe oder RFID-basierte Preisschilder), so kann es sein, dass ein Reisepass plötzlich sämtliche Systems zur Passüberprüfung am Flughafen lahmlegt. Es wurde sogar schon gezeigt, dass es möglich ist Viren, Würmer und dergleichen auf RFID Tags unterzubringen.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201501-rfid-malware/cs-201501-rfid-malware_video.mp4" length="56709385" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201502: Algorithmischer Handel</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2015/02_boerse</link>
+            <description>Der Vortrag handelt davon, wie Börsen und andere Märkte funktionieren. Es geht um verschiedene Strategien der Auftragsausführung. Quasi eine kleine Einführung in algorithmischen Handel, verschiedene Ordertypen, Abgrenzung zu quantitativem Handel,...
+Wenn man tatsächlich einen Algorithmus bauen will der handelt, dann hat man ganz andere Probleme, zum Beispiel der Einfluss von großen Orders auf den Kurs selbst. Oder wie man genug Liquidität findet. Das Routing von Ordern ist auch noch ein wichtiger Punkt. Insbesondere geht man hier nicht von der efficient market hypothesis aus, sondern sucht Ineffizienzen im Markt, die man ausnutzen kann. Viele von diesen Aspekten lassen sich auch nicht an historischen Kursdaten simulieren.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201502-boerse/cs-201502-boerse_video.mp4</guid>
+            <pubDate>Mon, 09 Feb 2015 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Der Vortrag handelt davon, wie Börsen und andere Märkte funktionieren. Es geht um verschiedene Strategien der Auftragsausführung. Quasi eine kleine Einführung in algorithmischen Handel, verschiedene Ordertypen, Abgrenzung zu quantitativem Handel,. ...</itunes:subtitle>
+            <itunes:summary>Der Vortrag handelt davon, wie Börsen und andere Märkte funktionieren. Es geht um verschiedene Strategien der Auftragsausführung. Quasi eine kleine Einführung in algorithmischen Handel, verschiedene Ordertypen, Abgrenzung zu quantitativem Handel,...
+Wenn man tatsächlich einen Algorithmus bauen will der handelt, dann hat man ganz andere Probleme, zum Beispiel der Einfluss von großen Orders auf den Kurs selbst. Oder wie man genug Liquidität findet. Das Routing von Ordern ist auch noch ein wichtiger Punkt. Insbesondere geht man hier nicht von der efficient market hypothesis aus, sondern sucht Ineffizienzen im Markt, die man ausnutzen kann. Viele von diesen Aspekten lassen sich auch nicht an historischen Kursdaten simulieren.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201502-boerse/cs-201502-boerse_video.mp4" length="100226396" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201503: Turtlegrafik und Paedagogische Programmiersprachen</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2015/03_turtlegrafik</link>
+            <description>Logo war in den 80ern DIE paedagogische
+Programmiersprache schlechthin. Vernuenftige Programme
+schrieb man zwar lieber in BASIC, Fortran oder
+Turbo-Pascal, aber Logo malte wunderschoene Bildchen.
+Etwas, das untrennbar mit Logo verbunden ist, ist die
+sogenannte "Turtle-Grafik".
+Dieser Vortrag gibt einen
+kurzen Ueberblick ueber 2D, 3D und 4D-Turtlegrafik und
+einige Erweiterungen, mit denen man auch Spass haben kann.
+Unter anderem Zeichnen mit Zirkel und Lineal,
+Turtle-Bildverarbeitung und Fraktale werden vorgestellt.
+Im je nach Zeitrest eventuell zweiten Teil des Vortrags
+werden von Logo ausgehend Programmiersprachen vorgestellt,
+die fuer Kinder erdacht und fuer Kinder geeignet sind. Die
+Spannungsfelder "Fuer Kinder gedacht" &lt;--&gt; "Fuer Kinder
+geeignet" und "Fuer Kinder geeignet" &lt;--&gt; "Fuer Lehrer
+geeignet" und "Fuer Kinder interessant" &lt;--&gt; "Fuer
+Erwachsene sinnvoll" geben dann hoffentlich Anlass fuer
+eine interessante Diskussion.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201503-turtlegraphik/cs-201503-turtlegraphik_video.mp4</guid>
+            <pubDate>Mon, 09 Mar 2015 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Logo war in den 80ern DIE paedagogische
+Programmiersprache schlechthin. Vernuenftige Programme
+schrieb man zwar lieber in BASIC, Fortran oder
+Turbo-Pascal, aber Logo malte wunderschoene Bildchen.
+Etwas, das untrennbar mit Logo verbunden ist, ist die
+s ...</itunes:subtitle>
+            <itunes:summary>Logo war in den 80ern DIE paedagogische
+Programmiersprache schlechthin. Vernuenftige Programme
+schrieb man zwar lieber in BASIC, Fortran oder
+Turbo-Pascal, aber Logo malte wunderschoene Bildchen.
+Etwas, das untrennbar mit Logo verbunden ist, ist die
+sogenannte "Turtle-Grafik".
+Dieser Vortrag gibt einen
+kurzen Ueberblick ueber 2D, 3D und 4D-Turtlegrafik und
+einige Erweiterungen, mit denen man auch Spass haben kann.
+Unter anderem Zeichnen mit Zirkel und Lineal,
+Turtle-Bildverarbeitung und Fraktale werden vorgestellt.
+Im je nach Zeitrest eventuell zweiten Teil des Vortrags
+werden von Logo ausgehend Programmiersprachen vorgestellt,
+die fuer Kinder erdacht und fuer Kinder geeignet sind. Die
+Spannungsfelder "Fuer Kinder gedacht" &lt;--&gt; "Fuer Kinder
+geeignet" und "Fuer Kinder geeignet" &lt;--&gt; "Fuer Lehrer
+geeignet" und "Fuer Kinder interessant" &lt;--&gt; "Fuer
+Erwachsene sinnvoll" geben dann hoffentlich Anlass fuer
+eine interessante Diskussion.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201503-turtlegraphik/cs-201503-turtlegraphik_video.mp4" length="102774560" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201504: Editoren Battle</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2015/04_Editoren_Battle</link>
+            <description>In diesem Chaosseminar treten Tastatur-Athleten mit ihren perfekt getunten Editoren in verschiedensten Disziplinen des Editierens gegeneinander an.
+
+Jeder Teilnehmer hat einen Zeitslot um seinen Editor vorzustellen. Es muss eine Reihe vorgegebener Editieraufgaben bewaeltigt werden um ein Grundverstaendnis des Editors zu vermitteln. Daneben sollen auch coole Features und Besonderheiten des jeweilgen Editors gezeigt werden.
+
+Am Ende wird Gelegenheit zur offenen Diskussion sein ... und notfalls zum handfesten Battle, falls wir uns nicht einigen koennen welches denn nun der beste Editor ist.
+
+Ernsthaft: Es geht keineswegs um ein Beschimpfen der anderen Editoren sondern darum sie kennenzulernen. (Wir wissen doch alle, dass es keinen besten Editor gibt, sondern nur unterschiedliche die deshalb unterschiedliche Vorzuege haben. Dieser Gedanke soll vorherrschen.)</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201504-editorbattle/cs-201504-editorbattle_video.mp4</guid>
+            <pubDate>Mon, 13 Apr 2015 20:15:00 +0200</pubDate>
+            <itunes:subtitle>In diesem Chaosseminar treten Tastatur-Athleten mit ihren perfekt getunten Editoren in verschiedensten Disziplinen des Editierens gegeneinander an.
+
+Jeder Teilnehmer hat einen Zeitslot um seinen Editor vorzustellen. Es muss eine Reihe vorgegebener Edi ...</itunes:subtitle>
+            <itunes:summary>In diesem Chaosseminar treten Tastatur-Athleten mit ihren perfekt getunten Editoren in verschiedensten Disziplinen des Editierens gegeneinander an.
+
+Jeder Teilnehmer hat einen Zeitslot um seinen Editor vorzustellen. Es muss eine Reihe vorgegebener Editieraufgaben bewaeltigt werden um ein Grundverstaendnis des Editors zu vermitteln. Daneben sollen auch coole Features und Besonderheiten des jeweilgen Editors gezeigt werden.
+
+Am Ende wird Gelegenheit zur offenen Diskussion sein ... und notfalls zum handfesten Battle, falls wir uns nicht einigen koennen welches denn nun der beste Editor ist.
+
+Ernsthaft: Es geht keineswegs um ein Beschimpfen der anderen Editoren sondern darum sie kennenzulernen. (Wir wissen doch alle, dass es keinen besten Editor gibt, sondern nur unterschiedliche die deshalb unterschiedliche Vorzuege haben. Dieser Gedanke soll vorherrschen.)</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201504-editorbattle/cs-201504-editorbattle_video.mp4" length="110383690" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201505: Recht: Filesharing, Streaming, Framing</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2015/05_Recht_Filesharing_Streaming_Framing</link>
+            <description>AL spricht über rechtliche Aspekte von Filesharing, Streaming und Framing. Außerdem wird das Urheberrecht zur Zeit des Internets ein Teilthema.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201505-RechtFilesharingStreamingFraming/cs-201505-RechtFilesharingStreamingFraming_video.mp4</guid>
+            <pubDate>Mon, 11 May 2015 20:00:00 +0200</pubDate>
+            <itunes:subtitle>AL spricht über rechtliche Aspekte von Filesharing, Streaming und Framing. Außerdem wird das Urheberrecht zur Zeit des Internets ein Teilthema. ...</itunes:subtitle>
+            <itunes:summary>AL spricht über rechtliche Aspekte von Filesharing, Streaming und Framing. Außerdem wird das Urheberrecht zur Zeit des Internets ein Teilthema.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201505-RechtFilesharingStreamingFraming/cs-201505-RechtFilesharingStreamingFraming_video.mp4" length="84486687" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201506: Tcl</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2015/06_Tcl</link>
+            <description>In diesem Chaosseminar wird die Programmiersprache Tcl vorgestellt.
+Sie ist, ueberstark vereinfacht, eine Mischung aus C, Lisp, sh,
+Perl und Lua. Einst war Tcl neben Perl die beliebteste Scriptsprache.
+Diese Zeiten sind vorbei. Nichts desto trotz bleibt Tcl eine
+Liebhabersprache, das hat seine Gruende. Dieser Vortrag wird zeigen,
+welche das sind.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201506-tcl/cs-201506-tcl_video.mp4</guid>
+            <pubDate>Mon, 08 Jun 2015 20:10:00 +0200</pubDate>
+            <itunes:subtitle>In diesem Chaosseminar wird die Programmiersprache Tcl vorgestellt.
+Sie ist, ueberstark vereinfacht, eine Mischung aus C, Lisp, sh,
+Perl und Lua. Einst war Tcl neben Perl die beliebteste Scriptsprache.
+Diese Zeiten sind vorbei. Nichts desto trotz blei ...</itunes:subtitle>
+            <itunes:summary>In diesem Chaosseminar wird die Programmiersprache Tcl vorgestellt.
+Sie ist, ueberstark vereinfacht, eine Mischung aus C, Lisp, sh,
+Perl und Lua. Einst war Tcl neben Perl die beliebteste Scriptsprache.
+Diese Zeiten sind vorbei. Nichts desto trotz bleibt Tcl eine
+Liebhabersprache, das hat seine Gruende. Dieser Vortrag wird zeigen,
+welche das sind.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201506-tcl/cs-201506-tcl_video.mp4" length="100272116" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201507: Abgeschlossene Projekte</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2015/07_Kurzvortraege_abgeschlossener_Projekte</link>
+            <description>DNS-Tunnel - wir klauen am Telekom Hotspot
+Google Traffic Map Archiv Project
+CMU-Sphinx &quot;hello world&quot; der Spracherkennung</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201507-lightningtalks/cs-201507-lightningtalks_video.mp4</guid>
+            <pubDate>Mon, 13 Jul 2015 20:00:00 ٍ+0200</pubDate>
+            <itunes:subtitle>DNS-Tunnel - wir klauen am Telekom Hotspot
+Google Traffic Map Archiv Project
+CMU-Sphinx &quot;hello world&quot; der Spracherkennung ...</itunes:subtitle>
+            <itunes:summary>DNS-Tunnel - wir klauen am Telekom Hotspot
+Google Traffic Map Archiv Project
+CMU-Sphinx &quot;hello world&quot; der Spracherkennung</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201507-lightningtalks/cs-201507-lightningtalks_video.mp4" length="150227919" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201509: Go</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2015/09_Go</link>
+            <description>Auch wenn man aus unseren Kreisen vielleicht einen Vortrag über die Programmiersprache Go erwartet, soll es in diesem Vortrag um das Brettspiel Go gehen. Es gibt eine Einführung in Geschichte und Regeln, aber auch die Herausforderungen der algorithmischen Umsetzung sollen angerissen werden.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201509-go/cs-201509-go_video.mp4</guid>
+            <pubDate>Mon, 14 Sep 2015 20:10:00 +0200</pubDate>
+            <itunes:subtitle>Auch wenn man aus unseren Kreisen vielleicht einen Vortrag über die Programmiersprache Go erwartet, soll es in diesem Vortrag um das Brettspiel Go gehen. Es gibt eine Einführung in Geschichte und Regeln, aber auch die Herausforderungen der algorithm ...</itunes:subtitle>
+            <itunes:summary>Auch wenn man aus unseren Kreisen vielleicht einen Vortrag über die Programmiersprache Go erwartet, soll es in diesem Vortrag um das Brettspiel Go gehen. Es gibt eine Einführung in Geschichte und Regeln, aber auch die Herausforderungen der algorithmischen Umsetzung sollen angerissen werden.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201509-go/cs-201509-go_video.mp4" length="141731328" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201510: Ruby</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2015/10_Ruby</link>
+            <description></description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201510-ruby/cs-201510-ruby_video.mp4</guid>
+            <pubDate>Mon, 12 Oct 2015 20:00:00 +0200</pubDate>
+            <itunes:subtitle> ...</itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201510-ruby/cs-201510-ruby_video.mp4" length="108692108" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201511: Lightning Talks</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2015/11_Lightning</link>
+            <description></description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201511-lightning/cs-201511-lightning_video.mp4</guid>
+            <pubDate>Mon, 09 Nov 2015 20:00:00 +0200</pubDate>
+            <itunes:subtitle> ...</itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201511-lightning/cs-201511-lightning_video.mp4" length="165293117" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201512: Buchempfehlungen</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2015/12_Buchempfehlungen</link>
+            <description>Analoges Wissen im Buch. Es beinhaltet ein Dutzend Bücher über
+Vernunft, Methodik, Wissen und Glauben. Insbesondere das Sachbuch von
+weiblichen IT Autoren würdigt der Vortragende. Das Motto ist
+Nett und Freundlich.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201512-buchempfehlungen/cs-201512-buchempfehlungen_video.mp4</guid>
+            <pubDate>Mon, 14 Dec 2015 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Analoges Wissen im Buch. Es beinhaltet ein Dutzend Bücher über
+Vernunft, Methodik, Wissen und Glauben. Insbesondere das Sachbuch von
+weiblichen IT Autoren würdigt der Vortragende. Das Motto ist
+Nett und Freundlich. ...</itunes:subtitle>
+            <itunes:summary>Analoges Wissen im Buch. Es beinhaltet ein Dutzend Bücher über
+Vernunft, Methodik, Wissen und Glauben. Insbesondere das Sachbuch von
+weiblichen IT Autoren würdigt der Vortragende. Das Motto ist
+Nett und Freundlich.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201512-buchempfehlungen/cs-201512-buchempfehlungen_video.mp4" length="71573264" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201601: E-mail</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2016/01_E-mail</link>
+            <description>Der Vortrag zeigt, wie es hinter der bunten Welt vieler Clients aussieht, welche Auswirkungen mancher Klick hat und wie das dann anderswo ankommt. Im speziellen wird auf den In-Reply-To Header eingegangen. Ausserdem wird das Setup unseres Mailservers für den CCC Ulm erklärt, speziell auch das Greylisting.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201601-email/cs-201601-email_video.mp4</guid>
+            <pubDate>Mon, 11 Jan 2016 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Der Vortrag zeigt, wie es hinter der bunten Welt vieler Clients aussieht, welche Auswirkungen mancher Klick hat und wie das dann anderswo ankommt. Im speziellen wird auf den In-Reply-To Header eingegangen. Ausserdem wird das Setup unseres Mailservers  ...</itunes:subtitle>
+            <itunes:summary>Der Vortrag zeigt, wie es hinter der bunten Welt vieler Clients aussieht, welche Auswirkungen mancher Klick hat und wie das dann anderswo ankommt. Im speziellen wird auf den In-Reply-To Header eingegangen. Ausserdem wird das Setup unseres Mailservers für den CCC Ulm erklärt, speziell auch das Greylisting.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201601-email/cs-201601-email_video.mp4" length="115410111" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201602: Privatsphäre – Brauchen wir das?</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2016/02_Privacy</link>
+            <description>Viele Arbeiten beschäftigen sich damit private Daten zu schützen. Viele Leute argumentieren gegen den Schutz von privaten Daten. Viele sind müde sich ständig Gedanken zum Thema Privacy/Datenschutz/Privatsphäre zu machen. Ist Privatsphäre überhaupt noch zeitgemäß? Ist dieses Konzept das 1890 aufkam überhaupt wünschenswert für uns? Wie beeinflusst Privatsphäre unsere Gesellschaft sowie deren Individuen? Im Chaosseminar im Februar 2016 werde ich versuchen auf diese Fragen einzugehen und sie mit euch zu diskutieren.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201602-privacy/cs-201602-privacy_video.mp4</guid>
+            <pubDate>Mon, 08 Feb 2016 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Viele Arbeiten beschäftigen sich damit private Daten zu schützen. Viele Leute argumentieren gegen den Schutz von privaten Daten. Viele sind müde sich ständig Gedanken zum Thema Privacy/Datenschutz/Privatsphäre zu machen. Ist Privatsphäre überha ...</itunes:subtitle>
+            <itunes:summary>Viele Arbeiten beschäftigen sich damit private Daten zu schützen. Viele Leute argumentieren gegen den Schutz von privaten Daten. Viele sind müde sich ständig Gedanken zum Thema Privacy/Datenschutz/Privatsphäre zu machen. Ist Privatsphäre überhaupt noch zeitgemäß? Ist dieses Konzept das 1890 aufkam überhaupt wünschenswert für uns? Wie beeinflusst Privatsphäre unsere Gesellschaft sowie deren Individuen? Im Chaosseminar im Februar 2016 werde ich versuchen auf diese Fragen einzugehen und sie mit euch zu diskutieren.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201602-privacy/cs-201602-privacy_video.mp4" length="89710293" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201603: Lua</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2016/03_Lua</link>
+            <description>Lua ist eine beliebte Skriptsprache mit verschiedensten Anwendungmöglichkeiten. Entwickelt als Konfigurations- und Erweiterungssprache, zeigte sich bald, dass Lua sehr gut portierbar ist und z.B. auch für Eingebettete Systeme wunderbar geeignet ist. Phil und Simon erklären uns Grundlagen, Philosophie und fortgeschrittene Konzepte der Sprache.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201603-lua/cs-201603-lua_video.mp4</guid>
+            <pubDate>Mon, 14 Mar 2016 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Lua ist eine beliebte Skriptsprache mit verschiedensten Anwendungmöglichkeiten. Entwickelt als Konfigurations- und Erweiterungssprache, zeigte sich bald, dass Lua sehr gut portierbar ist und z.B. auch für Eingebettete Systeme wunderbar geeignet ist. ...</itunes:subtitle>
+            <itunes:summary>Lua ist eine beliebte Skriptsprache mit verschiedensten Anwendungmöglichkeiten. Entwickelt als Konfigurations- und Erweiterungssprache, zeigte sich bald, dass Lua sehr gut portierbar ist und z.B. auch für Eingebettete Systeme wunderbar geeignet ist. Phil und Simon erklären uns Grundlagen, Philosophie und fortgeschrittene Konzepte der Sprache.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201603-lua/cs-201603-lua_video.mp4" length="80110843" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201605: Spasz mit IPv6</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2016/05_Spasz_mit_IPv6</link>
+            <description>Alias Resolution beschäftigt sich mit der Frage: Sind diese beiden Adressen 2001::1 und 2004::f der gleiche Router? Es werden Verfahren zur IPv6 Alias Resolution erklärt und partiell demonstriert.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201605-ipv6/cs-201605-ipv6_video.mp4</guid>
+            <pubDate>Mon, 09 May 2016 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Alias Resolution beschäftigt sich mit der Frage: Sind diese beiden Adressen 2001::1 und 2004::f der gleiche Router? Es werden Verfahren zur IPv6 Alias Resolution erklärt und partiell demonstriert. ...</itunes:subtitle>
+            <itunes:summary>Alias Resolution beschäftigt sich mit der Frage: Sind diese beiden Adressen 2001::1 und 2004::f der gleiche Router? Es werden Verfahren zur IPv6 Alias Resolution erklärt und partiell demonstriert.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201605-ipv6/cs-201605-ipv6_video.mp4" length="70564624" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201606: Process Wire</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2016/06_Process_Wire</link>
+            <description>Ein Open Source Content Management System.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201606-processwire/cs-201606-processwire_video.mp4</guid>
+            <pubDate>Mon, 13 Jun 2016 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Ein Open Source Content Management System. ...</itunes:subtitle>
+            <itunes:summary>Ein Open Source Content Management System.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201606-processwire/cs-201606-processwire_video.mp4" length="79372893" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201607: Sichere Messenger</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2016/07_Secure_Messengers</link>
+            <description>Seit Jahren unterhalten wir uns über verschlüsselte E-Mails, aber bis heute gibt es kaum Menschen, die E-Mail-Verschlüsselung regelmäßig verwenden. Davon abgesehen findet ein Großteil der elektronischen Kommunikation mittlerweile über sogenannte Messenger (typischerweise auf dem Smartphone) statt. Hier sieht es mit der Verschlüsselung schon ganz anders aus. Seit in diesem Jahr einer der größten Messenger Ende-zu-Ende-Verschlüsselung eingeführt hat, kommunizieren plötzlich ganz normale User nur noch verschlüsselt miteinander. Aber auch die Diskussion um die Sicherheit solcher Dienste wurde von neuem angefacht. Viele bisher kaum verbreiteten Messenger-Alternativen bekommen immer mehr Aufmerksamkeit, weil sie eventuell als noch sicherer angesehen werden.
+
+In diesem Chaosseminar wollen wir einmal diskutieren, was wir überhaupt von einem Kommunikationsdienst erwarten würden und was verschiedene Dienste tatsächlich bieten.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201607-messenger/cs-201607-messenger_video.mp4</guid>
+            <pubDate>Mon, 11 Jul 2016 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Seit Jahren unterhalten wir uns über verschlüsselte E-Mails, aber bis heute gibt es kaum Menschen, die E-Mail-Verschlüsselung regelmäßig verwenden. Davon abgesehen findet ein Großteil der elektronischen Kommunikation mittlerweile über sogenannt ...</itunes:subtitle>
+            <itunes:summary>Seit Jahren unterhalten wir uns über verschlüsselte E-Mails, aber bis heute gibt es kaum Menschen, die E-Mail-Verschlüsselung regelmäßig verwenden. Davon abgesehen findet ein Großteil der elektronischen Kommunikation mittlerweile über sogenannte Messenger (typischerweise auf dem Smartphone) statt. Hier sieht es mit der Verschlüsselung schon ganz anders aus. Seit in diesem Jahr einer der größten Messenger Ende-zu-Ende-Verschlüsselung eingeführt hat, kommunizieren plötzlich ganz normale User nur noch verschlüsselt miteinander. Aber auch die Diskussion um die Sicherheit solcher Dienste wurde von neuem angefacht. Viele bisher kaum verbreiteten Messenger-Alternativen bekommen immer mehr Aufmerksamkeit, weil sie eventuell als noch sicherer angesehen werden.
+
+In diesem Chaosseminar wollen wir einmal diskutieren, was wir überhaupt von einem Kommunikationsdienst erwarten würden und was verschiedene Dienste tatsächlich bieten.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201607-messenger/cs-201607-messenger_video.mp4" length="117596235" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201609: Python 2 und 3</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2016/09_Python</link>
+            <description>In diesen Vortrag geht es um die Programmiersprache Python. Es wird ein kurzen Überblick über die Sprache gegeben, sowie auch eine ganze Reihe von Fragen beantwortet -- wie ist das Programmierumfeld? Warum, wozu und wie benutzen Menschen Python? Warum gibt es python 2 und python 3? Für welche Anwendungszwecke ist Python besonders geeignet? Welche besondere Sprachkonstrukte gibt es? Was sind die Nachteile und Quirks, die man beachten sollte?
+
+Da die Zeit vermutlich nicht reichen wird, um alles zu besprechen, würde ich mich während des Vortrags nach dem Interesse der Zuhörer/innen richten.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201609-python/cs-201609-python_video.mp4</guid>
+            <pubDate>Mon, 12 Sep 2016 20:00:00 +0200</pubDate>
+            <itunes:subtitle>In diesen Vortrag geht es um die Programmiersprache Python. Es wird ein kurzen Überblick über die Sprache gegeben, sowie auch eine ganze Reihe von Fragen beantwortet -- wie ist das Programmierumfeld? Warum, wozu und wie benutzen Menschen Python? War ...</itunes:subtitle>
+            <itunes:summary>In diesen Vortrag geht es um die Programmiersprache Python. Es wird ein kurzen Überblick über die Sprache gegeben, sowie auch eine ganze Reihe von Fragen beantwortet -- wie ist das Programmierumfeld? Warum, wozu und wie benutzen Menschen Python? Warum gibt es python 2 und python 3? Für welche Anwendungszwecke ist Python besonders geeignet? Welche besondere Sprachkonstrukte gibt es? Was sind die Nachteile und Quirks, die man beachten sollte?
+
+Da die Zeit vermutlich nicht reichen wird, um alles zu besprechen, würde ich mich während des Vortrags nach dem Interesse der Zuhörer/innen richten.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201609-python/cs-201609-python_video.mp4" length="126431071" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201610: Charset, Encoding &amp; Font</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2016/10_charset-encoding-font</link>
+            <description>Dieser Vortrag bringt Licht in die Verwirrungen und das Unwissen im Themenfeld um Zeichensaetze (Charsets), Zeichenkodierungen (Encodings) und Schriften (Fonts).</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201610-encoding/cs-201610-encoding_video.mp4</guid>
+            <pubDate>Mon, 10 Okt 2016 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Dieser Vortrag bringt Licht in die Verwirrungen und das Unwissen im Themenfeld um Zeichensaetze (Charsets), Zeichenkodierungen (Encodings) und Schriften (Fonts). ...</itunes:subtitle>
+            <itunes:summary>Dieser Vortrag bringt Licht in die Verwirrungen und das Unwissen im Themenfeld um Zeichensaetze (Charsets), Zeichenkodierungen (Encodings) und Schriften (Fonts).</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201610-encoding/cs-201610-encoding_video.mp4" length="137619180" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201611: Gewachsene kleine Programmiersprachen</title>
+            <link>https://ulm.ccc.de/ChaosSeminar/2016/11_mini_programmiersprachen</link>
+            <description>Vielleicht gehts euch auch so, dass ihr so erst mal ein kleines Programm schreibt, das irgendwas nützliches tut. Dann wird es erweitert, weil es läuft ja eh so toll, dann soll es interaktiv werden, und man muss irgendwie eine input-switch-case-schleife basteln, und schon ist mehr oder weniger zufällig eine primitive Programmiersprache entstanden.
+
+Wenn wir dann so weit sind, wäre es ja toll, einen Befehl nicht mehrfach zu tippen, sondern ein tu-es-N-Mal-konstrukt zu haben, irgendwann ist die Programmiersprache dann Turing-mächtig.
+
+Der Vortragende hat schon des öfteren solche mikro-Programmiersprachen gebastelt, und wenn einige andere hier ein Beispiel mitbringen könnten, dürfte sich daraus vielleicht ein interessanter Patchworkvortrag ergeben.
+
+Der Vortrag stellt einen Kalender vor, der Code starten kann, und weils so geschickt ist, sich um Datenschnittstellen Datenübertragung zwischen den Jobs kümmert, so entstand mehr oder weniger zufällig ein Verteiltes System zur verteilten Programmierung. Dadurch dass es nicht geplant wurde, sondern historisch gewachsen ist, hat es einige Eigenschaften, die die üblichen verteilten Programmiersprachen (oder Parallelisierungserweiterungen,...) nicht haben. Ob sie sinnvoll sind, darüber kann man diskutieren.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201611-diy-programmiersprache/cs-201611-diy-programmiersprache_video.mp4</guid>
+            <pubDate>Mon, 14 Nov 2016 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Vielleicht gehts euch auch so, dass ihr so erst mal ein kleines Programm schreibt, das irgendwas nützliches tut. Dann wird es erweitert, weil es läuft ja eh so toll, dann soll es interaktiv werden, und man muss irgendwie eine input-switch-case-schle ...</itunes:subtitle>
+            <itunes:summary>Vielleicht gehts euch auch so, dass ihr so erst mal ein kleines Programm schreibt, das irgendwas nützliches tut. Dann wird es erweitert, weil es läuft ja eh so toll, dann soll es interaktiv werden, und man muss irgendwie eine input-switch-case-schleife basteln, und schon ist mehr oder weniger zufällig eine primitive Programmiersprache entstanden.
+
+Wenn wir dann so weit sind, wäre es ja toll, einen Befehl nicht mehrfach zu tippen, sondern ein tu-es-N-Mal-konstrukt zu haben, irgendwann ist die Programmiersprache dann Turing-mächtig.
+
+Der Vortragende hat schon des öfteren solche mikro-Programmiersprachen gebastelt, und wenn einige andere hier ein Beispiel mitbringen könnten, dürfte sich daraus vielleicht ein interessanter Patchworkvortrag ergeben.
+
+Der Vortrag stellt einen Kalender vor, der Code starten kann, und weils so geschickt ist, sich um Datenschnittstellen Datenübertragung zwischen den Jobs kümmert, so entstand mehr oder weniger zufällig ein Verteiltes System zur verteilten Programmierung. Dadurch dass es nicht geplant wurde, sondern historisch gewachsen ist, hat es einige Eigenschaften, die die üblichen verteilten Programmiersprachen (oder Parallelisierungserweiterungen,...) nicht haben. Ob sie sinnvoll sind, darüber kann man diskutieren.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201611-diy-programmiersprache/cs-201611-diy-programmiersprache_video.mp4" length="64678068" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201702: Digitale Selbstverteidigung</title>
+            <link>https://ulm.ccc.de/ChaosSeminar/2017/02_Crypto</link>
+            <description>Wir zeigen einige grundlegende Angriffe und kryptographische Möglichkeiten mit denen man sich dabei verteidigen kann. Unter anderem zeigen wir die Installation von Ubuntu mit Festplattenverschlüsselung, Mailverschlüsselung mit Thunderbird und enigmail und Anonymisierung mit Tor-Browser.
+
+Mehr zum Thema bei Digitalcourage, und zum Thema Browsertracking im Chaosseminar von November 2015.
+
+Ablaufplan:
+
+1. Jürgen: Angriffsarten (böswilliges Zimmermädchen, Gummiknüppel, Mann in der Mitte)
+2. Marcus: Ubuntu Installation, Kommentar Passwortstärke
+3. Simon: e-Mail-Verschlüsselung (Thunderbird+Enigmail)
+4. Veronika: Tor-Browser</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201702-digitale-selbstverteidigung/cs-201702-digitale-selbstverteidigung_video.mp4</guid>
+            <pubDate>Mon, 13 Feb 2017 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Wir zeigen einige grundlegende Angriffe und kryptographische Möglichkeiten mit denen man sich dabei verteidigen kann. Unter anderem zeigen wir die Installation von Ubuntu mit Festplattenverschlüsselung, Mailverschlüsselung mit Thunderbird und enigm ...</itunes:subtitle>
+            <itunes:summary>Wir zeigen einige grundlegende Angriffe und kryptographische Möglichkeiten mit denen man sich dabei verteidigen kann. Unter anderem zeigen wir die Installation von Ubuntu mit Festplattenverschlüsselung, Mailverschlüsselung mit Thunderbird und enigmail und Anonymisierung mit Tor-Browser.
+
+Mehr zum Thema bei Digitalcourage, und zum Thema Browsertracking im Chaosseminar von November 2015.
+
+Ablaufplan:
+
+1. Jürgen: Angriffsarten (böswilliges Zimmermädchen, Gummiknüppel, Mann in der Mitte)
+2. Marcus: Ubuntu Installation, Kommentar Passwortstärke
+3. Simon: e-Mail-Verschlüsselung (Thunderbird+Enigmail)
+4. Veronika: Tor-Browser</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201702-digitale-selbstverteidigung/cs-201702-digitale-selbstverteidigung_video.mp4" length="102495237" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201703: Freifunk</title>
+            <link>https://ulm.ccc.de/ChaosSeminar/2017/03_Freifunk</link>
+            <description>Freifunk ist eine Initiative aus unabhängigen Gruppen um eine offenes, nicht-kommerzielles und dezentrales Netzwerk aus WLAN-Geräten zu schaffen.
+
+Der Vortrag geht auf die Ideen und die Technik hinter Freifunk ein. Dabei sollen Themen wie der Aufbau der Infrastruktur (Mesh-Routing mit 802.11s, VPN, Gateways, IP-Adressvergabe), Software (OpenWrt, batman-adv, fastd) und Hardware (Router, Richtfunk) besprochen werden. Die Fokus wird dabei eher bei der Firmware liegen.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201703-freifunk/cs-201703-freifunk_video.mp4</guid>
+            <pubDate>Mon, 13 Mar 2017 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Freifunk ist eine Initiative aus unabhängigen Gruppen um eine offenes, nicht-kommerzielles und dezentrales Netzwerk aus WLAN-Geräten zu schaffen.
+
+Der Vortrag geht auf die Ideen und die Technik hinter Freifunk ein. Dabei sollen Themen wie der Aufbau ...</itunes:subtitle>
+            <itunes:summary>Freifunk ist eine Initiative aus unabhängigen Gruppen um eine offenes, nicht-kommerzielles und dezentrales Netzwerk aus WLAN-Geräten zu schaffen.
+
+Der Vortrag geht auf die Ideen und die Technik hinter Freifunk ein. Dabei sollen Themen wie der Aufbau der Infrastruktur (Mesh-Routing mit 802.11s, VPN, Gateways, IP-Adressvergabe), Software (OpenWrt, batman-adv, fastd) und Hardware (Router, Richtfunk) besprochen werden. Die Fokus wird dabei eher bei der Firmware liegen.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201703-freifunk/cs-201703-freifunk_video.mp4" length="149876698" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201703: Freifunk</title>
+            <link>https://ulm.ccc.de/ChaosSeminar/2017/03_Freifunk</link>
+            <description>Freifunk ist eine Initiative aus unabhängigen Gruppen um eine offenes, nicht-kommerzielles und dezentrales Netzwerk aus WLAN-Geräten zu schaffen.
+
+Der Vortrag geht auf die Ideen und die Technik hinter Freifunk ein. Dabei sollen Themen wie der Aufbau der Infrastruktur (Mesh-Routing mit 802.11s, VPN, Gateways, IP-Adressvergabe), Software (OpenWrt, batman-adv, fastd) und Hardware (Router, Richtfunk) besprochen werden. Die Fokus wird dabei eher bei der Firmware liegen.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201703-freifunk/cs-201703-freifunk_slides.pdf</guid>
+            <pubDate>Mon, 13 Mar 2017 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Freifunk ist eine Initiative aus unabhängigen Gruppen um eine offenes, nicht-kommerzielles und dezentrales Netzwerk aus WLAN-Geräten zu schaffen.
+
+Der Vortrag geht auf die Ideen und die Technik hinter Freifunk ein. Dabei sollen Themen wie der Aufbau ...</itunes:subtitle>
+            <itunes:summary>Freifunk ist eine Initiative aus unabhängigen Gruppen um eine offenes, nicht-kommerzielles und dezentrales Netzwerk aus WLAN-Geräten zu schaffen.
+
+Der Vortrag geht auf die Ideen und die Technik hinter Freifunk ein. Dabei sollen Themen wie der Aufbau der Infrastruktur (Mesh-Routing mit 802.11s, VPN, Gateways, IP-Adressvergabe), Software (OpenWrt, batman-adv, fastd) und Hardware (Router, Richtfunk) besprochen werden. Die Fokus wird dabei eher bei der Firmware liegen.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201703-freifunk/cs-201703-freifunk_slides.pdf" length="4352062" type="application/pdf" />
+        </item>
+        <item>
+            <title>CS201704: SSH Tunnel</title>
+            <link>https://ulm.ccc.de/ChaosSeminar/2017/04_SSH-Tunnel</link>
+            <description>Die Secure SHell kennen Administratoren als Fernwartungswerkzeug für Linux, Solaris und BSD. Die meisten Leute loggen sich interaktiv auf einem Computer ein, aber das Werkzeug ist sehr viel mächtiger. Dieser Vortrag soll die Grundlagen anreißen, um darauf aufbauend vielfältige Netzwerkschweinereien^WNetzwerkverbindungen mit SSH zu erklären. Das ganze wird noch getoppt durch ineinander geschachtelte Verbindungen.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201704-ssh-tunnel/cs-201704-ssh-tunnel_video.mp4</guid>
+            <pubDate>Mon, 10 Apr 2017 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Die Secure SHell kennen Administratoren als Fernwartungswerkzeug für Linux, Solaris und BSD. Die meisten Leute loggen sich interaktiv auf einem Computer ein, aber das Werkzeug ist sehr viel mächtiger. Dieser Vortrag soll die Grundlagen anreißen, um ...</itunes:subtitle>
+            <itunes:summary>Die Secure SHell kennen Administratoren als Fernwartungswerkzeug für Linux, Solaris und BSD. Die meisten Leute loggen sich interaktiv auf einem Computer ein, aber das Werkzeug ist sehr viel mächtiger. Dieser Vortrag soll die Grundlagen anreißen, um darauf aufbauend vielfältige Netzwerkschweinereien^WNetzwerkverbindungen mit SSH zu erklären. Das ganze wird noch getoppt durch ineinander geschachtelte Verbindungen.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201704-ssh-tunnel/cs-201704-ssh-tunnel_video.mp4" length="117175991" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201706: Sneaker Net</title>
+            <link>https://ulm.ccc.de/ChaosSeminar/2017/06_SneakerNet</link>
+            <description>Es gibt Orte, an denen das Internet knapp ist. Dort helfen USB-Sticks und Festplatten. Die Daten werden per Turnschuh (Sneaker) im Netzwerk (Net) propagiert. Das ist so ähnlich wie Bittorrent mit viel mehr Latenz.
+
+Marco hat eine Musterimplementierung gebaut und wird im Frage-Antwort-Gespräch zusammen mit Marcus die Implementierung vorführen und erklären.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201706-sneakernet/cs-201706-sneakernet_video.mp4</guid>
+            <pubDate>Mon, 11 Jun 2017 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Es gibt Orte, an denen das Internet knapp ist. Dort helfen USB-Sticks und Festplatten. Die Daten werden per Turnschuh (Sneaker) im Netzwerk (Net) propagiert. Das ist so ähnlich wie Bittorrent mit viel mehr Latenz.
+
+Marco hat eine Musterimplementierun ...</itunes:subtitle>
+            <itunes:summary>Es gibt Orte, an denen das Internet knapp ist. Dort helfen USB-Sticks und Festplatten. Die Daten werden per Turnschuh (Sneaker) im Netzwerk (Net) propagiert. Das ist so ähnlich wie Bittorrent mit viel mehr Latenz.
+
+Marco hat eine Musterimplementierung gebaut und wird im Frage-Antwort-Gespräch zusammen mit Marcus die Implementierung vorführen und erklären.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201706-sneakernet/cs-201706-sneakernet_video.mp4" length="109448826" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201707: MeinBackupKonzept</title>
+            <link>https://ulm.ccc.de/ChaosSeminar/2017/07_MeinBackupKonzept</link>
+            <description>Es geht um Backup, Sicherheit und Dokumentenverwaltung.
+
+Marcus hat ein Konzept implementiert, dass gegen Wohnungsbrand, Diebstahl und Cryptotrojaner halten soll. Es wird vorgestellt und zur Diskussion freigegeben.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201707-backup/cs-201707-backup_video.mp4</guid>
+            <pubDate>Mon, 10 Jul 2017 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Es geht um Backup, Sicherheit und Dokumentenverwaltung.
+
+Marcus hat ein Konzept implementiert, dass gegen Wohnungsbrand, Diebstahl und Cryptotrojaner halten soll. Es wird vorgestellt und zur Diskussion freigegeben. ...</itunes:subtitle>
+            <itunes:summary>Es geht um Backup, Sicherheit und Dokumentenverwaltung.
+
+Marcus hat ein Konzept implementiert, dass gegen Wohnungsbrand, Diebstahl und Cryptotrojaner halten soll. Es wird vorgestellt und zur Diskussion freigegeben.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201707-backup/cs-201707-backup_video.mp4" length="88229311" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201709: Pretty Easy Privacy</title>
+            <link>https://ulm.ccc.de/ChaosSeminar/2017/09_PrettyEasyPrivacy</link>
+            <description>Einfache Verschlüsselung für alle, E-Mails und Nachrichten werden standardmaessig "by default" verschlüsselt und anonymisiert, ohne dass der Nutzer grossen Aufwand damit hat, sondern seine Standardanwendungen verwendet. End-To-End, Peer-to-Peer und ohne zentrale Infrastruktur, Open Source mit Code Reviews und Unterstützung von üblichen Cryptostandards (S/MIME, PGP, OTR) - und am Ende zur Anonymisierung sogar noch durch GNUnet geschickt.
+
+Wie das gehen soll? Wir versuchens! Kleine Vorstellung des Projektes, dem Stand der Software und der aktuellen Implementierung der Ideen und Standards, wie z.B. Trustwords als nutzbare Erweiterung des Konzeptes des Fingerprints oder das leidige Problem der Keyserver bei GPG.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201709-pep/cs-201709-pep_video.mp4</guid>
+            <pubDate>Mon, 4 Sep 2017 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Einfache Verschlüsselung für alle, E-Mails und Nachrichten werden standardmaessig "by default" verschlüsselt und anonymisiert, ohne dass der Nutzer grossen Aufwand damit hat, sondern seine Standardanwendungen verwendet. End-To-End, Peer-to-Peer und ...</itunes:subtitle>
+            <itunes:summary>Einfache Verschlüsselung für alle, E-Mails und Nachrichten werden standardmaessig "by default" verschlüsselt und anonymisiert, ohne dass der Nutzer grossen Aufwand damit hat, sondern seine Standardanwendungen verwendet. End-To-End, Peer-to-Peer und ohne zentrale Infrastruktur, Open Source mit Code Reviews und Unterstützung von üblichen Cryptostandards (S/MIME, PGP, OTR) - und am Ende zur Anonymisierung sogar noch durch GNUnet geschickt.
+
+Wie das gehen soll? Wir versuchens! Kleine Vorstellung des Projektes, dem Stand der Software und der aktuellen Implementierung der Ideen und Standards, wie z.B. Trustwords als nutzbare Erweiterung des Konzeptes des Fingerprints oder das leidige Problem der Keyserver bei GPG.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201709-pep/cs-201709-pep_video.mp4" length="79225934" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201711: Schlechte Zufallszahlengeneratoren</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2017/11_schlechterZufall</link>
+            <description>Schlechter Zufall sorgt für Probleme in der Informatik. Marco hat ein paar scheinbar gute Beispiele gebaut und visualisiert sie mit Bildern.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201711-rng/cs-201711-rng_video.mp4</guid>
+            <pubDate>Mon, 13 Nov 2017 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Schlechter Zufall sorgt für Probleme in der Informatik. Marco hat ein paar scheinbar gute Beispiele gebaut und visualisiert sie mit Bildern. ...</itunes:subtitle>
+            <itunes:summary>Schlechter Zufall sorgt für Probleme in der Informatik. Marco hat ein paar scheinbar gute Beispiele gebaut und visualisiert sie mit Bildern.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201711-rng/cs-201711-rng_video.mp4" length="116995776" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201712: Funktionale Programmierung</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2017/12_funktionale_Programmierung</link>
+            <description>Einführung mit praktischen Beispielen in MathCad und Haskell.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201712-funktionale-programmierung/cs-201712-funktionale-programmierung_video.mp4</guid>
+            <pubDate>Fri, 08 Dec 2017 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Einführung mit praktischen Beispielen in MathCad und Haskell. ...</itunes:subtitle>
+            <itunes:summary>Einführung mit praktischen Beispielen in MathCad und Haskell.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201712-funktionale-programmierung/cs-201712-funktionale-programmierung_video.mp4" length="49926691" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201803: Android Treibersystem</title>
+            <link>https://ulm.ccc.de/ChaosSeminar/2018/03_Android_Treibersystem</link>
+            <description>Ein Vergleich der Android Treiberwelt vor Android 8 und mit Android 8 mit Ausblick auf Docker, um die schöne Build-Umgebung wegzusperren.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201803-android-treiber/cs-201803-android-treiber_video.mp4</guid>
+            <pubDate>Mon, 13 Mar 2018 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Ein Vergleich der Android Treiberwelt vor Android 8 und mit Android 8 mit Ausblick auf Docker, um die schöne Build-Umgebung wegzusperren. ...</itunes:subtitle>
+            <itunes:summary>Ein Vergleich der Android Treiberwelt vor Android 8 und mit Android 8 mit Ausblick auf Docker, um die schöne Build-Umgebung wegzusperren.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201803-android-treiber/cs-201803-android-treiber_video.mp4" length="53581617" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201804: Fahrzeug Security</title>
+            <link>https://ulm.ccc.de/ChaosSeminar/2018/04_Fahrzeug_Security</link>
+            <description>Sind unsere Autos noch geschützt?
+Immer wieder gehen Bilder von Auto-Diebstählen durch die Medien. Wird es den Dieben immer schwerer gemacht, Fahrzeuge zu übernehmen? Warum ist gerade die Entwicklung im Automotive-Bereich ein Hinweis darauf, wie uns die zunehmende Vernetzung in allen Lebensbereichen mit neuen Fragen über Schutz und Sicherheit konfrontiert? In diesem Vortrag sollen diese Fragen aus der Hacker-Sicht beleuchtet werden.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201804-car-hacking/cs-201804-car-hacking_video.mp4</guid>
+            <pubDate>Mon, 09 Apr 2018 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Sind unsere Autos noch geschützt?
+Immer wieder gehen Bilder von Auto-Diebstählen durch die Medien. Wird es den Dieben immer schwerer gemacht, Fahrzeuge zu übernehmen? Warum ist gerade die Entwicklung im Automotive-Bereich ein Hinweis darauf, wie un ...</itunes:subtitle>
+            <itunes:summary>Sind unsere Autos noch geschützt?
+Immer wieder gehen Bilder von Auto-Diebstählen durch die Medien. Wird es den Dieben immer schwerer gemacht, Fahrzeuge zu übernehmen? Warum ist gerade die Entwicklung im Automotive-Bereich ein Hinweis darauf, wie uns die zunehmende Vernetzung in allen Lebensbereichen mit neuen Fragen über Schutz und Sicherheit konfrontiert? In diesem Vortrag sollen diese Fragen aus der Hacker-Sicht beleuchtet werden.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201804-car-hacking/cs-201804-car-hacking_video.mp4" length="45939457" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201805: Simulation einer Zombieapokalypse</title>
+            <link>https://ulm.ccc.de/ChaosSeminar/2018/05_Simulation_einer_Zombiapokalypse</link>
+            <description>Zombies sind eine offensichtliche und allgegenwärtige Gefahr! Um dieses Problem näher zu verstehen, können wir Simulationen von Zombieepidemien erstellen, um abzuschätzen, wie schnell eine Horde Zombies die Menschheit überrennen wird.
+
+Aus der Simulation von Krankheiten entlehnt betrachten wir konventionelle Infektionsmodelle, man denke an einen großen Raum, in dem Testpersonen mit Zombies eingesperrt sind, sowie auch Methoden, wie man eine solche Apokalypse über größere Gebiete modellieren kann.
+
+Man darf gespannt sein, ob die Menscheit den Abend überlebt.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201805-zombies/cs-201805-zombies_video.mp4</guid>
+            <pubDate>Mon, 07 May 2018 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Zombies sind eine offensichtliche und allgegenwärtige Gefahr! Um dieses Problem näher zu verstehen, können wir Simulationen von Zombieepidemien erstellen, um abzuschätzen, wie schnell eine Horde Zombies die Menschheit überrennen wird.
+
+Aus der Si ...</itunes:subtitle>
+            <itunes:summary>Zombies sind eine offensichtliche und allgegenwärtige Gefahr! Um dieses Problem näher zu verstehen, können wir Simulationen von Zombieepidemien erstellen, um abzuschätzen, wie schnell eine Horde Zombies die Menschheit überrennen wird.
+
+Aus der Simulation von Krankheiten entlehnt betrachten wir konventionelle Infektionsmodelle, man denke an einen großen Raum, in dem Testpersonen mit Zombies eingesperrt sind, sowie auch Methoden, wie man eine solche Apokalypse über größere Gebiete modellieren kann.
+
+Man darf gespannt sein, ob die Menscheit den Abend überlebt.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201805-zombies/cs-201805-zombies_video.mp4" length="86994031" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201806: Fraktale</title>
+            <link>https://ulm.ccc.de/ChaosSeminar/2018/06_Fraktale</link>
+            <description>Fraktale gab es eigentlich schon immer, aber erst mit der Möglichkeit diese mit Hilfe von Computern zu visualisieren hat sich das Konzept durchgesetzt. Der Vortrag führt in die Welt der Fraktale anhand von Beispielen ein, erläutert typische Eigenschaften von Fraktalen und verschiedene Möglichkeiten Fraktale zu erzeugen. Ausserdem erfahrt ihr wie der CCC zu seinem Namen kam.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201806-fraktale/cs-201806-fraktale_video.mp4</guid>
+            <pubDate>Mon, 11 Jun 2018 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Fraktale gab es eigentlich schon immer, aber erst mit der Möglichkeit diese mit Hilfe von Computern zu visualisieren hat sich das Konzept durchgesetzt. Der Vortrag führt in die Welt der Fraktale anhand von Beispielen ein, erläutert typische Eigensc ...</itunes:subtitle>
+            <itunes:summary>Fraktale gab es eigentlich schon immer, aber erst mit der Möglichkeit diese mit Hilfe von Computern zu visualisieren hat sich das Konzept durchgesetzt. Der Vortrag führt in die Welt der Fraktale anhand von Beispielen ein, erläutert typische Eigenschaften von Fraktalen und verschiedene Möglichkeiten Fraktale zu erzeugen. Ausserdem erfahrt ihr wie der CCC zu seinem Namen kam.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201806-fraktale/cs-201806-fraktale_video.mp4" length="90931018" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201809: Dataset from Hell</title>
+            <link>https://ulm.ccc.de/ChaosSeminar/2018/09_SciKit</link>
+            <description></description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201809-dataset-from-hell/cs-201809-dataset-from-hell_video.mp4</guid>
+            <pubDate>Mon, 10 Sep 2018 20:00:00 +0200</pubDate>
+            <itunes:subtitle> ...</itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201809-dataset-from-hell/cs-201809-dataset-from-hell_video.mp4" length="84595985" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS201902: Cheating in Computerspielen</title>
+            <link>https://ulm.ccc.de/ChaosSeminar/2019/02_ComputerGameSecurity</link>
+            <description>In diesem Vortrag erfahrt ihr über die Motivation von Schummlern in Computerspielen und auch wie entsprechende cheats funktionieren.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/201902-computer-game-security/cs-201902-computer-game-security_video.mp4</guid>
+            <pubDate>Mon, 11 Feb 2019 20:00:00 +0100</pubDate>
+            <itunes:subtitle>In diesem Vortrag erfahrt ihr über die Motivation von Schummlern in Computerspielen und auch wie entsprechende cheats funktionieren. ...</itunes:subtitle>
+            <itunes:summary>In diesem Vortrag erfahrt ihr über die Motivation von Schummlern in Computerspielen und auch wie entsprechende cheats funktionieren.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/201902-computer-game-security/cs-201902-computer-game-security_video.mp4" length="40688577" type="video/mp4" />
+        </item>
+    </channel>
+</rss>

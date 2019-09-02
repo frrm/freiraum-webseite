@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+    <channel>
+        <title>Chaosseminar - MP4 high resolution</title>
+        <link>http://ulm.ccc.de/ChaosSeminar/</link>
+        <description>eine regelmäßige Reihe von öffentlichen Seminarvorträgen</description>
+        <language>de-de</language>
+        <category>Technology</category>
+        <pubDate>Fri, 20 Mar 2015 23:40:11 +0100</pubDate>
+        <lastBuildDate>Fri, 20 Mar 2015 23:40:11 +0100</lastBuildDate>
+        <itunes:author>CCC Erfa Ulm</itunes:author>
+        <itunes:owner>
+            <itunes:name>CCC Erfa Ulm</itunes:name>
+            <itunes:email>mail@ulm.ccc.de</itunes:email>
+        </itunes:owner>
+	<itunes:explicit>no</itunes:explicit>	
+	<itunes:keywords>ccc,chaos,chaosseminar,hacking,computer,technology,society</itunes:keywords>
+        <itunes:category text="International">
+            <itunes:category text="German"/>
+        </itunes:category>
+        <itunes:category text="Technology" />
+        <item>
+            <title>CS200802: Lightning talks</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2008/02_Lightning_talks</link>
+            <description>Nachdem erst der Ausfall des Chaos Seminar angekuendigt wurde gab es doch noch drei spontane Kurzvortraege:
+* 's Äffle und 's Pferdle
+* das Smalltalk Webframework "Seaside"
+* Sicherheitsprobleme von Webbrowsern</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200802-lightningtalks/cs-200802-talks_video_high.mp4</guid>
+            <pubDate>Mon, 11 Feb 2008 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Nachdem erst der Ausfall des Chaos Seminar angekuendigt wurde gab es doch noch drei spontane Kurzvortraege:
+* 's Äffle und 's Pferdle
+* das Smalltalk Webframework "Seaside"
+* Sicherheitsprobleme von Webbrowsern ...</itunes:subtitle>
+            <itunes:summary>Nachdem erst der Ausfall des Chaos Seminar angekuendigt wurde gab es doch noch drei spontane Kurzvortraege:
+* 's Äffle und 's Pferdle
+* das Smalltalk Webframework "Seaside"
+* Sicherheitsprobleme von Webbrowsern</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200802-lightningtalks/cs-200802-talks_video_high.mp4" length="100287527" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200803: Datenschutz</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2008/03_Datenschutz</link>
+            <description>Datenschutz ist beim Chaos Computer Club allgegenwärtig. Computersicherheit wird häufig als technischer Datenschutz verstanden. Begriffe wie "informationelle Selbstbestimmung" gehen locker über die Lippen. Jeder glaubt alles darüber zu wissen. Doch was ist Datenschutz eigentlich? Wo taucht er zum ersten mal auf und welche Rechtsgrundlagen bestehen in Deutschland?
+
+Der Vortrag versucht für den juristischen Laien eine Einführung zu geben, und zeigt auch beispielhaft auf wo überall Datenschutzprobleme liegen.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200803-datenschutz/cs-200803-datenschutz_video_high.mp4</guid>
+            <pubDate>Mon, 10 Mar 2008 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Datenschutz ist beim Chaos Computer Club allgegenwärtig. Computersicherheit wird häufig als technischer Datenschutz verstanden. Begriffe wie "informationelle Selbstbestimmung" gehen locker über die Lippen. Jeder glaubt alles darüber zu wissen. Doc ...</itunes:subtitle>
+            <itunes:summary>Datenschutz ist beim Chaos Computer Club allgegenwärtig. Computersicherheit wird häufig als technischer Datenschutz verstanden. Begriffe wie "informationelle Selbstbestimmung" gehen locker über die Lippen. Jeder glaubt alles darüber zu wissen. Doch was ist Datenschutz eigentlich? Wo taucht er zum ersten mal auf und welche Rechtsgrundlagen bestehen in Deutschland?
+
+Der Vortrag versucht für den juristischen Laien eine Einführung zu geben, und zeigt auch beispielhaft auf wo überall Datenschutzprobleme liegen.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200803-datenschutz/cs-200803-datenschutz_video_high.mp4" length="404982136" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200804: Voice over IP</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2008/04_voip</link>
+            <description>Spätestens seit moderne DSL-Router auf dem Markt sind mit diversen neuen Features wie z.B. Internet-Telefonie, ist Voice-Over-IP (kurz VoIP) fast jedem bekannt geworden, der zu Hause seinen PC an's Internet angeschlossen hat. Wer mehr mit VoIP zu tun hat, hat vielleicht einmal Skype entdeckt und nutzt es möglicherweise auch regelmäßig.
+Aber kaum einer hat sich je mit den tiefer liegenden Konzepten beschäftigt. Wie setzt man seine eigene Telefonanlage auf? Was ist das Sip-Protokoll, und wie funktioniert es? Wie wird der Übergang zwischen VoIP und dem Festnetz bewerkstelligt? Was ist mit Messengern?
+Der Vortrag versucht zunächst einen allgemeinen Überblick über die Thematik und die Funktionsweise zu vermitteln, der auch dem Anfänger verständlich ist, und ist von vorn herein darauf ausgelegt, verschiedene Einzelthemen in Folgevorträgen zu vertiefen.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200804-voip/cs-200804-voip_video_high.mp4</guid>
+            <pubDate>Mon, 14 Apr 2008 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Spätestens seit moderne DSL-Router auf dem Markt sind mit diversen neuen Features wie z.B. Internet-Telefonie, ist Voice-Over-IP (kurz VoIP) fast jedem bekannt geworden, der zu Hause seinen PC an's Internet angeschlossen hat. Wer mehr mit VoIP zu tun ...</itunes:subtitle>
+            <itunes:summary>Spätestens seit moderne DSL-Router auf dem Markt sind mit diversen neuen Features wie z.B. Internet-Telefonie, ist Voice-Over-IP (kurz VoIP) fast jedem bekannt geworden, der zu Hause seinen PC an's Internet angeschlossen hat. Wer mehr mit VoIP zu tun hat, hat vielleicht einmal Skype entdeckt und nutzt es möglicherweise auch regelmäßig.
+Aber kaum einer hat sich je mit den tiefer liegenden Konzepten beschäftigt. Wie setzt man seine eigene Telefonanlage auf? Was ist das Sip-Protokoll, und wie funktioniert es? Wie wird der Übergang zwischen VoIP und dem Festnetz bewerkstelligt? Was ist mit Messengern?
+Der Vortrag versucht zunächst einen allgemeinen Überblick über die Thematik und die Funktionsweise zu vermitteln, der auch dem Anfänger verständlich ist, und ist von vorn herein darauf ausgelegt, verschiedene Einzelthemen in Folgevorträgen zu vertiefen.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200804-voip/cs-200804-voip_video_high.mp4" length="421679310" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200807: Technikphilosophie</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2008/07_technikphilosophie</link>
+            <description>Wir werden eine sehr kurze Vorstellung von Philosophie im Allgemeinen bekommen und dann auf Technikphilosophie im Besondern eingehen. Da die Vorkenntnisse des Publikums nicht klar sind, werden wir inhaltlich flexibel bleiben und uns aus einer Auswahl der üblichen technikphilosophischen Grundthemen bedienen (Technik und/als Macht, Zweck-Mittel-Relation, Philosophie als Welterklärung, chinesisches Zimmer, Wertigkeit technischer Berufe und technischen Handelns, Rationalismus vs. Empirismus, anthropologische Sicht und Werkzeuggebrauch, Technikethik, Technik als Kultur und soziologische Beschreibungen, Technokratie, ...). Michael ist Student/Diplomand in Informatik mit Anwendungsfach Philosophie an der Uni Ulm.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200807-technikphilosophie/cs-200807-technikphilosophie_video_high.mp4</guid>
+            <pubDate>Mon, 14 July 2008 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Wir werden eine sehr kurze Vorstellung von Philosophie im Allgemeinen bekommen und dann auf Technikphilosophie im Besondern eingehen. Da die Vorkenntnisse des Publikums nicht klar sind, werden wir inhaltlich flexibel bleiben und uns aus einer Auswahl  ...</itunes:subtitle>
+            <itunes:summary>Wir werden eine sehr kurze Vorstellung von Philosophie im Allgemeinen bekommen und dann auf Technikphilosophie im Besondern eingehen. Da die Vorkenntnisse des Publikums nicht klar sind, werden wir inhaltlich flexibel bleiben und uns aus einer Auswahl der üblichen technikphilosophischen Grundthemen bedienen (Technik und/als Macht, Zweck-Mittel-Relation, Philosophie als Welterklärung, chinesisches Zimmer, Wertigkeit technischer Berufe und technischen Handelns, Rationalismus vs. Empirismus, anthropologische Sicht und Werkzeuggebrauch, Technikethik, Technik als Kultur und soziologische Beschreibungen, Technokratie, ...). Michael ist Student/Diplomand in Informatik mit Anwendungsfach Philosophie an der Uni Ulm.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200807-technikphilosophie/cs-200807-technikphilosophie_video_high.mp4" length="971388518" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200809: Dokumentation Infrastruktur</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2008/09_Dokumentation_Infrastruktur</link>
+            <description>Was läuft eigentlich alles auf der Dontpanic. Warum, Weshalb, Wieso ist das eigentlich alles so?</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200809-infrastruktur/cs-200809-infrastruktur_video_high.mp4</guid>
+            <pubDate>Mon, 08 September 2008 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Was läuft eigentlich alles auf der Dontpanic. Warum, Weshalb, Wieso ist das eigentlich alles so? ...</itunes:subtitle>
+            <itunes:summary>Was läuft eigentlich alles auf der Dontpanic. Warum, Weshalb, Wieso ist das eigentlich alles so?</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200809-infrastruktur/cs-200809-infrastruktur_video_high.mp4" length="986500520" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200810: Meinungsfreiheit</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2008/10_Meinungsfreiheit</link>
+            <description>"Alle Informationen sollen frei sein" war eine der ersten Forderungen des CCC. Im April 2002 organisierte der CCC eine Demo gegen Netzzensur in Düsseldorf. Jeder glaubt, alles darüber zu wissen. Doch was ist Zensur eigentlich? Welchen Einfluss haben die Medien, welche besonderen Rechte und Pflichten hat die Presse? Wo gibt es Zensur oder Meinungsfreiheit in welcher Form und welche Rechtsgrundlagen bestehen in Deutschland?
+
+Der Vortrag versucht für den juristischen Laien eine Einführung zu geben, und zeigt auch beispielhaft auf, wo überall Einschränkungen der Meinungsfreiheit liegen.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200810-meinungsfreiheit/cs-200810-meinungsfreiheit_video_high.mp4</guid>
+            <pubDate>Mon, 13 October 2008 20:00:00 +0200</pubDate>
+            <itunes:subtitle>"Alle Informationen sollen frei sein" war eine der ersten Forderungen des CCC. Im April 2002 organisierte der CCC eine Demo gegen Netzzensur in Düsseldorf. Jeder glaubt, alles darüber zu wissen. Doch was ist Zensur eigentlich? Welchen Einfluss haben ...</itunes:subtitle>
+            <itunes:summary>"Alle Informationen sollen frei sein" war eine der ersten Forderungen des CCC. Im April 2002 organisierte der CCC eine Demo gegen Netzzensur in Düsseldorf. Jeder glaubt, alles darüber zu wissen. Doch was ist Zensur eigentlich? Welchen Einfluss haben die Medien, welche besonderen Rechte und Pflichten hat die Presse? Wo gibt es Zensur oder Meinungsfreiheit in welcher Form und welche Rechtsgrundlagen bestehen in Deutschland?
+
+Der Vortrag versucht für den juristischen Laien eine Einführung zu geben, und zeigt auch beispielhaft auf, wo überall Einschränkungen der Meinungsfreiheit liegen.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200810-meinungsfreiheit/cs-200810-meinungsfreiheit_video_high.mp4" length="574625301" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200811: Das "S" in HTTPS</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2008/11_https</link>
+            <description>Wer schon einmal online etwas eingekauft oder versteigert hat, hat (hoffentlich!) dabei ein Protokoll namens HTTPS erlebt. In diesem - für Otto Normalverbraucher geeigneten - Vortrag des Chaosseminars wird erklärt, was es damit und mit den lästigen"Sicherheitswarnung" der Webbrowser auf sich hat.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200811-https/cs-200811-https_video_high.mp4</guid>
+            <pubDate>Mon, 11 November 2008 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Wer schon einmal online etwas eingekauft oder versteigert hat, hat (hoffentlich!) dabei ein Protokoll namens HTTPS erlebt. In diesem - für Otto Normalverbraucher geeigneten - Vortrag des Chaosseminars wird erklärt, was es damit und mit den lästigen ...</itunes:subtitle>
+            <itunes:summary>Wer schon einmal online etwas eingekauft oder versteigert hat, hat (hoffentlich!) dabei ein Protokoll namens HTTPS erlebt. In diesem - für Otto Normalverbraucher geeigneten - Vortrag des Chaosseminars wird erklärt, was es damit und mit den lästigen"Sicherheitswarnung" der Webbrowser auf sich hat.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200811-https/cs-200811-https_video_high.mp4" length="81607725" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200901: Mailman PGP/SMIME extension</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2009/01_Mailman_PGP_SMIME</link>
+            <description>Joost van Baal ist der Maintainer eines OpenPGP- und S/MIME-erweiterten Mailman - einem Projekt, das bei uns hier als Mailman-Patch für die Ulmer Intern-Mailingliste begann. Joost wird über die Entwicklung der Erweiterung, die technischen Schwierigkeiten und Hindernisse, sowie die Verbreitung und die Zukunft des Projekts berichten:
+
+The talk will start with a very short overview of the history of Mailman and the mailman-pgp-smime project. Some remarks will be made on how to install and configure the software, so that one can try it. Currently supported features will be mentioned, as well as an overview of development plans. One will learn how to contribute to the project; an overview of the revision control system used will be given. Some remarks on the future of the patch will be made: will it be shipped with Mailman itself?
+
+The talk will be given in English.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200901-mailman/cs-200901-mailman_video_high.mp4</guid>
+            <pubDate>Mon, 2 January 2009 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Joost van Baal ist der Maintainer eines OpenPGP- und S/MIME-erweiterten Mailman - einem Projekt, das bei uns hier als Mailman-Patch für die Ulmer Intern-Mailingliste begann. Joost wird über die Entwicklung der Erweiterung, die technischen Schwierigk ...</itunes:subtitle>
+            <itunes:summary>Joost van Baal ist der Maintainer eines OpenPGP- und S/MIME-erweiterten Mailman - einem Projekt, das bei uns hier als Mailman-Patch für die Ulmer Intern-Mailingliste begann. Joost wird über die Entwicklung der Erweiterung, die technischen Schwierigkeiten und Hindernisse, sowie die Verbreitung und die Zukunft des Projekts berichten:
+
+The talk will start with a very short overview of the history of Mailman and the mailman-pgp-smime project. Some remarks will be made on how to install and configure the software, so that one can try it. Currently supported features will be mentioned, as well as an overview of development plans. One will learn how to contribute to the project; an overview of the revision control system used will be given. Some remarks on the future of the patch will be made: will it be shipped with Mailman itself?
+
+The talk will be given in English.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200901-mailman/cs-200901-mailman_video_high.mp4" length="234872991" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200903: Der Masqmail MTA</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2009/03_masqmail</link>
+            <description>Ein Vortrag über masqmail, das Thema der Diplomarbeit von Markus Schnalke.
+
+Der Vortrag wird _keine_ reine Beschreibung des Diplomarbeit sein, und schon gar keine trockene. Es sollen Vorschläge und Ideen aus dem Publikum einfließen, es soll diskutiert werden, und letztendlich soll dieser Vortrag auch dazu motivieren masqmail einzusetzen, oder sogar selbst bei der Weiterentwicklung mitzuhelfen.
+
+Hier ist der Abriss dieser Arbeit. Der Vortrag wird auf deutsch sein.
+
+"masqmail is a mail transfer agent for workstations and small networks, a
+much smaller replacement for sendmail. It has be orphaned by its author
+more than five years ago and remained unchanged since then, in a world
+where emailing did change. Nevertheless has masqmail unique advantages that
+makes it still a valuable software.
+
+This diploma thesis is a scientific planning effort to revive masqmail. It
+provides a highly structured analysis of masqmail and its environment.
+Modern requirements for masqmail are compared against the current state of
+the program to receive a list of pending work tasks. Further development
+strategies are carefully compared and discussed. Finally concrete plans and
+recommendations are defined with the goal of turning masqmail into a
+modern mail transfer agent again."</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200903-masqmail/cs-200903-masqmail_video_high.mp4</guid>
+            <pubDate>Mon, 9 March 2009 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Ein Vortrag über masqmail, das Thema der Diplomarbeit von Markus Schnalke.
+
+Der Vortrag wird _keine_ reine Beschreibung des Diplomarbeit sein, und schon gar keine trockene. Es sollen Vorschläge und Ideen aus dem Publikum einfließen, es soll diskuti ...</itunes:subtitle>
+            <itunes:summary>Ein Vortrag über masqmail, das Thema der Diplomarbeit von Markus Schnalke.
+
+Der Vortrag wird _keine_ reine Beschreibung des Diplomarbeit sein, und schon gar keine trockene. Es sollen Vorschläge und Ideen aus dem Publikum einfließen, es soll diskutiert werden, und letztendlich soll dieser Vortrag auch dazu motivieren masqmail einzusetzen, oder sogar selbst bei der Weiterentwicklung mitzuhelfen.
+
+Hier ist der Abriss dieser Arbeit. Der Vortrag wird auf deutsch sein.
+
+"masqmail is a mail transfer agent for workstations and small networks, a
+much smaller replacement for sendmail. It has be orphaned by its author
+more than five years ago and remained unchanged since then, in a world
+where emailing did change. Nevertheless has masqmail unique advantages that
+makes it still a valuable software.
+
+This diploma thesis is a scientific planning effort to revive masqmail. It
+provides a highly structured analysis of masqmail and its environment.
+Modern requirements for masqmail are compared against the current state of
+the program to receive a list of pending work tasks. Further development
+strategies are carefully compared and discussed. Finally concrete plans and
+recommendations are defined with the goal of turning masqmail into a
+modern mail transfer agent again."</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200903-masqmail/cs-200903-masqmail_video_high.mp4" length="2149722035" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200904: PostCanvas</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2009/04_PostCanvas</link>
+            <description>PostCanvas ist ein kleiner PostScript Interpreter, umgesetzt in JavaScript und HTML5. Warum macht man sowas? Ach, es hat sich einfach angeboten, ja geradezu aufgedrängt. Die gegebenen Komponenten passen einfach zu schön zusammen. Mit wirklich überschaubarem Aufwand lassen sich nahezu beliebige PostScript Level 1 Programme interpretieren, komplette EPS Dokumente in modernen Webbrowsern ohne Plugins anzeigen und wir werden sogar eine interaktive Shell für kleine Experimente bekommen.
+
+Anhand von PostCanvas lässt sich zudem prima die Herkunft und Funktionsweise des HTML5 Canvas Element demonstrieren, man kann JavaScript als ernsthafte Programmierumgebung ausprobieren, ein wenig auf die historische Bedeutung von PostScript eingehen, auf das Konzept und die Verbreitung von Stack Maschinen hinweisen und die Eigenschaften von gnädigen Dokumentenformaten und domänenspezifischen Programmiersprachen gegenüber strikten XML Datenbeschreibungsnamespaces (e.g. SVG) ansprechen.
+
+Im Anschluss an das Unterhaltungsprogramm wird der Quellcode unter APLv2 veröffentlicht.
+
+Anmerkung des Videoteams: Leider lässt die Ton- und Videoqualtät zu wünschen übrig, der Ton ist bei der Aufnahme stark übersteuert und das Bild ist zu dunkel. Im Nachhinein lässt sich da leider nicht viel machen.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200904-ps-interpreter-html5/cs-200904-ps-interpreter-html5_video_high.mp4</guid>
+            <pubDate>Mon, 20 April 2009 20:00:00 +0200</pubDate>
+            <itunes:subtitle>PostCanvas ist ein kleiner PostScript Interpreter, umgesetzt in JavaScript und HTML5. Warum macht man sowas? Ach, es hat sich einfach angeboten, ja geradezu aufgedrängt. Die gegebenen Komponenten passen einfach zu schön zusammen. Mit wirklich übers ...</itunes:subtitle>
+            <itunes:summary>PostCanvas ist ein kleiner PostScript Interpreter, umgesetzt in JavaScript und HTML5. Warum macht man sowas? Ach, es hat sich einfach angeboten, ja geradezu aufgedrängt. Die gegebenen Komponenten passen einfach zu schön zusammen. Mit wirklich überschaubarem Aufwand lassen sich nahezu beliebige PostScript Level 1 Programme interpretieren, komplette EPS Dokumente in modernen Webbrowsern ohne Plugins anzeigen und wir werden sogar eine interaktive Shell für kleine Experimente bekommen.
+
+Anhand von PostCanvas lässt sich zudem prima die Herkunft und Funktionsweise des HTML5 Canvas Element demonstrieren, man kann JavaScript als ernsthafte Programmierumgebung ausprobieren, ein wenig auf die historische Bedeutung von PostScript eingehen, auf das Konzept und die Verbreitung von Stack Maschinen hinweisen und die Eigenschaften von gnädigen Dokumentenformaten und domänenspezifischen Programmiersprachen gegenüber strikten XML Datenbeschreibungsnamespaces (e.g. SVG) ansprechen.
+
+Im Anschluss an das Unterhaltungsprogramm wird der Quellcode unter APLv2 veröffentlicht.
+
+Anmerkung des Videoteams: Leider lässt die Ton- und Videoqualtät zu wünschen übrig, der Ton ist bei der Aufnahme stark übersteuert und das Bild ist zu dunkel. Im Nachhinein lässt sich da leider nicht viel machen.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200904-ps-interpreter-html5/cs-200904-ps-interpreter-html5_video_high.mp4" length="326407831" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200905: Surprise</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2009/05_surprise</link>
+            <description>Nico erzählt was über bootris;
+Michel erzählt was über "Booten mit dem Mac";
+Jason erzählt was über OpenCL;
+jemand erzählt was über Softwarepatente und Urheberrecht;
+jemand anderes erzählt was über Fnordlichter;
+Matthias erzählt was über Lockpicking;
+Felix erzählt was über Spiegelneuronen;
+Für jeden ist also was passendes dabei.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200905-surprise/cs-200905-surprise_video_high.mp4</guid>
+            <pubDate>Mon, 20 May 2009 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Nico erzählt was über bootris;
+Michel erzählt was über "Booten mit dem Mac";
+Jason erzählt was über OpenCL;
+jemand erzählt was über Softwarepatente und Urheberrecht;
+jemand anderes erzählt was über Fnordlichter;
+Matthias erzählt was über L ...</itunes:subtitle>
+            <itunes:summary>Nico erzählt was über bootris;
+Michel erzählt was über "Booten mit dem Mac";
+Jason erzählt was über OpenCL;
+jemand erzählt was über Softwarepatente und Urheberrecht;
+jemand anderes erzählt was über Fnordlichter;
+Matthias erzählt was über Lockpicking;
+Felix erzählt was über Spiegelneuronen;
+Für jeden ist also was passendes dabei.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200905-surprise/cs-200905-surprise_video_high.mp4" length="1120994421" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200907: Linux Kernel Hacking</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2009/07_Linux_Kernel_Hacking</link>
+            <description>Unter der Haube von allen Linux-Distributionen -- Debian GNU/Hurd mal ausgenommen -- schafft der Linux-Kernel. Weshalb man einen Kernel braucht und wie er funktioniert, wird als Theorie kurz eingeführt. Wie man dem Kernel mit eigenem C-Code einen Tritt verpasst, wird an Hand von Codebeispielen erläutert. Außerdem werden einige Tools zur Linux-Kernel-Entwicklung gezeigt.
+
+Wegen dem Umfang wurde der Vortrag aufgeteilt. Im ersten Teil werden folgende Punkte besprochen:
+
+* Grundlagen Betriebssysteme
+* Benötigte Tools
+* Konfiguration und Compilieren
+* Unterschiede zur C-Anwendungsprogrammierung
+* Bootvorgang von Linux</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200907-linuxkernel/cs-200907-kernel_video_high.mp4</guid>
+            <pubDate>Mon, 13 July 2009 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Unter der Haube von allen Linux-Distributionen -- Debian GNU/Hurd mal ausgenommen -- schafft der Linux-Kernel. Weshalb man einen Kernel braucht und wie er funktioniert, wird als Theorie kurz eingeführt. Wie man dem Kernel mit eigenem C-Code einen Tri ...</itunes:subtitle>
+            <itunes:summary>Unter der Haube von allen Linux-Distributionen -- Debian GNU/Hurd mal ausgenommen -- schafft der Linux-Kernel. Weshalb man einen Kernel braucht und wie er funktioniert, wird als Theorie kurz eingeführt. Wie man dem Kernel mit eigenem C-Code einen Tritt verpasst, wird an Hand von Codebeispielen erläutert. Außerdem werden einige Tools zur Linux-Kernel-Entwicklung gezeigt.
+
+Wegen dem Umfang wurde der Vortrag aufgeteilt. Im ersten Teil werden folgende Punkte besprochen:
+
+* Grundlagen Betriebssysteme
+* Benötigte Tools
+* Konfiguration und Compilieren
+* Unterschiede zur C-Anwendungsprogrammierung
+* Bootvorgang von Linux</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200907-linuxkernel/cs-200907-kernel_video_high.mp4" length="502993625" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200909: Linux Kernel Hacking II</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2009/09_Linux_Kernel_Hacking_II</link>
+            <description>Nach der Einführung im ersten Teil, geht es jetzt ans Eingemachte. Wie man dem Kernel mit eigenem C-Code einen Tritt verpasst, wird an Hand von Codebeispielen erläutert. Außerdem werden einige Tools zur Linux-Kernel-Entwicklung gezeigt.
+
+* Minimales Kernel-Modul
+* Einfacher Zeichenorientierter Gerätetreiber
+* Out-of-memory Killer
+* Fehlerhafter Code im Kernel
+* Wo bekommt man Dokumentation?
+* Was ist für Commits in den Mainline-Kernel zu beachten</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200909-linuxkernel2/cs-200909-kernel2_video_high.mp4</guid>
+            <pubDate>Mon, 14 Sep 2009 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Nach der Einführung im ersten Teil, geht es jetzt ans Eingemachte. Wie man dem Kernel mit eigenem C-Code einen Tritt verpasst, wird an Hand von Codebeispielen erläutert. Außerdem werden einige Tools zur Linux-Kernel-Entwicklung gezeigt.
+
+* Minimale ...</itunes:subtitle>
+            <itunes:summary>Nach der Einführung im ersten Teil, geht es jetzt ans Eingemachte. Wie man dem Kernel mit eigenem C-Code einen Tritt verpasst, wird an Hand von Codebeispielen erläutert. Außerdem werden einige Tools zur Linux-Kernel-Entwicklung gezeigt.
+
+* Minimales Kernel-Modul
+* Einfacher Zeichenorientierter Gerätetreiber
+* Out-of-memory Killer
+* Fehlerhafter Code im Kernel
+* Wo bekommt man Dokumentation?
+* Was ist für Commits in den Mainline-Kernel zu beachten</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200909-linuxkernel2/cs-200909-kernel2_video_high.mp4" length="768624499" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200910: Alte Softwareschätze</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2009/10_Softwareschaetze</link>
+            <description>Dieser Vortrag soll Software vorstellen die schon einige Jahre auf dem Buckel hat. Vieles wird man schon vom Namen her gehört haben, aber nur wenige werden damit selbst gearbeitet haben oder noch immer arbeiten.
+
+Doch diese Programme und Programmiersprachen, auch wenn sie angestaubt sind, gehören noch lange nicht zum Alten Eisen. Sie erledigen getreu ihre Dienste, sie decken bestimmte Nischen besser ab als ihr Nachfolger, sie sind auf vielen Systemen verfügbar ... und ja, man muss sie einfach mal verwendet haben! Dieser Vortrag soll eben dazu motivieren.
+
+* Man darf miterleben wie Unix geschrieben wurde.
+* Es wird beantwortet warum man Perl nicht unbedingt braucht.
+* ... und überall wird ein bisschen Unix-Philosophie versteckt sein
+
+Die Präsentation dieser Softwareschätze wird mit technischen Details und Hintergrundwissen aus vergangenen Zeiten ausgeschmückt werden. Tutorials für einzelne Tools können nicht erwartet werden -- viele Anregungen und Ansatzpunkte für eigene Erkundungen aber sehr wohl.
+
+In den Hauptrollen: ed, sed, awk</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200910-softwareschaetze/cs-200910-softwareschaetze_video_high.mp4</guid>
+            <pubDate>Mon, 13 Oct 2009 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Dieser Vortrag soll Software vorstellen die schon einige Jahre auf dem Buckel hat. Vieles wird man schon vom Namen her gehört haben, aber nur wenige werden damit selbst gearbeitet haben oder noch immer arbeiten.
+
+Doch diese Programme und Programmiers ...</itunes:subtitle>
+            <itunes:summary>Dieser Vortrag soll Software vorstellen die schon einige Jahre auf dem Buckel hat. Vieles wird man schon vom Namen her gehört haben, aber nur wenige werden damit selbst gearbeitet haben oder noch immer arbeiten.
+
+Doch diese Programme und Programmiersprachen, auch wenn sie angestaubt sind, gehören noch lange nicht zum Alten Eisen. Sie erledigen getreu ihre Dienste, sie decken bestimmte Nischen besser ab als ihr Nachfolger, sie sind auf vielen Systemen verfügbar ... und ja, man muss sie einfach mal verwendet haben! Dieser Vortrag soll eben dazu motivieren.
+
+* Man darf miterleben wie Unix geschrieben wurde.
+* Es wird beantwortet warum man Perl nicht unbedingt braucht.
+* ... und überall wird ein bisschen Unix-Philosophie versteckt sein
+
+Die Präsentation dieser Softwareschätze wird mit technischen Details und Hintergrundwissen aus vergangenen Zeiten ausgeschmückt werden. Tutorials für einzelne Tools können nicht erwartet werden -- viele Anregungen und Ansatzpunkte für eigene Erkundungen aber sehr wohl.
+
+In den Hauptrollen: ed, sed, awk</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200910-softwareschaetze/cs-200910-softwareschaetze_video_high.mp4" length="413407416" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200911: troff and friends</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2009/11_troff-and-friends</link>
+            <description>Tex kennt und verwendet heute fast jeder Computerbegeisterte wenn er Dokumente erstellen soll. Neben Tex gibt es aber auch andere Textsatzsysteme die keineswegs schlechter, nur unbekannter, sind. Eines ist troff das aus den Bell Labs kommt und sehr eng mit der Entstehung von Unix verwoben ist.
+
+Troff wird heute in erster Linie zum Formatieren von Manpages verwendet. Doch auch bemerkenswert viele Computerbücher sind mit troff gesetzt, was zeigt, dass troff eine ernstzunehmende Software im professionellen Bereich ist. Nichts desto trotz ist troff inzwischen leicht angestaubt und kaum noch bekannt. Dieser Vortrag wird den Staub wegfegen und zeigen, dass es sich lohnt sich mit troff zu beschäftigen.
+
+Ausgehend von den geschichtlichen Hintergründen wird das Design von troff erklärt. Die Benutzung von troff selbst wird vorgestellt werden, sowie die bekanntesten Macropakete (die die Benutzung erleichtern). Zudem werden verschiedene Preprozessoren gezeigt und erklärt werden. Diese erlauben es zum Beispiel sehr einfach mathematische Formeln oder Diagramme zu erzeugen.
+
+Ein großer Teil des Vortrags wird die Live-Demonstration der Programe einnehmen. Publikumsinteraktion ist ausdrücklich erwünscht.
+
+In den Hauptrollen: troff, nroff, tbl, eqn, refer, pic</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200911-troff/cs-200911-troff_video_high.mp4</guid>
+            <pubDate>Mon, 9 Nov 2009 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Tex kennt und verwendet heute fast jeder Computerbegeisterte wenn er Dokumente erstellen soll. Neben Tex gibt es aber auch andere Textsatzsysteme die keineswegs schlechter, nur unbekannter, sind. Eines ist troff das aus den Bell Labs kommt und sehr en ...</itunes:subtitle>
+            <itunes:summary>Tex kennt und verwendet heute fast jeder Computerbegeisterte wenn er Dokumente erstellen soll. Neben Tex gibt es aber auch andere Textsatzsysteme die keineswegs schlechter, nur unbekannter, sind. Eines ist troff das aus den Bell Labs kommt und sehr eng mit der Entstehung von Unix verwoben ist.
+
+Troff wird heute in erster Linie zum Formatieren von Manpages verwendet. Doch auch bemerkenswert viele Computerbücher sind mit troff gesetzt, was zeigt, dass troff eine ernstzunehmende Software im professionellen Bereich ist. Nichts desto trotz ist troff inzwischen leicht angestaubt und kaum noch bekannt. Dieser Vortrag wird den Staub wegfegen und zeigen, dass es sich lohnt sich mit troff zu beschäftigen.
+
+Ausgehend von den geschichtlichen Hintergründen wird das Design von troff erklärt. Die Benutzung von troff selbst wird vorgestellt werden, sowie die bekanntesten Macropakete (die die Benutzung erleichtern). Zudem werden verschiedene Preprozessoren gezeigt und erklärt werden. Diese erlauben es zum Beispiel sehr einfach mathematische Formeln oder Diagramme zu erzeugen.
+
+Ein großer Teil des Vortrags wird die Live-Demonstration der Programe einnehmen. Publikumsinteraktion ist ausdrücklich erwünscht.
+
+In den Hauptrollen: troff, nroff, tbl, eqn, refer, pic</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200911-troff/cs-200911-troff_video_high.mp4" length="716260516" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200912: Manipulationspsychologie</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2009/12_Manipulationspsychologie</link>
+            <description>In guten Sicherheitssystemen sind nicht nur technische Maßnahmen ausschlaggebend. Bei genauer Betrachtung zeigt sich, dass die Sicherheitsstrategie immer auch Menschen enthält (z.B. den Administrator). Angriffe auf diese menschliche Komponente verdienen also ebenfalls volle Aufmerksamkeit.
+
+Mit gutem Grund hat das sogenannte "Social Engineering", welches genau diese "Sicherheitslücken" anvisiert, unter Hackern bereits eine lange Tradition. "Hacken" muss sich folglich nicht auf Geräte beschränken. "Hacken" kann auch bedeuten, dass ausgefeilte Psychologie zum Einsatz kommt.
+
+Der Vortrag beschränkt sich jedoch nicht auf "Social Engineering", sondern soll aufzeigen, dass wir von manipulativer Psychologie regelrecht umzingelt sind. Besonders die Werbeindustrie, Geheimdienste, Sekten und Betrüger machen sich allerlei Erkenntnisse der Psychologie zu nutze.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200912-manipulationspsychologie/cs-200912-manipmeth_video_high.mp4</guid>
+            <pubDate>Mon, 14 Dec 2009 20:00:00 +0100</pubDate>
+            <itunes:subtitle>In guten Sicherheitssystemen sind nicht nur technische Maßnahmen ausschlaggebend. Bei genauer Betrachtung zeigt sich, dass die Sicherheitsstrategie immer auch Menschen enthält (z.B. den Administrator). Angriffe auf diese menschliche Komponente verdi ...</itunes:subtitle>
+            <itunes:summary>In guten Sicherheitssystemen sind nicht nur technische Maßnahmen ausschlaggebend. Bei genauer Betrachtung zeigt sich, dass die Sicherheitsstrategie immer auch Menschen enthält (z.B. den Administrator). Angriffe auf diese menschliche Komponente verdienen also ebenfalls volle Aufmerksamkeit.
+
+Mit gutem Grund hat das sogenannte "Social Engineering", welches genau diese "Sicherheitslücken" anvisiert, unter Hackern bereits eine lange Tradition. "Hacken" muss sich folglich nicht auf Geräte beschränken. "Hacken" kann auch bedeuten, dass ausgefeilte Psychologie zum Einsatz kommt.
+
+Der Vortrag beschränkt sich jedoch nicht auf "Social Engineering", sondern soll aufzeigen, dass wir von manipulativer Psychologie regelrecht umzingelt sind. Besonders die Werbeindustrie, Geheimdienste, Sekten und Betrüger machen sich allerlei Erkenntnisse der Psychologie zu nutze.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200912-manipulationspsychologie/cs-200912-manipmeth_video_high.mp4" length="191874829" type="video/mp4" />
+        </item>
+    </channel>
+</rss>

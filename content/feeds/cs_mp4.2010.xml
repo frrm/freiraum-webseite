@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+    <channel>
+        <title>Chaosseminar - MP4</title>
+        <link>http://ulm.ccc.de/ChaosSeminar/</link>
+        <description>eine regelmäßige Reihe von öffentlichen Seminarvorträgen</description>
+        <language>de-de</language>
+        <category>Technology</category>
+        <pubDate>Fri, 20 Mar 2015 23:40:11 +0100</pubDate>
+        <lastBuildDate>Fri, 20 Mar 2015 23:40:11 +0100</lastBuildDate>
+        <itunes:author>CCC Erfa Ulm</itunes:author>
+        <itunes:owner>
+            <itunes:name>CCC Erfa Ulm</itunes:name>
+            <itunes:email>mail@ulm.ccc.de</itunes:email>
+        </itunes:owner>
+	<itunes:explicit>no</itunes:explicit>	
+	<itunes:keywords>ccc,chaos,chaosseminar,hacking,computer,technology,society</itunes:keywords>
+        <itunes:category text="International">
+            <itunes:category text="German"/>
+        </itunes:category>
+        <itunes:category text="Technology" />
+        <item>
+            <title>CS200305: Installation von Debian Linux auf IBM PSeries</title>
+            <link>http://ulm.ccc.de/old/chaos-seminar/pseries/</link>
+            <description>IBM macht zwar groß Werbung für Linux, aber auf den etwas ``größeren Eisen'' sieht es mit der Umsetzung etwas dürftiger aus als im Marketing. Offiziell unterstützt gerade mal der Suse Linux Enterprise Server 7 die IBM PSeries Rechner, und der kostet knapp 3000 EUR. Das Hauptproblem dabei sind die 64-bittigen Power4-Prozessoren, auf denen ein ``normaler'' LinuxPPC-Kern nicht startet.
+
+``Macht aber nix'', dachten sich Uli, Volker und Markus, und kneteten einfach ein Debian Linux lange genug durch, bis es doch auf der Maschine lief. Was ihnen dabei so alles lustiges passierte, erzählen sie euch im Vortrag.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200305-pseries/cs-200305-pseries_video.mp4</guid>
+            <pubDate>Mon, 12 May 2003 20:00:00 +0200</pubDate>
+            <itunes:subtitle>IBM macht zwar groß Werbung für Linux, aber auf den etwas ``größeren Eisen'' sieht es mit der Umsetzung etwas dürftiger aus als im Marketing. Offiziell unterstützt gerade mal der Suse Linux Enterprise Server 7 die IBM PSeries Rechner, und der ko ...</itunes:subtitle>
+            <itunes:summary>IBM macht zwar groß Werbung für Linux, aber auf den etwas ``größeren Eisen'' sieht es mit der Umsetzung etwas dürftiger aus als im Marketing. Offiziell unterstützt gerade mal der Suse Linux Enterprise Server 7 die IBM PSeries Rechner, und der kostet knapp 3000 EUR. Das Hauptproblem dabei sind die 64-bittigen Power4-Prozessoren, auf denen ein ``normaler'' LinuxPPC-Kern nicht startet.
+
+``Macht aber nix'', dachten sich Uli, Volker und Markus, und kneteten einfach ein Debian Linux lange genug durch, bis es doch auf der Maschine lief. Was ihnen dabei so alles lustiges passierte, erzählen sie euch im Vortrag.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200305-pseries/cs-200305-pseries_video.mp4" length="123177107" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200309: distributed.net</title>
+            <link>http://ulm.ccc.de/old/chaos-seminar/dnet/</link>
+            <description>Verteiltes Rechnen im Internet ist seit SETI@Home einer großen Öffentlichkeit bekannt. Das erste große Projekt dieser Art war jedoch distributed.net, welches sich statt mit der Suche nach Aliens mit kryptografischen und mathematischen Projekten beschäftigt. Ihr bekommt einen kleinen Überblick über Geschichte und Motivation solch großer Projekte und einen Einblick un die Infrastruktur von distributed.net. Außerdem gibts speziell zu OGR (Optimale Golomb Ruler) Hintergrundinfos vom Kern--Developer.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200309-dnet/cs-200309-distnet_video.mp4</guid>
+            <pubDate>Mon, 08 Sep 2003 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Verteiltes Rechnen im Internet ist seit SETI@Home einer großen Öffentlichkeit bekannt. Das erste große Projekt dieser Art war jedoch distributed.net, welches sich statt mit der Suche nach Aliens mit kryptografischen und mathematischen Projekten bes ...</itunes:subtitle>
+            <itunes:summary>Verteiltes Rechnen im Internet ist seit SETI@Home einer großen Öffentlichkeit bekannt. Das erste große Projekt dieser Art war jedoch distributed.net, welches sich statt mit der Suche nach Aliens mit kryptografischen und mathematischen Projekten beschäftigt. Ihr bekommt einen kleinen Überblick über Geschichte und Motivation solch großer Projekte und einen Einblick un die Infrastruktur von distributed.net. Außerdem gibts speziell zu OGR (Optimale Golomb Ruler) Hintergrundinfos vom Kern--Developer.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200309-dnet/cs-200309-distnet_video.mp4" length="99236067" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200402: Scalable Vector Graphics</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2004/02_Scalable_Vector_Graphics</link>
+            <description>SVG soll nach der Meinung des W3C der zukünftige Standard für Vektor-Grafiken und Multimedia-Inhalte sein. Dieser Vortrag gibt eine Übersicht der Features dieses Web-Grafik-Formates, und stellt einige Beispiele der verfügbaren Software vor.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200402-svg/cs-200402-svg_video.mp4</guid>
+            <pubDate>Mon, 09 Feb 2004 20:00:00 +0100</pubDate>
+            <itunes:subtitle>SVG soll nach der Meinung des W3C der zukünftige Standard für Vektor-Grafiken und Multimedia-Inhalte sein. Dieser Vortrag gibt eine Übersicht der Features dieses Web-Grafik-Formates, und stellt einige Beispiele der verfügbaren Software vor. ...</itunes:subtitle>
+            <itunes:summary>SVG soll nach der Meinung des W3C der zukünftige Standard für Vektor-Grafiken und Multimedia-Inhalte sein. Dieser Vortrag gibt eine Übersicht der Features dieses Web-Grafik-Formates, und stellt einige Beispiele der verfügbaren Software vor.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200402-svg/cs-200402-svg_video.mp4" length="136421136" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200411: The Danger of Software Patents</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2004/11_The_Danger_of_Software_Patents</link>
+            <description>Forced by the US, Europe is just about to adopt a new form of patents that were illegal up to now: Patents on Software. Whereas most big companies support the idea of software patents, most small and medium sized businesses as well as most open source developers see them as a serious threat to their profession.
+
+Richard Stallman will explain how software patents obstruct software development. Software patents are patents that cover software ideas. They restrict the development of software, so that every design decision brings a risk of getting sued. Patents in other fields restrict factories, but software patents restrict every computer user. Economic research shows that they even retard progress.
+
+About the lecturer: Richard Stallman is the founder of the GNU Project, launched in 1984 to develop the free software operating system GNU. He is the principal author of the GNU Compiler Collection (gcc), the GNU symbolic debugger (gdb), GNU Emacs, and various other programs for the GNU operating system.
+
+Stallman graduated from Harvard in 1974 with a BA in physics. During his college years, he also worked as a staff hacker at the MIT Artificial Intelligence Lab, learning operating system development by doing it. In January 1984 he resigned from MIT to start the GNU project. Today he is one of the leaders of the free software movement and president of the Free Software Foundation (FSF).</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200411-rms/cs-200411-rms-questions_video.mp4</guid>
+            <pubDate>Thu, 04 Nov 2004 19:00:00 +0100</pubDate>
+            <itunes:subtitle>Forced by the US, Europe is just about to adopt a new form of patents that were illegal up to now: Patents on Software. Whereas most big companies support the idea of software patents, most small and medium sized businesses as well as most open source ...</itunes:subtitle>
+            <itunes:summary>Forced by the US, Europe is just about to adopt a new form of patents that were illegal up to now: Patents on Software. Whereas most big companies support the idea of software patents, most small and medium sized businesses as well as most open source developers see them as a serious threat to their profession.
+
+Richard Stallman will explain how software patents obstruct software development. Software patents are patents that cover software ideas. They restrict the development of software, so that every design decision brings a risk of getting sued. Patents in other fields restrict factories, but software patents restrict every computer user. Economic research shows that they even retard progress.
+
+About the lecturer: Richard Stallman is the founder of the GNU Project, launched in 1984 to develop the free software operating system GNU. He is the principal author of the GNU Compiler Collection (gcc), the GNU symbolic debugger (gdb), GNU Emacs, and various other programs for the GNU operating system.
+
+Stallman graduated from Harvard in 1974 with a BA in physics. During his college years, he also worked as a staff hacker at the MIT Artificial Intelligence Lab, learning operating system development by doing it. In January 1984 he resigned from MIT to start the GNU project. Today he is one of the leaders of the free software movement and president of the Free Software Foundation (FSF).</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200411-rms/cs-200411-rms-questions_video.mp4" length="47073986" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200411: The Danger of Software Patents</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2004/11_The_Danger_of_Software_Patents</link>
+            <description>Forced by the US, Europe is just about to adopt a new form of patents that were illegal up to now: Patents on Software. Whereas most big companies support the idea of software patents, most small and medium sized businesses as well as most open source developers see them as a serious threat to their profession.
+
+Richard Stallman will explain how software patents obstruct software development. Software patents are patents that cover software ideas. They restrict the development of software, so that every design decision brings a risk of getting sued. Patents in other fields restrict factories, but software patents restrict every computer user. Economic research shows that they even retard progress.
+
+About the lecturer: Richard Stallman is the founder of the GNU Project, launched in 1984 to develop the free software operating system GNU. He is the principal author of the GNU Compiler Collection (gcc), the GNU symbolic debugger (gdb), GNU Emacs, and various other programs for the GNU operating system.
+
+Stallman graduated from Harvard in 1974 with a BA in physics. During his college years, he also worked as a staff hacker at the MIT Artificial Intelligence Lab, learning operating system development by doing it. In January 1984 he resigned from MIT to start the GNU project. Today he is one of the leaders of the free software movement and president of the Free Software Foundation (FSF).</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200411-rms/cs-200411-rms_video.mp4</guid>
+            <pubDate>Thu, 04 Nov 2004 19:00:00 +0100</pubDate>
+            <itunes:subtitle>Forced by the US, Europe is just about to adopt a new form of patents that were illegal up to now: Patents on Software. Whereas most big companies support the idea of software patents, most small and medium sized businesses as well as most open source ...</itunes:subtitle>
+            <itunes:summary>Forced by the US, Europe is just about to adopt a new form of patents that were illegal up to now: Patents on Software. Whereas most big companies support the idea of software patents, most small and medium sized businesses as well as most open source developers see them as a serious threat to their profession.
+
+Richard Stallman will explain how software patents obstruct software development. Software patents are patents that cover software ideas. They restrict the development of software, so that every design decision brings a risk of getting sued. Patents in other fields restrict factories, but software patents restrict every computer user. Economic research shows that they even retard progress.
+
+About the lecturer: Richard Stallman is the founder of the GNU Project, launched in 1984 to develop the free software operating system GNU. He is the principal author of the GNU Compiler Collection (gcc), the GNU symbolic debugger (gdb), GNU Emacs, and various other programs for the GNU operating system.
+
+Stallman graduated from Harvard in 1974 with a BA in physics. During his college years, he also worked as a staff hacker at the MIT Artificial Intelligence Lab, learning operating system development by doing it. In January 1984 he resigned from MIT to start the GNU project. Today he is one of the leaders of the free software movement and president of the Free Software Foundation (FSF).</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200411-rms/cs-200411-rms_video.mp4" length="145512497" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200412: Personal Firewalls</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2004/12_Personal_Firewalls</link>
+            <description>Firewalls gelten als Inbegriff der Computersicherheit. Deshalb haben sich clevere Marketingstrategen gedacht man könnte doch für jeden Rechner eine verkaufen.
+
+Dabei werden die Benutzer bezüglich der Funktionalität getäuscht. Es wird eine Sicherheit versprochen, die eine Personal Firewall prinzipbedingt nicht bringen kann. Statt dessen ermöglichen sich durch das Vorhandensein einer Personal Firewall ganz neue Angriffsmöglichkeiten auf ein System.
+
+Im Vortrag wird erklärt, wie Personal Firewalls funktionieren. An Hand von ein paar Beispielen wird anschließend gezeigt, wie man eine Personal Firewall umgehen oder angreifen kann.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200412-pfw/cs-200412-pfw_video.mp4</guid>
+            <pubDate>Mon, 13 Dec 2004 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Firewalls gelten als Inbegriff der Computersicherheit. Deshalb haben sich clevere Marketingstrategen gedacht man könnte doch für jeden Rechner eine verkaufen.
+
+Dabei werden die Benutzer bezüglich der Funktionalität getäuscht. Es wird eine Sicherh ...</itunes:subtitle>
+            <itunes:summary>Firewalls gelten als Inbegriff der Computersicherheit. Deshalb haben sich clevere Marketingstrategen gedacht man könnte doch für jeden Rechner eine verkaufen.
+
+Dabei werden die Benutzer bezüglich der Funktionalität getäuscht. Es wird eine Sicherheit versprochen, die eine Personal Firewall prinzipbedingt nicht bringen kann. Statt dessen ermöglichen sich durch das Vorhandensein einer Personal Firewall ganz neue Angriffsmöglichkeiten auf ein System.
+
+Im Vortrag wird erklärt, wie Personal Firewalls funktionieren. An Hand von ein paar Beispielen wird anschließend gezeigt, wie man eine Personal Firewall umgehen oder angreifen kann.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200412-pfw/cs-200412-pfw_video.mp4" length="185533351" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200501: (Un)Sicheres Windows am Heim-PC</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2005/01_%28Un%29Sicheres_Windows_am_Heim-PC</link>
+            <description>Personal Firewalls? Virenscanner? Internet-Security-Paket?
+
+Das Aufrüsten der Abwehr auf dem PC zuhause geht weiter. Ein Milliardenmarkt entsteht. Aber: sind diese Maßnahmen eigentlich sinnvoll? Stellt sich für den Heimanwender nicht eher die Frage: "Ich möchte doch nur E-Mails verschicken und surfen. Muss ich jetzt meinen PC zur Festung aufrüsten?"
+
+Dieser Vortrag zeigt einfache Möglichkeiten auf, wie man seinen Heimarbeitsplatz auch als Laie vor vielen Gefährdungen mit einfachen Mitteln schützen kann, ohne gleich ein Arsenal von Abwehrsoftware zu installieren.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200501-winsec/cs-200501-winsec_video.mp4</guid>
+            <pubDate>Mon, 10 Jan 2005 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Personal Firewalls? Virenscanner? Internet-Security-Paket?
+
+Das Aufrüsten der Abwehr auf dem PC zuhause geht weiter. Ein Milliardenmarkt entsteht. Aber: sind diese Maßnahmen eigentlich sinnvoll? Stellt sich für den Heimanwender nicht eher die Frage ...</itunes:subtitle>
+            <itunes:summary>Personal Firewalls? Virenscanner? Internet-Security-Paket?
+
+Das Aufrüsten der Abwehr auf dem PC zuhause geht weiter. Ein Milliardenmarkt entsteht. Aber: sind diese Maßnahmen eigentlich sinnvoll? Stellt sich für den Heimanwender nicht eher die Frage: "Ich möchte doch nur E-Mails verschicken und surfen. Muss ich jetzt meinen PC zur Festung aufrüsten?"
+
+Dieser Vortrag zeigt einfache Möglichkeiten auf, wie man seinen Heimarbeitsplatz auch als Laie vor vielen Gefährdungen mit einfachen Mitteln schützen kann, ohne gleich ein Arsenal von Abwehrsoftware zu installieren.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200501-winsec/cs-200501-winsec_video.mp4" length="223032171" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200502: Semantic Web</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2005/02_SemanticWeb</link>
+            <description>Nach der "Web-Revolution" basteln Berners-Lee und seine Mitstreiter im W3C längst an einem Nachfolger, dem Semantic Web. Ziel ist die Entwicklung von Technologien, mit welchen sich selbsterklärende Dokumente erstellen lassen. Suchmaschinen sollen beispielsweise erkennen können, dass der Begriff "Kuchen" auf einer Seite über die schwäbische Alb sich auf einen Ort bezieht, während er auf anderen Seiten vielleicht ein stark zuckerhaltiges Lebensmittel beschreibt. Und auch dass das Konzept des Kuchens auf einer deutschsprachigen Seite identisch ist zu "Cake" auf englischen Seiten. Wichtige Standards wie RDF oder OWL werden im Vortrag ausführlich vorgestellt.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200502-semweb/cs-200502-semweb_video.mp4</guid>
+            <pubDate>Mon, 14 Feb 2005 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Nach der "Web-Revolution" basteln Berners-Lee und seine Mitstreiter im W3C längst an einem Nachfolger, dem Semantic Web. Ziel ist die Entwicklung von Technologien, mit welchen sich selbsterklärende Dokumente erstellen lassen. Suchmaschinen sollen be ...</itunes:subtitle>
+            <itunes:summary>Nach der "Web-Revolution" basteln Berners-Lee und seine Mitstreiter im W3C längst an einem Nachfolger, dem Semantic Web. Ziel ist die Entwicklung von Technologien, mit welchen sich selbsterklärende Dokumente erstellen lassen. Suchmaschinen sollen beispielsweise erkennen können, dass der Begriff "Kuchen" auf einer Seite über die schwäbische Alb sich auf einen Ort bezieht, während er auf anderen Seiten vielleicht ein stark zuckerhaltiges Lebensmittel beschreibt. Und auch dass das Konzept des Kuchens auf einer deutschsprachigen Seite identisch ist zu "Cake" auf englischen Seiten. Wichtige Standards wie RDF oder OWL werden im Vortrag ausführlich vorgestellt.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200502-semweb/cs-200502-semweb_video.mp4" length="184139465" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200503: Jabber</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2005/03_Jabber</link>
+            <description>Aus Frust über die bestehenden Instant Messenger Systeme wird seit 1999 das offene IM-Protokoll "Jabber" entwickelt, das inzwischen unter dem Namen XMPP RFC-Standard ist. Inzwischen existieren alle möglichen Anwendungen für Jabber, von vernetzten Rollenspielen und Cobrowsing bis hin zu Telefonie-Signalisierung und Email-Protokollen. Nach einer kurzen Einleitung für Jabber-Einsteiger soll dieser Vortrag einen groben Abriss über aktuellen Zustand und Möglichkeiten von Jabber geben.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200503-jabber/cs-200503-jabber_video.mp4</guid>
+            <pubDate>Mon, 14 Mar 2005 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Aus Frust über die bestehenden Instant Messenger Systeme wird seit 1999 das offene IM-Protokoll "Jabber" entwickelt, das inzwischen unter dem Namen XMPP RFC-Standard ist. Inzwischen existieren alle möglichen Anwendungen für Jabber, von vernetzten R ...</itunes:subtitle>
+            <itunes:summary>Aus Frust über die bestehenden Instant Messenger Systeme wird seit 1999 das offene IM-Protokoll "Jabber" entwickelt, das inzwischen unter dem Namen XMPP RFC-Standard ist. Inzwischen existieren alle möglichen Anwendungen für Jabber, von vernetzten Rollenspielen und Cobrowsing bis hin zu Telefonie-Signalisierung und Email-Protokollen. Nach einer kurzen Einleitung für Jabber-Einsteiger soll dieser Vortrag einen groben Abriss über aktuellen Zustand und Möglichkeiten von Jabber geben.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200503-jabber/cs-200503-jabber_video.mp4" length="210498662" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200504: Biometrische Pässe</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2005/04_Biometrische_P%E4sse</link>
+            <description>Als kurzfristige Alternative zum ausgefallenen ChaosSeminar zur TkÜV gibt es einen Kurzvortrag mit anschließender Diskussionsmöglichkeit über die "biometrischen Pässe" und deren Sicherheitsfeatures. Der Vortrag versucht, die Inhalte des Beitrags eines BSI-Mitarbeiters zusammenzufassen, den dieser auf der "Conference on Security in Pervasive Computing" hielt.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200504-epass/cs-200504-epass_video.mp4</guid>
+            <pubDate>Mon, 11 Apr 2005 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Als kurzfristige Alternative zum ausgefallenen ChaosSeminar zur TkÜV gibt es einen Kurzvortrag mit anschließender Diskussionsmöglichkeit über die "biometrischen Pässe" und deren Sicherheitsfeatures. Der Vortrag versucht, die Inhalte des Beitrags  ...</itunes:subtitle>
+            <itunes:summary>Als kurzfristige Alternative zum ausgefallenen ChaosSeminar zur TkÜV gibt es einen Kurzvortrag mit anschließender Diskussionsmöglichkeit über die "biometrischen Pässe" und deren Sicherheitsfeatures. Der Vortrag versucht, die Inhalte des Beitrags eines BSI-Mitarbeiters zusammenzufassen, den dieser auf der "Conference on Security in Pervasive Computing" hielt.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200504-epass/cs-200504-epass_video.mp4" length="184552276" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200506: Web Security</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2005/06_WebSecurity</link>
+            <description>Immer mehr Sicherheitsvorfälle in IT-Systemen gehen auf das Konto von unsicheren Web-Servern oder -Clients. Seien es Buffer-Overflows in der Software, fehlerhafte Web-Anwendungen oder überforderte Benutzer, Angriffsmöglichkeiten gibt es zu Hauf. Der Vortrag zeigt Schwachstellen und mögliche Angriffe, geht aber auch darauf ein, wie Benutzer und Softwareentwickler das World Wide Web etwas sicherer machen können.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200506-websec/cs-200506-websec_video.mp4</guid>
+            <pubDate>Mon, 13 Jun 2005 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Immer mehr Sicherheitsvorfälle in IT-Systemen gehen auf das Konto von unsicheren Web-Servern oder -Clients. Seien es Buffer-Overflows in der Software, fehlerhafte Web-Anwendungen oder überforderte Benutzer, Angriffsmöglichkeiten gibt es zu Hauf. De ...</itunes:subtitle>
+            <itunes:summary>Immer mehr Sicherheitsvorfälle in IT-Systemen gehen auf das Konto von unsicheren Web-Servern oder -Clients. Seien es Buffer-Overflows in der Software, fehlerhafte Web-Anwendungen oder überforderte Benutzer, Angriffsmöglichkeiten gibt es zu Hauf. Der Vortrag zeigt Schwachstellen und mögliche Angriffe, geht aber auch darauf ein, wie Benutzer und Softwareentwickler das World Wide Web etwas sicherer machen können.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200506-websec/cs-200506-websec_video.mp4" length="338861151" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200507: C++</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2005/07_C%2B%2B</link>
+            <description>Bei wohl keiner Programiersprache ist der Unterschied zwischen Kennen und Können so groß wie bei C++. Als "C with classes" angefangen, hat es sich mittlerweile zu einer der komplexesten in der Praxis eingesetzen Sprachen entwickelt. Die Sprache stellt dem Entwickler mächtige Abstraktionswerkzeuge zur Verfügung, deren Kosten zur Laufzeit extrem gering sind - vorausgesetzt der Compiler ist gut. Somit eignet sich C++ für performance- oder resourcenkritische Applikationen, die man objektorientiert modellieren möchte. Es gibt aber auch hässliche Elemente der Sprache, von denen einige auf die Verwandtschaft zu C und andere auf Performance- oder Praktikabilitätsgründe zurückzuführen sind. C++ ist einfach ein pragmatischer Kompromiss. Der Vortrag bietet eine Übersicht über die wichtigsten Konzepte der Sprache. Auf Grund des engen Zeitrahmens müssen ein paar Dinge für das Verständniss vorausgesetzt werden. Dazu gehört Wissen über das Programierpardigma der Objektorientierung und Kenntniss der C-Syntax.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200507-cpp/cs-200507-cpp_video.mp4</guid>
+            <pubDate>Mon, 11 Jul 2005 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Bei wohl keiner Programiersprache ist der Unterschied zwischen Kennen und Können so groß wie bei C++. Als "C with classes" angefangen, hat es sich mittlerweile zu einer der komplexesten in der Praxis eingesetzen Sprachen entwickelt. Die Sprache stel ...</itunes:subtitle>
+            <itunes:summary>Bei wohl keiner Programiersprache ist der Unterschied zwischen Kennen und Können so groß wie bei C++. Als "C with classes" angefangen, hat es sich mittlerweile zu einer der komplexesten in der Praxis eingesetzen Sprachen entwickelt. Die Sprache stellt dem Entwickler mächtige Abstraktionswerkzeuge zur Verfügung, deren Kosten zur Laufzeit extrem gering sind - vorausgesetzt der Compiler ist gut. Somit eignet sich C++ für performance- oder resourcenkritische Applikationen, die man objektorientiert modellieren möchte. Es gibt aber auch hässliche Elemente der Sprache, von denen einige auf die Verwandtschaft zu C und andere auf Performance- oder Praktikabilitätsgründe zurückzuführen sind. C++ ist einfach ein pragmatischer Kompromiss. Der Vortrag bietet eine Übersicht über die wichtigsten Konzepte der Sprache. Auf Grund des engen Zeitrahmens müssen ein paar Dinge für das Verständniss vorausgesetzt werden. Dazu gehört Wissen über das Programierpardigma der Objektorientierung und Kenntniss der C-Syntax.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200507-cpp/cs-200507-cpp_video.mp4" length="301576263" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200509: Mac OS X Hacks</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2005/09_Mac_OS_X_Hacks</link>
+            <description>Mac OS X erfreut sich auch in Hackerzirkeln einer gewissen Beliebtheit. Dementsprechend wollen wir uns einige spaßigere Aktivitäten anschauen, die auch unter Mac OS X für Erheiterung sorgen.
+
+Subthemen: FireWire DMA, Cocoa ohne ObjC, Krypto- und Securityservices, Packagemanager, MACH Injections, Angriffsvektoren für Würmer, Highlight aus den letzten SecurityUpdates, Clustering, Forensics und Hardening, Buffer Overflows, OpenFirmware, ...</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200509-machacks/cs-200509-machacks_video.mp4</guid>
+            <pubDate>Mon, 12 Sep 2005 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Mac OS X erfreut sich auch in Hackerzirkeln einer gewissen Beliebtheit. Dementsprechend wollen wir uns einige spaßigere Aktivitäten anschauen, die auch unter Mac OS X für Erheiterung sorgen.
+
+Subthemen: FireWire DMA, Cocoa ohne ObjC, Krypto- und Se ...</itunes:subtitle>
+            <itunes:summary>Mac OS X erfreut sich auch in Hackerzirkeln einer gewissen Beliebtheit. Dementsprechend wollen wir uns einige spaßigere Aktivitäten anschauen, die auch unter Mac OS X für Erheiterung sorgen.
+
+Subthemen: FireWire DMA, Cocoa ohne ObjC, Krypto- und Securityservices, Packagemanager, MACH Injections, Angriffsvektoren für Würmer, Highlight aus den letzten SecurityUpdates, Clustering, Forensics und Hardening, Buffer Overflows, OpenFirmware, ...</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200509-machacks/cs-200509-machacks_video.mp4" length="248735421" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200510: Java - Evolution einer Sprache</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2005/10_Java_-_Evolution_einer_Sprache</link>
+            <description>Während Java 1.1 in den Sprachmitteln extrem minimalistisch designt war, wurden in den darauffolgenden Releases immer mehr Erweiterungen eingebaut. Beispiele dafür sind anonyme und innere Klassen, Assertions, Enumerations und Generics. Dieser Vortrag will die historische Entwicklung der Sprache von "zu minimalistisch" bis hin zu "durchaus brauchbar" illustrieren und gleichzeitig Umsteigern und Aufsteigern einen Überblick über die neuen Features geben, und deren Vor- und Nachteile aufzeigen.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200510-java/cs-200510-java_video.mp4</guid>
+            <pubDate>Mon, 10 Oct 2005 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Während Java 1.1 in den Sprachmitteln extrem minimalistisch designt war, wurden in den darauffolgenden Releases immer mehr Erweiterungen eingebaut. Beispiele dafür sind anonyme und innere Klassen, Assertions, Enumerations und Generics. Dieser Vortra ...</itunes:subtitle>
+            <itunes:summary>Während Java 1.1 in den Sprachmitteln extrem minimalistisch designt war, wurden in den darauffolgenden Releases immer mehr Erweiterungen eingebaut. Beispiele dafür sind anonyme und innere Klassen, Assertions, Enumerations und Generics. Dieser Vortrag will die historische Entwicklung der Sprache von "zu minimalistisch" bis hin zu "durchaus brauchbar" illustrieren und gleichzeitig Umsteigern und Aufsteigern einen Überblick über die neuen Features geben, und deren Vor- und Nachteile aufzeigen.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200510-java/cs-200510-java_video.mp4" length="268939702" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200511: Informationstheorie</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2005/11_Informationstheorie</link>
+            <description>Für das Problem, Informationen über einen gestörten Kanal zu übertragen, lieferte Claude E. Shannon 1948 mit seinem Aufsatz "A Mathematical Theory of Communication" ein mathematisches Modell, dessen Mächtigkeit und Tragweite der Wissenschaft erst mit der Zeit klar wurde.
+
+Heute ist unumstritten, dass Shannon eine neue Wissenschaft begründet hat, denn seine Arbeit ist die Grundlage für die gesammte Telekommunikation. Das betrifft Themen wie z.B. die Datenkompression, die Kodierung, die Informationsübertragung und nicht zuletzt die Kryptographie.
+
+Der Vortrag gibt eine kleine Einführung in die Informationstheorie, ohne allzu mathematisch zu werden und erläutert anschaulich die wichtigsten Begriffe und Zusammenhänge.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200511-infotheorie/cs-200511-infotheorie_video.mp4</guid>
+            <pubDate>Mon, 14 Nov 2005 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Für das Problem, Informationen über einen gestörten Kanal zu übertragen, lieferte Claude E. Shannon 1948 mit seinem Aufsatz "A Mathematical Theory of Communication" ein mathematisches Modell, dessen Mächtigkeit und Tragweite der Wissenschaft erst ...</itunes:subtitle>
+            <itunes:summary>Für das Problem, Informationen über einen gestörten Kanal zu übertragen, lieferte Claude E. Shannon 1948 mit seinem Aufsatz "A Mathematical Theory of Communication" ein mathematisches Modell, dessen Mächtigkeit und Tragweite der Wissenschaft erst mit der Zeit klar wurde.
+
+Heute ist unumstritten, dass Shannon eine neue Wissenschaft begründet hat, denn seine Arbeit ist die Grundlage für die gesammte Telekommunikation. Das betrifft Themen wie z.B. die Datenkompression, die Kodierung, die Informationsübertragung und nicht zuletzt die Kryptographie.
+
+Der Vortrag gibt eine kleine Einführung in die Informationstheorie, ohne allzu mathematisch zu werden und erläutert anschaulich die wichtigsten Begriffe und Zusammenhänge.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200511-infotheorie/cs-200511-infotheorie_video.mp4" length="232262971" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200512: Linux From Scratch</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2005/12_Linux_From_Scratch</link>
+            <description>Fast alle aktuellen Betriebssystem-Distributionen kommen als CDs oder DVDs mit Binärpaketen und häufig begleitet von vielen Seiten Dokumentation heraus. Das aus einem HOWTO hervorgegangene Projekt Linux From Scratch dagegen liefert Benutzern, die ein Betriebssystem installieren möchten, nur das Handbuch, das Schritt für Schritt erklärt, wie Systemkern und Basisprogramme ausgehend vom Quellcode selbst kompiliert und installiert werden.
+
+Der Vortrag gibt einen Überblick über die Geschichte und die Build-Methoden von Linux From Scratch seit seiner ersten Version im Jahr 1999. Es wird gezeigt, wie trotz zirkulärer Paketabhängigkeiten eine funktionierende Toolchain als Herzstück eines LFS-Systems konstruiert wird. Technische Details kommen beim Blick unter die Haube der Nicht-Distribution mit dem Slogan „Your distro. Your rules.“ und dem Ziel, zu lehren, was im Inneren eines Linux-Systems vorgeht, nicht zu kurz.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200512-lfs/cs-200512-lfs_video.mp4</guid>
+            <pubDate>Mon, 12 Dec 2005 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Fast alle aktuellen Betriebssystem-Distributionen kommen als CDs oder DVDs mit Binärpaketen und häufig begleitet von vielen Seiten Dokumentation heraus. Das aus einem HOWTO hervorgegangene Projekt Linux From Scratch dagegen liefert Benutzern, die ei ...</itunes:subtitle>
+            <itunes:summary>Fast alle aktuellen Betriebssystem-Distributionen kommen als CDs oder DVDs mit Binärpaketen und häufig begleitet von vielen Seiten Dokumentation heraus. Das aus einem HOWTO hervorgegangene Projekt Linux From Scratch dagegen liefert Benutzern, die ein Betriebssystem installieren möchten, nur das Handbuch, das Schritt für Schritt erklärt, wie Systemkern und Basisprogramme ausgehend vom Quellcode selbst kompiliert und installiert werden.
+
+Der Vortrag gibt einen Überblick über die Geschichte und die Build-Methoden von Linux From Scratch seit seiner ersten Version im Jahr 1999. Es wird gezeigt, wie trotz zirkulärer Paketabhängigkeiten eine funktionierende Toolchain als Herzstück eines LFS-Systems konstruiert wird. Technische Details kommen beim Blick unter die Haube der Nicht-Distribution mit dem Slogan „Your distro. Your rules.“ und dem Ziel, zu lehren, was im Inneren eines Linux-Systems vorgeht, nicht zu kurz.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200512-lfs/cs-200512-lfs_video.mp4" length="248636320" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200601: Distrobashing</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2006/01_Distrobashing</link>
+            <description>Welche Linuxdistribution ist die beste? Oder soll ich doch lieber Opendarwin benutzen? Windows ists! Oder doch nicht? Die Frage nach dem richtigen Betriebssystem lässt sich nicht so einfach objektiv beantworten und schon gar nicht pauschal. Eigentlich ist es schon eher eine Glaubensfrage. Heute kommen die Priester zu Wort und werden anschliessend vom Publikum auf dem Scheiterhaufen verbrannt.
+
+Da es sehr schwer war genug Priester zu finden unterstützt uns diesmal die lugu tatkräftig. Wir suchen allerdings noch Vertreter u.a. für SuSE, Gentoo, *BSD oder beliebig anderen Alternativen. Wenn es dir also am Herzen liegt, die Vorteile deines OS anderen näher zu bringen, komm einfach vorbei.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200601-distrobashing/cs-200601-distrobashing_video.mp4</guid>
+            <pubDate>Mon, 09 Jan 2006 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Welche Linuxdistribution ist die beste? Oder soll ich doch lieber Opendarwin benutzen? Windows ists! Oder doch nicht? Die Frage nach dem richtigen Betriebssystem lässt sich nicht so einfach objektiv beantworten und schon gar nicht pauschal. Eigentlic ...</itunes:subtitle>
+            <itunes:summary>Welche Linuxdistribution ist die beste? Oder soll ich doch lieber Opendarwin benutzen? Windows ists! Oder doch nicht? Die Frage nach dem richtigen Betriebssystem lässt sich nicht so einfach objektiv beantworten und schon gar nicht pauschal. Eigentlich ist es schon eher eine Glaubensfrage. Heute kommen die Priester zu Wort und werden anschliessend vom Publikum auf dem Scheiterhaufen verbrannt.
+
+Da es sehr schwer war genug Priester zu finden unterstützt uns diesmal die lugu tatkräftig. Wir suchen allerdings noch Vertreter u.a. für SuSE, Gentoo, *BSD oder beliebig anderen Alternativen. Wenn es dir also am Herzen liegt, die Vorteile deines OS anderen näher zu bringen, komm einfach vorbei.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200601-distrobashing/cs-200601-distrobashing_video.mp4" length="308866551" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200602: Weird Programming III</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2006/02_Weird_Programming_III</link>
+            <description>Der dritte Vortrag unserer beliebten Reihe beschäftigt sich wie die Vorgänger mit ausgefallenen Programmiersprachen und Programmen.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200602-weirdprog3/cs-200602-weirdprog3_video.mp4</guid>
+            <pubDate>Mon, 13 Feb 2006 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Der dritte Vortrag unserer beliebten Reihe beschäftigt sich wie die Vorgänger mit ausgefallenen Programmiersprachen und Programmen. ...</itunes:subtitle>
+            <itunes:summary>Der dritte Vortrag unserer beliebten Reihe beschäftigt sich wie die Vorgänger mit ausgefallenen Programmiersprachen und Programmen.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200602-weirdprog3/cs-200602-weirdprog3_video.mp4" length="167320663" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200603: Polizeidatenbanken</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2006/03_Polizeidatenbanken</link>
+            <description>Polizei und Verfassungsschutz sammeln eifrig Daten und speichern sie. Die Realität zwischen technischer Inkompetenz, Überwachungswahn und politischen Stunts ist dabei weit entfernt von Szenarien Marke 1984. Und doch gibt es Gründe genug, den Behörden auf die Finger zu schauen. Der Vortrag beschäftigt sich mit diesen Gründen und wird auch Möglichkeiten zur Selbsthilfe diskutieren. Siehe auch http://www.datenschmutz.de</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200603-polizeidb/cs-200603-polizeidb_video.mp4</guid>
+            <pubDate>Mon, 13 Mar 2006 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Polizei und Verfassungsschutz sammeln eifrig Daten und speichern sie. Die Realität zwischen technischer Inkompetenz, Überwachungswahn und politischen Stunts ist dabei weit entfernt von Szenarien Marke 1984. Und doch gibt es Gründe genug, den Behör ...</itunes:subtitle>
+            <itunes:summary>Polizei und Verfassungsschutz sammeln eifrig Daten und speichern sie. Die Realität zwischen technischer Inkompetenz, Überwachungswahn und politischen Stunts ist dabei weit entfernt von Szenarien Marke 1984. Und doch gibt es Gründe genug, den Behörden auf die Finger zu schauen. Der Vortrag beschäftigt sich mit diesen Gründen und wird auch Möglichkeiten zur Selbsthilfe diskutieren. Siehe auch http://www.datenschmutz.de</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200603-polizeidb/cs-200603-polizeidb_video.mp4" length="272500171" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200604: Informatik und Gesellschaft</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2006/04_Informatik_und_Gesellschaft</link>
+            <description>2006 ist das "Jahr der Informatik". Doch in der Bevölkerung wird Informatik selten als Wissenschaft wahrgenommen. Informatiker sind meistens die Jungs, die einem beim Installieren oder Reparieren des eigenen Windows PCs helfen. Der Vortrag soll klarstellen, was Informatik als Wissenschaftsdisziplin wirklich ist, welche Themengebiete sie abdeckt, was die Informatik in der Vergangenheit geleistet hat, wo Informatik das alltägliche Leben berührt und welchen Herausforderungen sich die Informatik in der Zukunft noch stellen muss. Außerdem soll eine Diskussion angestoßen werden, welchen Stellenwert Informatik in Schule und Gesellschaft hat, ob dieser adäquat ist und wie man gegebenenfalls etwas daran ändern kann.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200604-informatik/cs-200604-informatik_video.mp4</guid>
+            <pubDate>Mon, 24 Apr 2006 20:00:00 +0200</pubDate>
+            <itunes:subtitle>2006 ist das "Jahr der Informatik". Doch in der Bevölkerung wird Informatik selten als Wissenschaft wahrgenommen. Informatiker sind meistens die Jungs, die einem beim Installieren oder Reparieren des eigenen Windows PCs helfen. Der Vortrag soll klars ...</itunes:subtitle>
+            <itunes:summary>2006 ist das "Jahr der Informatik". Doch in der Bevölkerung wird Informatik selten als Wissenschaft wahrgenommen. Informatiker sind meistens die Jungs, die einem beim Installieren oder Reparieren des eigenen Windows PCs helfen. Der Vortrag soll klarstellen, was Informatik als Wissenschaftsdisziplin wirklich ist, welche Themengebiete sie abdeckt, was die Informatik in der Vergangenheit geleistet hat, wo Informatik das alltägliche Leben berührt und welchen Herausforderungen sich die Informatik in der Zukunft noch stellen muss. Außerdem soll eine Diskussion angestoßen werden, welchen Stellenwert Informatik in Schule und Gesellschaft hat, ob dieser adäquat ist und wie man gegebenenfalls etwas daran ändern kann.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200604-informatik/cs-200604-informatik_video.mp4" length="168059204" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200605: The Internet Communication Engine</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2006/05_The_Internet_Communication_Engine</link>
+            <description>Die Internet Communcation Engine ist eine Middleware für verteilte Objekte. Entwickelt wird sie von der Firma ZeroC, die sie unter der GPL und bei Bedarf unter kommerzieller Lizenz vertreibt. Sie hat viele Ähnlichkeiten mit CORBA, soll aber einiges besser machen. Dieser Vortrag bietet eine kurze Einführung in Architekturen für verteilte Objekte und geht anschließend im Detail auf die ICE Middleware ein. Obwohl ICE viele Vorteile hat, wird der Vortrag mit einem fundierten Bashing abgeschlossen. Denn manche Dinge sind einfach nur #$%#@#$!! carrier lost...</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200605-ice/cs-200605-ice_video.mp4</guid>
+            <pubDate>Mon, 08 May 2006 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Die Internet Communcation Engine ist eine Middleware für verteilte Objekte. Entwickelt wird sie von der Firma ZeroC, die sie unter der GPL und bei Bedarf unter kommerzieller Lizenz vertreibt. Sie hat viele Ähnlichkeiten mit CORBA, soll aber einiges  ...</itunes:subtitle>
+            <itunes:summary>Die Internet Communcation Engine ist eine Middleware für verteilte Objekte. Entwickelt wird sie von der Firma ZeroC, die sie unter der GPL und bei Bedarf unter kommerzieller Lizenz vertreibt. Sie hat viele Ähnlichkeiten mit CORBA, soll aber einiges besser machen. Dieser Vortrag bietet eine kurze Einführung in Architekturen für verteilte Objekte und geht anschließend im Detail auf die ICE Middleware ein. Obwohl ICE viele Vorteile hat, wird der Vortrag mit einem fundierten Bashing abgeschlossen. Denn manche Dinge sind einfach nur #$%#@#$!! carrier lost...</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200605-ice/cs-200605-ice_video.mp4" length="195691631" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200606: Personentracking</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2006/06_Personentracking</link>
+            <description>This speech shows an overview and details about different technologies for tracking and tracing systems. It categorizes and displays, how such tracking systems work today, and where they're already running. The security aspects of different tracking systems are reconsidered in detail. Seeing, what's goin'on, the social consequences are enlightened. Those consequences are as well commercial issues like results in changing market power, as consequences for "consumers", people who should know what is done with there data, but usually don't. Having those tracking systems in business, a second look goes to tracing systems of the states, and what are the dangers of abusing them. A discussion follows, what should be demanded from a society, which moves straitforward closer and closer to Orwell's nightmare.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200606-tracking/cs-200606-tracking_video.mp4</guid>
+            <pubDate>Mon, 12 Jun 2006 20:00:00 +0200</pubDate>
+            <itunes:subtitle>This speech shows an overview and details about different technologies for tracking and tracing systems. It categorizes and displays, how such tracking systems work today, and where they're already running. The security aspects of different tracking s ...</itunes:subtitle>
+            <itunes:summary>This speech shows an overview and details about different technologies for tracking and tracing systems. It categorizes and displays, how such tracking systems work today, and where they're already running. The security aspects of different tracking systems are reconsidered in detail. Seeing, what's goin'on, the social consequences are enlightened. Those consequences are as well commercial issues like results in changing market power, as consequences for "consumers", people who should know what is done with there data, but usually don't. Having those tracking systems in business, a second look goes to tracing systems of the states, and what are the dangers of abusing them. A discussion follows, what should be demanded from a society, which moves straitforward closer and closer to Orwell's nightmare.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200606-tracking/cs-200606-tracking_video.mp4" length="393895593" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200607: Ubicomp Privacy</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2006/07_UbicompPrivacy</link>
+            <description>Ubiquitous Computing - die Vision immer kleinerer Computer, die den Benutzer unaufdringlich bei seinen Tätigkeiten unterstützen - ist nach wie vor ein populäres Thema in der Forschung. Nach der anfänglichen Euphorie über die Chancen und Möglichkeiten häufen sich in jüngster Zeit die Fragen nach der Sicherheit und den Auswirkungen auf die Privatsphäre des Benutzers.
+Dieser Vortrag stellt kurz die Ideen des Ubiquitious Computings vor, und was davon bereits heute Realität ist. Anschließend zeigt er verschiedene Probleme in Bezug auf die Privatsphäre auf: Hier gibt es viele Berührpunkte mit dem vorigen Vortrag, denn auch hier ist Tracking und Tracing ein heikles Thema.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200607-ubipriv/cs-200607-ubipriv_video.mp4</guid>
+            <pubDate>Mon, 17 Jul 2006 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Ubiquitous Computing - die Vision immer kleinerer Computer, die den Benutzer unaufdringlich bei seinen Tätigkeiten unterstützen - ist nach wie vor ein populäres Thema in der Forschung. Nach der anfänglichen Euphorie über die Chancen und Möglichk ...</itunes:subtitle>
+            <itunes:summary>Ubiquitous Computing - die Vision immer kleinerer Computer, die den Benutzer unaufdringlich bei seinen Tätigkeiten unterstützen - ist nach wie vor ein populäres Thema in der Forschung. Nach der anfänglichen Euphorie über die Chancen und Möglichkeiten häufen sich in jüngster Zeit die Fragen nach der Sicherheit und den Auswirkungen auf die Privatsphäre des Benutzers.
+Dieser Vortrag stellt kurz die Ideen des Ubiquitious Computings vor, und was davon bereits heute Realität ist. Anschließend zeigt er verschiedene Probleme in Bezug auf die Privatsphäre auf: Hier gibt es viele Berührpunkte mit dem vorigen Vortrag, denn auch hier ist Tracking und Tracing ein heikles Thema.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200607-ubipriv/cs-200607-ubipriv_video.mp4" length="287215931" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200608: Vista Netzwerk Stack</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2006/08_Vista_Netzwerk_Stack</link>
+            <description>Ausser Reihe gibt es im August noch einen Vortrag über den Netzwerk Stack von Windows Vista. Inhalt u. A.: Allgemeine TCP Ingredienzien (Neuerungen), Compound TCP, Teredo (RFC 4380), Winsock Kernel Interface - WSK (Transport Data interface), Firewalling (so einen kompletten Abriss ueber Neuerungen), Windows Filtering Platform, NDIS 6.0 (Receive Side Scaling, TCP Chimney Offload).</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200608-vistanet/cs-200608-vistanet_video.mp4</guid>
+            <pubDate>Mon, 28 Aug 2006 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Ausser Reihe gibt es im August noch einen Vortrag über den Netzwerk Stack von Windows Vista. Inhalt u. A.: Allgemeine TCP Ingredienzien (Neuerungen), Compound TCP, Teredo (RFC 4380), Winsock Kernel Interface - WSK (Transport Data interface), Firewall ...</itunes:subtitle>
+            <itunes:summary>Ausser Reihe gibt es im August noch einen Vortrag über den Netzwerk Stack von Windows Vista. Inhalt u. A.: Allgemeine TCP Ingredienzien (Neuerungen), Compound TCP, Teredo (RFC 4380), Winsock Kernel Interface - WSK (Transport Data interface), Firewalling (so einen kompletten Abriss ueber Neuerungen), Windows Filtering Platform, NDIS 6.0 (Receive Side Scaling, TCP Chimney Offload).</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200608-vistanet/cs-200608-vistanet_video.mp4" length="148456701" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200609: Console Tools</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2006/09_Console_Tools</link>
+            <description>Es werden interessante und nützliche Programme, Programmoptionen und Features von Konsolen Programmen vorgestellt die zum Teil unbekannt oder einfach sehr sehr nützlich sind. Der Vortrag soll u.a. auch mit dem Vorurteil aufräumen das die Konsole tot ist, und zeigen was man alles mit und auf der Konsole machen kann.
+
+Folgende Programme haben wir mehr oder weniger ausführlich vorgestellt: tpp - text presentation program, twin - Terminal Window Manager, zsh - no comment, perl, bb - Ascii art foo, screen - der terminal multiplexer schlecht hin, socat - Das schweizer Taschenmesser fürs Netzwerk (netcat++), ipython - enhanced interactive Python shell</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200609-contools/cs-200609-contools_video.mp4</guid>
+            <pubDate>Mon, 11 Sep 2006 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Es werden interessante und nützliche Programme, Programmoptionen und Features von Konsolen Programmen vorgestellt die zum Teil unbekannt oder einfach sehr sehr nützlich sind. Der Vortrag soll u.a. auch mit dem Vorurteil aufräumen das die Konsole to ...</itunes:subtitle>
+            <itunes:summary>Es werden interessante und nützliche Programme, Programmoptionen und Features von Konsolen Programmen vorgestellt die zum Teil unbekannt oder einfach sehr sehr nützlich sind. Der Vortrag soll u.a. auch mit dem Vorurteil aufräumen das die Konsole tot ist, und zeigen was man alles mit und auf der Konsole machen kann.
+
+Folgende Programme haben wir mehr oder weniger ausführlich vorgestellt: tpp - text presentation program, twin - Terminal Window Manager, zsh - no comment, perl, bb - Ascii art foo, screen - der terminal multiplexer schlecht hin, socat - Das schweizer Taschenmesser fürs Netzwerk (netcat++), ipython - enhanced interactive Python shell</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200609-contools/cs-200609-contools_video.mp4" length="484096731" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200610: Pimp my Dontpanic</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2006/10_Dontpanic</link>
+            <description>Eigentlich wollten wir nur 2 zusätzliche Platten einbauen. Daraus wurde dann ein komplett neuer Rechner und ein Umbau unseres Servers dontpanic. Die dazu benutzen Programme, Techniken usw. werden diesen Montag dabei kurz vorgestellt. Es gibt einen kruden Schwenk durch alle möglichen Technologien, z.Bsp.: lvm, Software Raid, Backup, Netzwerk boot, ramdisk, dm-crypt usw.
+
+Dieser Vortrag gibt eine Kurz Übersicht über das momentane Setup, wie wir zu diesem Setup hingekommen sind, Vorteile des Setups im vgl. zu dem alten usw.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200610-dontpanic/cs-200610-dontpanic_video.mp4</guid>
+            <pubDate>Mon, 09 Oct 2006 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Eigentlich wollten wir nur 2 zusätzliche Platten einbauen. Daraus wurde dann ein komplett neuer Rechner und ein Umbau unseres Servers dontpanic. Die dazu benutzen Programme, Techniken usw. werden diesen Montag dabei kurz vorgestellt. Es gibt einen kr ...</itunes:subtitle>
+            <itunes:summary>Eigentlich wollten wir nur 2 zusätzliche Platten einbauen. Daraus wurde dann ein komplett neuer Rechner und ein Umbau unseres Servers dontpanic. Die dazu benutzen Programme, Techniken usw. werden diesen Montag dabei kurz vorgestellt. Es gibt einen kruden Schwenk durch alle möglichen Technologien, z.Bsp.: lvm, Software Raid, Backup, Netzwerk boot, ramdisk, dm-crypt usw.
+
+Dieser Vortrag gibt eine Kurz Übersicht über das momentane Setup, wie wir zu diesem Setup hingekommen sind, Vorteile des Setups im vgl. zu dem alten usw.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200610-dontpanic/cs-200610-dontpanic_video.mp4" length="497703497" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200611: PostgreSQL</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2006/11_PostgreSQL</link>
+            <description>Die freie SQL-Datenbank PostgreSQL und ihr Umfeld werden vorgestellt. Der Vortrag geht auf die Geschichte und die aktuelle Entwicklung in PostgreSQL ein. Neben einem Überblick werden auch ein paar technische Details beleuchtet, und diverse Erweiterungen und kommerzielle Ableger vorgestellt.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200611-postgres/cs-200611-postgres_video.mp4</guid>
+            <pubDate>Mon, 13 Nov 2006 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Die freie SQL-Datenbank PostgreSQL und ihr Umfeld werden vorgestellt. Der Vortrag geht auf die Geschichte und die aktuelle Entwicklung in PostgreSQL ein. Neben einem Überblick werden auch ein paar technische Details beleuchtet, und diverse Erweiterun ...</itunes:subtitle>
+            <itunes:summary>Die freie SQL-Datenbank PostgreSQL und ihr Umfeld werden vorgestellt. Der Vortrag geht auf die Geschichte und die aktuelle Entwicklung in PostgreSQL ein. Neben einem Überblick werden auch ein paar technische Details beleuchtet, und diverse Erweiterungen und kommerzielle Ableger vorgestellt.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200611-postgres/cs-200611-postgres_video.mp4" length="315568627" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200612: Digitales Fernsehen</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2006/12_DVB</link>
+            <description>Dieses Seminar versucht, einen Überblick über die momentane Situation zu geben. Tausend Abkürzungen wie DVB-T, DVB-C, DVB-S, MPEG2, MPEG4, S2 usw, was soll das, was bedeutet das alles?</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200612-digitv/cs-200612-digitv_video.mp4</guid>
+            <pubDate>Mon, 11 Dec 2006 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Dieses Seminar versucht, einen Überblick über die momentane Situation zu geben. Tausend Abkürzungen wie DVB-T, DVB-C, DVB-S, MPEG2, MPEG4, S2 usw, was soll das, was bedeutet das alles? ...</itunes:subtitle>
+            <itunes:summary>Dieses Seminar versucht, einen Überblick über die momentane Situation zu geben. Tausend Abkürzungen wie DVB-T, DVB-C, DVB-S, MPEG2, MPEG4, S2 usw, was soll das, was bedeutet das alles?</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200612-digitv/cs-200612-digitv_video.mp4" length="108951415" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200701: Das Netz der Uni Ulm</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2007/01_Das_Netz_der_Uni_Ulm</link>
+            <description>Wie sieht unser Uni Netz aus und wie sind die Pläne für den zukünftigen Ausbau.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200701-uninetz/cs-200701-uninetz_video.mp4</guid>
+            <pubDate>Mon, 15 Jan 2007 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Wie sieht unser Uni Netz aus und wie sind die Pläne für den zukünftigen Ausbau. ...</itunes:subtitle>
+            <itunes:summary>Wie sieht unser Uni Netz aus und wie sind die Pläne für den zukünftigen Ausbau.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200701-uninetz/cs-200701-uninetz_video.mp4" length="291162160" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200702: Objektorientierung</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2007/02_Objektorientierung</link>
+            <description>Der Vortrag erläutert das Konzept der Objektorientierung und bringt Beispiele aus den Sprachen C++ und Java. Es geht allerdings nicht ganz kritiklos zu: Wir erfahren, warum C++ gar nicht objektorientiert ist und warum Java sch**** ist.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200702-oo/cs-200702-oo_video.mp4</guid>
+            <pubDate>Mon, 05 Feb 2007 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Der Vortrag erläutert das Konzept der Objektorientierung und bringt Beispiele aus den Sprachen C++ und Java. Es geht allerdings nicht ganz kritiklos zu: Wir erfahren, warum C++ gar nicht objektorientiert ist und warum Java sch**** ist. ...</itunes:subtitle>
+            <itunes:summary>Der Vortrag erläutert das Konzept der Objektorientierung und bringt Beispiele aus den Sprachen C++ und Java. Es geht allerdings nicht ganz kritiklos zu: Wir erfahren, warum C++ gar nicht objektorientiert ist und warum Java sch**** ist.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200702-oo/cs-200702-oo_video.mp4" length="527981856" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200703: Das Internet zwischen Freiheit und Sicherheit, Kommunikation und Zensur</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2007/03_Internet_Freiheit_Zensur</link>
+            <description>Das Internet zwischen Freiheit und Sicherheit, Kommunikation und Zensur.
+
+Der Netzaktivist und Bürgerrechtler Alvar Freude, z. B. beteiligt an Odem.org, berichtet über seine Projekte, z. B. das Filterprojekt "insert coin".</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200703-zensur/cs-200703-zensur_video.mp4</guid>
+            <pubDate>Mon, 12 Mar 2007 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Das Internet zwischen Freiheit und Sicherheit, Kommunikation und Zensur.
+
+Der Netzaktivist und Bürgerrechtler Alvar Freude, z. B. beteiligt an Odem.org, berichtet über seine Projekte, z. B. das Filterprojekt "insert coin". ...</itunes:subtitle>
+            <itunes:summary>Das Internet zwischen Freiheit und Sicherheit, Kommunikation und Zensur.
+
+Der Netzaktivist und Bürgerrechtler Alvar Freude, z. B. beteiligt an Odem.org, berichtet über seine Projekte, z. B. das Filterprojekt "insert coin".</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200703-zensur/cs-200703-zensur_video.mp4" length="603743245" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200704: Globalisierung</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2007/04_Globalisierung</link>
+            <description>Globalisierung - ein Schlagwort das in allen Köpfen geistert und uns tagtäglich begleitet. Doch was verbirgt sich eigentlich hinter dem "Schreckgespenst" der Globalisierung? Wo beginnt Globalisierung und welche Institutionen sind hier am Wirken? Gibt es einen Ausweg aus der Globlisierungsfalle und was können wir als Verbraucher dabei tun....
+
+Ein Gast von Attac Ulm klärt auf, was die Globalisierung für uns alle bringt und was Attac unternimmt, um alles zum Besseren zu wenden. Es gibt wohl einige Überschneidungen zur Arbeit des CCC, aber ein Vorabgespräch offenbarte auch einige Menuningsverschiedenheiten. Wir erwarten eine interessante Diskussion.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200704-attac/cs-200704-attac_video.mp4</guid>
+            <pubDate>Mon, 16 Apr 2007 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Globalisierung - ein Schlagwort das in allen Köpfen geistert und uns tagtäglich begleitet. Doch was verbirgt sich eigentlich hinter dem "Schreckgespenst" der Globalisierung? Wo beginnt Globalisierung und welche Institutionen sind hier am Wirken? Gib ...</itunes:subtitle>
+            <itunes:summary>Globalisierung - ein Schlagwort das in allen Köpfen geistert und uns tagtäglich begleitet. Doch was verbirgt sich eigentlich hinter dem "Schreckgespenst" der Globalisierung? Wo beginnt Globalisierung und welche Institutionen sind hier am Wirken? Gibt es einen Ausweg aus der Globlisierungsfalle und was können wir als Verbraucher dabei tun....
+
+Ein Gast von Attac Ulm klärt auf, was die Globalisierung für uns alle bringt und was Attac unternimmt, um alles zum Besseren zu wenden. Es gibt wohl einige Überschneidungen zur Arbeit des CCC, aber ein Vorabgespräch offenbarte auch einige Menuningsverschiedenheiten. Wir erwarten eine interessante Diskussion.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200704-attac/cs-200704-attac_video.mp4" length="530133933" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200705: Inter Vehicle Communication</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2007/05_Inter_Vehicle_Communication</link>
+            <description>Was passiert, wenn Autos miteinander reden? Komunikation zwischen Fahrzegen ist ein großes Forschungsgebiet. Anwendungen sollen das Fahren sicherer und effizienter machen und Spaß noch dazu bringen. Doch es gibt auch Missbrauchsmöglichkeiten. Der Vortrag behandelt deshalb auch Sicherheit und Privatsphäre in solchen VANETs (Vehicular Ad Hoc Networks).</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200705-vanets/cs-200705-vanets_video.mp4</guid>
+            <pubDate>Mon, 14 May 2007 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Was passiert, wenn Autos miteinander reden? Komunikation zwischen Fahrzegen ist ein großes Forschungsgebiet. Anwendungen sollen das Fahren sicherer und effizienter machen und Spaß noch dazu bringen. Doch es gibt auch Missbrauchsmöglichkeiten. Der V ...</itunes:subtitle>
+            <itunes:summary>Was passiert, wenn Autos miteinander reden? Komunikation zwischen Fahrzegen ist ein großes Forschungsgebiet. Anwendungen sollen das Fahren sicherer und effizienter machen und Spaß noch dazu bringen. Doch es gibt auch Missbrauchsmöglichkeiten. Der Vortrag behandelt deshalb auch Sicherheit und Privatsphäre in solchen VANETs (Vehicular Ad Hoc Networks).</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200705-vanets/cs-200705-vanets_video.mp4" length="515422370" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200706: Desktops, Benutzeroberflächen, Windowmanager</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2007/06_Desktop_und_Co</link>
+            <description>Es werden verschiedene aktuelle, "antike" und zukünftige Bedienoberflächen und -konzepte vorgestellt und verglichen. Window-Manager und Desktop-Environments - von der Amiga Workbench bis zum ZWM</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200706-desktops/cs-200706-desktops_video.mp4</guid>
+            <pubDate>Mon, 11 Jun 2007 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Es werden verschiedene aktuelle, "antike" und zukünftige Bedienoberflächen und -konzepte vorgestellt und verglichen. Window-Manager und Desktop-Environments - von der Amiga Workbench bis zum ZWM ...</itunes:subtitle>
+            <itunes:summary>Es werden verschiedene aktuelle, "antike" und zukünftige Bedienoberflächen und -konzepte vorgestellt und verglichen. Window-Manager und Desktop-Environments - von der Amiga Workbench bis zum ZWM</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200706-desktops/cs-200706-desktops_video.mp4" length="471412448" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200707: Software Engineering</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2007/07_Software_Engineering</link>
+            <description>Wie schreibt man eine umfangreiche Software? Man setzt sich vor den leeren Editor und beginnt zu debuggen! Daß es nicht immer so funktioniert, erklärt uns dieser Vortrag. Unter anderem erfahren wir, warum das Wasserfallmodell ausschließlich von Vollidioten befürwortet wird.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200707-softwareengineering/cs-200707-softwareengineering_video.mp4</guid>
+            <pubDate>Mon, 09 Jul 2007 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Wie schreibt man eine umfangreiche Software? Man setzt sich vor den leeren Editor und beginnt zu debuggen! Daß es nicht immer so funktioniert, erklärt uns dieser Vortrag. Unter anderem erfahren wir, warum das Wasserfallmodell ausschließlich von Vol ...</itunes:subtitle>
+            <itunes:summary>Wie schreibt man eine umfangreiche Software? Man setzt sich vor den leeren Editor und beginnt zu debuggen! Daß es nicht immer so funktioniert, erklärt uns dieser Vortrag. Unter anderem erfahren wir, warum das Wasserfallmodell ausschließlich von Vollidioten befürwortet wird.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200707-softwareengineering/cs-200707-softwareengineering_video.mp4" length="521170972" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200709: Multiprozessoren und Multithreading</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2007/09_Multiprozessoren</link>
+            <description>Die Hersteller von Prozessoren stoßen mit der Steigerung der Geschwindigkeit mittlerweile an ihre Grenzen. Als Ausweg werden nun einfach mehrere Prozessoren zusammen geschaltet.
+Gängige Programmiersprachen und Werkzeuge eignen sich mehr schlecht als recht für die optimale Ausnutzung moderner massiv paralleler Hardware. Dieser Vortrag beleuchtet, welche Chancen, Fallen und Herausforderungen einem dabei begegnen und stellt neue Ideen zur automatisierten Lösung der sich stellenden Probleme vor</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200709-multithread/cs-200709-multithreading_video.mp4</guid>
+            <pubDate>Mon, 10 Sep 2007 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Die Hersteller von Prozessoren stoßen mit der Steigerung der Geschwindigkeit mittlerweile an ihre Grenzen. Als Ausweg werden nun einfach mehrere Prozessoren zusammen geschaltet.
+Gängige Programmiersprachen und Werkzeuge eignen sich mehr schlecht als ...</itunes:subtitle>
+            <itunes:summary>Die Hersteller von Prozessoren stoßen mit der Steigerung der Geschwindigkeit mittlerweile an ihre Grenzen. Als Ausweg werden nun einfach mehrere Prozessoren zusammen geschaltet.
+Gängige Programmiersprachen und Werkzeuge eignen sich mehr schlecht als recht für die optimale Ausnutzung moderner massiv paralleler Hardware. Dieser Vortrag beleuchtet, welche Chancen, Fallen und Herausforderungen einem dabei begegnen und stellt neue Ideen zur automatisierten Lösung der sich stellenden Probleme vor</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200709-multithread/cs-200709-multithreading_video.mp4" length="638402057" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200710: automatisierte Softwareentwicklung</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2007/10_automatisierte_Softwareentwicklung</link>
+            <description>Der gängige Ansatz zur automatisierten Softwareentwicklung ist die Model-Driven-Architecture. Die Praxis hat allerdings gezeigt, dass dieser Ansatz Probleme macht. So ist u.A. generierter Code meistens dick und ineffizient und die Integration von handgeschriebenem Code ist sehr aufwändig bis unmöglich.
+Volker zeigt uns in seinem Vortrag einen alternativen Ansatz, der mit diesen Problemen aufräumt.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200710-softwareentwicklung/cs-200710-softwareentwicklung_video.mp4</guid>
+            <pubDate>Mon, 08 Oct 2007 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Der gängige Ansatz zur automatisierten Softwareentwicklung ist die Model-Driven-Architecture. Die Praxis hat allerdings gezeigt, dass dieser Ansatz Probleme macht. So ist u.A. generierter Code meistens dick und ineffizient und die Integration von han ...</itunes:subtitle>
+            <itunes:summary>Der gängige Ansatz zur automatisierten Softwareentwicklung ist die Model-Driven-Architecture. Die Praxis hat allerdings gezeigt, dass dieser Ansatz Probleme macht. So ist u.A. generierter Code meistens dick und ineffizient und die Integration von handgeschriebenem Code ist sehr aufwändig bis unmöglich.
+Volker zeigt uns in seinem Vortrag einen alternativen Ansatz, der mit diesen Problemen aufräumt.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200710-softwareentwicklung/cs-200710-softwareentwicklung_video.mp4" length="844735942" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200711: Ziviler Vorratsdatenungehorsam</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2007/11_Ziviler_Vorratsdatenungehorsam</link>
+            <description>Aus aktuellem Anlass (Vorratsdatenspeicherung) ist unser nächster Vortrag in der Chaosseminar-Reihe mit „Ziviler Vorratsdatenungehorsam“ betitelt.
+
+Die Referenten werden hauptsächlich zeigen, wie man seinen Computer so einrichten kann, dass er in der Lage ist, den verteilten Anonymisierungsdienst Tor zu benutzen. Die Demonstration wird unter mehreren Betriebssystemen (voraussichtlich Apple® Mac OS® X, Linux® und Microsoft® Windows®) erfolgen. Außerdem sollen Tipps zur Vermeidung von Verbindungsdaten und zum Umgang mit Tor gegeben werden.
+
+Anschließende Diskussionen über weitere Techniken sind sehr willkommen.
+
+Der in der ursprünglichen Vortragsankündigung erwähnte Überraschungsgast kann leider nicht zur Veranstaltung da sein, evtl. allerdings bei einem zukünftigen Vortrag.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200711-vorrat/cs-200711-vorrat_video.mp4</guid>
+            <pubDate>Mon, 12 Nov 2007 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Aus aktuellem Anlass (Vorratsdatenspeicherung) ist unser nächster Vortrag in der Chaosseminar-Reihe mit „Ziviler Vorratsdatenungehorsam“ betitelt.
+
+Die Referenten werden hauptsächlich zeigen, wie man seinen Computer so einrichten kann, dass er i ...</itunes:subtitle>
+            <itunes:summary>Aus aktuellem Anlass (Vorratsdatenspeicherung) ist unser nächster Vortrag in der Chaosseminar-Reihe mit „Ziviler Vorratsdatenungehorsam“ betitelt.
+
+Die Referenten werden hauptsächlich zeigen, wie man seinen Computer so einrichten kann, dass er in der Lage ist, den verteilten Anonymisierungsdienst Tor zu benutzen. Die Demonstration wird unter mehreren Betriebssystemen (voraussichtlich Apple® Mac OS® X, Linux® und Microsoft® Windows®) erfolgen. Außerdem sollen Tipps zur Vermeidung von Verbindungsdaten und zum Umgang mit Tor gegeben werden.
+
+Anschließende Diskussionen über weitere Techniken sind sehr willkommen.
+
+Der in der ursprünglichen Vortragsankündigung erwähnte Überraschungsgast kann leider nicht zur Veranstaltung da sein, evtl. allerdings bei einem zukünftigen Vortrag.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200711-vorrat/cs-200711-vorrat_video.mp4" length="780358583" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200712: verbesserte prozedurale Programmiersprachen</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2007/12_verbesserte_prozedurale_programmiersprachen</link>
+            <description>Trotz ihrer weiten Verbreitung und allgemein hohen Akzeptanz, leiden objektorientierte Programmiersprachen (und damit auch ihre Benutzer) an einigen unangenehmen Problemen, für die es trotz intensiver Forschungsarbeit über viele Jahre noch keine rundum zufriedenstellenden Lösungen gibt. Unter anderem sind dies das Expression problem, das Binary method problem, das Diamond inheritance problem und Probleme mit sog. Crosscutting concerns. Da viele dieser Probleme in klassischen prozeduralen Programmiersprachen überhaupt nicht existieren, weil sie mit Vererbung und dynamischem Binden zusammenhängen, stellt sich die berechtigte Frage, ob sie nicht einfach durch eine Rückkehr zu diesen Sprachen überwunden werden können, sofern die genannten Konzepte anderweitig zur Verfügung gestellt werden können. Und tatsächlich erhält man durch relativ einfache Verallgemeinerungen der beiden Kernkonzepte prozeduraler Sprachen - Datenstrukturen und Prozeduren - verbesserte prozedurale Programmiersprachen, die objektorientierten Sprachen bzgl. Ausdrucksmächtigkeit und Flexibilität nicht nur ebenbürtig, sondern sogar überlegen sind. Unter anderem lassen sich für bestehende Typen nachträglich Obertypen definieren, virtuelle und nicht-virtuelle Vererbung können problemlos miteinander kombiniert werden, und Objekte können ihren Typ zur Laufzeit ändern, um beispielsweise eine Entwicklung von einer Person zu einem Studenten und wieder zurück zu ,,durchleben". Trotz dieser Flexibilität, die ansonsten bestenfalls von dynamisch getypten Sprachen angeboten wird, sind verbesserte prozedurale Sprachen statisch typsicher.
+
+Die angesprochene Verallgemeinerung von Prozeduren deckt neben single, multiple und predicate-based method dispatch auch before, after und around advice aspektorientierter Sprachen ab, ohne hierfür zusätzliche spezialisierte Sprachmittel einführen zu müssen. Damit sind verbesserte prozedurale Sprachen insbesondere geeignet, bestehende Software-Systeme nachträglich nicht-invasiv (d. h. ohne bestehenden Code zu modifizieren oder neu übersetzen zu müssen) in ihrer Funktionalität zu erweitern oder zu modifizieren und damit dem Problem der unanticipated software evolution zu begegnen.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200712-prozprog/cs-200712-prozprog_video.mp4</guid>
+            <pubDate>Mon, 10 Dec 2007 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Trotz ihrer weiten Verbreitung und allgemein hohen Akzeptanz, leiden objektorientierte Programmiersprachen (und damit auch ihre Benutzer) an einigen unangenehmen Problemen, für die es trotz intensiver Forschungsarbeit über viele Jahre noch keine run ...</itunes:subtitle>
+            <itunes:summary>Trotz ihrer weiten Verbreitung und allgemein hohen Akzeptanz, leiden objektorientierte Programmiersprachen (und damit auch ihre Benutzer) an einigen unangenehmen Problemen, für die es trotz intensiver Forschungsarbeit über viele Jahre noch keine rundum zufriedenstellenden Lösungen gibt. Unter anderem sind dies das Expression problem, das Binary method problem, das Diamond inheritance problem und Probleme mit sog. Crosscutting concerns. Da viele dieser Probleme in klassischen prozeduralen Programmiersprachen überhaupt nicht existieren, weil sie mit Vererbung und dynamischem Binden zusammenhängen, stellt sich die berechtigte Frage, ob sie nicht einfach durch eine Rückkehr zu diesen Sprachen überwunden werden können, sofern die genannten Konzepte anderweitig zur Verfügung gestellt werden können. Und tatsächlich erhält man durch relativ einfache Verallgemeinerungen der beiden Kernkonzepte prozeduraler Sprachen - Datenstrukturen und Prozeduren - verbesserte prozedurale Programmiersprachen, die objektorientierten Sprachen bzgl. Ausdrucksmächtigkeit und Flexibilität nicht nur ebenbürtig, sondern sogar überlegen sind. Unter anderem lassen sich für bestehende Typen nachträglich Obertypen definieren, virtuelle und nicht-virtuelle Vererbung können problemlos miteinander kombiniert werden, und Objekte können ihren Typ zur Laufzeit ändern, um beispielsweise eine Entwicklung von einer Person zu einem Studenten und wieder zurück zu ,,durchleben". Trotz dieser Flexibilität, die ansonsten bestenfalls von dynamisch getypten Sprachen angeboten wird, sind verbesserte prozedurale Sprachen statisch typsicher.
+
+Die angesprochene Verallgemeinerung von Prozeduren deckt neben single, multiple und predicate-based method dispatch auch before, after und around advice aspektorientierter Sprachen ab, ohne hierfür zusätzliche spezialisierte Sprachmittel einführen zu müssen. Damit sind verbesserte prozedurale Sprachen insbesondere geeignet, bestehende Software-Systeme nachträglich nicht-invasiv (d. h. ohne bestehenden Code zu modifizieren oder neu übersetzen zu müssen) in ihrer Funktionalität zu erweitern oder zu modifizieren und damit dem Problem der unanticipated software evolution zu begegnen.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200712-prozprog/cs-200712-prozprog_video.mp4" length="410023308" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200801: verbesserte IDE</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2008/01_Verbesserte_IDE</link>
+            <description>In diesem Vortrag geht es darum wie wir in der Zukunft programmieren werden. Doch die Zukunft ist bereits hier. Undzwar in Smalltalk. Tim O'Reilly hat mal gesagt: "Die Zukunft ist hier, sie ist einfach noch nicht fair verteilt."
+
+Ich werde versuchen ein bisschen zu demo'en wie man dort code schreibt gegenueber den klassischen methoden. Der Hauptteil wird durch Squeak Smalltalk belegt, doch man weiss ja nie was sich noch ergibt wenn es um IDEs geht. Hint: Lisp.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200801-ide/cs-200801-ide_video.mp4</guid>
+            <pubDate>Mon, 14 Jan 2008 20:00:00 +0100</pubDate>
+            <itunes:subtitle>In diesem Vortrag geht es darum wie wir in der Zukunft programmieren werden. Doch die Zukunft ist bereits hier. Undzwar in Smalltalk. Tim O'Reilly hat mal gesagt: "Die Zukunft ist hier, sie ist einfach noch nicht fair verteilt."
+
+Ich werde versuchen e ...</itunes:subtitle>
+            <itunes:summary>In diesem Vortrag geht es darum wie wir in der Zukunft programmieren werden. Doch die Zukunft ist bereits hier. Undzwar in Smalltalk. Tim O'Reilly hat mal gesagt: "Die Zukunft ist hier, sie ist einfach noch nicht fair verteilt."
+
+Ich werde versuchen ein bisschen zu demo'en wie man dort code schreibt gegenueber den klassischen methoden. Der Hauptteil wird durch Squeak Smalltalk belegt, doch man weiss ja nie was sich noch ergibt wenn es um IDEs geht. Hint: Lisp.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200801-ide/cs-200801-ide_video.mp4" length="213299933" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200802: Lightning talks</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2008/02_Lightning_talks</link>
+            <description>Nachdem erst der Ausfall des Chaos Seminar angekuendigt wurde gab es doch noch drei spontane Kurzvortraege:
+* 's Äffle und 's Pferdle
+* das Smalltalk Webframework "Seaside"
+* Sicherheitsprobleme von Webbrowsern</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200802-lightningtalks/cs-200802-talks_video.mp4</guid>
+            <pubDate>Mon, 11 Feb 2008 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Nachdem erst der Ausfall des Chaos Seminar angekuendigt wurde gab es doch noch drei spontane Kurzvortraege:
+* 's Äffle und 's Pferdle
+* das Smalltalk Webframework "Seaside"
+* Sicherheitsprobleme von Webbrowsern ...</itunes:subtitle>
+            <itunes:summary>Nachdem erst der Ausfall des Chaos Seminar angekuendigt wurde gab es doch noch drei spontane Kurzvortraege:
+* 's Äffle und 's Pferdle
+* das Smalltalk Webframework "Seaside"
+* Sicherheitsprobleme von Webbrowsern</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200802-lightningtalks/cs-200802-talks_video.mp4" length="68182448" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200803: Datenschutz</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2008/03_Datenschutz</link>
+            <description>Datenschutz ist beim Chaos Computer Club allgegenwärtig. Computersicherheit wird häufig als technischer Datenschutz verstanden. Begriffe wie "informationelle Selbstbestimmung" gehen locker über die Lippen. Jeder glaubt alles darüber zu wissen. Doch was ist Datenschutz eigentlich? Wo taucht er zum ersten mal auf und welche Rechtsgrundlagen bestehen in Deutschland?
+
+Der Vortrag versucht für den juristischen Laien eine Einführung zu geben, und zeigt auch beispielhaft auf wo überall Datenschutzprobleme liegen.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200803-datenschutz/cs-200803-datenschutz_video.mp4</guid>
+            <pubDate>Mon, 10 Mar 2008 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Datenschutz ist beim Chaos Computer Club allgegenwärtig. Computersicherheit wird häufig als technischer Datenschutz verstanden. Begriffe wie "informationelle Selbstbestimmung" gehen locker über die Lippen. Jeder glaubt alles darüber zu wissen. Doc ...</itunes:subtitle>
+            <itunes:summary>Datenschutz ist beim Chaos Computer Club allgegenwärtig. Computersicherheit wird häufig als technischer Datenschutz verstanden. Begriffe wie "informationelle Selbstbestimmung" gehen locker über die Lippen. Jeder glaubt alles darüber zu wissen. Doch was ist Datenschutz eigentlich? Wo taucht er zum ersten mal auf und welche Rechtsgrundlagen bestehen in Deutschland?
+
+Der Vortrag versucht für den juristischen Laien eine Einführung zu geben, und zeigt auch beispielhaft auf wo überall Datenschutzprobleme liegen.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200803-datenschutz/cs-200803-datenschutz_video.mp4" length="279027690" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200804: Voice over IP</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2008/04_voip</link>
+            <description>Spätestens seit moderne DSL-Router auf dem Markt sind mit diversen neuen Features wie z.B. Internet-Telefonie, ist Voice-Over-IP (kurz VoIP) fast jedem bekannt geworden, der zu Hause seinen PC an's Internet angeschlossen hat. Wer mehr mit VoIP zu tun hat, hat vielleicht einmal Skype entdeckt und nutzt es möglicherweise auch regelmäßig.
+Aber kaum einer hat sich je mit den tiefer liegenden Konzepten beschäftigt. Wie setzt man seine eigene Telefonanlage auf? Was ist das Sip-Protokoll, und wie funktioniert es? Wie wird der Übergang zwischen VoIP und dem Festnetz bewerkstelligt? Was ist mit Messengern?
+Der Vortrag versucht zunächst einen allgemeinen Überblick über die Thematik und die Funktionsweise zu vermitteln, der auch dem Anfänger verständlich ist, und ist von vorn herein darauf ausgelegt, verschiedene Einzelthemen in Folgevorträgen zu vertiefen.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200804-voip/cs-200804-voip_video.mp4</guid>
+            <pubDate>Mon, 14 Apr 2008 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Spätestens seit moderne DSL-Router auf dem Markt sind mit diversen neuen Features wie z.B. Internet-Telefonie, ist Voice-Over-IP (kurz VoIP) fast jedem bekannt geworden, der zu Hause seinen PC an's Internet angeschlossen hat. Wer mehr mit VoIP zu tun ...</itunes:subtitle>
+            <itunes:summary>Spätestens seit moderne DSL-Router auf dem Markt sind mit diversen neuen Features wie z.B. Internet-Telefonie, ist Voice-Over-IP (kurz VoIP) fast jedem bekannt geworden, der zu Hause seinen PC an's Internet angeschlossen hat. Wer mehr mit VoIP zu tun hat, hat vielleicht einmal Skype entdeckt und nutzt es möglicherweise auch regelmäßig.
+Aber kaum einer hat sich je mit den tiefer liegenden Konzepten beschäftigt. Wie setzt man seine eigene Telefonanlage auf? Was ist das Sip-Protokoll, und wie funktioniert es? Wie wird der Übergang zwischen VoIP und dem Festnetz bewerkstelligt? Was ist mit Messengern?
+Der Vortrag versucht zunächst einen allgemeinen Überblick über die Thematik und die Funktionsweise zu vermitteln, der auch dem Anfänger verständlich ist, und ist von vorn herein darauf ausgelegt, verschiedene Einzelthemen in Folgevorträgen zu vertiefen.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200804-voip/cs-200804-voip_video.mp4" length="86209679" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200805: dtrace</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2008/05_dtrace</link>
+            <description>dtrace ist ein - ursprünglich von Sun geschriebenes - Werkzeug zum Tracing von Programmabläufen in Kernel- und Userland. Mittels in einer Sprache namens D geschriebenen Skripten instrumentiert man seine Programme zur Laufzeit und ohne Notwendigkeit einer Neuübersetzung und kann mittels sog. Probes alle möglichen Performanceparameter erfassen. Von Solaris hat sich dtrace mittlerweile über BSD, MacOS X zu Exoten wie QNX oder in Anwendungen wie Firefox verbreitet. Damit ist dtrace heute das ideale Tool für alle, die wissen wollen, was ihr OS oder ihre Software unter der Haube so alles macht. Der Vortrag zeigt anhand vieler Beispiele die Anwendung und Mächtigkeit von dtrace auf.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200805-dtrace/cs-200805-dtrace_video.mp4</guid>
+            <pubDate>Mon, 05 May 2008 20:00:00 +0200</pubDate>
+            <itunes:subtitle>dtrace ist ein - ursprünglich von Sun geschriebenes - Werkzeug zum Tracing von Programmabläufen in Kernel- und Userland. Mittels in einer Sprache namens D geschriebenen Skripten instrumentiert man seine Programme zur Laufzeit und ohne Notwendigkeit  ...</itunes:subtitle>
+            <itunes:summary>dtrace ist ein - ursprünglich von Sun geschriebenes - Werkzeug zum Tracing von Programmabläufen in Kernel- und Userland. Mittels in einer Sprache namens D geschriebenen Skripten instrumentiert man seine Programme zur Laufzeit und ohne Notwendigkeit einer Neuübersetzung und kann mittels sog. Probes alle möglichen Performanceparameter erfassen. Von Solaris hat sich dtrace mittlerweile über BSD, MacOS X zu Exoten wie QNX oder in Anwendungen wie Firefox verbreitet. Damit ist dtrace heute das ideale Tool für alle, die wissen wollen, was ihr OS oder ihre Software unter der Haube so alles macht. Der Vortrag zeigt anhand vieler Beispiele die Anwendung und Mächtigkeit von dtrace auf.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200805-dtrace/cs-200805-dtrace_video.mp4" length="156294818" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200807: Technikphilosophie</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2008/07_technikphilosophie</link>
+            <description>Wir werden eine sehr kurze Vorstellung von Philosophie im Allgemeinen bekommen und dann auf Technikphilosophie im Besondern eingehen. Da die Vorkenntnisse des Publikums nicht klar sind, werden wir inhaltlich flexibel bleiben und uns aus einer Auswahl der üblichen technikphilosophischen Grundthemen bedienen (Technik und/als Macht, Zweck-Mittel-Relation, Philosophie als Welterklärung, chinesisches Zimmer, Wertigkeit technischer Berufe und technischen Handelns, Rationalismus vs. Empirismus, anthropologische Sicht und Werkzeuggebrauch, Technikethik, Technik als Kultur und soziologische Beschreibungen, Technokratie, ...). Michael ist Student/Diplomand in Informatik mit Anwendungsfach Philosophie an der Uni Ulm.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200807-technikphilosophie/cs-200807-technikphilosophie_video.mp4</guid>
+            <pubDate>Mon, 14 July 2008 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Wir werden eine sehr kurze Vorstellung von Philosophie im Allgemeinen bekommen und dann auf Technikphilosophie im Besondern eingehen. Da die Vorkenntnisse des Publikums nicht klar sind, werden wir inhaltlich flexibel bleiben und uns aus einer Auswahl  ...</itunes:subtitle>
+            <itunes:summary>Wir werden eine sehr kurze Vorstellung von Philosophie im Allgemeinen bekommen und dann auf Technikphilosophie im Besondern eingehen. Da die Vorkenntnisse des Publikums nicht klar sind, werden wir inhaltlich flexibel bleiben und uns aus einer Auswahl der üblichen technikphilosophischen Grundthemen bedienen (Technik und/als Macht, Zweck-Mittel-Relation, Philosophie als Welterklärung, chinesisches Zimmer, Wertigkeit technischer Berufe und technischen Handelns, Rationalismus vs. Empirismus, anthropologische Sicht und Werkzeuggebrauch, Technikethik, Technik als Kultur und soziologische Beschreibungen, Technokratie, ...). Michael ist Student/Diplomand in Informatik mit Anwendungsfach Philosophie an der Uni Ulm.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200807-technikphilosophie/cs-200807-technikphilosophie_video.mp4" length="230366607" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200809: Dokumentation Infrastruktur</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2008/09_Dokumentation_Infrastruktur</link>
+            <description>Was läuft eigentlich alles auf der Dontpanic. Warum, Weshalb, Wieso ist das eigentlich alles so?</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200809-infrastruktur/cs-200809-infrastruktur_video.mp4</guid>
+            <pubDate>Mon, 08 September 2008 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Was läuft eigentlich alles auf der Dontpanic. Warum, Weshalb, Wieso ist das eigentlich alles so? ...</itunes:subtitle>
+            <itunes:summary>Was läuft eigentlich alles auf der Dontpanic. Warum, Weshalb, Wieso ist das eigentlich alles so?</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200809-infrastruktur/cs-200809-infrastruktur_video.mp4" length="234015103" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200810: Meinungsfreiheit</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2008/10_Meinungsfreiheit</link>
+            <description>"Alle Informationen sollen frei sein" war eine der ersten Forderungen des CCC. Im April 2002 organisierte der CCC eine Demo gegen Netzzensur in Düsseldorf. Jeder glaubt, alles darüber zu wissen. Doch was ist Zensur eigentlich? Welchen Einfluss haben die Medien, welche besonderen Rechte und Pflichten hat die Presse? Wo gibt es Zensur oder Meinungsfreiheit in welcher Form und welche Rechtsgrundlagen bestehen in Deutschland?
+
+Der Vortrag versucht für den juristischen Laien eine Einführung zu geben, und zeigt auch beispielhaft auf, wo überall Einschränkungen der Meinungsfreiheit liegen.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200810-meinungsfreiheit/cs-200810-meinungsfreiheit_video.mp4</guid>
+            <pubDate>Mon, 13 October 2008 20:00:00 +0200</pubDate>
+            <itunes:subtitle>"Alle Informationen sollen frei sein" war eine der ersten Forderungen des CCC. Im April 2002 organisierte der CCC eine Demo gegen Netzzensur in Düsseldorf. Jeder glaubt, alles darüber zu wissen. Doch was ist Zensur eigentlich? Welchen Einfluss haben ...</itunes:subtitle>
+            <itunes:summary>"Alle Informationen sollen frei sein" war eine der ersten Forderungen des CCC. Im April 2002 organisierte der CCC eine Demo gegen Netzzensur in Düsseldorf. Jeder glaubt, alles darüber zu wissen. Doch was ist Zensur eigentlich? Welchen Einfluss haben die Medien, welche besonderen Rechte und Pflichten hat die Presse? Wo gibt es Zensur oder Meinungsfreiheit in welcher Form und welche Rechtsgrundlagen bestehen in Deutschland?
+
+Der Vortrag versucht für den juristischen Laien eine Einführung zu geben, und zeigt auch beispielhaft auf, wo überall Einschränkungen der Meinungsfreiheit liegen.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200810-meinungsfreiheit/cs-200810-meinungsfreiheit_video.mp4" length="289012095" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200811: Das "S" in HTTPS</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2008/11_https</link>
+            <description>Wer schon einmal online etwas eingekauft oder versteigert hat, hat (hoffentlich!) dabei ein Protokoll namens HTTPS erlebt. In diesem - für Otto Normalverbraucher geeigneten - Vortrag des Chaosseminars wird erklärt, was es damit und mit den lästigen"Sicherheitswarnung" der Webbrowser auf sich hat.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200811-https/cs-200811-https_video.mp4</guid>
+            <pubDate>Mon, 11 November 2008 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Wer schon einmal online etwas eingekauft oder versteigert hat, hat (hoffentlich!) dabei ein Protokoll namens HTTPS erlebt. In diesem - für Otto Normalverbraucher geeigneten - Vortrag des Chaosseminars wird erklärt, was es damit und mit den lästigen ...</itunes:subtitle>
+            <itunes:summary>Wer schon einmal online etwas eingekauft oder versteigert hat, hat (hoffentlich!) dabei ein Protokoll namens HTTPS erlebt. In diesem - für Otto Normalverbraucher geeigneten - Vortrag des Chaosseminars wird erklärt, was es damit und mit den lästigen"Sicherheitswarnung" der Webbrowser auf sich hat.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200811-https/cs-200811-https_video.mp4" length="53548391" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200812: RIOT</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2008/12_riot</link>
+            <description>RIOT is ein C++ Framework für skalierbare und effiziente Applikationen auf Hardware mit parallelen I/O und CPU Resourcen.
+Skalierbar heißt dabei, dass der Verwaltungsaufwand proportional kaum vorhanden ist, so dass eine Verdopplung der Hardware Resourcen nahezu eine Verdopplung des maximalen Durchsatzes bringt.
+Effizient heißt dabei, dass eine Resource niemals leer läuft, obwohl es Arbeit für sie gäbe.
+Bei logix-tt war Alexander der Entwickler von RIOT. Ein Kommunikationsserver für tausende, simultane Clients über ein kryptographisches Protokoll läuft dort problemlos mit RIOT.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200812-riot/cs-200812-riot_video.mp4</guid>
+            <pubDate>Mon, 8 December 2008 20:00:00 +0100</pubDate>
+            <itunes:subtitle>RIOT is ein C++ Framework für skalierbare und effiziente Applikationen auf Hardware mit parallelen I/O und CPU Resourcen.
+Skalierbar heißt dabei, dass der Verwaltungsaufwand proportional kaum vorhanden ist, so dass eine Verdopplung der Hardware Reso ...</itunes:subtitle>
+            <itunes:summary>RIOT is ein C++ Framework für skalierbare und effiziente Applikationen auf Hardware mit parallelen I/O und CPU Resourcen.
+Skalierbar heißt dabei, dass der Verwaltungsaufwand proportional kaum vorhanden ist, so dass eine Verdopplung der Hardware Resourcen nahezu eine Verdopplung des maximalen Durchsatzes bringt.
+Effizient heißt dabei, dass eine Resource niemals leer läuft, obwohl es Arbeit für sie gäbe.
+Bei logix-tt war Alexander der Entwickler von RIOT. Ein Kommunikationsserver für tausende, simultane Clients über ein kryptographisches Protokoll läuft dort problemlos mit RIOT.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200812-riot/cs-200812-riot_video.mp4" length="109024189" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200901: Mailman PGP/SMIME extension</title>
+            <link>http://ulm.ccc.de/ChaosSeminar/2009/01_Mailman_PGP_SMIME</link>
+            <description>Joost van Baal ist der Maintainer eines OpenPGP- und S/MIME-erweiterten Mailman - einem Projekt, das bei uns hier als Mailman-Patch für die Ulmer Intern-Mailingliste begann. Joost wird über die Entwicklung der Erweiterung, die technischen Schwierigkeiten und Hindernisse, sowie die Verbreitung und die Zukunft des Projekts berichten:
+
+The talk will start with a very short overview of the history of Mailman and the mailman-pgp-smime project. Some remarks will be made on how to install and configure the software, so that one can try it. Currently supported features will be mentioned, as well as an overview of development plans. One will learn how to contribute to the project; an overview of the revision control system used will be given. Some remarks on the future of the patch will be made: will it be shipped with Mailman itself?
+
+The talk will be given in English.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200901-mailman/cs-200901-mailman_video.mp4</guid>
+            <pubDate>Mon, 2 January 2009 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Joost van Baal ist der Maintainer eines OpenPGP- und S/MIME-erweiterten Mailman - einem Projekt, das bei uns hier als Mailman-Patch für die Ulmer Intern-Mailingliste begann. Joost wird über die Entwicklung der Erweiterung, die technischen Schwierigk ...</itunes:subtitle>
+            <itunes:summary>Joost van Baal ist der Maintainer eines OpenPGP- und S/MIME-erweiterten Mailman - einem Projekt, das bei uns hier als Mailman-Patch für die Ulmer Intern-Mailingliste begann. Joost wird über die Entwicklung der Erweiterung, die technischen Schwierigkeiten und Hindernisse, sowie die Verbreitung und die Zukunft des Projekts berichten:
+
+The talk will start with a very short overview of the history of Mailman and the mailman-pgp-smime project. Some remarks will be made on how to install and configure the software, so that one can try it. Currently supported features will be mentioned, as well as an overview of development plans. One will learn how to contribute to the project; an overview of the revision control system used will be given. Some remarks on the future of the patch will be made: will it be shipped with Mailman itself?
+
+The talk will be given in English.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200901-mailman/cs-200901-mailman_video.mp4" length="131680109" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200903: Der Masqmail MTA</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2009/03_masqmail</link>
+            <description>Ein Vortrag über masqmail, das Thema der Diplomarbeit von Markus Schnalke.
+
+Der Vortrag wird _keine_ reine Beschreibung des Diplomarbeit sein, und schon gar keine trockene. Es sollen Vorschläge und Ideen aus dem Publikum einfließen, es soll diskutiert werden, und letztendlich soll dieser Vortrag auch dazu motivieren masqmail einzusetzen, oder sogar selbst bei der Weiterentwicklung mitzuhelfen.
+
+Hier ist der Abriss dieser Arbeit. Der Vortrag wird auf deutsch sein.
+
+"masqmail is a mail transfer agent for workstations and small networks, a
+much smaller replacement for sendmail. It has be orphaned by its author
+more than five years ago and remained unchanged since then, in a world
+where emailing did change. Nevertheless has masqmail unique advantages that
+makes it still a valuable software.
+
+This diploma thesis is a scientific planning effort to revive masqmail. It
+provides a highly structured analysis of masqmail and its environment.
+Modern requirements for masqmail are compared against the current state of
+the program to receive a list of pending work tasks. Further development
+strategies are carefully compared and discussed. Finally concrete plans and
+recommendations are defined with the goal of turning masqmail into a
+modern mail transfer agent again."</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200903-masqmail/cs-200903-masqmail_video.mp4</guid>
+            <pubDate>Mon, 9 March 2009 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Ein Vortrag über masqmail, das Thema der Diplomarbeit von Markus Schnalke.
+
+Der Vortrag wird _keine_ reine Beschreibung des Diplomarbeit sein, und schon gar keine trockene. Es sollen Vorschläge und Ideen aus dem Publikum einfließen, es soll diskuti ...</itunes:subtitle>
+            <itunes:summary>Ein Vortrag über masqmail, das Thema der Diplomarbeit von Markus Schnalke.
+
+Der Vortrag wird _keine_ reine Beschreibung des Diplomarbeit sein, und schon gar keine trockene. Es sollen Vorschläge und Ideen aus dem Publikum einfließen, es soll diskutiert werden, und letztendlich soll dieser Vortrag auch dazu motivieren masqmail einzusetzen, oder sogar selbst bei der Weiterentwicklung mitzuhelfen.
+
+Hier ist der Abriss dieser Arbeit. Der Vortrag wird auf deutsch sein.
+
+"masqmail is a mail transfer agent for workstations and small networks, a
+much smaller replacement for sendmail. It has be orphaned by its author
+more than five years ago and remained unchanged since then, in a world
+where emailing did change. Nevertheless has masqmail unique advantages that
+makes it still a valuable software.
+
+This diploma thesis is a scientific planning effort to revive masqmail. It
+provides a highly structured analysis of masqmail and its environment.
+Modern requirements for masqmail are compared against the current state of
+the program to receive a list of pending work tasks. Further development
+strategies are carefully compared and discussed. Finally concrete plans and
+recommendations are defined with the goal of turning masqmail into a
+modern mail transfer agent again."</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200903-masqmail/cs-200903-masqmail_video.mp4" length="244993363" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200904: PostCanvas</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2009/04_PostCanvas</link>
+            <description>PostCanvas ist ein kleiner PostScript Interpreter, umgesetzt in JavaScript und HTML5. Warum macht man sowas? Ach, es hat sich einfach angeboten, ja geradezu aufgedrängt. Die gegebenen Komponenten passen einfach zu schön zusammen. Mit wirklich überschaubarem Aufwand lassen sich nahezu beliebige PostScript Level 1 Programme interpretieren, komplette EPS Dokumente in modernen Webbrowsern ohne Plugins anzeigen und wir werden sogar eine interaktive Shell für kleine Experimente bekommen.
+
+Anhand von PostCanvas lässt sich zudem prima die Herkunft und Funktionsweise des HTML5 Canvas Element demonstrieren, man kann JavaScript als ernsthafte Programmierumgebung ausprobieren, ein wenig auf die historische Bedeutung von PostScript eingehen, auf das Konzept und die Verbreitung von Stack Maschinen hinweisen und die Eigenschaften von gnädigen Dokumentenformaten und domänenspezifischen Programmiersprachen gegenüber strikten XML Datenbeschreibungsnamespaces (e.g. SVG) ansprechen.
+
+Im Anschluss an das Unterhaltungsprogramm wird der Quellcode unter APLv2 veröffentlicht.
+
+Anmerkung des Videoteams: Leider lässt die Ton- und Videoqualtät zu wünschen übrig, der Ton ist bei der Aufnahme stark übersteuert und das Bild ist zu dunkel. Im Nachhinein lässt sich da leider nicht viel machen.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200904-ps-interpreter-html5/cs-200904-ps-interpreter-html5_video.mp4</guid>
+            <pubDate>Mon, 20 April 2009 20:00:00 +0200</pubDate>
+            <itunes:subtitle>PostCanvas ist ein kleiner PostScript Interpreter, umgesetzt in JavaScript und HTML5. Warum macht man sowas? Ach, es hat sich einfach angeboten, ja geradezu aufgedrängt. Die gegebenen Komponenten passen einfach zu schön zusammen. Mit wirklich übers ...</itunes:subtitle>
+            <itunes:summary>PostCanvas ist ein kleiner PostScript Interpreter, umgesetzt in JavaScript und HTML5. Warum macht man sowas? Ach, es hat sich einfach angeboten, ja geradezu aufgedrängt. Die gegebenen Komponenten passen einfach zu schön zusammen. Mit wirklich überschaubarem Aufwand lassen sich nahezu beliebige PostScript Level 1 Programme interpretieren, komplette EPS Dokumente in modernen Webbrowsern ohne Plugins anzeigen und wir werden sogar eine interaktive Shell für kleine Experimente bekommen.
+
+Anhand von PostCanvas lässt sich zudem prima die Herkunft und Funktionsweise des HTML5 Canvas Element demonstrieren, man kann JavaScript als ernsthafte Programmierumgebung ausprobieren, ein wenig auf die historische Bedeutung von PostScript eingehen, auf das Konzept und die Verbreitung von Stack Maschinen hinweisen und die Eigenschaften von gnädigen Dokumentenformaten und domänenspezifischen Programmiersprachen gegenüber strikten XML Datenbeschreibungsnamespaces (e.g. SVG) ansprechen.
+
+Im Anschluss an das Unterhaltungsprogramm wird der Quellcode unter APLv2 veröffentlicht.
+
+Anmerkung des Videoteams: Leider lässt die Ton- und Videoqualtät zu wünschen übrig, der Ton ist bei der Aufnahme stark übersteuert und das Bild ist zu dunkel. Im Nachhinein lässt sich da leider nicht viel machen.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200904-ps-interpreter-html5/cs-200904-ps-interpreter-html5_video.mp4" length="427830060" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200905: Surprise</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2009/05_surprise</link>
+            <description>Nico erzählt was über bootris;
+Michel erzählt was über "Booten mit dem Mac";
+Jason erzählt was über OpenCL;
+jemand erzählt was über Softwarepatente und Urheberrecht;
+jemand anderes erzählt was über Fnordlichter;
+Matthias erzählt was über Lockpicking;
+Felix erzählt was über Spiegelneuronen;
+Für jeden ist also was passendes dabei.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200905-surprise/cs-200905-surprise_video.mp4</guid>
+            <pubDate>Mon, 20 May 2009 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Nico erzählt was über bootris;
+Michel erzählt was über "Booten mit dem Mac";
+Jason erzählt was über OpenCL;
+jemand erzählt was über Softwarepatente und Urheberrecht;
+jemand anderes erzählt was über Fnordlichter;
+Matthias erzählt was über L ...</itunes:subtitle>
+            <itunes:summary>Nico erzählt was über bootris;
+Michel erzählt was über "Booten mit dem Mac";
+Jason erzählt was über OpenCL;
+jemand erzählt was über Softwarepatente und Urheberrecht;
+jemand anderes erzählt was über Fnordlichter;
+Matthias erzählt was über Lockpicking;
+Felix erzählt was über Spiegelneuronen;
+Für jeden ist also was passendes dabei.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200905-surprise/cs-200905-surprise_video.mp4" length="219657605" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200907: Linux Kernel Hacking</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2009/07_Linux_Kernel_Hacking</link>
+            <description>Unter der Haube von allen Linux-Distributionen -- Debian GNU/Hurd mal ausgenommen -- schafft der Linux-Kernel. Weshalb man einen Kernel braucht und wie er funktioniert, wird als Theorie kurz eingeführt. Wie man dem Kernel mit eigenem C-Code einen Tritt verpasst, wird an Hand von Codebeispielen erläutert. Außerdem werden einige Tools zur Linux-Kernel-Entwicklung gezeigt.
+
+Wegen dem Umfang wurde der Vortrag aufgeteilt. Im ersten Teil werden folgende Punkte besprochen:
+
+* Grundlagen Betriebssysteme
+* Benötigte Tools
+* Konfiguration und Compilieren
+* Unterschiede zur C-Anwendungsprogrammierung
+* Bootvorgang von Linux</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200907-linuxkernel/cs-200907-kernel_video.mp4</guid>
+            <pubDate>Mon, 13 July 2009 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Unter der Haube von allen Linux-Distributionen -- Debian GNU/Hurd mal ausgenommen -- schafft der Linux-Kernel. Weshalb man einen Kernel braucht und wie er funktioniert, wird als Theorie kurz eingeführt. Wie man dem Kernel mit eigenem C-Code einen Tri ...</itunes:subtitle>
+            <itunes:summary>Unter der Haube von allen Linux-Distributionen -- Debian GNU/Hurd mal ausgenommen -- schafft der Linux-Kernel. Weshalb man einen Kernel braucht und wie er funktioniert, wird als Theorie kurz eingeführt. Wie man dem Kernel mit eigenem C-Code einen Tritt verpasst, wird an Hand von Codebeispielen erläutert. Außerdem werden einige Tools zur Linux-Kernel-Entwicklung gezeigt.
+
+Wegen dem Umfang wurde der Vortrag aufgeteilt. Im ersten Teil werden folgende Punkte besprochen:
+
+* Grundlagen Betriebssysteme
+* Benötigte Tools
+* Konfiguration und Compilieren
+* Unterschiede zur C-Anwendungsprogrammierung
+* Bootvorgang von Linux</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200907-linuxkernel/cs-200907-kernel_video.mp4" length="151103347" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200909: Linux Kernel Hacking II</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2009/09_Linux_Kernel_Hacking_II</link>
+            <description>Nach der Einführung im ersten Teil, geht es jetzt ans Eingemachte. Wie man dem Kernel mit eigenem C-Code einen Tritt verpasst, wird an Hand von Codebeispielen erläutert. Außerdem werden einige Tools zur Linux-Kernel-Entwicklung gezeigt.
+
+* Minimales Kernel-Modul
+* Einfacher Zeichenorientierter Gerätetreiber
+* Out-of-memory Killer
+* Fehlerhafter Code im Kernel
+* Wo bekommt man Dokumentation?
+* Was ist für Commits in den Mainline-Kernel zu beachten</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200909-linuxkernel2/cs-200909-kernel2_video.mp4</guid>
+            <pubDate>Mon, 14 Sep 2009 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Nach der Einführung im ersten Teil, geht es jetzt ans Eingemachte. Wie man dem Kernel mit eigenem C-Code einen Tritt verpasst, wird an Hand von Codebeispielen erläutert. Außerdem werden einige Tools zur Linux-Kernel-Entwicklung gezeigt.
+
+* Minimale ...</itunes:subtitle>
+            <itunes:summary>Nach der Einführung im ersten Teil, geht es jetzt ans Eingemachte. Wie man dem Kernel mit eigenem C-Code einen Tritt verpasst, wird an Hand von Codebeispielen erläutert. Außerdem werden einige Tools zur Linux-Kernel-Entwicklung gezeigt.
+
+* Minimales Kernel-Modul
+* Einfacher Zeichenorientierter Gerätetreiber
+* Out-of-memory Killer
+* Fehlerhafter Code im Kernel
+* Wo bekommt man Dokumentation?
+* Was ist für Commits in den Mainline-Kernel zu beachten</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200909-linuxkernel2/cs-200909-kernel2_video.mp4" length="219254794" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200910: Alte Softwareschätze</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2009/10_Softwareschaetze</link>
+            <description>Dieser Vortrag soll Software vorstellen die schon einige Jahre auf dem Buckel hat. Vieles wird man schon vom Namen her gehört haben, aber nur wenige werden damit selbst gearbeitet haben oder noch immer arbeiten.
+
+Doch diese Programme und Programmiersprachen, auch wenn sie angestaubt sind, gehören noch lange nicht zum Alten Eisen. Sie erledigen getreu ihre Dienste, sie decken bestimmte Nischen besser ab als ihr Nachfolger, sie sind auf vielen Systemen verfügbar ... und ja, man muss sie einfach mal verwendet haben! Dieser Vortrag soll eben dazu motivieren.
+
+* Man darf miterleben wie Unix geschrieben wurde.
+* Es wird beantwortet warum man Perl nicht unbedingt braucht.
+* ... und überall wird ein bisschen Unix-Philosophie versteckt sein
+
+Die Präsentation dieser Softwareschätze wird mit technischen Details und Hintergrundwissen aus vergangenen Zeiten ausgeschmückt werden. Tutorials für einzelne Tools können nicht erwartet werden -- viele Anregungen und Ansatzpunkte für eigene Erkundungen aber sehr wohl.
+
+In den Hauptrollen: ed, sed, awk</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200910-softwareschaetze/cs-200910-softwareschaetze_video.mp4</guid>
+            <pubDate>Mon, 13 Oct 2009 20:00:00 +0200</pubDate>
+            <itunes:subtitle>Dieser Vortrag soll Software vorstellen die schon einige Jahre auf dem Buckel hat. Vieles wird man schon vom Namen her gehört haben, aber nur wenige werden damit selbst gearbeitet haben oder noch immer arbeiten.
+
+Doch diese Programme und Programmiers ...</itunes:subtitle>
+            <itunes:summary>Dieser Vortrag soll Software vorstellen die schon einige Jahre auf dem Buckel hat. Vieles wird man schon vom Namen her gehört haben, aber nur wenige werden damit selbst gearbeitet haben oder noch immer arbeiten.
+
+Doch diese Programme und Programmiersprachen, auch wenn sie angestaubt sind, gehören noch lange nicht zum Alten Eisen. Sie erledigen getreu ihre Dienste, sie decken bestimmte Nischen besser ab als ihr Nachfolger, sie sind auf vielen Systemen verfügbar ... und ja, man muss sie einfach mal verwendet haben! Dieser Vortrag soll eben dazu motivieren.
+
+* Man darf miterleben wie Unix geschrieben wurde.
+* Es wird beantwortet warum man Perl nicht unbedingt braucht.
+* ... und überall wird ein bisschen Unix-Philosophie versteckt sein
+
+Die Präsentation dieser Softwareschätze wird mit technischen Details und Hintergrundwissen aus vergangenen Zeiten ausgeschmückt werden. Tutorials für einzelne Tools können nicht erwartet werden -- viele Anregungen und Ansatzpunkte für eigene Erkundungen aber sehr wohl.
+
+In den Hauptrollen: ed, sed, awk</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200910-softwareschaetze/cs-200910-softwareschaetze_video.mp4" length="301777644" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200911: troff and friends</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2009/11_troff-and-friends</link>
+            <description>Tex kennt und verwendet heute fast jeder Computerbegeisterte wenn er Dokumente erstellen soll. Neben Tex gibt es aber auch andere Textsatzsysteme die keineswegs schlechter, nur unbekannter, sind. Eines ist troff das aus den Bell Labs kommt und sehr eng mit der Entstehung von Unix verwoben ist.
+
+Troff wird heute in erster Linie zum Formatieren von Manpages verwendet. Doch auch bemerkenswert viele Computerbücher sind mit troff gesetzt, was zeigt, dass troff eine ernstzunehmende Software im professionellen Bereich ist. Nichts desto trotz ist troff inzwischen leicht angestaubt und kaum noch bekannt. Dieser Vortrag wird den Staub wegfegen und zeigen, dass es sich lohnt sich mit troff zu beschäftigen.
+
+Ausgehend von den geschichtlichen Hintergründen wird das Design von troff erklärt. Die Benutzung von troff selbst wird vorgestellt werden, sowie die bekanntesten Macropakete (die die Benutzung erleichtern). Zudem werden verschiedene Preprozessoren gezeigt und erklärt werden. Diese erlauben es zum Beispiel sehr einfach mathematische Formeln oder Diagramme zu erzeugen.
+
+Ein großer Teil des Vortrags wird die Live-Demonstration der Programe einnehmen. Publikumsinteraktion ist ausdrücklich erwünscht.
+
+In den Hauptrollen: troff, nroff, tbl, eqn, refer, pic</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200911-troff/cs-200911-troff_video.mp4</guid>
+            <pubDate>Mon, 9 Nov 2009 20:00:00 +0100</pubDate>
+            <itunes:subtitle>Tex kennt und verwendet heute fast jeder Computerbegeisterte wenn er Dokumente erstellen soll. Neben Tex gibt es aber auch andere Textsatzsysteme die keineswegs schlechter, nur unbekannter, sind. Eines ist troff das aus den Bell Labs kommt und sehr en ...</itunes:subtitle>
+            <itunes:summary>Tex kennt und verwendet heute fast jeder Computerbegeisterte wenn er Dokumente erstellen soll. Neben Tex gibt es aber auch andere Textsatzsysteme die keineswegs schlechter, nur unbekannter, sind. Eines ist troff das aus den Bell Labs kommt und sehr eng mit der Entstehung von Unix verwoben ist.
+
+Troff wird heute in erster Linie zum Formatieren von Manpages verwendet. Doch auch bemerkenswert viele Computerbücher sind mit troff gesetzt, was zeigt, dass troff eine ernstzunehmende Software im professionellen Bereich ist. Nichts desto trotz ist troff inzwischen leicht angestaubt und kaum noch bekannt. Dieser Vortrag wird den Staub wegfegen und zeigen, dass es sich lohnt sich mit troff zu beschäftigen.
+
+Ausgehend von den geschichtlichen Hintergründen wird das Design von troff erklärt. Die Benutzung von troff selbst wird vorgestellt werden, sowie die bekanntesten Macropakete (die die Benutzung erleichtern). Zudem werden verschiedene Preprozessoren gezeigt und erklärt werden. Diese erlauben es zum Beispiel sehr einfach mathematische Formeln oder Diagramme zu erzeugen.
+
+Ein großer Teil des Vortrags wird die Live-Demonstration der Programe einnehmen. Publikumsinteraktion ist ausdrücklich erwünscht.
+
+In den Hauptrollen: troff, nroff, tbl, eqn, refer, pic</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200911-troff/cs-200911-troff_video.mp4" length="396345031" type="video/mp4" />
+        </item>
+        <item>
+            <title>CS200912: Manipulationspsychologie</title>
+            <link>http://www.ulm.ccc.de/ChaosSeminar/2009/12_Manipulationspsychologie</link>
+            <description>In guten Sicherheitssystemen sind nicht nur technische Maßnahmen ausschlaggebend. Bei genauer Betrachtung zeigt sich, dass die Sicherheitsstrategie immer auch Menschen enthält (z.B. den Administrator). Angriffe auf diese menschliche Komponente verdienen also ebenfalls volle Aufmerksamkeit.
+
+Mit gutem Grund hat das sogenannte "Social Engineering", welches genau diese "Sicherheitslücken" anvisiert, unter Hackern bereits eine lange Tradition. "Hacken" muss sich folglich nicht auf Geräte beschränken. "Hacken" kann auch bedeuten, dass ausgefeilte Psychologie zum Einsatz kommt.
+
+Der Vortrag beschränkt sich jedoch nicht auf "Social Engineering", sondern soll aufzeigen, dass wir von manipulativer Psychologie regelrecht umzingelt sind. Besonders die Werbeindustrie, Geheimdienste, Sekten und Betrüger machen sich allerlei Erkenntnisse der Psychologie zu nutze.</description>
+            <guid>http://archiv.ulm.ccc.de/chaosseminar/200912-manipulationspsychologie/cs-200912-manipmeth_video.mp4</guid>
+            <pubDate>Mon, 14 Dec 2009 20:00:00 +0100</pubDate>
+            <itunes:subtitle>In guten Sicherheitssystemen sind nicht nur technische Maßnahmen ausschlaggebend. Bei genauer Betrachtung zeigt sich, dass die Sicherheitsstrategie immer auch Menschen enthält (z.B. den Administrator). Angriffe auf diese menschliche Komponente verdi ...</itunes:subtitle>
+            <itunes:summary>In guten Sicherheitssystemen sind nicht nur technische Maßnahmen ausschlaggebend. Bei genauer Betrachtung zeigt sich, dass die Sicherheitsstrategie immer auch Menschen enthält (z.B. den Administrator). Angriffe auf diese menschliche Komponente verdienen also ebenfalls volle Aufmerksamkeit.
+
+Mit gutem Grund hat das sogenannte "Social Engineering", welches genau diese "Sicherheitslücken" anvisiert, unter Hackern bereits eine lange Tradition. "Hacken" muss sich folglich nicht auf Geräte beschränken. "Hacken" kann auch bedeuten, dass ausgefeilte Psychologie zum Einsatz kommt.
+
+Der Vortrag beschränkt sich jedoch nicht auf "Social Engineering", sondern soll aufzeigen, dass wir von manipulativer Psychologie regelrecht umzingelt sind. Besonders die Werbeindustrie, Geheimdienste, Sekten und Betrüger machen sich allerlei Erkenntnisse der Psychologie zu nutze.</itunes:summary>
+            <enclosure url="http://archiv.ulm.ccc.de/chaosseminar/200912-manipulationspsychologie/cs-200912-manipmeth_video.mp4" length="108673351" type="video/mp4" />
+        </item>
+    </channel>
+</rss>
