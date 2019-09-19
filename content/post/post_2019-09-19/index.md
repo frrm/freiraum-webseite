@@ -6,16 +6,16 @@ categories = ["Log"]
 hide_readingtime = true
 +++
 
-Die Open Days fanden am Samstag und Sonntag 14./15. September 2019 statt, wir sind am Freitag abend gegen 17:30h losgefahren und kamen gegen 23:30h in Prévessin-Moëns an. Der Ort liegt im Inneren des Beschleunigerrings auf französischer Seite, hier hatten wir ein günstiges Hotels.
+Die Open Days fanden am Samstag und Sonntag 14./15. September 2019 statt, wir sind am Freitagabend gegen 17:30h losgefahren und kamen gegen 23:30h in Prévessin-Moëns an. Der Ort liegt im Inneren des Beschleunigerrings auf französischer Seite, hier hatten wir ein günstiges Hotel.
 
 ![](img_004.jpg)
 
-Als wir ankamen gabs es schon eine lange Schlange am Einlass, es war aber alles sehr entspannt und alle Besucher waren gut drauf. Nach ca. 20min hatten wir 
+Als wir ankamen gab es schon eine lange Schlange am Einlass, es war aber alles sehr entspannt und alle Besucher waren gut drauf. Nach ca. 20min hatten wir 
 dann Zugang zum Gelände.
 
 ![](1024px-CERN-aerial_1.jpg)
 
-Die Gelände ist wirklich gro&ß und in fast jedem Gebäude gab es etwas zu sehen.
+Die Gelände ist wirklich groß und in fast jedem Gebäude gab es etwas zu sehen.
 
 ![](Location_Large_Hadron_Collider.png)
 
@@ -33,7 +33,7 @@ Hier ist der Einlassbereich in Richtung ATLAS zu sehen, die Skulptur zeigt Forme
 
 Unser erster Besuch war im "Crystal laboratory" dort hat uns Nikolaus gezeigt, wie verschiedene [Szintillator Kristalle](https://de.wikipedia.org/wiki/Szintillator) leuchten und wie sie im [CMS](https://de.wikipedia.org/wiki/Compact_Muon_Solenoid) Detector genutzt werden.
 
-Nikolaus war einer der vielen CERN-Mitarbeiter, die freiwillig geholfen und ihre Arbeit vorgestellt haben - man konnte ihn deshalb auch alles mögliche fragen. Der einzig limitierende Faktor war die Zeit, beim letzen Open Days kamen 70,000 Besucher, dementsprechend waren die Führungen zeitlich getaktet.
+Nikolaus war einer der vielen CERN-Mitarbeiter, die freiwillig geholfen und ihre Arbeit vorgestellt haben - man konnte ihn deshalb auch alles mögliche fragen. Der einzig limitierende Faktor war die Zeit, beim letzen Open Days kamen 70.000 Besucher, dementsprechend waren die Führungen zeitlich getaktet.
 
 
 ![](img_008.jpg)
