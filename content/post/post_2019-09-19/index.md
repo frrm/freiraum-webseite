@@ -6,7 +6,7 @@ categories = ["Log"]
 hide_readingtime = true
 +++
 
-Die Open Days fanden am Samstag und Sonntag 14./15. September 2019 statt, wir sind am Freitag abend gegen 17:30 losgefahren und kamen gegen 23:30h in Prévessin-Moëns an. Der Ort liegt im inneren des Beschleunigerrings auf französischer Seite, hier hatten wir ein günstiges Hotels.
+Die Open Days fanden am Samstag und Sonntag 14./15. September 2019 statt, wir sind am Freitag abend gegen 17:30h losgefahren und kamen gegen 23:30h in Prévessin-Moëns an. Der Ort liegt im Inneren des Beschleunigerrings auf französischer Seite, hier hatten wir ein günstiges Hotels.
 
 ![](img_004.jpg)
 
