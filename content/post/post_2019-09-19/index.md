@@ -55,12 +55,13 @@ Mehrere dieser Zellen werden radial um den Kollisionspunkt der Teilchen angebrac
 
 Nikolaus' Doktorarbeit beschäftigt sich damit, die Auslesegeschwindigkeit zu erhöhen, so dass man zeitlich besser aufgelöste Messungen bekommt. Das geschieht zum Beispiel in dem man das Kristallmaterial durch Dotierung verändert.
 
+![](lasertisch.jpg)
+
+Als nächstes ging es zum MEDICIS Punkt. Das Ziel ist hier, Radioisotope für Medizinanwendungen (SPECT/PET-Scan, Strahlentherapie, Radionuklidtherapie) zu erzeugen. [Vadim](https://medicis-promed.web.cern.ch/vadim-gadelshin), ein junger Mitarbeiter, der gerade dabei ist, seinen Doktor zu beenden, zeigte uns einen Laserexperiment-Aufbau, der verwendet wird um die bei der Kollision entstehenden Teilchen/Isotope zu trennen.
+
+Die Teilchen kann man über das Masse-zu-Ladung-Verhältnis trennen. Entstehen bei der Kollision Isotope, müssen sie selektiv ionisiert werden, um sie von anderen Isotopen mit gleicher Masse trennen zu können. Dazu nutzt man Laser, Vadim hat daran gearbeitet, die Laser optimal abzustimmen.
+
 ![](img_014.jpg)
-
-
-Als nächstes ging es zum MEDICIS Punkt. Das Ziel ist hier, Ionen für Medizinanwendungen (PET-Scan, Strahlentherapie) zu erzeugen. [Vadim](https://medicis-promed.web.cern.ch/vadim-gadelshin), ein junger Mitarbeiter, der gerade seinen Doktor beendet hat, zeigte uns einen Laserexperiment-Aufbau, der verwendet wird um die bei der Kollision entstehenden Teilchen zu trennen.
-
-Die Teilchen kann man über ihre Masse und über ihre Ladung trennen. Entstehen bei der Kollision Isotope die nicht geladen sind, müssen sie ionisiert werden, um sie von anderen Isotopen mit gleicher Masse trennen zu können. Dazu nutzt man Laser, Vadim hat daran gearbeitet, die Laser optimal abzustimmen.
 
 Das Bild oben zeigt das [ISOLDE](https://de.wikipedia.org/wiki/ISOLDE") Experiment mit dem solche Ionenstrahlen erzeugt werden.
 
@@ -171,3 +172,5 @@ Nach dem Rundgang haben wir uns an der Oberfläche die unterschiedlichen Sensore
 Insgesamt war es ein toller Ausflug, den man unbedingt mal gemacht haben sollte.
 
 Tipp von Markus: für ein Subset der Führungen könnt ihr euch noch anmelden, das geht Januar bis März (wegen Wartung keine Experimente) und jetzt im "long shutdown". [https://visit.cern/tours/guided-tours](https://visit.cern/tours/guided-tours).
+
+**Update:** Ein/zwei inhaltliche Ungenauigkeiten zum MEDICIS-Abschnitt wurden behoben und ein Bild vom Laseraufbau eingefügt - Danke @Vadim!
