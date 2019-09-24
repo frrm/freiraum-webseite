@@ -102,10 +102,6 @@ Am CERN gibt es Gastwissenschaftler aus 85 unterschiedlichen Nationen, hier ist 
 
 Es gab auch eine Station mit Retrospielen auf alten Computern. Insgesamt war alles sehr gut organisiert, es gab sogar Live-Bands von Alumnis.
 
-![](img_026.jpg)
-
-![](img_027.jpg)
-
 Das CERN hat um 19:00h geschlossen, so dass wir noch Zeit hatten und Genf anzusehen.
 
 ![](img_032.jpg)
