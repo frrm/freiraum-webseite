@@ -131,11 +131,7 @@ Da der LHC abgeschaltet ist, können jetzt Upgrade- und Wartungsarbeiten durchge
 
 Die Grö&ße ist total beeindruckend, der Detektor besteht auf 15 Schichten und wiegt insgesamt 14000 Tonnen.
 
-![](img_041.jpg)
-
 ![](img_042.jpg)
-
-![](img_043.jpg)
 
 ![](img_045.jpg)
 
