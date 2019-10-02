@@ -77,7 +77,7 @@ Mittagessen für 10€ im Betriebsrestaurant vom CERN, das Essen hat super gesch
 
 Nächster Anlaufpunkt war der [LINAC 4](https://de.wikipedia.org/wiki/CERN_Hadron_Linacs#Linac_4), das ist ein Linearbeschleuniger, der negative Wasserstoffionen beschleunigt, die als Grundlage für die bei ISOLDE verwendeten Protonenstrahlung dienen.
 
-Am hinteren Ende der blauen Boxen (hergestellt von Thales) sieht man die quadratischen Hohlleiter, die verwendet werden um die elektromagnetischen Wellen 12m unter die Erde zu leiten. Technik die auch in Radiomasten oder bei Radar verwendet wird, nur eine Nummer grö&ßer.
+Am hinteren Ende der blauen Boxen (hergestellt von Thales) sieht man die quadratischen Hohlleiter, die verwendet werden um die elektromagnetischen Wellen 12m unter die Erde zu leiten. Technik die auch in Radiomasten oder bei Radar verwendet wird, nur eine Nummer größer.
 
 
 ![](img_020.jpg)
@@ -102,7 +102,7 @@ Am CERN gibt es Gastwissenschaftler aus 85 unterschiedlichen Nationen, hier ist 
 
 Es gab auch eine Station mit Retrospielen auf alten Computern. Insgesamt war alles sehr gut organisiert, es gab sogar Live-Bands von Alumnis.
 
-Das CERN hat um 19:00h geschlossen, so dass wir noch Zeit hatten und Genf anzusehen.
+Das CERN hat um 19:00h geschlossen, so dass wir noch Zeit hatten uns Genf anzusehen.
 
 ![](img_032.jpg)
 
@@ -129,13 +129,13 @@ Da der LHC abgeschaltet ist, können jetzt Upgrade- und Wartungsarbeiten durchge
 
 ![](img_040.jpg)
 
-Die Grö&ße ist total beeindruckend, der Detektor besteht auf 15 Schichten und wiegt insgesamt 14000 Tonnen.
+Die Größe ist total beeindruckend, der Detektor besteht auf 15 Schichten und wiegt insgesamt 14000 Tonnen.
 
 ![](img_042.jpg)
 
 ![](img_045.jpg)
 
-Der Magnet im Inneren ist 13m lang und hat einen Durchmesser von 6m, er ist der stärkste Magnet, der bisher gebaut wurde und wird bei -268,5°C betrieben. Die Geschwindigkeit der Teilchen beim Zusammensto&ß unterscheidet sich nur um 3m/s von der Lichtgeschwindigkeit.
+Der Magnet im Inneren ist 13m lang und hat einen Durchmesser von 6m, er ist der stärkste Magnet, der bisher gebaut wurde und wird bei -268,5°C betrieben. Die Geschwindigkeit der Teilchen beim Zusammenstoß unterscheidet sich nur um 3m/s von der Lichtgeschwindigkeit.
 
 ![](img_046.jpg)
 
