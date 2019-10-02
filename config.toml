@@ -45,7 +45,7 @@ buildFuture = true
     upcoming_events = true
 
 [Params.social]
-    wiki = "https://crocell.crystaldown.de"
+    wiki = "https://dokuwiki.ulm.ccc.de"
     github = "frrm"
 
 [Params.color]
