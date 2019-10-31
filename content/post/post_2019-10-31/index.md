@@ -1,5 +1,4 @@
 +++
-+++
 author = "frdnd"
 title = "Chat auf neuem Server"
 date = "2019-10-31"
