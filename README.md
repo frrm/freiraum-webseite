@@ -29,6 +29,8 @@ so dass möglichst wenig manueller Wartungsaufwand notwendig ist.
 Das Ergebnis wird von Travis-CI dann derzeit auf https://github.com/frrm/frrm.github.io/ / https://frrm.github.io abgelegt.  
 Alle ~5 Minuten wird der Inhalt von https://github.com/frrm/frrm.github.io/ dann nach https://www.frrm.de gespiegelt.
 
+Sollte dies nicht funktionieren, findet man auf https://travis-ci.org/frrm/freiraum-hugo die Travis-CI-Logs.
+
 
 
 # Anleitungen
