@@ -1,11 +1,11 @@
 +++
 title = "Familie/Daseinsfürsorge: Ehe, Erbe und der digitale Nachlass."
-date = "2020-01-13"
+date = "2020-02-10"
 categories = ["ChaosSeminar"]
 
 [ChaosSeminar]
 Thema = ""
-Termin = ""
+Termin = "voraussichtlich 2020-02-10"
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Marcus"
 Archiv = []
