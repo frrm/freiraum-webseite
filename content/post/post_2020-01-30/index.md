@@ -20,7 +20,7 @@ Karotte/Lotta spricht am 06.02.2020 ab 20:00h über Glättung von Objekttrajekto
 Diese Methode kann man im Kontext von Audio, RF, Antennen-Arrays oder aber auch bei autonomen Fahrzeugen im Rahmen der Umfeldmodells verwenden.
 
 
-**Conflunce - Einstieg und HowTo**
+**Confluence - Einstieg und HowTo**
 
 Petersilie/Jan stellt am 20.02.2020 ab 20:00h [Confluence](https://en.wikipedia.org/wiki/Confluence_(software)), eine Collaboration Software von Atlassian, vor. 
 
