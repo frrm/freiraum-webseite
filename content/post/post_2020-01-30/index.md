@@ -8,8 +8,10 @@ hide_readingtime = true
 
 Viele von uns hätten so viel interessante Sachen zu erzählen, aber es braucht oft viel Überwindung einen Vortrag zu halten. Umso schöner ist es, dass wir in den nächsten Wochen gleich zwei Vorträge haben.
 
-Karotte/Lotta spricht am 06.02.2020 ab 20:00h über **Vorwärts-Rückwärtsglättung von Objekttrajektorien unter Nutzung von Random-Finite-Sets.** Zu Random-Finite-Sets findet man bei Wikipedia keinen Eintrag, deshalb hier ein [Abstract ](https://ora.ox.ac.uk/objects/uuid:09211ed9-7cc1-4401-9ae9-a1ebc2a1f782):
 
+**Vorwärts-Rückwärtsglättung von Objekttrajektorien unter Nutzung von Random-Finite-Sets.**
+
+Karotte/Lotta spricht am 06.02.2020 ab 20:00h über Glättung von Objekttrajektorien. Zur Glättung nutzt sie dazu Random-Finite-Sets, zu denen man bei Wikipedia noch keinen Eintrag findet, deshalb hier ein [Abstract ](https://ora.ox.ac.uk/objects/uuid:09211ed9-7cc1-4401-9ae9-a1ebc2a1f782):
 
 ![](img_rfs.jpg)
 
@@ -18,6 +20,7 @@ Karotte/Lotta spricht am 06.02.2020 ab 20:00h über **Vorwärts-Rückwärtsglät
 Diese Methode kann man im Kontext von Audio, RF, Antennen-Arrays oder aber auch bei autonomen Fahrzeugen im Rahmen der Umfeldmodells verwenden.
 
 
+**Conflunce - Einstieg und HowTo**
 
 Petersilie/Jan stellt am 20.02.2020 ab 20:00h [Confluence](https://en.wikipedia.org/wiki/Confluence_(software)), eine Collaboration Software von Atlassian, vor. 
 
