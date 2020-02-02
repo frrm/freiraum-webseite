@@ -16,7 +16,7 @@
 {{- if $seminars_next_sorted -}}
 <ul>
 {{ range $seminars_next_sorted }}
-    <li>{{ if .Params.date }}{{ dateFormat "2006-01-02" .Params.date }}{{ else }}{{ .Params.ChaosSeminar.termin }}{{ end }}: <a href="{{ .RelPermalink }}">{{ if .Params.ChaosSeminar.thema }}{{ .Params.ChaosSeminar.thema }}{{ else }}{{ .Params.title }}{{ end }}</a></li>
+    <li>{{ if .Params.date }}{{ if lt (dateFormat "2006-01-02" .Params.date) "3000-01-01" }}{{ dateFormat "2006-01-02" .Params.date }}{{ else }}{{ .Params.ChaosSeminar.termin }}{{ end }}{{ else }}{{ .Params.ChaosSeminar.termin }}{{ end }}: <a href="{{ .RelPermalink }}">{{ if .Params.ChaosSeminar.thema }}{{ .Params.ChaosSeminar.thema }}{{ else }}{{ .Params.title }}{{ end }}</a></li>
 {{ end }}
 </ul>
 {{- else -}}
