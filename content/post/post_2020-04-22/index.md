@@ -1,6 +1,6 @@
 +++
 author = "frdnd"
-title = "Pause"
+title = "make -j1"
 date = "2020-04-22"
 categories = ["Log"]
 hide_readingtime = true
