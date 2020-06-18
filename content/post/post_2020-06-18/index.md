@@ -25,6 +25,4 @@ https://dudle.inf.tu-dresden.de/frrm200618/
 
 ![](covid_rules.jpg)
 
-Um für besseren Durchzug zu sorgen und die Aerosole besser abzuleiten, steht im Haupt- und Chillout-Raum jeweils einen starker Ventilator am Fenster.
-
 ![](ventilator.jpg)
