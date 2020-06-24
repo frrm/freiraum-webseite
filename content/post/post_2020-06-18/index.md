@@ -1,12 +1,12 @@
 +++
 author = "frdnd"
 title = "make -j10 -Werror"
-date = "2020-06-18"
+date = "2020-06-25"
 categories = ["Log"]
 hide_readingtime = true
 +++
 
-Nach dem wir am 11.06. schon den ersten Probebetrieb hatten, wir ab heute Donnerstag 18.06. den Freiraum wieder, wie gewohnt 20:00h, auf.
+Der Freiraum hat morgen Donnerstag 25.06 wieder, wie gewohnt 20:00h, auf.
 
 Bitte achtet auf folgende Einschränkungen:
 
@@ -20,8 +20,8 @@ Bitte achtet auf folgende Einschränkungen:
 
 * tragt MNS 
 
-**Bitte tragt euch hier ein, damit wir abschätzen können, wie viele am 18.06. Menschen kommen**
-https://dudle.inf.tu-dresden.de/frrm200618/
+**Bitte tragt euch hier ein, damit wir abschätzen können, wie viele am 25.06. Menschen kommen**
+https://dudle.inf.tu-dresden.de/frrm200625/
 
 ![](covid_rules.jpg)
 
