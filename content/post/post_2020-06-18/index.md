@@ -20,8 +20,7 @@ Bitte achtet auf folgende Einschränkungen:
 
 * tragt MNS 
 
-**Bitte tragt euch hier ein, damit wir abschätzen können, wie viele am 25.06. Menschen kommen**
-https://dudle.inf.tu-dresden.de/frrm200625/
+
 
 ![](covid_rules.jpg)
 
