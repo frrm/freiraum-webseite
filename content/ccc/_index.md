@@ -45,7 +45,7 @@ Wir quatschen, bestellen Pizza, lachen und beackern Rechner (nicht immer, aber i
 ### Öffentliche Mailingliste
 Hier werdem Infos rund um den CCC Ulm verteilt. Dazu gehören neben allerlei Neuigkeiten aus dem Internet auch Seminartermine usw. Wer sich auf die Liste eintragen möchte, schickt eine Mail an:
 
-[news-request@ulm.ccc.de](mailto:mail@ulm.ccc.de)
+[news-request@ulm.ccc.de](mailto:news-request@ulm.ccc.de)
 
 mit einem subscribe im Body der Mail. Analog geht ein unsubscribe. Beiträge schickt man an:
 
