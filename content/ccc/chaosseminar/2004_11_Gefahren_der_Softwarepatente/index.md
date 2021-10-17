@@ -8,8 +8,8 @@ Thema = ""
 Termin = ""
 Vortragende = "Richard Stallman"
 Archiv = [
-	["Video Q&A:", "https://archiv.ulm.ccc.de/chaosseminar/200411-rms/cs-200411-rms-questions_video.avi", "55470052"],
-	["Video Q&A:", "https://archiv.ulm.ccc.de/chaosseminar/200411-rms/cs-200411-rms-questions_video.mp4", "47073986"],
+	["Video Q&A:AVI", "https://archiv.ulm.ccc.de/chaosseminar/200411-rms/cs-200411-rms-questions_video.avi", "55470052"],
+	["Video Q&A:MP4", "https://archiv.ulm.ccc.de/chaosseminar/200411-rms/cs-200411-rms-questions_video.mp4", "47073986"],
 	["", "https://archiv.ulm.ccc.de/chaosseminar/200411-rms/cs-200411-rms_32k_audio.mp3", "22581672"],
 	["", "https://archiv.ulm.ccc.de/chaosseminar/200411-rms/cs-200411-rms_32k_audio.ogg", "23477844"],
 	["", "https://archiv.ulm.ccc.de/chaosseminar/200411-rms/cs-200411-rms_video.avi", "171397982"],
