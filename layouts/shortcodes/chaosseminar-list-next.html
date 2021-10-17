@@ -2,23 +2,24 @@
 {{- $.Scratch.Set "seminars" slice -}}
 {{- range where .Site.Pages "Section" "ccc" -}}
     {{- if .Params.ChaosSeminar -}}
-	{{- if .Params.date -}}
-	  {{- if ge (dateFormat "2006-01-02" .Params.date) (dateFormat "2006-01-02" now) -}}
-	    {{- $.Scratch.Add "seminars" . -}}
-	  {{- end -}}
-	{{- else -}}
-	    {{- $.Scratch.Add "seminars" . -}}
-	{{- end -}}
+      {{- if .Params.date -}}
+        {{- if ge (dateFormat "2006-01-02" .Params.date) (dateFormat "2006-01-02" now) -}}
+          {{- $.Scratch.Add "seminars" . -}}
+        {{- end -}}
+        {{- else -}}
+          {{- $.Scratch.Add "seminars" . -}}
+        {{- end -}}
     {{- end -}}
 {{- end -}}
+
 {{- $seminars_next_sorted := sort ($.Scratch.Get "seminars") ".Params.date" "asc" -}}
 <!-- list all future seminars -->
 {{- if $seminars_next_sorted -}}
 <ul>
 {{ range $seminars_next_sorted }}
-    <li>{{ if .Params.date }}{{ if lt (dateFormat "2006-01-02" .Params.date) "3000-01-01" }}{{ dateFormat "2006-01-02" .Params.date }}{{ else }}{{ .Params.ChaosSeminar.termin }}{{ end }}{{ else }}{{ .Params.ChaosSeminar.termin }}{{ end }}: <a href="{{ .RelPermalink }}">{{ if .Params.ChaosSeminar.thema }}{{ .Params.ChaosSeminar.thema }}{{ else }}{{ .Params.title }}{{ end }}</a></li>
+  <li>{{ if .Params.date }}{{ if lt (dateFormat "2006-01-02" .Params.date) "3000-01-01" }}{{ dateFormat "2006-01-02" .Params.date }}{{ else }}{{ .Params.ChaosSeminar.termin }}{{ end }}{{ else }}{{ .Params.ChaosSeminar.termin }}{{ end }}: <a href="{{ .RelPermalink }}">{{ if .Params.ChaosSeminar.thema }}{{ .Params.ChaosSeminar.thema }}{{ else }}{{ .Params.title }}{{ end }}</a></li>
 {{ end }}
 </ul>
 {{- else -}}
-Momentan sind keine Chaosseminare geplant.
+  Momentan sind keine Chaosseminare geplant.
 {{- end -}}
