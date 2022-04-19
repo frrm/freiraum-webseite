@@ -10,5 +10,6 @@ Seit kurzem finden unsere [Treffen](/events/) wieder statt (2G + Maske), insbeso
 - Montag: CCC-Ulm Montagstreff
 - Donnerstag: Offenes Treffen
 
-Ob/wann die Treffen stattfinden, seht ihr unter [Termine](/events/#termine);
-sonst fragt einfach in unserem Matrix-Channel [#freiraum](https://element.matrix4ulm.de/#/room/#freiraum:server.matrix4ulm.de) nach.
+Ob/wann die Treffen stattfinden, seht ihr unter [Termine](/events/#termine).
+
+Die Treffen sind allerdings noch etwas kleiner als früher, und es kann auch sein, dass an einem Termin mal niemand da ist. Fragt deshalb am besten vorher in unserem Matrix-Channel [#freiraum](https://element.matrix4ulm.de/#/room/#freiraum:server.matrix4ulm.de) nach.
