@@ -21,16 +21,22 @@ Dieses Respository enthält alle Daten (Inhalte, Bilder, Templates etc.) für fr
 - `static/`  
   CSS-Anpassungen, webseitenglobale Bilder und teils Bilder der Hauptseiten
 
-Nach jeder Änderung sowie einmal nachts (um Termine automatisch aktuell zu halten) werden durch Travis-CI und Hugo daraus die HTML-Seiten erzeugt.
+Daraus wird per "Github Actions" dann die Webseite erstellt.
 
 Einige Seiten, Listen usw. werden dabei automatisch generiert (siehe [Platzhalter/Funktionen](#platzhalterfunktionen) bzw. Hugo-Templates/Shortcodes),
 so dass möglichst wenig manueller Wartungsaufwand notwendig ist.
+
+
+```
+(alte Version:
+Nach jeder Änderung sowie einmal nachts (um Termine automatisch aktuell zu halten) werden durch Travis-CI und Hugo daraus die HTML-Seiten erzeugt.
 
 Das Ergebnis wird von Travis-CI dann derzeit auf https://github.com/frrm/frrm.github.io/ / https://frrm.github.io abgelegt.  
 Alle ~5 Minuten wird der Inhalt von https://github.com/frrm/frrm.github.io/ dann nach https://www.frrm.de gespiegelt.
 
 Sollte nach einigen Minuten https://www.frrm.de noch nicht aktualisiert sein, helfen evtl.
-die Travis-CI-Logs, z.B. für Fehlermeldungen, weiter: https://travis-ci.org/frrm/freiraum-hugo
+die Travis-CI-Logs, z.B. für Fehlermeldungen, weiter: https://travis-ci.org/frrm/freiraum-hugo )
+```
 
 
 # Anleitungen
