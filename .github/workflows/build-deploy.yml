@@ -22,4 +22,5 @@ jobs:
           source-directory: public/
           destination-github-username: 'frrm'
           destination-repository-name: 'frrm.github.io'
-          commit-message: Update website.
+          target-branch: 'master'
+          commit-message: 'Update website.'
