@@ -21,7 +21,10 @@ Dieses Respository enthält alle Daten (Inhalte, Bilder, Templates etc.) für fr
 - `static/`  
   CSS-Anpassungen, webseitenglobale Bilder und teils Bilder der Hauptseiten
 
-Daraus wird per "Github Actions" dann die Webseite erstellt.
+Nach jeder Änderung sowie einmal nachts (um Termine automatisch aktuell zu halten) wird daraus (per Github Actions via Hugo) die Webseite erzeugt und auf https://github.com/frrm/frrm.github.io/ / https://frrm.github.io abgelegt.
+Alle ~5 Minuten wird der Inhalt von https://github.com/frrm/frrm.github.io/ dann nach https://www.frrm.de gespiegelt.
+
+Sollte dies nicht klappen, findet man im "Actions"-Tab unter "build-and-deploy" die entsprechenden Logs/Fehlermeldungen.
 
 Einige Seiten, Listen usw. werden dabei automatisch generiert (siehe [Platzhalter/Funktionen](#platzhalterfunktionen) bzw. Hugo-Templates/Shortcodes),
 so dass möglichst wenig manueller Wartungsaufwand notwendig ist.
