@@ -3,6 +3,8 @@ name: build-and-deploy
 on:
   push:
     branches: [ "master" ]
+  schedule:
+    - cron: '0 4 * * *'
 
   # add run-button on actions tab to run manually
   workflow_dispatch:
