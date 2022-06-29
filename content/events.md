@@ -20,6 +20,10 @@ Offenes Treffen ist zum Kennenlernen, Labern, Basteln und gemeinsamen Schauen vo
     Die bisherigen und geplanten Themen und Termine findet ihr auf der [Chaos-Seminar-Seite](/ccc/chaosseminar).
     Die nächsten Termine stehen zudem im Terminkalender.
 
+* **Lockpicking-Treffen (letzter Montag oder letzter Donnerstag im Monat ab 20 Uhr)**
+  Die Ulmer [SSDeV](https://www.ssdev.org)-Sportgruppe trifft sich zum Lockpicking 1* pro Monat beim CCC-Ulm Montagstreff oder bei Offenen Treffen.
+  Es ist jeder willkommen, der sich an die [SSDeV-Sportordnung](https://blog.ssdev.org/?page_id=281) hält.
+
 * **OSM-Stammtisch (1. Dienstag im Monat ab 19 Uhr)**  
 Der Ulmer [OpenStreetMap-Stammtisch](http://wiki.openstreetmap.org/wiki/Ulm_Neu-Ulm/Stammtisch) trifft sich im Freiraum.
 
