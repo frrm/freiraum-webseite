@@ -1,6 +1,6 @@
 +++
 title = "Beschriftungsgeräte und Reverse-Engineering"
-date = ""
+date = "9999-01-01"
 categories = ["ChaosSeminar"]
 
 [ChaosSeminar]
