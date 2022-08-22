@@ -24,7 +24,7 @@ eine Mail an [mail@ulm.ccc.de](mailto:mail@ulm.ccc.de).
 
 ----------
 
-## geplante Vorträge
+## geplante Vorträge / Ideen
 
 {{< chaosseminar-list-next >}}
 
