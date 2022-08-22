@@ -5,7 +5,7 @@ categories = ["ChaosSeminar"]
 
 [ChaosSeminar]
 Thema = ""
-Termin = "geplant, evtl. März"
+Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Roland"
 Archiv = []
