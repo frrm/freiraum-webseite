@@ -15,7 +15,7 @@ Archiv = []
 
 Vortragsinhalte:
 
-Fernwartung:
+- Fernwartung (unter Linux)
 - Warum? Einsatzgebiete?
 - Funktionsweise, Anforderungen
 - Programme: TeamViewer? Nein, SSH!
