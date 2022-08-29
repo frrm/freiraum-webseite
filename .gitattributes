@@ -1,3 +1,4 @@
+*.md linguist-detectable
 *.md linguist-language=Markdown
 *.php linguist-detectable=false
 *.xml linguist-detectable=false
