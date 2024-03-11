@@ -15,7 +15,7 @@ Der Vortrag findet am 16.03.2024 um 16:00h im Temporaerhaus (Augsburger Str. 23,
 
 Und hier noch der offizielle Pressetext (via Guido):
 
-Mophat Okinyi, Gründer & CEO, Techworker Community Africa
+**Mophat Okinyi, Gründer & CEO, Techworker Community Africa**
 
 [Mophat Okinyi](https://www.linkedin.com/in/mophat-okinyi/) ist ein geschätzter Datentrainer, der sich auf maschinelles Lernen und KI spezialisiert hat und vom [Responsible AI Institute](https://www.linkedin.com/company/responsible-ai-institute/) als Gewinner des [RAISE 2023 Outstanding Individual Award](https://www.responsible.ai/post/responsible-ai-institute-hosts-annual-raise-event-charting-the-future-of-responsible-ai) ausgezeichnet wurde. Mophat Okinyi wurde für seine inspirierende Führungsrolle im Bereich der verantwortungsvollen KI durch Forschung, Lobbyarbeit, Politik und vertrauenswürdige Rahmenwerke ausgezeichnet.
 
