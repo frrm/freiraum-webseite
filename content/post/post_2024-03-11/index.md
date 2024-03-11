@@ -13,6 +13,8 @@ und man Technik nicht unabhängig von gesellschaftlichen Folgen betrachten kann,
 
 Der Vortrag findet am 16.03.2024 um 16:00h im Temporaerhaus (Augsburger Str. 23, 89231 Neu-Ulm) statt. Wir freuen uns über zahlreiches erscheinen!!
 
+[Hintergrundartikel im Guardian](https://www.theguardian.com/technology/2023/aug/02/ai-chatbot-training-human-toll-content-moderator-meta-openai)
+
 Und hier noch der offizielle Pressetext (via Guido):
 
 **Mophat Okinyi, Gründer & CEO, Techworker Community Africa**
