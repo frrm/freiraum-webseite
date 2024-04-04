@@ -21,16 +21,23 @@ Dieses Respository enthält alle Daten (Inhalte, Bilder, Templates etc.) für fr
 - `static/`  
   CSS-Anpassungen, webseitenglobale Bilder und teils Bilder der Hauptseiten
 
-Nach jeder Änderung sowie einmal nachts (um Termine automatisch aktuell zu halten) wird daraus (per Github Actions via Hugo) die Webseite erzeugt und auf https://github.com/frrm/frrm.github.io/ / https://frrm.github.io abgelegt.
-Alle ~5 Minuten wird der Inhalt von https://github.com/frrm/frrm.github.io/ dann nach https://www.frrm.de gespiegelt.
+- `*.sh`, `*.py`
+  Hilfsskripte zum Erstellen der Webseite.
 
-Sollte dies nicht klappen, findet man im "Actions"-Tab unter "build-and-deploy" die entsprechenden Logs/Fehlermeldungen.
+Alle 5 Minuten sowie einmal nachts (~4:00, um Termine automatisch aktuell zu halten) wird daraus
+auf dem frrm.de-Server (per `update_build_deploy.sh` via cronjob) die Webseite erzeugt.
 
 Einige Seiten, Listen usw. werden dabei automatisch generiert (siehe [Platzhalter/Funktionen](#platzhalterfunktionen) bzw. Hugo-Templates/Shortcodes),
 so dass möglichst wenig manueller Wartungsaufwand notwendig ist.
 
+Sollte das Website-Update nicht klappen: Bitte an Roland wenden (E-Mail oben oder via Matrix).
 
-```
+Zusätzlich wird aktuell noch nach jeder Änderung sowie einmal nachts per Github Actions die
+Webseite erzeugt und auf https://github.com/frrm/frrm.github.io/ bzw. https://frrm.github.io
+abgelegt. Dies wird aber nicht mehr für frrm.de verwendet.
+
+
+<!--
 (alte Version:
 Nach jeder Änderung sowie einmal nachts (um Termine automatisch aktuell zu halten) werden durch Travis-CI und Hugo daraus die HTML-Seiten erzeugt.
 
@@ -39,7 +46,7 @@ Alle ~5 Minuten wird der Inhalt von https://github.com/frrm/frrm.github.io/ dann
 
 Sollte nach einigen Minuten https://www.frrm.de noch nicht aktualisiert sein, helfen evtl.
 die Travis-CI-Logs, z.B. für Fehlermeldungen, weiter: https://travis-ci.org/frrm/freiraum-hugo )
-```
+-->
 
 
 # Anleitungen
@@ -178,6 +185,9 @@ TODO: `YYYY_cw_NN_KURZTEXT` oder `YYYY-MM-DD_KURZTEXT.yml`?
 Der Termin erscheint dann automatisch auf der "Veranstaltungen"-Seite und in der "Nächste Treffen"-Seitenleiste
 (und wird dort automatisch wieder entfernt, sobald er vorbei ist).
 
+Für die regelmäßigen Termine gibt es ein Hilfsskript, um diese jährlich
+halbautomatisch anzulegen (`event_create.py`).
+
 ### Chaosseminar anlegen
 
 - Markdown-Datei anlegen:
@@ -223,7 +233,9 @@ Der Termin erscheint dann automatisch auf der "Veranstaltungen"-Seite und in der
 
 ## git/github/Hugo
 
-TODO
+- Inhalt updaten: `git pull`
+- Webseite erstellen: `hugo -d OUTDIR --cleanDestinationDir`
+- Webseite auf Webserver updaten: siehe `update_build_deploy.sh`
 
 ## Hugo-Bashing
 
