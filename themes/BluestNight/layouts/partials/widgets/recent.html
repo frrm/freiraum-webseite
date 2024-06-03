@@ -5,7 +5,7 @@
 	</header>
 	<ul>
 		{{- range first 10 (where .Site.Pages "Section" "post") -}}
-		{{ if not (eq .URL "/post/") }}<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>{{ end }}
+		{{ if not (eq .Permalink "/post/") }}<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>{{ end }}
 		{{- end -}}
 	</ul>
 </div>
