@@ -20,7 +20,9 @@ Wir planen eine Vortragsreihe mit 3 Vorträgen zu OpenSCAD:
 Der [1. Vortrag](/ccc/chaosseminar/openscad1/) findet am Montag, den 8.7.
 um 19:05 an der Uni Ulm (o27, 3. Stock, Raum 341) statt.
 
-Alle Vorträge sind prinzipiell auch für Anfänger geeignet.
+Alle unsere Vorträge sind prinzipiell öffentlich (jeder, der
+sich für das Thema interessiert, ist herzlich eingeladen)
+und auch für Anfänger geeignet.
 Für Teil 3 sollte man aber entweder einen vorherigen Teil besucht oder
 bereits etwas Programmier- oder OpenSCAD-Erfahrung gesammelt haben.
 
