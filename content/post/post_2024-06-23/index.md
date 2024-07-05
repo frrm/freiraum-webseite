@@ -1,7 +1,7 @@
 +++
 author = "marcus"
 title = 'Chaos-Seminar: 3D-Zeichnen mit OpenSCAD, Teil 1/3: das 2D-Subsystem'
-date = "2024-07-08"
+date = "2024-06-23"
 categories = ["Log"]
 hide_readingtime = true
 +++
