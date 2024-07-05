@@ -6,7 +6,7 @@ categories = ["ChaosSeminar"]
 [ChaosSeminar]
 Thema = ""
 Termin = ""
-Ort = "Uni Ulm, Hörsaal H20"
+Ort = ""
 Vortragende = "Roland"
 Archiv = []
 +++
@@ -15,9 +15,11 @@ Archiv = []
 
 Vortragsinhalte:
 
-- Fernwartung (unter Linux)
+Fernwartung (v.a. unter Linux):
+
 - Warum? Einsatzgebiete?
-- Funktionsweise, Anforderungen
+- Anforderungen, Funktionsweise, Sicherheit
 - Programme: TeamViewer? Nein, SSH!
 - Fernwartung per ssh (+ggf. VNC)
+- Fernzugriff auf Android-Smartphones/Tablets
 - "Reverse SSH-Shell": Fernwartung per SSH ohne SSH-Server auf dem Zielrechner

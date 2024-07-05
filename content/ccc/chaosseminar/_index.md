@@ -28,6 +28,12 @@ eine Mail an [mail@ulm.ccc.de](mailto:mail@ulm.ccc.de).
 
 {{< chaosseminar-list-next >}}
 
+- NixOS
+- 3D-Zeichnen mit OpenSCAD, Teil 2/3: 3D-Grundlagen, automatische Generierung von z.B. Gewinden/Zahnrädern
+- 3D-Zeichnen mit OpenSCAD, Teil 3/3: Fortgeschrittene Konzepte, Bibliotheken usw.
+- Bookmarklets -- eine unterschätzte Möglichkeit für Browser-Power-User
+- Hausautomatisierung ohne Cloud -- ein Erfahrungsbericht (irgendwann 2025)
+
 ----------
 
 ## vergangene Vorträge
