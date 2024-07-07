@@ -13,11 +13,11 @@ OpenSCAD ist eine (freie) 3D-CAD-Software, die oft verwendet wird, um
 
 Wir planen eine Vortragsreihe mit 3 Vorträgen zu OpenSCAD:
 
-1. [2D-Grundlagen, Erstellung von 3D-Modellen aus 2D](/ccc/chaosseminar/openscad1/) (Marcus)
+1. [2D-Grundlagen, Erstellung von 3D-Modellen aus 2D](/ccc/chaosseminar/2024_07_openscad1/) (Marcus)
 2. 3D-Grundlagen, automatische Generierung von z.B. Gewinden/Zahnrädern (Thomas)
 3. Fortgeschrittene Konzepte, Bibliotheken (Roland)
 
-Der [1. Vortrag](/ccc/chaosseminar/openscad1/) findet am Montag, den 8.7.
+Der [1. Vortrag](/ccc/chaosseminar/2024_07_openscad1/) findet am Montag, den 8.7.
 um 19:05 an der Uni Ulm (o27, 3. Stock, Raum 341) statt.
 
 Alle unsere Vorträge sind prinzipiell öffentlich (jeder, der
