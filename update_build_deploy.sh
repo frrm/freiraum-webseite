@@ -28,12 +28,13 @@
 #     0   4 * * * /home/user/freiraum-webseite/update_build_deploy.sh force >> /home/user/update.log 2>&1
 #
 # Author:  Roland Freikamp
-# Version: 2024-04-04
+# Version: 2024-08-17
 
 #----------------------
 # configuration
 WEBDIR="/var/www/html"
 OUTDIR="../output"
+EXCLUDEOUT="radio/"	    # exclude from overwriting/deleting by rsync
 FLOCKFILE="../.lock_hugo"
 LOGFILE="../update.log"	    # should be the same as in the cronjob
 
@@ -42,10 +43,6 @@ cd "$(dirname "$0")" || exit
 
 # setup environment, especially for cron
 . /etc/profile
-
-# date -> logfile
-echo "-----------------------"
-date "+%Y-%m-%d %H:%M:%S"
 
 # locking
 #if [ -f ../noupdate ] || [ -f ../nobuild ]; then
@@ -58,8 +55,13 @@ date "+%Y-%m-%d %H:%M:%S"
 exec {lock_fd}>"$FLOCKFILE"
 flock "$lock_fd"
 
+# date -> logfile
+echo "-----------------------"
+date "+%Y-%m-%d %H:%M:%S"
+
 # update website-contents
 BUILD=0
+#TODO: check "git pull"-success
 git pull 2>&1 | grep -q "^Already up[- ]to[- ]date.$"
 ret=$?
 # anything changed?
@@ -87,7 +89,8 @@ if [ "$ret" == 0 ]; then
     # update webserver
     chmod -R a+rX "$OUTDIR/"
     echo "- rsync to webserver..."
-    rsync -as --delete-after "$OUTDIR/" "$WEBDIR"
+    rsync -as --exclude="$EXCLUDEOUT" --delete-after "$OUTDIR/" "$WEBDIR"
+    #TODO: check rsync-success
     echo "DONE"
 else
     echo "FAILED ($ret)"
