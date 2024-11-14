@@ -2,7 +2,7 @@
 title = "CCC Ulm"
 date = "2018-11-01"
 menu = "main"
-weight = 2
+weight = 3
 hide_readingtime = true
 +++
 
@@ -40,7 +40,7 @@ Wir quatschen, bestellen Pizza, lachen und beackern Rechner (nicht immer, aber i
 ## Kontakt
 
 - Mail: [mail@ulm.ccc.de](mailto:mail@ulm.ccc.de).
-- Jabber: [jabber.ulm.ccc.de](jabber.ulm.ccc.de)
+- Jabber: [jabber.ulm.ccc.de](https://jabber.ulm.ccc.de)
 
 ### Öffentliche Mailingliste
 Hier werdem Infos rund um den CCC Ulm verteilt. Dazu gehören neben allerlei Neuigkeiten aus dem Internet auch Seminartermine usw. Wer sich auf die Liste eintragen möchte, schickt eine Mail an:

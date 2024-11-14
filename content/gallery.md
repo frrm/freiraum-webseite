@@ -2,7 +2,7 @@
 title = "Galerie"
 date = "2017-07-01"
 menu = "main"
-weight = 3
+weight = 5
 hide_readingtime = true
 +++
 Hier findet ihr Fotos von Projekten, Banalem, Beweisfotos und solche, die es

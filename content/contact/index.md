@@ -2,7 +2,7 @@
 title = "Kontakt"
 date = ""
 menu = "main"
-weight = 7
+weight = 6
 hide_readingtime = true
 +++
 Die beste Möglichkeit, um Kontakt aufzunehmen, ist, einfach mal vorbei zu kommen:
