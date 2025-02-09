@@ -4,7 +4,7 @@ date = "2017-07-01"
 menu = "main"
 weight = 2
 hide_readingtime = true
-published= false
+draft = true
 +++
 * Aktueller Türstatus:  
 

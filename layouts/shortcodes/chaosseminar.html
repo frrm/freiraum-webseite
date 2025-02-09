@@ -103,7 +103,7 @@
 <!-- convert size in bytes to "xx.x MB" -->
 {{- define "mb" -}}
     {{- if . -}}
-      {{- " " }}({{ lang.NumFmt 1 (div (int .) 1048576.0) }} MB)
+      {{- " " }}({{ lang.FormatNumberCustom 1 (div (int .) 1048576.0) }} MB)
     {{- else -}}
     {{- end -}}
 {{- end -}}
