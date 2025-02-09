@@ -27,9 +27,19 @@ Die beste Möglichkeit, um Kontakt aufzunehmen, ist, einfach mal vorbei zu komme
 
   * Adresse: Platzgasse 18, Ulm, c/o FreeFM, Büchsenstadl oberste Klingel (Freiraum)
   * [Anfahrtsbeschreibung von free FM](http://www.freefm.de/kontakt/anfahrt)
+  * Karte: [OpenStreetMap](https://www.openstreetmap.org/?mlat=48.40060&mlon=9.99131#map=14/48.40060/9.99131)
 
 {{< osm_frrm >}}
 
+
+## Temporärhaus Neu-Ulm
+
+  * Adresse: Augsburger Straße 23-25, 89231 Neu-Ulm  
+    (gemeinsam mit dem [Haus der Nachhaltigkeit](https://www.h-d-n.org/)
+  * Webseite: https://temporaerhaus.de/
+  * Karten: [OpenStreetMap](https://www.openstreetmap.org/?mlat=48.396315&mlon=10.001978#map=14/48.396315/10.001978), [Google-Maps](https://maps.app.goo.gl/CEKmMcsT5TMs4HVX9)
+
+{{< osm_temporaerhaus >}}
 
 ## Uni Ulm
 
