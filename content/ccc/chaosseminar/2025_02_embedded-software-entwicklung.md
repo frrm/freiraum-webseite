@@ -7,7 +7,7 @@ categories = ["ChaosSeminar"]
 Thema = ""
 Termin = "2025-02-11 19:00"
 Ort = "Temporärhaus Neu-Ulm"
-Vortragende = "Henry Krüger"
+Vortragende = "Robert Jeutter"
 Archiv = []
 +++
 
