@@ -29,8 +29,8 @@ Die beste Möglichkeit, um Kontakt aufzunehmen, ist, einfach mal vorbei zu komme
   * [Anfahrtsbeschreibung von free FM](http://www.freefm.de/kontakt/anfahrt)
   * Karte: [OpenStreetMap](https://www.openstreetmap.org/?mlat=48.40060&mlon=9.99131#map=14/48.40060/9.99131)
 
-{{< osm_frrm >}}
-
+[![](osm-frrm.jpg)](https://www.openstreetmap.org/?mlat=48.40060&mlon=9.99131#map=14/48.40060/9.99131)
+(&copy; [OpenStreetMap](https://openstreetmap.org/copyright))
 
 ## Temporärhaus Neu-Ulm
 
@@ -39,11 +39,13 @@ Die beste Möglichkeit, um Kontakt aufzunehmen, ist, einfach mal vorbei zu komme
   * Webseite: https://temporaerhaus.de/
   * Karten: [OpenStreetMap](https://www.openstreetmap.org/?mlat=48.396315&mlon=10.001978#map=14/48.396315/10.001978), [Google-Maps](https://maps.app.goo.gl/CEKmMcsT5TMs4HVX9)
 
-{{< osm_temporaerhaus >}}
+[![](osm-temporaerhaus.jpg)](https://www.openstreetmap.org/?mlat=48.396315&mlon=10.001978#map=14/48.396315/10.001978)
+(&copy; [OpenStreetMap](https://openstreetmap.org/copyright))
 
 ## Uni Ulm
 
 ![](uni-2.png)
+(Kartendaten von &copy; [OpenStreetMap](https://openstreetmap.org/copyright))
 
 - **Raum 341:** im Gebäudekreuz O27, 3. Stock (Karte: bei H20, nur 1 Stockwerk höher)
   [OpenStreetMap 341](http://www.openstreetmap.org/?mlat=48.42277&mlon=9.95750#map=18/48.42277/9.95750)
