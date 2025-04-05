@@ -14,7 +14,8 @@ stattfinden.
 
 - 11.02.2025 [Einführung in die Embedded Softwareentwicklung](/ccc/chaosseminar/2025_02_embedded-software-entwicklung/)
 - 11.03.2025 [Crash Course Puppet - 1001 Wege um eine Klasse einem Node zuzuweisen](/ccc/chaosseminar/2025_03_puppet/)
-- 08.04.2025 [Einführung ins Reinforcement Learning](/ccc/chaosseminar/2025_04_reinvorcement-learning/)
+- 08.04.2025 [Einführung ins Reinforcement Learning](/ccc/chaosseminar/2025_04_reinvorcement-learning/)  
+  **Wichtig:** Dieses Chaos-Seminar findet an der **Uni Ulm** (o27, 3. Stock, Raum 341) statt!
 
 Wie immer sind die Vorträge öffentlich (jeder, der sich für das Thema
 interessiert, ist herzlich eingeladen).

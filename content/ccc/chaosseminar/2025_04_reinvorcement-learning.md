@@ -6,7 +6,7 @@ categories = ["ChaosSeminar"]
 [ChaosSeminar]
 Thema = ""
 Termin = "2025-04-08 19:00"
-Ort = "Temporärhaus Neu-Ulm"
+Ort = "Uni Ulm, o27, 3. Stock, Raum 341"
 Vortragende = "Neele Kemper"
 Archiv = []
 +++
