@@ -14,4 +14,4 @@ Archiv = []
 {{< chaosseminar >}}
 
 
-
+[Vortragsfolien Reinforcement Learning](foliensatz_reinforcement_learning.pdf)
