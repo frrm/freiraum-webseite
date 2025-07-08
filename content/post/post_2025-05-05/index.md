@@ -10,7 +10,7 @@ Die Chaos-Seminare für Mai bis Juli sind geplant:
 
 - 13.05.2025 [Gehirn-Computer-Schnittstellen](/ccc/chaosseminar/2025_05_brain_computer_interfaces/)
 - 10.06.2025 [Zero Trust Networks](/ccc/chaosseminar/2025_06_zero_trust_networks/)
-- 08.07.2025 [Kognition Mensch vs Maschine](/ccc/chaosseminar/2025_07_koginition_mensch_vs_maschine/)
+- fällt leider aus ~~08.07.2025~~ [Kognition Mensch vs Maschine](/ccc/chaosseminar/2025_07_koginition_mensch_vs_maschine/)
 
 Die Chaos-Seminare finden im [Temporärhaus Neu-Ulm](/contact/index.html#temporärhaus-neu-ulm) statt.
 

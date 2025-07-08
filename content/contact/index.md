@@ -35,7 +35,7 @@ Die beste Möglichkeit, um Kontakt aufzunehmen, ist, einfach mal vorbei zu komme
 ## Temporärhaus Neu-Ulm
 
   * Adresse: Augsburger Straße 23-25, 89231 Neu-Ulm  
-    (gemeinsam mit dem [Haus der Nachhaltigkeit](https://www.h-d-n.org/)
+    (gemeinsam mit dem [Haus der Nachhaltigkeit](https://www.h-d-n.org/))
   * Webseite: https://temporaerhaus.de/
   * Karten: [OpenStreetMap](https://www.openstreetmap.org/?mlat=48.396315&mlon=10.001978#map=14/48.396315/10.001978), [Google-Maps](https://maps.app.goo.gl/CEKmMcsT5TMs4HVX9)
 

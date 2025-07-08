@@ -1,11 +1,11 @@
 +++
 title = "Kognition Mensch vs Maschine"
-date = "2025-07-08"
+date = "9998-01-01"
 categories = ["ChaosSeminar"]
 
 [ChaosSeminar]
 Thema = ""
-Termin = "2025-07-08 19:00"
+Termin = ""
 Ort = "Temporärhaus Neu-Ulm"
 Vortragende = "Jasmin Thelen"
 Archiv = []
