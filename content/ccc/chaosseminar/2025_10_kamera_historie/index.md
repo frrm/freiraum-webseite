@@ -13,7 +13,7 @@ Archiv = []
 
 {{< chaosseminar >}}
 
-# Eine Zeitreise der bilgebenden Technik
+# Eine Zeitreise der bildgebenden Technik
 
  * Wir starten mit den ersten menschengemachten Bildern,
  * sprechen über chemische und elektronische Kameras
@@ -22,6 +22,6 @@ Archiv = []
  * chemical Imaging,
  * materialerkennende Multi- und Hyperspektralkameras
  * der Gegenwart
- * und enden mit einem Ausblick in die Zukunft
+ * und enden mit einem Ausblick auf die Zukunft
  
-Die Zeitreise der bilgebenden Technik umfasst 30.000 Jahre.
+Die Zeitreise der bildgebenden Technik umfasst 30.000 Jahre.
