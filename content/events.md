@@ -16,9 +16,9 @@ Offenes Treffen ist zum Kennenlernen, Labern, Basteln und gemeinsamen Schauen vo
 
     Wir quatschen, bestellen Pizza, lachen und beackern Rechner (nicht immer, aber immer öfter). Wer meint, dass er hinreichend Chaos-kompatibel ist, soll einfach mal vorbeischauen. Wir fressen niemanden und außer einer gesunden Portion Neugier erwarten wir keine Vorkenntnisse. Niemand soll aber erwarten, dass ihm ein komplettes Vollprogramm geboten wird. Jeder muss schon selbst seinen Mund aufmachen und seinen Teil zum Gelingen des Abends beitragen. Wir sind kein Kindergarten.
 
-* **[Chaos-Seminar](/ccc/chaosseminar) (meist am 2. Montag im Monat ab 20 Uhr)**  
+* **[Chaos-Seminar](/ccc/chaosseminar) (meist am 2. Montag im Monat ab 19 Uhr)**  
     Wenn es genügend Vortragende gibt, findet meist am 2. Montag im Monat statt des normalen Montagstreffs ein Chaos-Seminar
-    im [Hörsaal H20 oder Raum 341](/contact#uni-ulm) in der Uni Ulm, mit jeweils einem Vortrag, statt.  
+    im [Freiraum](/contact), mit jeweils einem Vortrag, statt.
     Die bisherigen und geplanten Themen und Termine findet ihr auf der [Chaos-Seminar-Seite](/ccc/chaosseminar).
     Die nächsten Termine stehen zudem im Terminkalender.
 
