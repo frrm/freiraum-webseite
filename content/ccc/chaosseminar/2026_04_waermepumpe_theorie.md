@@ -13,4 +13,15 @@ Archiv = []
 
 {{< chaosseminar >}}
 
+**Warum kann man mit -5°C kalter Luft das Haus heizen?**
 
+Inhalt:
+- Einführung
+- Funktionsweise einer Wärmepumpe
+  - "Pumpe", Carnot-Prozess
+  - Wirkungsgrad
+  - Wärmequellen, Zielmedien, Bauarten
+  - Kältemittel
+  - Beispiel-Werte
+- Einbindung ins Haus
+- Voraussetzungen für eine Wärmepumpe
