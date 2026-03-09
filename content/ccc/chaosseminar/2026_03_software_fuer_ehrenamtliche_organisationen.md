@@ -1,5 +1,5 @@
 +++
-title = "Software für ehrenamtliche Organisationen"
+title = "Wege aus der SaaS-Kostenfalle: eine Übersicht über Alternativen zur Cloud"
 date = "2026-03-09"
 categories = ["ChaosSeminar"]
 
