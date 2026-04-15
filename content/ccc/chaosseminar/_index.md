@@ -10,7 +10,7 @@ hide_list = true
 Der CCC Erfa Ulm veranstaltet eine regelmäßige Reihe von öffentlichen Seminarvorträgen. Der Eintritt ist natürlich frei.
 
 Die Vorträge finden normalerweise an (fast) jedem 2. Montag im Monat um 20 Uhr
-an der [Uni Ulm, Hörsaal H20 oder Raum 341](/contact#uni-ulm) statt. 
+im [Freiraum](/contact) statt. 
 
 Alle bisherigen und geplanten Themen und Termine findet ihr unten;
 die Vorträge werden zudem im [Terminkalender](/events#Termine) und auf der
