@@ -6,10 +6,10 @@ categories = ["Log"]
 hide_readingtime = true
 +++
 
-Dieses Jahr gibt es wieder viele [Chaos-Seminare](/ccc/chaosseminar), ab jetzt im
+Dieses Jahr gibt es wieder viele [Chaos-Seminare](/ccc/chaosseminar), ab jetzt wieder Montags und im
 [Freiraum](/contact/#freiraum).
 
-Die nächsten Seminare sind (jeweils ab 19:00):
+Die nächsten Seminare sind (jeweils Montags ab 19:00):
 
 - 09.03.2026: [Wege aus der SaaS-Kostenfalle: eine Übersicht über Alternativen zur Cloud](/ccc/chaosseminar/2026_03_software_fuer_ehrenamtliche_organisationen/)
 - 13.04.2026: [Wärmepumpe (Theorie)](/ccc/chaosseminar/2026_04_waermepumpe_theorie/)
