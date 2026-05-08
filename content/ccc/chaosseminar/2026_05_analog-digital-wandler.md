@@ -6,7 +6,7 @@ categories = ["ChaosSeminar"]
 [ChaosSeminar]
 Thema = ""
 Termin = "2026-05-11 19:00"
-Ort = "Freiraum"
+Ort = "Büchsenstadel, Platzgasse 18, 89073 Ulm, erster Stock (unterhalb des Freiraums)"
 Vortragende = "Thomas & Elias"
 Archiv = []
 +++
