@@ -72,70 +72,73 @@
         <div class="small-full medium-half row-item small-text-center medium-text-left"><small>&copy; {{now.Format "2006"}} <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><span itemprop="name">{{ .Site.Title }}</span></span>.</small></div>
         <div class="small-full medium-half row-item small-text-center medium-text-right" id="social-icons">
           {{ with .Site.Params.social.deviantart }}<a href="https://{{ . }}.deviantart.com">
-            <span class="fa fa-deviantart"></span>
+            <span class="fa-brands fa-deviantart"></span>
           </a>{{ end }}
           {{ with .Site.Params.social.facebook }}<a href="https://facebook.com/{{ . }}">
-            <span class="fa fa-facebook-official"></span>
+            <span class="fa-brands fa-facebook"></span>
           </a>{{ end }}
           {{ with .Site.Params.social.github }}<a href="https://github.com/{{ . }}">
-            <span class="fa fa-github"></span>
+            <span class="fa-brands fa-github"></span>
           </a>{{ end }}
           {{ with .Site.Params.social.gitlab }}<a href="https://gitlab.com/{{ . }}">
-            <span class="fa fa-gitlab"></span>
+            <span class="fa-brands fa-gitlab"></span>
           </a>{{ end }}
           {{ with .Site.Params.social.googleplus }}<a href="https://plus.google.com/{{ . }}">
-            <span class="fa fa-google-plus"></span>
+            <span class="fa-brands fa-google-plus"></span>
           </a>{{ end }}
           {{ with .Site.Params.social.instagram }}<a href="https://instagram.com/{{ . }}">
-            <span class="fa fa-instagram"></span>
+            <span class="fa-brands fa-instagram"></span>
           </a>{{ end }}
           {{ with .Site.Params.social.linkedin }}<a href="https://linkedin.com/in/{{ . }}">
-            <span class="fa fa-linkedin"></span>
+            <span class="fa-brands fa-linkedin"></span>
           </a>{{ end }}
           {{ with .Site.Params.social.medium }}<a href="https://medium.com/@{{ . }}">
-            <span class="fa fa-medium"></span>
+            <span class="fa-brands fa-medium"></span>
           </a>{{ end }}
           {{ with .Site.Params.social.pinterest }}<a href="https://pinterest.com/{{ . }}">
-            <span class="fa fa-pinterest"></span>
+            <span class="fa-brands fa-pinterest"></span>
           </a>{{ end }}
           {{ with .Site.Params.social.quora }}<a href="https://quora.com/profile/{{ . }}">
-            <span class="fa fa-quora"></span>
+            <span class="fa-brands fa-quora"></span>
           </a>{{ end }}
           {{ with .Site.Params.social.reddit }}<a href="https://www.reddit.com/user/{{ . }}">
-            <span class="fa fa-reddit-alien"></span>
+            <span class="fa-brands fa-reddit-alien"></span>
           </a>{{ end }}
           {{ with .Site.Params.social.slack_org }}<a href="https://{{ . }}.slack.com">
-            <span class="fa fa-slack"></span>
+            <span class="fa-brands fa-slack"></span>
           </a>{{ end }}
           {{ with .Site.Params.social.soundcloud }}<a href="https://soundcloud.com/{{ . }}">
-            <span class="fa fa-soundcloud"></span>
+            <span class="fa-brands fa-soundcloud"></span>
           </a>{{ end }}
           {{ with .Site.Params.social.spotify }}<a href="https://open.spotify.com/user/{{ . }}">
-            <span class="fa fa-spotify"></span>
+            <span class="fa-brands fa-spotify"></span>
           </a>{{ end }}
           {{ with .Site.Params.social.steam }}<a href="https://steamcommunity.com/{{ . }}">
-            <span class="fa fa-steam"></span>
+            <span class="fa-brands fa-steam"></span>
           </a>{{ end }}
           {{ with .Site.Params.social.telegram }}<a href="http://t.me/{{ . }}">
-            <span class="fa fa-telegram"></span>
+            <span class="fa-brands fa-telegram"></span>
           </a>{{ end }}
           {{ with .Site.Params.social.tumblr }}<a href="https://{{ . }}.tumblr.com/">
-            <span class="fa fa-tumblr"></span>
+            <span class="fa-brands fa-tumblr"></span>
           </a>{{ end }}
           {{ with .Site.Params.social.twitch }}<a href="https://www.twitch.tv/{{ . }}">
-            <span class="fa fa-twitch"></span>
+            <span class="fa-brands fa-twitch"></span>
           </a>{{ end }}
           {{ with .Site.Params.social.twitter }}<a href="https://twitter.com/{{ . }}">
-            <span class="fa fa-twitter"></span>
+            <span class="fa-brands fa-twitter"></span>
           </a>{{ end }}
           {{ with .Site.Params.social.vimeo }}<a href="https://vimeo.com/{{ . }}">
-            <span class="fa fa-vimeo"></span>
+            <span class="fa-brands fa-vimeo"></span>
           </a>{{ end }}
           {{ with .Site.Params.social.youtube }}<a href="https://www.youtube.com/user/{{ . }}">
-            <span class="fa fa-youtube"></span>
+            <span class="fa-brands fa-youtube"></span>
           </a>{{ end }}
           {{ with .Site.Params.social.wiki }}<a href="{{ . }}">
-            <span class="fa fa-wikipedia-w"></span>
+            <span class="fa-brands fa-wikipedia-w"></span>
+          </a>{{ end }}
+          {{ with .Site.Params.social.mastodon }}<a rel="me" href="https://{{ . }}">
+            <span class="fa-brands fa-mastodon"></span>
           </a>{{ end }}
         </div>
       </footer>

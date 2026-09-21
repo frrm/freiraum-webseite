@@ -47,6 +47,7 @@ buildFuture = true
 [Params.social]
     wiki = "https://dokuwiki.ulm.ccc.de"
     github = "frrm"
+    mastodon = "chaos.social/@ccculm"
 
 [Params.color]
     page_background = "#252525"

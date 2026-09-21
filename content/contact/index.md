@@ -11,6 +11,7 @@ Die beste Möglichkeit, um Kontakt aufzunehmen, ist, einfach mal vorbei zu komme
     (Fragt am besten vorher im Matrix-Channel nach, ob jemand da sein wird.)
   * Montags ab 20 Uhr beim CCC-Ulm-Treffen.
 
+  * **Mastodon**: [@ccculm@chaos.social](https://chaos.social/@ccculm)
   * **Matrix**: [#freiraum](https://element.matrix4ulm.de/#/room/#freiraum:server.matrix4ulm.de)
   * **E-Mail**: Einfach eine Nachricht an: vorstand (_at_) lists.hackerspace-ulm.de  
   * **Github**: [frrm](https://github.com/frrm)
