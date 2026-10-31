@@ -10,7 +10,7 @@ hidden = true
 Hackerspace-Ulm e.V.
 Platzgasse 18, 89073 Ulm
 vorstand(at)frrm.de
-Inhaltlich verantwortlich gemäß § 55 Abs. 2 RStV: Georg Thoma
+Inhaltlich verantwortlich gemäß § 55 Abs. 2 RStV: Der Vorstand
 
 
 ### Haftungsausschluss:

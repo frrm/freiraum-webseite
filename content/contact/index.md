@@ -5,7 +5,7 @@ menu = "main"
 weight = 6
 hide_readingtime = true
 +++
-Die beste Möglichkeit, um Kontakt aufzunehmen, ist, einfach mal vorbei zu kommen:
+Die beste Möglichkeit um Kontakt aufzunehmen ist einfach mal vorbei zu kommen:
 
   * Donnerstags ab 20 Uhr beim offenen Treffen.  
     (Fragt am besten vorher im Matrix-Channel nach, ob jemand da sein wird.)
@@ -15,9 +15,7 @@ Die beste Möglichkeit, um Kontakt aufzunehmen, ist, einfach mal vorbei zu komme
   * **Matrix**: [#freiraum](https://element.matrix4ulm.de/#/room/#freiraum:server.matrix4ulm.de)
   * **E-Mail**: Einfach eine Nachricht an: vorstand (_at_) lists.hackerspace-ulm.de  
   * **Github**: [frrm](https://github.com/frrm)
-  * (veraltet: **Twitter**: [@freiraum_ulm](https://twitter.com/freiraum_ulm))
-  * (veraltet: **Facebook**: [HackerspaceUlm](https://www.facebook.com/HackerspaceUlm/))
-  * **Telefon**: 0731 / 2806434
+  * **Telefon**: +49 731 / 2806434
 
 <!--
   * **Mailingliste registrieren:** <http://lists.hackerspace-ulm.de/listinfo/info>

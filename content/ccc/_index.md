@@ -17,10 +17,10 @@ Eine kleine Vorstellung des Ulmer CCC:
 
 ## Montagstreff
 
-Jeden Montag Abend geschehen merkwürdige Dinge. Doch lest selbst.
+Jeden Montag Abend trifft sich die Ulmer Chaos Community! Dazu zählen:
 
 - Datenreisende,
-- Hacker,
+- Haecksen und Hacker,
 - Chaoten,
 - Schüler,
 - Studenten,
@@ -30,7 +30,7 @@ Jeden Montag Abend geschehen merkwürdige Dinge. Doch lest selbst.
 
 ... treffen sich normalerweise jede Woche zum Chaos-Treff montags ab ca. 20:00 Uhr im Freiraum.
 
-Wir quatschen, bestellen Pizza, lachen und beackern Rechner (nicht immer, aber immer öfter). Wer meint, dass er hinreichend Chaos-kompatibel ist, soll einfach mal vorbeischauen. Wir fressen niemanden und außer einer gesunden Portion Neugier erwarten wir keine Vorkenntnisse. Niemand soll aber erwarten, dass ihm ein komplettes Vollprogramm geboten wird. Jeder muss schon selbst seinen Mund aufmachen und seinen Teil zum Gelingen des Abends beitragen. Wir sind kein Kindergarten.
+Wir quatschen, bestellen Pizza, lachen und beackern Rechner (nicht immer, aber immer öfter). Wer meint, dass er hinreichend Chaos-kompatibel ist, soll einfach mal vorbeischauen. Es ist jeder Mensch willkommen und außer einer gesunden Portion Neugier erwarten wir keine Vorkenntnisse. Niemand soll aber erwarten, dass ihm ein komplettes Vollprogramm geboten wird. Der Abend ist am Ende das, was die Leute daraus machen. Wir helfen gerne und sind technisch interessiert, jedoch sind wir auch keine Supporthotline.
 
 ## Projekte
 

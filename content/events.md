@@ -14,7 +14,7 @@ Offenes Treffen ist zum Kennenlernen, Labern, Basteln und gemeinsamen Schauen vo
     Regelmäßiger Chaos-Treff im [Freiraum](/contact).
     <!-- oder an der Uni im [Cafe Einstein](/contact#uni-ulm).-->
 
-    Wir quatschen, bestellen Pizza, lachen und beackern Rechner (nicht immer, aber immer öfter). Wer meint, dass er hinreichend Chaos-kompatibel ist, soll einfach mal vorbeischauen. Wir fressen niemanden und außer einer gesunden Portion Neugier erwarten wir keine Vorkenntnisse. Niemand soll aber erwarten, dass ihm ein komplettes Vollprogramm geboten wird. Jeder muss schon selbst seinen Mund aufmachen und seinen Teil zum Gelingen des Abends beitragen. Wir sind kein Kindergarten.
+    Wir quatschen, bestellen Pizza, lachen und beackern Rechner (nicht immer, aber immer öfter). Wer meint, dass er hinreichend Chaos-kompatibel ist, soll einfach mal vorbeischauen. Es ist jeder Mensch willkommen und außer einer gesunden Portion Neugier erwarten wir keine Vorkenntnisse. Niemand soll aber erwarten, dass ihm ein komplettes Vollprogramm geboten wird. Der Abend ist am Ende das, was die Leute daraus machen. Wir helfen gerne und sind technisch interessiert, jedoch sind wir auch keine Supporthotline.
 
 * **[Chaos-Seminar](/ccc/chaosseminar) (meist am 2. Montag im Monat ab 19 Uhr)**  
     Wenn es genügend Vortragende gibt, findet meist am 2. Montag im Monat statt des normalen Montagstreffs ein Chaos-Seminar
