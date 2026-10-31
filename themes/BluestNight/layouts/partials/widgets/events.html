@@ -3,7 +3,7 @@
 	<header>
 		<h4><a href="/events/#termine"><span class="fa fa-calendar"></span> nächste Treffen</a></h4>
 	</header>
-	<ul class="events-side" data-ics-url="/kalender.ics" data-count="{{ .Site.Params.num_events | default 10 }}">
+	<ul class="events-side" data-ics-url="/kalender" data-count="{{ .Site.Params.num_events | default 10 }}">
 		<li>Termine werden geladen …</li>
 	</ul>
 	<script type="module" src="/modules/next-events.js"></script>
