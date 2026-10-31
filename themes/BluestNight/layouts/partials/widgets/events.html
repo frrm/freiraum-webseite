@@ -3,24 +3,9 @@
 	<header>
 		<h4><a href="/events/#termine"><span class="fa fa-calendar"></span> nächste Treffen</a></h4>
 	</header>
-	<ul class="events-side">
-		{{- range first .Site.Params.num_events (where (sort $.Site.Data.events "startDatetime" "asc") "startDatetime" "ge" (now.Format "2006-01-02")) -}}
-		<li itemscope itemtype="http://schema.org/Event">
-      <b itemprop="name">{{ .name }}:</b>
-	  <span itemprop="about">{{ .description }}</span><br>
-	  <span style="white-space: nowrap">
-	  <img class="date-marker" alt="Zeit:" src="/images/marker-time.svg">
-	  <time datetime="{{ dateFormat "2006-01-02T15:04:05" .startDatetime }}" content="{{ dateFormat "2006-01-02T15:04:05" .startDatetime }}" itemprop="startDate">{{ dateFormat "2006-01-02 15:04" .startDatetime }}</time>
-	  </span>&nbsp;
-	  <!--
-	  -
-	  <time datetime="{{ dateFormat "2006-01-02T15:04:05" .endDatetime }}" content="{{ dateFormat "2006-01-02T15:04:05" .endDatetime }}" itemprop="endDate">{{ dateFormat "2006/01/02 @ 15:04" .endDatetime }}</time>
-          <br/>--><span style="white-space: nowrap">
-	  <img class="location-marker" alt="Ort:" src="/images/marker-location.svg">
-	  <span class="event-location" itemprop="location">{{ .location }}</span>
-	  </span>
-    </li>
-		{{- end -}}
+	<ul class="events-side" data-ics-url="/kalender.ics" data-count="{{ .Site.Params.num_events | default 10 }}">
+		<li>Termine werden geladen …</li>
 	</ul>
+	<script type="module" src="/modules/next-events.js"></script>
 </div>
 {{- end -}}

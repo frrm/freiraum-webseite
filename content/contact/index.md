@@ -33,6 +33,7 @@ Die beste Möglichkeit, um Kontakt aufzunehmen, ist, einfach mal vorbei zu komme
 [![](osm-frrm.jpg)](https://www.openstreetmap.org/?mlat=48.40060&mlon=9.99131#map=14/48.40060/9.99131)
 (&copy; [OpenStreetMap](https://openstreetmap.org/copyright))
 
+<!--
 ## Temporärhaus Neu-Ulm
 
   * Adresse: Augsburger Straße 23-25, 89231 Neu-Ulm  
@@ -42,7 +43,9 @@ Die beste Möglichkeit, um Kontakt aufzunehmen, ist, einfach mal vorbei zu komme
 
 [![](osm-temporaerhaus.jpg)](https://www.openstreetmap.org/?mlat=48.396315&mlon=10.001978#map=14/48.396315/10.001978)
 (&copy; [OpenStreetMap](https://openstreetmap.org/copyright))
+-->
 
+<!--
 ## Uni Ulm
 
 ![](uni-2.png)
@@ -71,4 +74,4 @@ Anfahrt:
 - per ÖPNV: bis Haltestelle "Universität Süd",  
   siehe auch: https://www.uni-ulm.de/einrichtungen/kiz/weiteres/campus-navigation/anreise/anfahrt-oepnv/
 - per Auto: siehe https://www.uni-ulm.de/einrichtungen/kiz/weiteres/campus-navigation/anreise/
-
+-->

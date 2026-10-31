@@ -1,0 +1,531 @@
+<style>
+  /* Theme colors from config.toml [Params.color] (single place to change them) */
+  #cal-app {
+    --cal-page-bg: #252525;      /* page_background */
+    --cal-main-bg: #f6f6f6;      /* main_background */
+    --cal-alt-bg: #f9f9f9;       /* alt_background */
+    --cal-main-text: #241c1c;    /* main_text */
+    --cal-alt-text: #241c1c;     /* alt_text */
+    --cal-accent: #4ccea2;       /* accent */
+    --cal-accent-text: #241c1c;  /* accent_text */
+    --cal-border: color-mix(in srgb, var(--cal-main-text) 20%, transparent);
+
+    max-width: 960px; margin: 0 auto; padding: 16px;
+    font-family: inherit;
+    background: var(--cal-main-bg); color: var(--cal-main-text);
+  }
+
+  /* Tabs */
+  #cal-app .tabs { display: flex; gap: 4px; border-bottom: 2px solid var(--cal-border); margin-bottom: 16px; }
+  #cal-app .tabs button {
+    padding: 8px 18px; border: none; background: none; cursor: pointer;
+    font-size: 1rem; color: inherit; opacity: .65;
+    border-bottom: 3px solid transparent; margin-bottom: -2px;
+  }
+  #cal-app .tabs button:hover { opacity: 1; }
+  #cal-app .tabs button.active { opacity: 1; font-weight: 600; border-bottom-color: var(--cal-accent); }
+
+  /* Views: only the active one is visible */
+  #cal-app .view { display: none; }
+  #cal-app .view.active { display: block; }
+
+  /* Month navigation */
+  #cal-app .month-nav { display: flex; align-items: center; justify-content: center; gap: 16px; margin-bottom: 12px; }
+  #cal-app .month-nav button {
+    padding: 4px 12px; cursor: pointer; font-size: 1.1rem;
+    border: none; border-radius: 4px;
+    background: var(--cal-accent); color: var(--cal-accent-text);
+  }
+  #cal-app .month-nav button:hover { filter: brightness(.92); }
+  #cal-app #month-year { min-width: 11em; text-align: center; font-weight: 600; font-size: 1.15rem; }
+
+  /* Calendar grid */
+  #cal-app table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+  #cal-app th { padding: 6px; background: var(--cal-page-bg); color: var(--cal-main-bg); font-weight: 600; }
+  #cal-app td {
+    border: 1px solid var(--cal-border); vertical-align: top;
+    height: 90px; padding: 4px; overflow: hidden;
+    background: var(--cal-main-bg);
+  }
+  #cal-app td.other-month { background: var(--cal-alt-bg); opacity: .6; }
+  #cal-app td.today-cell { background: color-mix(in srgb, var(--cal-accent) 25%, var(--cal-main-bg)); }
+  #cal-app .day-number { display: block; font-size: .85rem; font-weight: 600; margin-bottom: 2px; }
+
+  #cal-app .event-tag {
+    display: block; margin-top: 2px; padding: 1px 5px; border-radius: 3px;
+    font-size: .75rem; color: #fff; cursor: pointer;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  #cal-app .event-tag:hover, #cal-app .event-tag:focus { filter: brightness(1.15); outline: none; }
+  #cal-app .event-tag.selected { box-shadow: 0 0 0 2px var(--cal-page-bg); }
+  #cal-app .event-blue   { background: #007bff; }
+  #cal-app .event-green  { background: #28a745; }
+  #cal-app .event-red    { background: #dc3545; }
+  #cal-app .event-orange { background: #fd7e14; }
+
+  /* Details panel under the calendar */
+  #cal-app #event-details {
+    margin-top: 16px; padding: 12px 16px; border-left: 4px solid var(--cal-accent);
+    background: var(--cal-alt-bg); color: var(--cal-alt-text); border-radius: 0 4px 4px 0;
+  }
+  #cal-app #event-details .placeholder { opacity: .6; font-style: italic; }
+  #cal-app .detail-description { margin-top: 8px; white-space: pre-line; }
+
+  /* List */
+  #cal-app .event-item { padding: 10px 0; border-bottom: 1px solid var(--cal-border); }
+  #cal-app .event-title { font-weight: 600; display: flex; align-items: center; gap: 8px; }
+  #cal-app .color-indicator { display: inline-block; width: 12px; height: 12px; border-radius: 50%; flex: none; }
+  #cal-app .event-date { opacity: .75; margin: 2px 0 0 20px; }
+  #cal-app .event-description { margin: 4px 0 0 20px; white-space: pre-line; }
+
+  /* Category filter (list tab) */
+  #cal-app #category-filter { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+  #cal-app .filter-chip {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 4px 12px; cursor: pointer; font: inherit; font-size: .9rem;
+    border: 1px solid var(--cal-border); border-radius: 999px;
+    background: var(--cal-alt-bg); color: var(--cal-main-text);
+  }
+  #cal-app .filter-chip:hover { border-color: var(--cal-accent); }
+  #cal-app .filter-chip[aria-pressed="true"] {
+    background: var(--cal-accent); border-color: var(--cal-accent); color: var(--cal-accent-text);
+  }
+  #cal-app .filter-chip .count { opacity: .7; }
+
+  /* List resets */
+  #cal-app ul.events-by-month,
+  #cal-app ul.events-side { list-style: none; margin: 0; padding: 0; }
+  #cal-app ul.events-side li { margin-top: 4px; }
+</style>
+
+<div id="cal-app" lang="de">
+  <div class="tabs">
+    <button id="tab-calendar" class="active">Kalender</button>
+    <button id="tab-list">Nächste 3 Monate</button>
+  </div>
+
+  <!-- Tab 1: calendar + details underneath -->
+  <div id="calendar-view" class="view active">
+    <div class="month-nav">
+      <button id="prev-month" aria-label="Vorheriger Monat">&larr;</button>
+      <span id="month-year"></span>
+      <button id="next-month" aria-label="Nächster Monat">&rarr;</button>
+    </div>
+    <div id="calendar"></div>
+    <div id="event-details"></div>
+  </div>
+
+  <!-- Tab 2: list of the next 3 months -->
+  <div id="list-view" class="view">
+    <div id="category-filter" role="group" aria-label="Nach Kategorie filtern"></div>
+    <div id="events-list"></div>
+  </div>
+</div>
+
+<script type="module">
+  import ICAL from '/modules/ical-2.2.1.min.js';
+
+  const esc = s => String(s).replace(/[&<>"']/g, c => (
+    { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+  ));
+
+  const COLORS = { blue: '#007bff', green: '#28a745', red: '#dc3545', orange: '#fd7e14' };
+
+  // CATEGORIES value (lower-case) -> color. Anything else is orange.
+  const CATEGORY_COLORS = {
+    '/dev/urandom': 'green',
+    'chaosseminar': 'red',
+    'montagstreff': 'blue'
+  };
+
+  /** All CATEGORIES values of an ICAL.Event (handles multiple lines and comma-separated lists). */
+  const getCategories = ev => ev.component.getAllProperties('categories')
+    .flatMap(prop => prop.getValues())
+    .map(v => String(v).trim());
+
+  class CalendarManager {
+    constructor() {
+      this.masters = [];
+      this.upcoming = [];                // occurrences of the next 3 months (list tab)
+      this.selectedCategories = new Set(); // active category filter (empty = all)
+      this.monthEvents = [];             // occurrences of the visible month (index used by click handler)
+      this.currentMonth = new Date();
+      this.currentMonth.setDate(1);
+    }
+
+    async init() {
+      await new Promise(resolve => {
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', resolve);
+        } else {
+          resolve();
+        }
+      });
+
+      await this.loadCalendar();
+      this.setupTabEvents();
+      this.setupMonthNavigation();
+      this.setupEventClicks();
+      this.setupCategoryFilter();
+      this.renderCalendar();
+      this.renderList();
+    }
+
+    async loadCalendar() {
+      try {
+        const response = await fetch('/kalender', { method: 'GET', mode: 'cors' });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+        const comp = new ICAL.Component(ICAL.parse(await response.text()));
+
+        comp.getAllSubcomponents('vtimezone').forEach(tz => {
+          try { ICAL.TimezoneService.register(tz); } catch (e) { /* ignore */ }
+        });
+
+        const all = comp.getAllSubcomponents('vevent')
+          .map(c => new ICAL.Event(c))
+          .filter(ev => ev.startDate);
+
+        const exceptions = all.filter(ev => ev.isRecurrenceException());
+        this.masters = all.filter(ev => !ev.isRecurrenceException());
+
+        exceptions.forEach(ex => {
+          const master = this.masters.find(m => m.uid === ex.uid);
+          if (master) master.relateException(ex);
+        });
+
+        console.log(`Loaded ${this.masters.length} events (${exceptions.length} exceptions)`);
+      } catch (error) {
+        console.error('Calendar load error:', error);
+        const el = document.getElementById('calendar');
+        if (el) el.innerHTML = `<p style="color:red;">Fehler beim Laden des Kalenders: ${esc(error.message)}</p>`;
+      }
+    }
+
+    /** All occurrences starting between `from` and `to`, recurring events expanded. */
+    getOccurrences(from, to) {
+      const result = [];
+
+      this.masters.forEach(ev => {
+        if (!ev.isRecurring()) {
+          const start = ev.startDate.toJSDate();
+          if (start >= from && start <= to) {
+            result.push({
+              title: ev.summary || 'Ohne Titel',
+              categories: getCategories(ev),
+              start,
+              allDay: ev.startDate.isDate,
+              description: ev.description || '',
+              location: ev.location || ''
+            });
+          }
+          return;
+        }
+
+        const it = ev.iterator();
+        let next, guard = 0;
+        while ((next = it.next()) && guard++ < 5000) {
+          const start = next.toJSDate();
+          if (start > to) break;
+          if (start < from) continue;
+
+          const details = ev.getOccurrenceDetails(next);
+          const item = details.item || ev;
+          result.push({
+            title: item.summary || 'Ohne Titel',
+            categories: getCategories(item),
+            start: details.startDate.toJSDate(),
+            allDay: details.startDate.isDate,
+            description: item.description || '',
+            location: item.location || ''
+          });
+        }
+      });
+
+      return result.sort((a, b) => a.start - b.start);
+    }
+
+    formatWhen(e) {
+      const date = e.start.toLocaleDateString('de-DE', {
+        weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+      });
+      if (e.allDay) return date;
+      const time = e.start.toLocaleTimeString('de-DE', { hour: '2-digit', minute: '2-digit' });
+      return `${date}, ${time} Uhr`;
+    }
+
+    /** .date-marker symbol (img) followed by a semantic <time> element. */
+    whenHtml(e) {
+      const iso = e.allDay
+        ? `${e.start.getFullYear()}-${String(e.start.getMonth() + 1).padStart(2, '0')}-${String(e.start.getDate()).padStart(2, '0')}`
+        : e.start.toISOString();
+      return `<img class="date-marker" alt="Zeit:" src="/images/marker-time.svg"><time datetime="${iso}">${esc(this.formatWhen(e))}</time>`;
+    }
+
+    /** .location-marker symbol (img) followed by the location in .event-location. */
+    locationHtml(e) {
+      return `<img class="location-marker" alt="Ort:" src="/images/marker-location.svg"><span class="event-location">${esc(e.location)}</span>`;
+    }
+
+    setupTabEvents() {
+      const tabCal = document.getElementById('tab-calendar');
+      const tabList = document.getElementById('tab-list');
+      const viewCal = document.getElementById('calendar-view');
+      const viewList = document.getElementById('list-view');
+
+      if (!tabCal || !tabList || !viewCal || !viewList) {
+        console.error('Tab elements not found in DOM');
+        return;
+      }
+
+      const show = (activeTab, activeView) => {
+        [tabCal, tabList].forEach(t => t.classList.toggle('active', t === activeTab));
+        [viewCal, viewList].forEach(v => v.classList.toggle('active', v === activeView));
+      };
+
+      tabCal.addEventListener('click', () => show(tabCal, viewCal));
+      tabList.addEventListener('click', () => show(tabList, viewList));
+    }
+
+    setupMonthNavigation() {
+      const prevBtn = document.getElementById('prev-month');
+      const nextBtn = document.getElementById('next-month');
+      if (!prevBtn || !nextBtn) {
+        console.error('Navigation buttons not found');
+        return;
+      }
+
+      const change = delta => {
+        this.currentMonth.setMonth(this.currentMonth.getMonth() + delta);
+        this.renderCalendar();
+        this.updateMonthYear();
+      };
+
+      prevBtn.addEventListener('click', () => change(-1));
+      nextBtn.addEventListener('click', () => change(1));
+      this.updateMonthYear();
+    }
+
+    updateMonthYear() {
+      const el = document.getElementById('month-year');
+      if (el) {
+        el.textContent = this.currentMonth.toLocaleDateString('de-DE', { month: 'long', year: 'numeric' });
+      }
+    }
+
+    /** One delegated listener handles clicks on any event tag in the calendar. */
+    setupEventClicks() {
+      const calendarEl = document.getElementById('calendar');
+      if (!calendarEl) return;
+
+      const select = tag => {
+        const idx = Number(tag.dataset.idx);
+        calendarEl.querySelectorAll('.event-tag.selected').forEach(t => t.classList.remove('selected'));
+        tag.classList.add('selected');
+        this.showDetails(this.monthEvents[idx]);
+      };
+
+      calendarEl.addEventListener('click', e => {
+        const tag = e.target.closest('.event-tag');
+        if (tag) select(tag);
+      });
+      calendarEl.addEventListener('keydown', e => {
+        if (e.key !== 'Enter' && e.key !== ' ') return;
+        const tag = e.target.closest('.event-tag');
+        if (tag) { e.preventDefault(); select(tag); }
+      });
+    }
+
+    showDetails(event) {
+      const el = document.getElementById('event-details');
+      if (!el) return;
+
+      if (!event) {
+        el.innerHTML = '<span class="placeholder">Termin anklicken, um Details anzuzeigen.</span>';
+        return;
+      }
+
+      const colorClass = this.getEventColor(event).replace('event-', '');
+      el.style.borderLeftColor = COLORS[colorClass];
+      el.innerHTML = `
+        <div class="event-title">${esc(event.title)}</div>
+        <ul class="events-side">
+          <li>${this.whenHtml(event)}</li>
+          ${event.location ? `<li>${this.locationHtml(event)}</li>` : ''}
+        </ul>
+        ${event.description
+          ? `<div class="detail-description">${esc(event.description)}</div>`
+          : '<div class="detail-description placeholder">Keine Beschreibung.</div>'}
+      `;
+    }
+
+    /** Color class by CATEGORIES; the first known category wins, everything else is orange. */
+    getEventColor(event) {
+      for (const cat of event.categories) {
+        const color = CATEGORY_COLORS[cat.toLowerCase()];
+        if (color) return `event-${color}`;
+      }
+      return 'event-orange';
+    }
+
+    renderCalendar() {
+      const year = this.currentMonth.getFullYear();
+      const month = this.currentMonth.getMonth();
+
+      const firstDay = new Date(year, month, 1);
+      const daysInMonth = new Date(year, month + 1, 0).getDate();
+
+      let firstDayOfWeek = firstDay.getDay() - 1;
+      if (firstDayOfWeek < 0) firstDayOfWeek = 6;
+
+      this.monthEvents = this.getOccurrences(firstDay, new Date(year, month + 1, 0, 23, 59, 59, 999));
+
+      let html = '<table>';
+      html += '<tr><th>Mo</th><th>Di</th><th>Mi</th><th>Do</th><th>Fr</th><th>Sa</th><th>So</th></tr><tr>';
+
+      for (let i = 0; i < firstDayOfWeek; i++) html += '<td class="other-month"></td>';
+
+      for (let day = 1; day <= daysInMonth; day++) {
+        const currentDate = new Date(year, month, day);
+        const cellClass = this.isToday(currentDate) ? 'today-cell' : '';
+        html += `<td class="${cellClass}"><span class="day-number">${day}</span>`;
+
+        this.monthEvents.forEach((e, idx) => {
+          if (e.start.toDateString() !== currentDate.toDateString()) return;
+          html += `<span class="event-tag ${this.getEventColor(e)}" data-idx="${idx}"
+                         tabindex="0" role="button" title="${esc(e.title)}">${esc(e.title)}</span>`;
+        });
+
+        html += '</td>';
+        if ((firstDayOfWeek + day) % 7 === 0 && day < daysInMonth) html += '</tr><tr>';
+      }
+
+      const remaining = 7 - ((firstDayOfWeek + daysInMonth) % 7);
+      if (remaining < 7) {
+        for (let i = 0; i < remaining; i++) html += '<td class="other-month"></td>';
+      }
+      html += '</tr></table>';
+
+      const calendarEl = document.getElementById('calendar');
+      if (calendarEl) calendarEl.innerHTML = html;
+
+      this.showDetails(null);   // reset the details panel when the month changes
+    }
+
+    renderList() {
+      const from = new Date();
+      from.setHours(0, 0, 0, 0);
+      const to = new Date(from);
+      to.setMonth(to.getMonth() + 3);
+
+      this.upcoming = this.getOccurrences(from, to);
+      this.selectedCategories.clear();
+      this.renderCategoryFilter();
+      this.renderListItems();
+    }
+
+    /** Lower-case category keys of an occurrence; events without category use '__none'. */
+    categoryKeys(event) {
+      const keys = event.categories.map(c => c.toLowerCase());
+      return keys.length ? [...new Set(keys)] : ['__none'];
+    }
+
+    categoryColor(key) {
+      return COLORS[CATEGORY_COLORS[key]] || COLORS.orange;
+    }
+
+    /** Builds the filter chips from the categories that actually occur in the list. */
+    renderCategoryFilter() {
+      const el = document.getElementById('category-filter');
+      if (!el) return;
+
+      const cats = new Map();   // key -> { label, count }
+      this.upcoming.forEach(ev => {
+        this.categoryKeys(ev).forEach(key => {
+          const label = key === '__none'
+            ? 'Ohne Kategorie'
+            : ev.categories.find(c => c.toLowerCase() === key);
+          const entry = cats.get(key) || { label, count: 0 };
+          entry.count++;
+          cats.set(key, entry);
+        });
+      });
+
+      if (cats.size < 2) {      // nothing to filter
+        el.innerHTML = '';
+        return;
+      }
+
+      const sorted = [...cats.entries()].sort(([ka, a], [kb, b]) =>
+        (ka === '__none') - (kb === '__none') || a.label.localeCompare(b.label, 'de'));
+
+      el.innerHTML =
+        `<button type="button" class="filter-chip" data-key="" aria-pressed="true">Alle <span class="count">(${this.upcoming.length})</span></button>` +
+        sorted.map(([key, { label, count }]) => `
+          <button type="button" class="filter-chip" data-key="${esc(key)}" aria-pressed="false">
+            <span class="color-indicator" style="background-color:${this.categoryColor(key)};"></span>${esc(label)}
+            <span class="count">(${count})</span>
+          </button>`).join('');
+    }
+
+    setupCategoryFilter() {
+      const el = document.getElementById('category-filter');
+      if (!el) return;
+
+      el.addEventListener('click', e => {
+        const chip = e.target.closest('.filter-chip');
+        if (!chip) return;
+
+        const key = chip.dataset.key;
+        if (key === '') this.selectedCategories.clear();                       // "Alle"
+        else if (this.selectedCategories.has(key)) this.selectedCategories.delete(key);
+        else this.selectedCategories.add(key);
+
+        el.querySelectorAll('.filter-chip').forEach(c => {
+          const k = c.dataset.key;
+          const pressed = k === '' ? this.selectedCategories.size === 0 : this.selectedCategories.has(k);
+          c.setAttribute('aria-pressed', String(pressed));
+        });
+        this.renderListItems();
+      });
+    }
+
+    renderListItems() {
+      const sel = this.selectedCategories;
+      const items = sel.size
+        ? this.upcoming.filter(ev => this.categoryKeys(ev).some(k => sel.has(k)))
+        : this.upcoming;
+
+      let html;
+      if (this.upcoming.length === 0) {
+        html = '<p>In den nächsten 3 Monaten sind keine Termine geplant.</p>';
+      } else if (items.length === 0) {
+        html = '<p>Keine Termine in dieser Auswahl.</p>';
+      } else {
+        html = `<ul class="events-by-month">${items.map(event => {
+          const color = COLORS[this.getEventColor(event).replace('event-', '')];
+          return `
+            <li class="event-item">
+              <div class="event-title">
+                <span class="color-indicator" style="background-color:${color};"></span>
+                ${esc(event.title)}
+              </div>
+              <div class="event-date">${this.whenHtml(event)}</div>
+              ${event.location ? `<div class="event-description">${this.locationHtml(event)}</div>` : ''}
+              ${event.description ? `<div class="event-description">${esc(event.description)}</div>` : ''}
+            </li>`;
+        }).join('')}</ul>`;
+      }
+
+      const listEl = document.getElementById('events-list');
+      if (listEl) listEl.innerHTML = html;
+    }
+
+    isToday(date) {
+      return date.toDateString() === new Date().toDateString();
+    }
+  }
+
+  const manager = new CalendarManager();
+  manager.init().catch(err => console.error('Failed to initialize calendar:', err));
+</script>

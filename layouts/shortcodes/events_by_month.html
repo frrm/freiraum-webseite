@@ -1,32 +1,153 @@
-<!-- sort events by date -->
-{{- $events_sorted := where (sort $.Site.Data.events "startDatetime" "asc") "startDatetime" "ge" (now.Format "2006-01-02") -}}
-<!-- get list of YYYY-MM of the events -->
-{{- $.Scratch.Set "months" slice -}}
-{{- range $events_sorted -}}
-    {{ $.Scratch.Add "months" (dateFormat "2006-01" .startDatetime) -}}
-{{- end -}}
-{{- $months := (uniq ($.Scratch.Get "months")) -}}
-<!-- list all events, sorted by month -->
-{{- range $months -}}
-    <h3>{{ . }}</h3>
-    <ul class="events-by-month">
-  {{- range (where (where $events_sorted "startDatetime" "ge" .) "startDatetime" "lt" (add . "x")) -}}
-  <li itemscope itemtype="http://schema.org/Event">
-    <b itemprop="name">{{ .name }}:</b>
-    <span itemprop="about">{{ .description }}</span><br>
-    <span style="white-space: nowrap">
-    <img class="date-marker" alt="Zeit:" src="/images/marker-time.svg">
-    <time datetime="{{ dateFormat "2006-01-02T15:04:05" .startDatetime }}" content="{{ dateFormat "2006-01-02T15:04:05" .startDatetime }}" itemprop="startDate">{{ dateFormat "2006-01-02 15:04" .startDatetime }}</time>
-    </span><br>
-    <!--
-    -
-    <time datetime="{{ dateFormat "2006-01-02T15:04:05" .endDatetime }}" content="{{ dateFormat "2006-01-02T15:04:05" .endDatetime }}" itemprop="endDate">{{ dateFormat "2006/01/02 @ 15:04" .endDatetime }}</time>
-    <br/>--><span style="white-space: nowrap">
-    <img class="location-marker" alt="Ort:" src="/images/marker-location.svg">
-    <span class="event-location" itemprop="location">{{ .location }}</span>
-    </span>
-    </li>
-  {{- end -}}
-</ul>
-{{ end }}
-<b>weitere folgen...</b>
+<!-- Put this where the sidebar list should appear (replaces the static list) -->
+<ul id="next-events" class="events-side next-events"></ul>
+
+<style>
+  ul.next-events { list-style: none; margin: 0; padding: 0; }
+  ul.next-events .color-indicator {
+    display: inline-block; width: .75em; height: .75em; border-radius: 50%;
+    margin-right: .5em; flex: none;
+  }
+  ul.next-events .event-name { font-weight: 600; }
+</style>
+
+<script type="module">
+  import ICAL from '/modules/ical-2.2.1.min.js';
+
+  const FEED_URL = '/kalender.ics';
+
+  const COLORS = { blue: '#007bff', green: '#28a745', red: '#dc3545', orange: '#fd7e14' };
+
+  // CATEGORIES value (lower-case) -> color. Anything else is orange.
+  const CATEGORY_COLORS = {
+    '/dev/urandom': 'green',
+    'chaosseminar': 'red',
+    'montagstreff': 'blue'
+  };
+
+  // Marker images (styled by style.css via .date-marker / .location-marker)
+  const DATE_MARKER = `<img class="date-marker" alt="Zeit:" src="/images/marker-time.svg">`;
+  const LOCATION_MARKER = `<img class="location-marker" alt="Ort:" src="/images/marker-location.svg">`;
+
+  const esc = s => String(s).replace(/[&<>"']/g, c => (
+    { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+  ));
+  const pad = n => String(n).padStart(2, '0');
+
+  const getCategories = ev => ev.component.getAllProperties('categories')
+    .flatMap(prop => prop.getValues())
+    .map(v => String(v).trim());
+
+  const getColor = categories => {
+    for (const cat of categories) {
+      const color = CATEGORY_COLORS[cat.toLowerCase()];
+      if (color) return COLORS[color];
+    }
+    return COLORS.orange;
+  };
+
+  /** "2026-11-02 20:00" (date only for all-day events) */
+  const formatWhen = (d, allDay) => {
+    const date = `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+    return allDay ? date : `${date} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
+  };
+
+  /** Parses the ICS text and returns the next `count` occurrences (recurring events expanded). */
+  function getUpcoming(icsText, count) {
+    const comp = new ICAL.Component(ICAL.parse(icsText));
+
+    comp.getAllSubcomponents('vtimezone').forEach(tz => {
+      try { ICAL.TimezoneService.register(tz); } catch (e) { /* ignore */ }
+    });
+
+    const all = comp.getAllSubcomponents('vevent')
+      .map(c => new ICAL.Event(c))
+      .filter(ev => ev.startDate);
+
+    const masters = all.filter(ev => !ev.isRecurrenceException());
+    all.filter(ev => ev.isRecurrenceException()).forEach(ex => {
+      const master = masters.find(m => m.uid === ex.uid);
+      if (master) master.relateException(ex);
+    });
+
+    const now = new Date();
+    const result = [];
+
+    const toOccurrence = (item, startTime, endTime) => ({
+      title: item.summary || 'Ohne Titel',
+      start: startTime.toJSDate(),
+      end: endTime.toJSDate(),
+      allDay: startTime.isDate,
+      location: item.location || '',
+      categories: getCategories(item)
+    });
+
+    masters.forEach(ev => {
+      if (!ev.isRecurring()) {
+        const occ = toOccurrence(ev, ev.startDate, ev.endDate);
+        if (occ.end >= now) result.push(occ);
+        return;
+      }
+
+      const it = ev.iterator();
+      let next, guard = 0, found = 0;
+      while ((next = it.next()) && guard++ < 5000 && found < count) {
+        const d = ev.getOccurrenceDetails(next);
+        const occ = toOccurrence(d.item || ev, d.startDate, d.endDate);
+        if (occ.end < now) continue;   // already over
+        result.push(occ);
+        found++;
+      }
+    });
+
+    return result.sort((a, b) => a.start - b.start).slice(0, count);
+  }
+
+  function renderItem(e) {
+    const iso = e.allDay ? formatWhen(e.start, true) : e.start.toISOString();
+    const color = getColor(e.categories);
+    const categoryNames = e.categories.join(', ');
+
+    return `
+      <li>
+        <div>
+          <span class="color-indicator" style="background-color:${color};"
+                ${categoryNames ? `title="${esc(categoryNames)}"` : ''}></span>
+          <span class="event-name">${esc(e.title)}</span>
+        </div>
+        <div>
+          ${DATE_MARKER}<time datetime="${iso}">${esc(formatWhen(e.start, e.allDay))}</time>
+          ${e.location ? `${LOCATION_MARKER}<span class="event-location">${esc(e.location)}</span>` : ''}
+        </div>
+      </li>`;
+  }
+
+  /**
+   * Fills the container with the next `count` appointments:
+   * color indicator + name, then time and location.
+   */
+  async function renderNextEvents(selector = '#next-events', count = 10, url = FEED_URL) {
+    const container = document.querySelector(selector);
+    if (!container) return;
+
+    try {
+      const response = await fetch(url, { method: 'GET', mode: 'cors' });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+      const upcoming = getUpcoming(await response.text(), count);
+      container.innerHTML = upcoming.length
+        ? upcoming.map(renderItem).join('')
+        : '<li>Keine anstehenden Termine.</li>';
+    } catch (error) {
+      console.error('Next events load error:', error);
+      container.innerHTML = '<li>Termine konnten nicht geladen werden.</li>';
+    }
+  }
+
+  window.renderNextEvents = renderNextEvents;   // reusable, e.g. renderNextEvents('#other', 5)
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => renderNextEvents());
+  } else {
+    renderNextEvents();
+  }
+</script>

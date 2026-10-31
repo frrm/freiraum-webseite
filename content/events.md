@@ -26,7 +26,7 @@ Offenes Treffen ist zum Kennenlernen, Labern, Basteln und gemeinsamen Schauen vo
   Die Ulmer [SSDeV](https://www.ssdev.org)-Sportgruppe trifft sich zum Lockpicking ebenfalls im Freiraum,
   allerdings aktuell unregelmäßig bei einem CCC-Ulm Montagstreff oder bei Offenen Treffen.
   Es ist jeder willkommen, der sich an die [SSDeV-Sportordnung](https://blog.ssdev.org/?page_id=281) hält.
-
+<!--
 * **OSM-Stammtisch**  
 Der Ulmer [OpenStreetMap-Stammtisch](http://wiki.openstreetmap.org/wiki/Ulm_Neu-Ulm/Stammtisch) traf sich früher
 monatlich im Freiraum; aktuell trifft sie sich aber im [temporärhaus Neu-Ulm 8(https://temporaerhaus.de).
@@ -34,8 +34,8 @@ Termine findet ihr auf der [OpenStreetMap-Stammtisch-Seite](http://wiki.openstre
 
 * **Freifunktreffen**  
 Termine findet ihr auf dem [Freifunk Ulm Wiki](https://wiki.freifunk-ulm.de/).
+-->
 
+## Terminkalender
 
-## Termine
-
-{{< events_by_month >}}
+{{< calendar >}}
