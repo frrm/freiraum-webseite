@@ -98,7 +98,8 @@
   #cal-app ul.events-side li { margin-top: 4px; }
 </style>
 
-<div id="cal-app" lang="de">
+
+<div id="cal-app" lang="de", id="js-content">
   <div class="tabs">
     <button id="tab-calendar" class="active">Kalender</button>
     <button id="tab-list">Nächste 3 Monate</button>
@@ -120,7 +121,46 @@
     <div id="category-filter" role="group" aria-label="Nach Kategorie filtern"></div>
     <div id="events-list"></div>
   </div>
+
 </div>
+
+<noscript>
+    <div id="no-js-content">
+        <p>Dies wird angezeigt weil JavaScript nicht verwendet wird!</p>
+    </div>
+    <!-- sort events by date -->
+{{- $events_sorted := where (sort $.Site.Data.events "startDatetime" "asc") "startDatetime" "ge" (now.Format "2006-01-02") -}}
+<!-- get list of YYYY-MM of the events -->
+{{- $.Scratch.Set "months" slice -}}
+{{- range $events_sorted -}}
+    {{ $.Scratch.Add "months" (dateFormat "2006-01" .startDatetime) -}}
+{{- end -}}
+{{- $months := (uniq ($.Scratch.Get "months")) -}}
+<!-- list all events, sorted by month -->
+{{- range $months -}}
+    <h3>{{ . }}</h3>
+    <ul class="events-by-month">
+  {{- range (where (where $events_sorted "startDatetime" "ge" .) "startDatetime" "lt" (add . "x")) -}}
+  <li itemscope itemtype="http://schema.org/Event">
+    <b itemprop="name">{{ .name }}:</b>
+    <span itemprop="about">{{ .description }}</span><br>
+    <span style="white-space: nowrap">
+    <img class="date-marker" alt="Zeit:" src="/images/marker-time.svg">
+    <time datetime="{{ dateFormat "2006-01-02T15:04:05" .startDatetime }}" content="{{ dateFormat "2006-01-02T15:04:05" .startDatetime }}" itemprop="startDate">{{ dateFormat "2006-01-02 15:04" .startDatetime }}</time>
+    </span><br>
+    <!--
+    -
+    <time datetime="{{ dateFormat "2006-01-02T15:04:05" .endDatetime }}" content="{{ dateFormat "2006-01-02T15:04:05" .endDatetime }}" itemprop="endDate">{{ dateFormat "2006/01/02 @ 15:04" .endDatetime }}</time>
+    <br/>--><span style="white-space: nowrap">
+    <img class="location-marker" alt="Ort:" src="/images/marker-location.svg">
+    <span class="event-location" itemprop="location">{{ .location }}</span>
+    </span>
+    </li>
+  {{- end -}}
+</ul>
+{{ end }}
+<b>weitere folgen...</b>
+</noscript>
 
 <script type="module">
   import ICAL from '/modules/ical-2.2.1.min.js';

@@ -134,7 +134,7 @@ async function renderNextEvents(container) {
       : '<li>Keine anstehenden Termine.</li>';
   } catch (error) {
     console.error('Next events load error:', error);
-    container.innerHTML = '<li>Termine konnten nicht geladen werden.</li>';
+    container.innerHTML = '<li>Termine konnten nicht geladen werden evtl. ist JS geblockt.</li>';
   }
 }
 
