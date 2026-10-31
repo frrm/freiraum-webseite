@@ -138,3 +138,13 @@ ul.events-side .event-location {
     margin-bottom: 0ex !important;
     list-style: disc inside !important;
 }
+
+.infobox {
+  margin: 1em 0; padding: .8em 1.2em;
+  border-left: 4px solid #4ccea2;   /* accent */
+  background: #f9f9f9; color: #241c1c;
+  border-radius: 0 4px 4px 0;
+}
+.infobox-title { display: block; margin-bottom: .3em; }
+.infobox > :last-child { margin-bottom: 0; }
+.infobox-warn { border-left-color: #fd7e14; }

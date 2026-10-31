@@ -37,5 +37,10 @@ Termine findet ihr auf dem [Freifunk Ulm Wiki](https://wiki.freifunk-ulm.de/).
 -->
 
 ## Terminkalender
+**Info:**
+Alle Termine auch als Kalender-Feed:
+[https://ccc.ulm.de/kalender](https://ccc.ulm.de/kalender)
+Zum Abonnieren die Adresse des Kalenders per URL hinzufügen, oder direkt per [webcal-Link](webcal://ccc.ulm.de/kalender) öffnen.
+
 
 {{< calendar >}}
