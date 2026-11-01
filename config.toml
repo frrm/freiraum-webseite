@@ -58,6 +58,11 @@ buildFuture = true
     accent = "#4ccea2"
     accent_text = "#241c1c"
 
+[[menu.main]]
+    name = "Neuigkeiten"
+    url = "/post/"
+    weight = 1
+
 # [[menu.main]]
 # name = "About"
 # url = "/about"

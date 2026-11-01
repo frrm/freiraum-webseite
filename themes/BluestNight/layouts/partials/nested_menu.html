@@ -1,12 +1,23 @@
 {{- $page := .page -}}
 {{- $site := .site -}}
 {{- range sort .menu -}}
+  {{- /* Active = the entry's own page, a child entry, or any page inside the entry's
+         section (e.g. single posts below /post/). */ -}}
+  {{- $active := or ($page.IsMenuCurrent "main" .) ($page.HasMenuCurrent "main" .) -}}
+  {{- if not $active -}}
+    {{- with .Page -}}
+      {{- if .IsSection }}{{ $active = $page.InSection . }}{{ end -}}
+    {{- else -}}
+      {{- /* entry defined only by url (no page): match by path prefix */ -}}
+      {{- if ne .URL "/" }}{{ $active = hasPrefix $page.RelPermalink .URL }}{{ end -}}
+    {{- end -}}
+  {{- end -}}
   <li class="no-select" itemscope itemtype="http://schema.org/SiteNavigationElement">
       <input type="checkbox" id="nav-{{ .Name | plainify | urlize }}" class="hide"/>
       {{- if .HasChildren -}}
-      <label class="button{{if or ($page.IsMenuCurrent "main" .) ($page.HasMenuCurrent "main" .) }} active{{end}}" for="nav-{{ .Name | plainify | urlize }}">
+      <label class="button{{ if $active }} active{{ end }}" for="nav-{{ .Name | plainify | urlize }}">
       {{- end -}}
-        <a class="main-nav{{ if not .HasChildren }} button{{if or ($page.IsMenuCurrent "main" .) ($page.HasMenuCurrent "main" .) }} active{{end}}{{end}}" href="{{ .URL | relURL }}" >
+        <a class="main-nav{{ if not .HasChildren }} button{{ if $active }} active{{ end }}{{ end }}" href="{{ .URL | relURL }}" >
           {{ .Name | upper }}{{ if .HasChildren }}&nbsp;&nbsp;<span class="nav-arrow">&#9656;</span>{{ end }}
         </a>
       {{- if .HasChildren -}}
