@@ -5,6 +5,10 @@ const DEFAULT_COUNT = 10;
 
 const COLORS = { blue: '#007bff', green: '#28a745', red: '#dc3545', orange: '#fd7e14' };
 
+// Events in this category link to the Chaosseminar overview
+const CHAOSSEMINAR_URL = '/ccc/chaosseminar/';
+const isChaosseminar = categories => categories.some(c => c.toLowerCase() === 'chaosseminar');
+
 // CATEGORIES value (lower-case) -> color. Anything else is orange.
 const CATEGORY_COLORS = {
   '/dev/urandom': 'green',
@@ -104,7 +108,7 @@ function renderItem(e) {
 
   return `
     <li itemscope itemtype="http://schema.org/Event">
-      <span class="color-indicator" style="display:inline-block;width:.75em;height:.75em;border-radius:50%;margin-right:.4em;background-color:${color};"${categoryNames ? ` title="${esc(categoryNames)}"` : ''}></span><b itemprop="name">${esc(e.name)}</b><br>
+      <span class="color-indicator" style="display:inline-block;width:.75em;height:.75em;border-radius:50%;margin-right:.4em;background-color:${color};"${categoryNames ? ` title="${esc(categoryNames)}"` : ''}></span><b itemprop="name">${isChaosseminar(e.categories) ? `<a href="${CHAOSSEMINAR_URL}" itemprop="url">${esc(e.name)}</a>` : esc(e.name)}</b><br>
       <span style="white-space: nowrap">
         <img class="date-marker" alt="Zeit:" src="/images/marker-time.svg">
         <time datetime="${iso}" content="${iso}" itemprop="startDate">${esc(formatWhen(e.start, e.allDay))}</time>

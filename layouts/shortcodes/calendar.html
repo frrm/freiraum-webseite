@@ -98,8 +98,9 @@
   #cal-app ul.events-side li { margin-top: 4px; }
 </style>
 
-
-<div id="cal-app" lang="de", id="js-content">
+<div id="cal-app" lang="de">
+  <!-- Interactive UI: hidden until JavaScript is running -->
+  <div id="cal-interactive" hidden>
   <div class="tabs">
     <button id="tab-calendar" class="active">Kalender</button>
     <button id="tab-list">Nächste 3 Monate</button>
@@ -121,46 +122,10 @@
     <div id="category-filter" role="group" aria-label="Nach Kategorie filtern"></div>
     <div id="events-list"></div>
   </div>
+  </div><!-- /#cal-interactive -->
 
+  <!-- FALLBACK (no JavaScript, or the live calendar cannot be loaded): add the events_by_month shortcode or partial here, without a noscript wrapper. -->
 </div>
-
-<noscript>
-    <div id="no-js-content">
-        <p>Dies wird angezeigt weil JavaScript nicht verwendet wird!</p>
-    </div>
-    <!-- sort events by date -->
-{{- $events_sorted := where (sort $.Site.Data.events "startDatetime" "asc") "startDatetime" "ge" (now.Format "2006-01-02") -}}
-<!-- get list of YYYY-MM of the events -->
-{{- $.Scratch.Set "months" slice -}}
-{{- range $events_sorted -}}
-    {{ $.Scratch.Add "months" (dateFormat "2006-01" .startDatetime) -}}
-{{- end -}}
-{{- $months := (uniq ($.Scratch.Get "months")) -}}
-<!-- list all events, sorted by month -->
-{{- range $months -}}
-    <h3>{{ . }}</h3>
-    <ul class="events-by-month">
-  {{- range (where (where $events_sorted "startDatetime" "ge" .) "startDatetime" "lt" (add . "x")) -}}
-  <li itemscope itemtype="http://schema.org/Event">
-    <b itemprop="name">{{ .name }}:</b>
-    <span itemprop="about">{{ .description }}</span><br>
-    <span style="white-space: nowrap">
-    <img class="date-marker" alt="Zeit:" src="/images/marker-time.svg">
-    <time datetime="{{ dateFormat "2006-01-02T15:04:05" .startDatetime }}" content="{{ dateFormat "2006-01-02T15:04:05" .startDatetime }}" itemprop="startDate">{{ dateFormat "2006-01-02 15:04" .startDatetime }}</time>
-    </span><br>
-    <!--
-    -
-    <time datetime="{{ dateFormat "2006-01-02T15:04:05" .endDatetime }}" content="{{ dateFormat "2006-01-02T15:04:05" .endDatetime }}" itemprop="endDate">{{ dateFormat "2006/01/02 @ 15:04" .endDatetime }}</time>
-    <br/>--><span style="white-space: nowrap">
-    <img class="location-marker" alt="Ort:" src="/images/marker-location.svg">
-    <span class="event-location" itemprop="location">{{ .location }}</span>
-    </span>
-    </li>
-  {{- end -}}
-</ul>
-{{ end }}
-<b>weitere folgen...</b>
-</noscript>
 
 <script type="module">
   import ICAL from '/modules/ical-2.2.1.min.js';
@@ -183,6 +148,10 @@
     .flatMap(prop => prop.getValues())
     .map(v => String(v).trim());
 
+  // Events in this category link to the Chaosseminar overview
+  const CHAOSSEMINAR_URL = '/ccc/chaosseminar/';
+  const isChaosseminar = categories => categories.some(c => c.toLowerCase() === 'chaosseminar');
+
   class CalendarManager {
     constructor() {
       this.masters = [];
@@ -202,13 +171,42 @@
         }
       });
 
-      await this.loadCalendar();
-      this.setupTabEvents();
-      this.setupMonthNavigation();
-      this.setupEventClicks();
-      this.setupCategoryFilter();
-      this.renderCalendar();
-      this.renderList();
+      const ui = document.getElementById('cal-interactive');
+      const fallback = document.getElementById('events-fallback');   // server-rendered list (events_by_month)
+      if (fallback) fallback.hidden = true;   // JavaScript is running: hide it while the live data loads
+
+      if (!(await this.loadCalendar())) {
+        this.showFallback(ui, fallback);
+        return;
+      }
+
+      try {
+        this.setupTabEvents();
+        this.setupMonthNavigation();
+        this.setupEventClicks();
+        this.setupCategoryFilter();
+        this.renderCalendar();
+        this.renderList();
+        if (ui) ui.hidden = false;
+      } catch (error) {
+        console.error('Calendar render error:', error);
+        this.showFallback(ui, fallback);
+      }
+    }
+
+    /** Live calendar not available: show the server-rendered list instead. */
+    showFallback(ui, fallback) {
+      if (fallback) {
+        if (ui) ui.hidden = true;
+        fallback.hidden = false;
+        if (!fallback.querySelector('.events-fallback-note')) {
+          fallback.insertAdjacentHTML('afterbegin',
+            '<p class="events-fallback-note"><em>Der Live-Kalender konnte nicht geladen werden. ' +
+            'Angezeigt werden die gespeicherten Termine.</em></p>');
+        }
+      } else if (ui) {
+        ui.hidden = false;   // no static list on this page: show the error message
+      }
     }
 
     async loadCalendar() {
@@ -235,10 +233,12 @@
         });
 
         console.log(`Loaded ${this.masters.length} events (${exceptions.length} exceptions)`);
+        return true;
       } catch (error) {
         console.error('Calendar load error:', error);
         const el = document.getElementById('calendar');
         if (el) el.innerHTML = `<p style="color:red;">Fehler beim Laden des Kalenders: ${esc(error.message)}</p>`;
+        return false;
       }
     }
 
@@ -388,7 +388,7 @@
       const colorClass = this.getEventColor(event).replace('event-', '');
       el.style.borderLeftColor = COLORS[colorClass];
       el.innerHTML = `
-        <div class="event-title">${esc(event.title)}</div>
+        <div class="event-title">${this.titleHtml(event)}</div>
         <ul class="events-side">
           <li>${this.whenHtml(event)}</li>
           ${event.location ? `<li>${this.locationHtml(event)}</li>` : ''}
@@ -397,6 +397,14 @@
           ? `<div class="detail-description">${esc(event.description)}</div>`
           : '<div class="detail-description placeholder">Keine Beschreibung.</div>'}
       `;
+    }
+
+    /** Event title; Chaosseminar events link to /ccc/chaosseminar/. */
+    titleHtml(event) {
+      const title = esc(event.title);
+      return isChaosseminar(event.categories)
+        ? `<a href="${CHAOSSEMINAR_URL}">${title}</a>`
+        : title;
     }
 
     /** Color class by CATEGORIES; the first known category wins, everything else is orange. */
@@ -548,7 +556,7 @@
             <li class="event-item">
               <div class="event-title">
                 <span class="color-indicator" style="background-color:${color};"></span>
-                ${esc(event.title)}
+                ${this.titleHtml(event)}
               </div>
               <div class="event-date">${this.whenHtml(event)}</div>
               ${event.location ? `<div class="event-description">${this.locationHtml(event)}</div>` : ''}
@@ -565,6 +573,7 @@
       return date.toDateString() === new Date().toDateString();
     }
   }
+
   const manager = new CalendarManager();
   manager.init().catch(err => console.error('Failed to initialize calendar:', err));
 </script>
