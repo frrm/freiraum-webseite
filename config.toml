@@ -11,6 +11,9 @@ PygmentsStyle = "monokai"
 DefaultContentLanguage = "de"
 buildFuture = true
 
+# workaround to disable outdated ccc/index.xml
+disableKinds = ["rss"]
+
 [outputs]
     home = ["HTML", "CSS"]
 
