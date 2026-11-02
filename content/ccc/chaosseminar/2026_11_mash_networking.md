@@ -6,7 +6,7 @@ categories = ["ChaosSeminar"]
 [ChaosSeminar]
 Thema = "Meshtastic"
 Termin = "2026-11-09 19:00"
-Ort = "Freiraum"
+Ort = "Freiraum (Platzgasse 18)"
 Vortragende = "Christoph"
 Archiv = []
 +++
