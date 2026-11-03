@@ -1,13 +1,9 @@
 import ICAL from '/modules/ical-2.2.1.min.js';
 
-const DEFAULT_URL = '/kalender.ics';
+const DEFAULT_URL = '/kalender';
 const DEFAULT_COUNT = 10;
 
 const COLORS = { blue: '#007bff', green: '#28a745', red: '#dc3545', orange: '#fd7e14' };
-
-// Events in this category link to the Chaosseminar overview
-const CHAOSSEMINAR_URL = '/ccc/chaosseminar/';
-const isChaosseminar = categories => categories.some(c => c.toLowerCase() === 'chaosseminar');
 
 // CATEGORIES value (lower-case) -> color. Anything else is orange.
 const CATEGORY_COLORS = {
@@ -21,9 +17,29 @@ const esc = s => String(s).replace(/[&<>"']/g, c => (
 ));
 const pad = n => String(n).padStart(2, '0');
 
+/** Escaped text in which http(s) URLs are clickable links (opened in a new tab). */
+const linkify = text => {
+  const pattern = /https?:\/\/[^\s<>"']+/g;
+  let out = '', last = 0, m;
+  while ((m = pattern.exec(text)) !== null) {
+    let url = m[0];
+    const trailing = url.match(/[.,;:!?)]+$/);            // punctuation after the URL is not part of it
+    if (trailing) url = url.slice(0, -trailing[0].length);
+    out += esc(text.slice(last, m.index));
+    out += `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(url)}</a>`;
+    last = m.index + url.length;
+    pattern.lastIndex = last;
+  }
+  return out + esc(text.slice(last));
+};
+
 const getCategories = ev => ev.component.getAllProperties('categories')
   .flatMap(prop => prop.getValues())
   .map(v => String(v).trim());
+
+// Events in this category link to the Chaosseminar overview
+const CHAOSSEMINAR_URL = '/ccc/chaosseminar/';
+const isChaosseminar = categories => categories.some(c => c.toLowerCase() === 'chaosseminar');
 
 const getColor = categories => {
   for (const cat of categories) {
@@ -119,7 +135,7 @@ function renderItem(e) {
       </span>` : ''}
       ${description ? `<details class="event-description">
         <summary style="cursor:pointer">Beschreibung:</summary>
-        <span itemprop="about" style="white-space: pre-line">${esc(description)}</span>
+        <span itemprop="about" style="white-space: pre-line; overflow-wrap: anywhere">${linkify(description)}</span>
       </details>` : ''}
     </li>`;
 }
@@ -138,7 +154,10 @@ async function renderNextEvents(container) {
       : '<li>Keine anstehenden Termine.</li>';
   } catch (error) {
     console.error('Next events load error:', error);
-    container.innerHTML = '<li>Termine konnten nicht geladen werden evtl. ist JS geblockt.</li>';
+    // Keep the server-rendered list if there is one
+    if (!container.querySelector('li')) {
+      container.innerHTML = '<li>Termine konnten nicht geladen werden.</li>';
+    }
   }
 }
 
