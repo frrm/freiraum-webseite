@@ -70,6 +70,7 @@
   }
   #cal-app #event-details .placeholder { opacity: .6; font-style: italic; }
   #cal-app .detail-description { margin-top: 8px; white-space: pre-line; }
+  #cal-app .detail-description a, #cal-app .event-description a { word-break: break-all; }
 
   /* List */
   #cal-app .event-item { padding: 10px 0; border-bottom: 1px solid var(--cal-border); }
@@ -394,17 +395,39 @@
           ${event.location ? `<li>${this.locationHtml(event)}</li>` : ''}
         </ul>
         ${event.description
-          ? `<div class="detail-description">${esc(event.description)}</div>`
+          ? `<div class="detail-description">${this.linkify(event.description)}</div>`
           : '<div class="detail-description placeholder">Keine Beschreibung.</div>'}
       `;
     }
 
-    /** Event title; Chaosseminar events link to /ccc/chaosseminar/. */
+    /** Escaped text in which http(s) URLs are clickable links. */
+    linkify(text) {
+      const pattern = /https?:\/\/[^\s<>"']+/g;
+      let out = '', last = 0, m;
+      while ((m = pattern.exec(text)) !== null) {
+        let url = m[0];
+        const trailing = url.match(/[.,;:!?)]+$/);           // punctuation after the URL is not part of it
+        if (trailing) url = url.slice(0, -trailing[0].length);
+        out += esc(text.slice(last, m.index));
+        out += `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(url)}</a>`;
+        last = m.index + url.length;
+        pattern.lastIndex = last;
+      }
+      return out + esc(text.slice(last));
+    }
+
+    /** Link to a single seminar page (/ccc/chaosseminar/<name>/) found in the description, if any. */
+    seminarPageUrl(description) {
+      const match = String(description || '').match(/https?:\/\/[^\s<>"']*\/ccc\/chaosseminar\/[^\s<>"'\/]+\/?/);
+      return match ? match[0].replace(/[.,;:!?)]+$/, '') : null;
+    }
+
+    /** Event title; Chaosseminar events link to their seminar page, or to /ccc/chaosseminar/. */
     titleHtml(event) {
       const title = esc(event.title);
-      return isChaosseminar(event.categories)
-        ? `<a href="${CHAOSSEMINAR_URL}">${title}</a>`
-        : title;
+      if (!isChaosseminar(event.categories)) return title;
+      const href = this.seminarPageUrl(event.description) || CHAOSSEMINAR_URL;
+      return `<a href="${esc(href)}">${title}</a>`;
     }
 
     /** Color class by CATEGORIES; the first known category wins, everything else is orange. */
