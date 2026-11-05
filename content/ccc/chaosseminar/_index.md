@@ -9,8 +9,8 @@ hide_list = true
 
 Der CCC Erfa Ulm veranstaltet eine regelmäßige Reihe von öffentlichen Seminarvorträgen. Der Eintritt ist natürlich frei.
 
-Die Vorträge finden normalerweise an (fast) jedem 2. Montag im Monat um 20 Uhr
-im [Freiraum](/contact) statt. 
+Die Vorträge finden normalerweise an (fast) jedem 2. Montag im Monat um 19 Uhr
+im [Freiraum](/contact) statt.
 
 Alle bisherigen und geplanten Themen und Termine findet ihr unten;
 die Vorträge werden zudem im [Terminkalender](/events#Termine) und auf der
@@ -19,6 +19,8 @@ die Vorträge werden zudem im [Terminkalender](/events#Termine) und auf der
 Für den Fall, dass ihr einen Vortrag verpasst habt, findet ihr bei den
 meisten Seminaren auch eine Aufzeichung -- als Video oder komfortabler
 Podcast in verschiedenen Formaten.
+
+Oder ihr streamt euch den Vortrag über [media.ccc.de](https://media.ccc.de/c/ulm)
 
 Wenn du selbst gerne einen Vortrag über irgendein Thema halten würdest,
 dann sprich uns z.B. bei einem Montagstreff direkt an, oder schreibe
@@ -41,4 +43,3 @@ eine Mail an [mail@ulm.ccc.de](mailto:mail@ulm.ccc.de).
 ## vergangene Vorträge
 
 {{< chaosseminar-list-past >}}
-
