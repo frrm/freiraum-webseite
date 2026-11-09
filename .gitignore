@@ -4,3 +4,5 @@ themes/.DS_Store
 .update_events.lock
 .events-backup
 update_events.log
+__pycache__/
+resources/_gen/

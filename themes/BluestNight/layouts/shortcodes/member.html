@@ -1,5 +1,5 @@
 {{ $name := .Get 0 }}
-{{ range $.Site.Data.members }}
+{{ range hugo.Data.members }}
 	{{ if (eq $name .Name) }}
 	<div class="row vcenter memberbox">
 		<div class="member-avatar" class="row-item">

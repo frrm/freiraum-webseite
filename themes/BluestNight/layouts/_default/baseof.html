@@ -26,7 +26,7 @@
     <link rel="prefetch stylesheet" type="text/css" href="/css/font-awesome.min.css">
     {{ if $.Site.Params.hashover }}<link rel="prefetch stylesheet" type="text/css" href="{{ "hashover/comments.css" | relURL }}">{{ end }}
     <link rel="prefetch stylesheet" type="text/css" href="/styles.css">
-    {{ if (and (isset $.Site.Params.piwik "host") ($.Site.Params.piwik.enable)) -}}
+    {{ if (and $.Site.Params.piwik.host ($.Site.Params.piwik.enable)) -}}
     <script type="text/javascript">
       var _paq = _paq || [];
       /* tracker methods like "setCustomDimension" should be called before "trackPageView" */

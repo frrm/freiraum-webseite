@@ -240,3 +240,12 @@ halbautomatisch anzulegen (`event_create.py`).
 ## Hugo-Bashing
 
 TODO
+
+### Lokale Entwicklung mit Docker
+
+Voraussetzungen sind Docker mit Compose und Make. `make bootstrap` erstellt das
+Werkzeug-Image; `make dev` startet die Vorschau auf <http://localhost:1313>.
+`make build` erzeugt `public/`, `make check` prüft den Build und `make clean`
+entfernt generierte Dateien. `make events` aktualisiert den lokalen Kalender
+aus der konfigurierten Quelle; der normale Build funktioniert auch ohne Abruf.
+Das CalDAV-Synchronisationsskript wird dabei nicht ausgeführt.
