@@ -1,7 +1,10 @@
 export LOCAL_UID := $(shell id -u)
 export LOCAL_GID := $(shell id -g)
 
-.PHONY: bootstrap dev build check clean events
+.PHONY: help bootstrap dev build check clean events
+
+help:
+	@printf "%s\n" "bootstrap  Build development image" "dev        Start local server" "build      Build public/ (BASE_URL overrides URL)" "check      Build and check routes/assets" "events     Refresh calendar data" "clean      Remove generated output"
 
 bootstrap:
 	docker compose build
@@ -10,7 +13,7 @@ dev:
 	docker compose up
 
 build:
-	docker compose run --rm site hugo --cleanDestinationDir --minify --panicOnWarning
+	docker compose run --rm site hugo --cleanDestinationDir --minify --panicOnWarning $(if $(BASE_URL),--baseURL $(BASE_URL))
 
 check: build
 	docker compose run --rm site ./tests/site-smoke.sh
