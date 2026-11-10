@@ -26,7 +26,7 @@ jobs:
       - name: Build and check
         run: make bootstrap check
       - uses: cpina/github-action-push-to-another-repository@55306faa4ed53b815ae49e564af8cfb359d32ae2
-        if: github.event_name != 'pull_request'
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
         env:
           SSH_DEPLOY_KEY: ${{ secrets.SSH_PUSH_TO_FRRM_GITHUB_IO }}
         with:
