@@ -21,11 +21,13 @@
     {{- if .Params.tags -}}
       <meta name="keywords" itemprop="keywords" content="{{ delimit .Params.tags "," }}" id="keywords">
     {{- end -}}
-    <link rel="canonical" href="{{ .Permalink | relURL }}">
+    <link rel="canonical" href="{{ .Permalink }}">
+    {{ if templates.Exists "partials/metadata.html" }}{{ partial "metadata.html" . }}{{ end }}
     <link rel="shortcut icon" href="{{ "/favicon.png" | relURL }}">
     <link rel="prefetch stylesheet" type="text/css" href="/css/font-awesome.min.css">
     {{ if $.Site.Params.hashover }}<link rel="prefetch stylesheet" type="text/css" href="{{ "hashover/comments.css" | relURL }}">{{ end }}
-    <link rel="prefetch stylesheet" type="text/css" href="/styles.css">
+    {{ $style := resources.FromString "styles.css" (partial "site.css" .) | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
     {{ if (and $.Site.Params.piwik.host ($.Site.Params.piwik.enable)) -}}
     <script type="text/javascript">
       var _paq = _paq || [];
@@ -143,16 +145,5 @@
         </div>
       </footer>
     </div>
-    {{- if $.Site.Params.widgets.search -}}
-    <script src="https://unpkg.com/lunr/lunr.js"></script>
-    <script src="{{ "js/search.min.js" | relURL }}" type="text/javascript"></script>
-    <script>
-      var lunrIndex = undefined;
-      loadIndex("{{ "index.json" | relURL }}").then(
-        function(index) { lunrIndex = index; },
-        function(status){}
-      );
-    </script>
-    {{- end -}}
   </body>
 </html>

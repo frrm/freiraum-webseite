@@ -40,9 +40,7 @@
         {{- with .Description -}}
           {{ . | markdownify }} <a href="{{ $page.Permalink }}">[Read more...]</a>
         {{- else -}}
-          <!-- {{ .Summary | markdownify }}{{ if .Truncated }} <a href="{{ $page.Permalink }}">[Read more...]</a>{{ end }} -->
-	  <!-- fix relative URLs of blogposts -->
-          {{ replaceRE " (src|href)=\"([^\"/:]([^\":]|:[^/])*)\"" (add (add " $1=\"" $.Permalink) "$2\"") .Content | replaceRE " href=\"[^\"]*/(mailto:[^\"]*)\"" " href=\"$1\"" | safeHTML }}
+          {{ .Content }}
         {{- end -}}
     </div>
   </div>
