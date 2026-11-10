@@ -13,6 +13,7 @@ permissions:
   contents: read
 jobs:
   screenshots:
+    timeout-minutes: 45
     runs-on: ubuntu-latest
     container: mcr.microsoft.com/playwright:v1.56.1-noble@sha256:f1e7e01021efd65dd1a2c56064be399f3e4de00fd021ac561325f2bfbb2b837a
     steps:
@@ -25,6 +26,7 @@ jobs:
           HEAD_SHA: ${{ github.event.pull_request.head.sha || inputs.head }}
         run: |
           set -eu
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
           mkdir -p /tmp/visual/bin /tmp/visual/base /tmp/visual/head
           curl -fsSL -o /tmp/visual/old.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.84.4/hugo_extended_0.84.4_Linux-64bit.tar.gz
           echo "db608b641e04026c39555099e4b10fa0e38a3d44c320a08dc4bb9f127ea518a1  /tmp/visual/old.tar.gz" | sha256sum -c -
