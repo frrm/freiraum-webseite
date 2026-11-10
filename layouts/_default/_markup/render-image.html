@@ -1,6 +1,6 @@
 {{- $url := .Destination -}}
 {{- $parsed := urls.Parse $url -}}
-{{- if and (not $parsed.IsAbs) (not $parsed.Host) (not (strings.HasPrefix $url "/")) (not (strings.HasPrefix $url "#")) (not (strings.HasPrefix $url "?")) -}}
+{{- if and (not $parsed.IsAbs) (not $parsed.Host) (not (strings.HasPrefix $url "/")) -}}
   {{- $url = printf "%s%s" .Page.RelPermalink $url -}}
 {{- end -}}
 <img src="{{ $url }}" alt="{{ .PlainText }}"{{ with .Title }} title="{{ . }}"{{ end }}>
