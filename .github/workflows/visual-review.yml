@@ -46,6 +46,7 @@ jobs:
               hugo=/tmp/visual/bin/hugo
             fi
             if grep -q '^def create_snapshot(' "/tmp/visual/$side/events_create.py"; then
+              if ! python3 -m venv /tmp/visual/venv-probe 2>/dev/null; then apt-get update && apt-get install -y python3-venv; fi
               python3 -m venv "/tmp/visual/venv-$side"
               "/tmp/visual/venv-$side/bin/pip" install -r "/tmp/visual/$side/requirements.txt"
               (cd "/tmp/visual/$side" && VISUAL_FIXTURE="$GITHUB_WORKSPACE/tests/visual/calendar.ics" "/tmp/visual/venv-$side/bin/python" -c 'from datetime import date; import os, events_create; events_create.create_snapshot(os.environ["VISUAL_FIXTURE"], "data/calendar", date(2026, 10, 1))')
