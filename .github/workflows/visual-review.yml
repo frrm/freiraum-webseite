@@ -1,0 +1,80 @@
+name: Visual review
+on:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      base:
+        description: Base commit SHA
+        required: true
+      head:
+        description: Head commit SHA
+        required: true
+permissions:
+  contents: read
+jobs:
+  screenshots:
+    runs-on: ubuntu-latest
+    container: mcr.microsoft.com/playwright:v1.56.1-noble@sha256:f1e7e01021efd65dd1a2c56064be399f3e4de00fd021ac561325f2bfbb2b837a
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          fetch-depth: 0
+      - name: Build both revisions
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha || inputs.base }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha || inputs.head }}
+        run: |
+          set -eu
+          mkdir -p /tmp/visual/bin /tmp/visual/base /tmp/visual/head
+          curl -fsSL -o /tmp/visual/old.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.84.4/hugo_extended_0.84.4_Linux-64bit.tar.gz
+          echo "db608b641e04026c39555099e4b10fa0e38a3d44c320a08dc4bb9f127ea518a1  /tmp/visual/old.tar.gz" | sha256sum -c -
+          tar xzf /tmp/visual/old.tar.gz -C /tmp/visual/bin hugo
+          mv /tmp/visual/bin/hugo /tmp/visual/bin/hugo-old
+          curl -fsSL -o /tmp/visual/current.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.169.0/hugo_extended_0.169.0_linux-amd64.tar.gz
+          echo "c41672a0725d307758a132bc94a962e59760eb33f9ba08c991b81f9881d6fa7d  /tmp/visual/current.tar.gz" | sha256sum -c -
+          tar xzf /tmp/visual/current.tar.gz -C /tmp/visual/bin hugo
+          for side in base head; do
+            if [ "$side" = base ]; then revision="$BASE_SHA"; else revision="$HEAD_SHA"; fi
+            git archive "$revision" | tar x -C "/tmp/visual/$side"
+            mkdir -p "/tmp/visual/$side/data"
+            printf '[]\n' > "/tmp/visual/$side/data/events.json"
+            if [ ! -f "/tmp/visual/$side/Dockerfile" ]; then
+              sed -i 's/^pagination\.pagerSize = /paginate = /' "/tmp/visual/$side/config.toml"
+              sed -i 's/lang.FormatNumberCustom 1 (div (int \.) 1048576.0)/printf "%.1f" (div (int .) 1048576.0)/' "/tmp/visual/$side/layouts/shortcodes/chaosseminar.html"
+              hugo=/tmp/visual/bin/hugo-old
+            else
+              hugo=/tmp/visual/bin/hugo
+            fi
+            if grep -q '^def create_snapshot(' "/tmp/visual/$side/events_create.py"; then
+              python3 -m venv "/tmp/visual/venv-$side"
+              "/tmp/visual/venv-$side/bin/pip" install -r "/tmp/visual/$side/requirements.txt"
+              (cd "/tmp/visual/$side" && VISUAL_FIXTURE="$GITHUB_WORKSPACE/tests/visual/calendar.ics" "/tmp/visual/venv-$side/bin/python" -c 'from datetime import date; import os, events_create; events_create.create_snapshot(os.environ["VISUAL_FIXTURE"], "data/calendar", date(2026, 10, 1))')
+              SNAPSHOT="/tmp/visual/$side/data/calendar/snapshot.json" python3 -c 'import json, os; p=os.environ["SNAPSHOT"]; d=json.load(open(p)); d["fetchedAt"]="2026-10-01T12:00:00+00:00"; open(p,"w").write(json.dumps(d))'
+            fi
+            "$hugo" --source "/tmp/visual/$side" --destination "/tmp/visual/out-$side"
+            if [ -f "/tmp/visual/$side/Dockerfile" ]; then
+              "$hugo" list all --source "/tmp/visual/$side" > "/tmp/visual/$side.csv"
+            else
+              printf 'path,permalink\n' > "/tmp/visual/$side.csv"
+            fi
+            if [ -f "/tmp/visual/$side/package-lock.json" ] && grep -q '"pagefind"' "/tmp/visual/$side/package.json"; then
+              (cd "/tmp/visual/$side" && npm ci && ./node_modules/.bin/pagefind --site "/tmp/visual/out-$side" --root-selector 'main article#post-article')
+            fi
+          done
+      - name: Capture and compare
+        env:
+          VISUAL_BASE: ${{ github.event.pull_request.base.sha || inputs.base }}
+          VISUAL_HEAD: ${{ github.event.pull_request.head.sha || inputs.head }}
+        run: |
+          cd tests/visual
+          npm ci
+          if [ ! -f /tmp/visual/base/Dockerfile ]; then export VISUAL_LEGACY=true; fi
+          python3 changed-pages.py /tmp/visual/base.csv /tmp/visual/head.csv > /tmp/visual/changed-pages.json
+          export VISUAL_EXTRA=/tmp/visual/changed-pages.json
+          node capture.mjs /tmp/visual/out-base /tmp/visual/out-head /tmp/visual/report
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: visual-review-${{ github.event.pull_request.head.sha || inputs.head }}
+          path: /tmp/visual/report/
+          if-no-files-found: error
+          retention-days: 90
