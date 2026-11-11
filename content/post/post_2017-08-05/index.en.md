@@ -1,0 +1,30 @@
++++
+author = "frdnd"
+title = "Coding Night - Sonic Pi"
+date = "2017-08-05"
+categories = ["Announcements"]
+hide_readingtime = true
++++
+Today, 5 August, we are spontaneously holding a coding night about [Sonic Pi](http://sonic-pi.net/).
+
+**Beginner: How to make a Simple Beat**
+
+https://www.youtube.com/watch?v=41cX7CKVyG0
+
+**Advanced: Live coding dub techno in Sonic Pi**
+
+https://www.youtube.com/watch?v=a1RxpJkvqpY
+
+**Pro: Sam Aaron live coding an ambient electro set**
+{{< youtube id="G1m0aX9Lpts" autoplay="false" >}}
+
+Sources:
+
+* Code for the live-coding dub techno example is [here](https://gist.github.com/jindrichmynarz/f233f75c719abe6a6c81)
+* [Algorithmic Composition Methods for
+Breakbeat Science](http://www.dmu.ac.uk/documents/technology-documents/research/mtirc/nowalls/mww-collins.pdf)
+* [Mehackit Howto](http://sonic-pi.mehackit.org/)
+
+
+Todo:
+* Record samples; @frdnd, bring the Tascam!
