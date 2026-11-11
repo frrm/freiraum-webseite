@@ -106,15 +106,28 @@ def apply_config(path):
     TERMIN_FORMATS = tuple(str(f) for f in get("seminar", "termin_formats", list))
 
 
-apply_config(CONFIG_FILE)
-
-
 class CalDavError(Exception):
     """Problem with the server (login, URL, unexpected answer): the run is aborted."""
 
 
 class Quit(Exception):
     """The user answered 'q' in manual mode."""
+
+
+def load_seminar_events(content_dir):
+    events = []
+    for path in sorted(content_dir.rglob("*.md")):
+        if path.name == "_index.md" or path.name.endswith(".en.md"):
+            continue
+        try:
+            front_matter = read_front_matter(path)
+            event = build_event(path, front_matter) if front_matter is not None else None
+        except (ValueError, tomllib.TOMLDecodeError) as err:
+            print(f"  {path.name}: {err}, skipped", file=sys.stderr)
+            continue
+        if event:
+            events.append(event)
+    return events
 
 
 # ---------------------------------------------------------------------------
@@ -783,18 +796,7 @@ def main():
     if not CONTENT_DIR.is_dir():
         sys.exit(f"Content folder not found: {CONTENT_DIR}")
 
-    events = []
-    for path in sorted(CONTENT_DIR.rglob("*.md")):
-        if path.name == "_index.md":
-            continue
-        try:
-            front_matter = read_front_matter(path)
-            event = build_event(path, front_matter) if front_matter is not None else None
-        except (ValueError, tomllib.TOMLDecodeError) as err:
-            print(f"  {path.name}: {err}, skipped", file=sys.stderr)
-            continue
-        if event:
-            events.append(event)
+    events = load_seminar_events(CONTENT_DIR)
 
     if not events:
         print("No upcoming Chaosseminar found.")

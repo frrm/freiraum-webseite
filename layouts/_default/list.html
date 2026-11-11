@@ -9,7 +9,14 @@
   {{ .Content }}
   {{- if (or (not (isset .Params "hide_list")) (not .Params.hide_list)) -}}
     {{- if .IsHome -}}
-      {{- $paginator := .Paginate (where site.RegularPages "Section" "post") -}}
+      {{- $posts := where site.RegularPages "Section" "post" -}}
+      {{- if eq .Language.Lang "en" -}}
+        {{- $german := index (where hugo.Sites "Language.Lang" "de") 0 -}}
+        {{- range where $german.RegularPages "Section" "post" -}}
+          {{- if not .IsTranslated -}}{{- $posts = $posts | append . -}}{{- end -}}
+        {{- end -}}
+      {{- end -}}
+      {{- $paginator := .Paginate (sort $posts "Date" "desc") -}}
       {{- range $paginator.Pages -}}
         {{ partial "list_item.html" . }}
       {{- end -}}
