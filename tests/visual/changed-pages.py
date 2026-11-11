@@ -6,7 +6,7 @@ import sys
 from urllib.parse import urlsplit
 
 changed = set(subprocess.check_output([
-    'git', 'diff', '--name-only', '-z', os.environ['VISUAL_BASE'], os.environ['VISUAL_HEAD'], '--', 'content'
+    'git', 'diff', '--name-only', '-z', os.environ['VISUAL_BASE'], os.environ['VISUAL_HEAD'], '--', ':(top)content'
 ]).decode().split('\0'))
 paths = set()
 for filename in sys.argv[1:]:
