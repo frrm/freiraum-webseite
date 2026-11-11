@@ -1,29 +1,54 @@
-<!-- get sorted list of past seminars -->
-{{- $.Scratch.Set "seminars_past" slice -}}
-{{- $.Scratch.Set "years" slice -}}
-{{- range where .Site.Pages "Section" "ccc" -}}
-  {{- if .Params.ChaosSeminar -}}
-    {{- if .Params.date -}}
-      {{- if lt (dateFormat "2006-01-02" .Params.date) (dateFormat "2006-01-02" now) -}}
-        {{- $.Scratch.Add "seminars_past" . -}}
-        {{- $.Scratch.Add "years" (dateFormat "2006" .Params.date) -}}
-      {{- end -}}
-    {{- end -}}
+{{- $past := slice -}}
+{{- $site := .Site -}}
+{{- if eq .Site.Language.Lang "en" -}}{{- range hugo.Sites -}}{{- if eq .Language.Lang "de" -}}{{- $site = . -}}{{- end -}}{{- end -}}{{- end -}}
+{{- range where $site.Pages "Section" "ccc" -}}
+  {{- if and .Params.ChaosSeminar .Params.date (lt (dateFormat "2006-01-02" .Params.date) (now.Format "2006-01-02")) -}}
+    {{- $seminar := . -}}
+    {{- if eq $.Site.Language.Lang "en" -}}{{- range .Translations -}}{{- if eq .Language.Lang "en" -}}{{- $seminar = . -}}{{- end -}}{{- end -}}{{- end -}}
+    {{- $past = $past | append $seminar -}}
   {{- end -}}
 {{- end -}}
-
-{{- $years := uniq ($.Scratch.Get "years") -}}
-{{- $seminars_past_sorted := sort ($.Scratch.Get "seminars_past") ".Params.date" "desc" -}}
-<!-- list all past seminars, grouped by year -->
-{{- range $year := $years -}}
-<h3>{{ $year }}</h3>
-<ul>
-  {{- range $seminar := $seminars_past_sorted -}}
-    {{- if eq (dateFormat "2006" $seminar.Params.date) $year -}}
-      <li>
-      {{ dateFormat "2006-01-02" .Params.date }}: <a href="{{ .RelPermalink }}">{{ if .Params.ChaosSeminar.thema }}{{ .Params.ChaosSeminar.thema }}{{ else }}{{ .Params.title }}{{ end }}</a>
-      </li>
+{{- $past = sort $past ".Params.date" "desc" -}}
+{{- $years := slice -}}
+{{- range $past -}}{{- $years = $years | append (dateFormat "2006" .Params.date) -}}{{- end -}}
+{{- $years = uniq $years -}}
+{{- $de := eq .Site.Language.Lang "de" -}}
+<link rel="stylesheet" href="{{ "css/seminar-archive.css" | relURL }}">
+<script defer src="{{ "js/seminar-archive.js" | relURL }}"></script>
+<div class="media-filter" data-seminar-filter>
+  <label>{{ if $de }}Jahr{{ else }}Year{{ end }}
+    <select name="year"><option value="all">{{ if $de }}Alle Jahre{{ else }}All years{{ end }}</option>
+      {{- range $years }}<option value="{{ . }}">{{ . }}</option>{{ end -}}
+    </select>
+  </label>
+  <label>{{ if $de }}Medium{{ else }}Media{{ end }}
+    <select name="media">
+      <option value="all">{{ if $de }}Alle Medien{{ else }}All media{{ end }}</option>
+      <option value="video">Video</option><option value="audio">Audio</option>
+      <option value="slides">{{ if $de }}Folien{{ else }}Slides{{ end }}</option>
+      <option value="other">{{ if $de }}Sonstiges{{ else }}Other{{ end }}</option>
+    </select>
+  </label>
+</div>
+<ul class="seminar-archive">
+  {{- range $seminar := $past -}}
+    {{- $types := slice -}}
+    {{- with $seminar.Params.ChaosSeminar.archiv -}}
+      {{- if reflect.IsSlice . -}}
+        {{- range . -}}
+          {{- $url := lower (index . 1) -}}
+          {{- if or (strings.HasSuffix $url ".mp4") (strings.HasSuffix $url ".m4v") (strings.HasSuffix $url ".3gp") (strings.HasSuffix $url ".ogv") -}}
+            {{- $types = $types | append "video" -}}
+          {{- else if or (strings.HasSuffix $url ".mp3") (strings.HasSuffix $url ".ogg") (strings.HasSuffix $url ".opus") -}}
+            {{- $types = $types | append "audio" -}}
+          {{- else if strings.HasSuffix $url ".pdf" -}}
+            {{- $types = $types | append "slides" -}}
+          {{- else -}}{{- $types = $types | append "other" -}}{{- end -}}
+        {{- end -}}
+      {{- else -}}{{- $types = $types | append "other" -}}{{- end -}}
     {{- end -}}
+    <li data-year="{{ dateFormat "2006" $seminar.Params.date }}" data-media="{{ delimit (uniq $types) " " }}">
+      {{ dateFormat "2006-01-02" $seminar.Params.date }}: <a href="{{ $seminar.RelPermalink }}"{{ if and (not $de) (eq $seminar.Language.Lang "de") }} lang="de"{{ end }}>{{ with $seminar.Params.ChaosSeminar.thema }}{{ . }}{{ else }}{{ $seminar.Params.title }}{{ end }}</a>{{ if and (not $de) (eq $seminar.Language.Lang "de") }} <span lang="en">(German)</span>{{ end }}
+    </li>
   {{- end -}}
 </ul>
-{{- end -}}
