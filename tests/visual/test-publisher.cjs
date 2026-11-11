@@ -1,0 +1,30 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const os = require('node:os');
+const path = require('node:path');
+const {readReport, selectPages, commentBody, marker} = require('../../.github/scripts/visual-comments.cjs');
+const directory = fs.mkdtempSync(path.join(os.tmpdir(), 'visual-publisher-'));
+const head = 'a'.repeat(40), base = 'b'.repeat(40);
+try {
+  const route = '/en/post/example/';
+  const name = 'changed-' + Buffer.from(route).toString('hex');
+  const file = name + '-desktop-light-after.png';
+  fs.writeFileSync(path.join(directory, file), Buffer.from([137,80,78,71,13,10,26,10]));
+  const html = `Base: ${base}; head: ${head}.<section><h2>${route} — desktop / light: Not comparable</h2><a href="${file}">image</a></section>`;
+  fs.writeFileSync(path.join(directory, 'index.html'), html);
+  const pages = readReport(directory, head, base);
+  assert.equal(pages.get(route).after, file);
+  assert.throws(() => readReport(directory, 'c'.repeat(40), base), /current PR/);
+  const all = new Map([...pages, ['/', {route:'/',name:'home'}], ['/post/example/',{route:'/post/example/',name:'changed-source'}]]);
+  assert.equal(selectPages(all,[{filename:'content/post/example/index.en.md'}]).length,1);
+  assert.equal(selectPages(all,[{filename:'layouts/baseof.html'}]).length,3);
+  const body = commentBody(pages.get(route), {head:{sha:head},base:{sha:base}}, {after:'https://example.org/after.png'}, 'https://example.org/report', 'New page');
+  assert(body.includes('No comparable baseline') && body.includes(marker(route)) && body.includes(head));
+  fs.writeFileSync(path.join(directory, 'index.html'), html.replace(file, '../outside-desktop-light-after.png'));
+  assert.throws(() => readReport(directory,head,base), /filename/);
+  fs.writeFileSync(path.join(directory, 'index.html'), html);
+  fs.unlinkSync(path.join(directory,file));
+  fs.symlinkSync(path.join(directory,'index.html'),path.join(directory,file));
+  assert.throws(() => readReport(directory,head,base), /screenshot/);
+  console.log('Publisher checks passed: page selection, revisions, missing baselines and artifact boundaries');
+} finally { fs.rmSync(directory,{recursive:true,force:true}); }
