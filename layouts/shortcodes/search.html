@@ -1,0 +1,11 @@
+{{- $news := "post/" | relURL -}}
+{{- with .Page.Site.GetPage "/post" -}}{{- $news = .RelPermalink -}}{{- end -}}
+{{- $archive := "ccc/chaosseminar/" | relURL -}}
+{{- with .Page.Site.GetPage "/ccc/chaosseminar" -}}{{- $archive = .RelPermalink -}}{{- end -}}
+<link href="{{ "pagefind/pagefind-ui.css" | relURL }}" rel="stylesheet">
+<div id="search" data-pagefind-ignore data-index="{{ "pagefind/pagefind-entry.json" | relURL }}" data-language="{{ .Page.Language.Lang }}"></div>
+<noscript>
+  <p>{{ if eq .Page.Language.Lang "en" }}Search requires JavaScript. Browse the <a href="{{ $news }}">news archive</a> or <a href="{{ $archive }}">Chaosseminar archive</a>.{{ else }}Die Suche benötigt JavaScript. Durchsuche das <a href="{{ $news }}">Nachrichtenarchiv</a> oder das <a href="{{ $archive }}">Chaosseminar-Archiv</a>.{{ end }}</p>
+</noscript>
+<script defer src="{{ "pagefind/pagefind-ui.js" | relURL }}"></script>
+<script defer src="{{ "modules/search.js" | relURL }}"></script>
