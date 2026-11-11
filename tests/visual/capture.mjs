@@ -16,7 +16,7 @@ const server = createServer((req,res) => {
   const parts = url.pathname.split('/'); const root = parts[1] === 'before' ? before : after;
   let path = resolve(root, '.' + decodeURIComponent('/' + parts.slice(2).join('/')));
   if (!path.startsWith(root + '/') && path !== root) { res.writeHead(403); return res.end(); }
-  if (!extname(path)) path += '/index.html';
+  if (url.pathname.endsWith('/') || !extname(path)) path += '/index.html';
   if (!existsSync(path)) { res.writeHead(404); return res.end('Not present in this revision'); }
   res.writeHead(200, {'Content-Type':mime[extname(path)] || 'application/octet-stream'}); res.end(readFileSync(path));
 });
@@ -33,7 +33,7 @@ for (const [name, path] of cases) for (const [device, viewport] of [['desktop',{
   const label = `${name}-${device}-${theme}`;
   let present = [];
   for (const [side, root] of [['before',before],['after',after]]) {
-    const file = resolve(root, '.' + path, 'index.html');
+    const file = resolve(root, '.' + decodeURIComponent(path), 'index.html');
     if (!existsSync(file)) { present.push(false); continue; }
     present.push(true);
     const context = await browser.newContext({viewport, colorScheme:theme, locale: path.startsWith('/en/') ? 'en-US' : 'de-DE', timezoneId:'Europe/Berlin', reducedMotion:'reduce'});
