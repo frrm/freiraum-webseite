@@ -23,3 +23,7 @@ events:
 
 clean:
 	rm -rf public resources/_gen
+
+.PHONY: fixtures
+fixtures:
+	docker compose run --rm site python3 -c "from pathlib import Path; Path('data').mkdir(exist_ok=True); Path('data/events.json').write_text('[]\n')"

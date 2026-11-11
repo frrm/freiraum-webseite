@@ -22,10 +22,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Build and check
         run: make bootstrap check
-      - uses: cpina/github-action-push-to-another-repository@55306faa4ed53b815ae49e564af8cfb359d32ae2
+      - uses: cpina/github-action-push-to-another-repository@55306faa4ed53b815ae49e564af8cfb359d32ae2 # v1.7.3
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
         env:
           SSH_DEPLOY_KEY: ${{ secrets.SSH_PUSH_TO_FRRM_GITHUB_IO }}

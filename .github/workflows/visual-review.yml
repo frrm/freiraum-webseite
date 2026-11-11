@@ -15,9 +15,9 @@ jobs:
   screenshots:
     timeout-minutes: 45
     runs-on: ubuntu-latest
-    container: mcr.microsoft.com/playwright:v1.56.1-noble@sha256:f1e7e01021efd65dd1a2c56064be399f3e4de00fd021ac561325f2bfbb2b837a
+    container: mcr.microsoft.com/playwright:v1.65.0-noble@sha256:6e3fb709361521eb27161606e6da6d2674e5e89fa16516cb37d6fdd91372273d
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           fetch-depth: 0
       - name: Build both revisions
@@ -26,6 +26,7 @@ jobs:
           HEAD_SHA: ${{ github.event.pull_request.head.sha || inputs.head }}
         run: |
           set -eu
+          apt-get update && apt-get install -y python3 python3-venv
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
           mkdir -p /tmp/visual/bin /tmp/visual/base /tmp/visual/head
           curl -fsSL -o /tmp/visual/old.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.84.4/hugo_extended_0.84.4_Linux-64bit.tar.gz
@@ -70,12 +71,13 @@ jobs:
           VISUAL_HEAD: ${{ github.event.pull_request.head.sha || inputs.head }}
         run: |
           cd tests/visual
+          python3 -m unittest discover -s . -p 'test_*.py'
           npm ci
           if [ ! -f /tmp/visual/base/Dockerfile ]; then export VISUAL_LEGACY=true; fi
           python3 changed-pages.py /tmp/visual/base.csv /tmp/visual/head.csv > /tmp/visual/changed-pages.json
           export VISUAL_EXTRA=/tmp/visual/changed-pages.json
           node capture.mjs /tmp/visual/out-base /tmp/visual/out-head /tmp/visual/report
-      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: visual-review-${{ github.event.pull_request.head.sha || inputs.head }}
           path: /tmp/visual/report/
