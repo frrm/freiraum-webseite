@@ -1,0 +1,8 @@
+{{- partial "media-assets.html" . -}}
+{{- $de := eq .Site.Language.Lang "de" -}}
+<dialog class="media-lightbox" aria-label="{{ if $de }}Bildansicht{{ else }}Image viewer{{ end }}">
+  <button type="button" data-close aria-label="{{ if $de }}Schließen{{ else }}Close{{ end }}">×</button>
+  <button type="button" data-previous aria-label="{{ if $de }}Vorheriges Bild{{ else }}Previous image{{ end }}">‹</button>
+  <figure><img alt=""><figcaption></figcaption></figure>
+  <button type="button" data-next aria-label="{{ if $de }}Nächstes Bild{{ else }}Next image{{ end }}">›</button>
+</dialog>

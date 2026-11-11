@@ -8,6 +8,8 @@ hide_readingtime = true
 Hier findet ihr Fotos von Projekten, Banalem, Beweisfotos und solche, die es
 werden wollen.
 
+{{< media-gallery >}}
+
 **Der Weg in den “Freiraum”**
 
 [ ![IMG_20141014_151125](/images/der-weg-zum-freiraum/thumbs/thumbs_IMG_20141014_151125.jpg)](/images/der-weg-zum-freiraum/IMG_20141014_151125.jpg "Das
@@ -16,8 +18,7 @@ Gebäude von außen.")
 die Haupteingangstür...")
 [ ![IMG_20141014_151340](/images/der-weg-zum-freiraum/thumbs/thumbs_IMG_20141014_151340.jpg) ](/images/der-weg-zum-freiraum/IMG_20141014_151340.jpg "...die
 Treppe hoch...")
-[ ![IMG_20141014_151405](/images/der-weg-zum-freiraum/thumbs/thumbs_IMG_20141014_151405.jpg) ](/images/der-weg-zum-freiraum/IMG_20141014_151405.jpg
-"...vorbei an den "Fresken", über die...")
+[ ![IMG_20141014_151405](/images/der-weg-zum-freiraum/thumbs/thumbs_IMG_20141014_151405.jpg) ](/images/der-weg-zum-freiraum/IMG_20141014_151405.jpg "...vorbei an den &quot;Fresken&quot;, über die...")
 
 **_Folgt den Treppen bis in die 3. Etage am Studio von FreeFM vorbei!_**
 
