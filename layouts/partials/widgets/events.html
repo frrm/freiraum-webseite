@@ -1,48 +1,15 @@
 {{- if .Site.Params.widgets.upcoming_events -}}
-<div class="widget">
-	<header>
-		<h4><a href="{{ "events/" | relLangURL }}#{{ if eq .Site.Language.Lang "en" }}calendar{{ else }}terminkalender{{ end }}"><span class="fa fa-calendar"></span> {{ i18n "nextMeetings" }}</a></h4>
-	</header>
-	<ul class="events-side" data-ics-url="/kalender" data-count="{{ .Site.Params.num_events | default 10 }}">
-		<li>{{ if eq .Site.Language.Lang "en" }}Loading events …{{ else }}Termine werden geladen …{{ end }}</li>
-	</ul>
-	<script type="module" src="/modules/next-events.js"></script>
-	<noscript>
-	    <div id="no-js-content">
-	        <p>{{ if eq .Site.Language.Lang "en" }}JavaScript is disabled.{{ else }}JavaScript ist deaktiviert.{{ end }}</p>
-	    </div>
-	    <!-- sort events by date -->
-	{{- $events_sorted := where (sort (default dict hugo.Data.events) "startDatetime" "asc") "startDatetime" "ge" (now.Format "2006-01-02") -}}
-	<!-- get list of YYYY-MM of the events -->
-	{{- $.Scratch.Set "months" slice -}}
-	{{- range $events_sorted -}}
-	    {{ $.Scratch.Add "months" (dateFormat "2006-01" .startDatetime) -}}
-	{{- end -}}
-	{{- $months := (uniq ($.Scratch.Get "months")) -}}
-	<!-- list all events, sorted by month -->
-	{{- range $months -}}
-	    <h3>{{ . }}</h3>
-	    <ul class="events-by-month">
-	  {{- range (where (where $events_sorted "startDatetime" "ge" .) "startDatetime" "lt" (add . "x")) -}}
-	  <li itemscope itemtype="http://schema.org/Event">
-	    <b itemprop="name">{{ .name }}:</b>
-	   <!-- <span itemprop="about">{{ .description }}</span><br>-->
-	    <span style="white-space: nowrap">
-	    <img class="date-marker" alt="Zeit:" src="/images/marker-time.svg">
-	    <time datetime="{{ dateFormat "2006-01-02T15:04:05" .startDatetime }}" content="{{ dateFormat "2006-01-02T15:04:05" .startDatetime }}" itemprop="startDate">{{ dateFormat "2006-01-02 15:04" .startDatetime }}</time>
-	    </span><br>
-	    <!--
-	    -
-	    <time datetime="{{ dateFormat "2006-01-02T15:04:05" .endDatetime }}" content="{{ dateFormat "2006-01-02T15:04:05" .endDatetime }}" itemprop="endDate">{{ dateFormat "2006/01/02 @ 15:04" .endDatetime }}</time>
-	    <br/>--><span style="white-space: nowrap">
-	    <img class="location-marker" alt="Ort:" src="/images/marker-location.svg">
-	    <span class="event-location" itemprop="location">{{ .location }}</span>
-	    </span>
-	    </li>
-	  {{- end -}}
-	</ul>
-	{{ end }}
-	<b>{{ if eq .Site.Language.Lang "en" }}More to follow...{{ else }}Weitere folgen...{{ end }}</b>
-	</noscript>
+{{- $en := eq .Site.Language.Lang "en" -}}
+{{- $events := slice -}}
+{{- with hugo.Data.calendar.snapshot -}}
+  {{- $events = .events -}}
+{{- end -}}
+<div class="widget" data-pagefind-ignore>
+  <header><h4><a href="{{ "events/" | relLangURL }}">{{ if $en }}Upcoming events{{ else }}Nächste Treffen{{ end }}</a></h4></header>
+  <ul class="events-side">
+    {{- range first (.Site.Params.num_events | default 10) $events }}
+    <li><strong>{{ .name }}</strong><br><time datetime="{{ .start }}">{{ substr .start 0 10 }}{{ if not .allDay }} {{ substr .start 11 5 }}{{ end }}</time>{{ with .location }} · {{ . }}{{ end }}</li>
+    {{- else }}<li>{{ if $en }}No upcoming events.{{ else }}Keine anstehenden Termine.{{ end }}</li>{{ end }}
+  </ul>
 </div>
 {{- end -}}
