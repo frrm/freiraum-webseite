@@ -77,7 +77,10 @@ jobs:
           python3 changed-pages.py /tmp/visual/base.csv /tmp/visual/head.csv > /tmp/visual/changed-pages.json
           export VISUAL_EXTRA=/tmp/visual/changed-pages.json
           node capture.mjs /tmp/visual/out-base /tmp/visual/out-head /tmp/visual/report
+      - name: Check media interactions and fallbacks
+        run: cd tests/visual && node media.mjs /tmp/visual/out-head
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        if: always()
         with:
           name: visual-review-${{ github.event.pull_request.head.sha || inputs.head }}
           path: /tmp/visual/report/
