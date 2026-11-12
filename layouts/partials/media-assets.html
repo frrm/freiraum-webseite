@@ -1,0 +1,5 @@
+{{- if not (.Page.Store.Get "mediaAssets") -}}
+  {{- .Page.Store.Set "mediaAssets" true -}}
+  <link rel="stylesheet" href="/css/media.css">
+  <script src="/js/media.js" defer></script>
+{{- end -}}

@@ -5,6 +5,8 @@ menu = "main"
 weight = 5
 hide_readingtime = true
 +++
+
+{{< media-gallery >}}
 Here you will find photos of projects, everyday oddities, proof photos, and photos that aspire to become proof.
 
 **The way into “Freiraum”**
