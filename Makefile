@@ -2,25 +2,30 @@ export LOCAL_UID := $(shell id -u)
 export LOCAL_GID := $(shell id -g)
 export DATE TITLE
 
-.PHONY: help bootstrap dev build check clean events new-post new-seminar translations
+.PHONY: help bootstrap dev build search check clean events new-post new-seminar translations
 
 help:
-	@printf "%s\n" "bootstrap  Build development image" "dev        Start local server" "build      Build public/ (BASE_URL overrides URL)" "check      Build and check routes/assets" "events     Refresh calendar data" "clean      Remove generated output"
+	@printf "%s\n" "bootstrap  Build development image" "dev        Start local server" "build      Build public/ (BASE_URL overrides URL)" "search     Rebuild search index in public/" "check      Build and check routes/assets" "events     Refresh calendar data" "clean      Remove generated output"
 
 bootstrap:
 	docker compose build
 
-dev:
+dev: build
 	docker compose up
 
 build:
 	docker compose run --rm site hugo --cleanDestinationDir --minify --panicOnWarning $(if $(BASE_URL),--baseURL $(BASE_URL))
+	$(MAKE) search
+
+search:
+	docker compose run --rm site /opt/search/node_modules/.bin/pagefind --site public --root-selector "main article#post-article"
 
 check: build
 	docker compose run --rm site ./tests/site-smoke.sh
 	docker compose run --rm site python3 -m unittest discover -s tests -p 'test_author_content.py'
 	docker compose run --rm site python3 tests/check-multilingual.py
 	docker compose run --rm site sh -c 'hugo --contentDir tests/fixtures/content --destination /tmp/render-check --cleanDestinationDir --minify --panicOnWarning && python3 tests/check-render.py'
+	docker compose run --rm site ./tests/search-index.sh
 
 events:
 	docker compose run --rm site ./fetch_events.sh

@@ -78,7 +78,16 @@ jobs:
           python3 changed-pages.py /tmp/visual/base.csv /tmp/visual/head.csv > /tmp/visual/changed-pages.json
           export VISUAL_EXTRA=/tmp/visual/changed-pages.json
           node capture.mjs /tmp/visual/out-base /tmp/visual/out-head /tmp/visual/report
+      - name: Check bilingual search and fallbacks
+        run: |
+          python3 -m http.server 18417 --bind 127.0.0.1 --directory /tmp/visual/out-head >/tmp/visual/search-http.log 2>&1 &
+          server=$!
+          trap 'kill "$server"' EXIT
+          for attempt in 1 2 3 4 5; do curl -fsS http://127.0.0.1:18417/ >/dev/null && break; sleep 1; done
+          cd tests/visual
+          SITE_URL=http://127.0.0.1:18417 node search.cjs
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        if: always()
         with:
           name: visual-review-${{ github.event.pull_request.head.sha || inputs.head }}
           path: /tmp/visual/report/
