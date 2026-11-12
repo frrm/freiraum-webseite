@@ -17,6 +17,7 @@ build:
 
 check: build
 	docker compose run --rm site ./tests/site-smoke.sh
+	docker compose run --rm site sh -c 'hugo --contentDir tests/fixtures/content --destination /tmp/render-check --cleanDestinationDir --minify --panicOnWarning && python3 tests/check-render.py'
 
 events:
 	docker compose run --rm site ./fetch_events.sh

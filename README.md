@@ -249,3 +249,7 @@ Werkzeug-Image; `make dev` startet die Vorschau auf <http://localhost:1313>.
 entfernt generierte Dateien. `make events` aktualisiert den lokalen Kalender
 aus der konfigurierten Quelle; der normale Build funktioniert auch ohne Abruf.
 Das CalDAV-Synchronisationsskript wird dabei nicht ausgeführt.
+
+In Artikeln relative Links und Bilder als Markdown schreiben, damit sie auch
+in Übersichten auf die richtige Artikel-URL zeigen. Für rohes HTML absolute
+Pfade verwenden.

@@ -1,0 +1,3 @@
+{{- if .Site.Params.widgets.search -}}
+<div class="widget"><a href="{{ "search/" | relLangURL }}">{{ if eq .Site.Language.Lang "en" }}Search{{ else }}Suche{{ end }}</a></div>
+{{- end -}}

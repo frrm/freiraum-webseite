@@ -5,7 +5,6 @@ author = "Der Andere"
 copyright = "2018"
 canonifyurls = true
 pagination.pagerSize = 7
-theme = "BluestNight"
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 DefaultContentLanguage = "de"
@@ -15,7 +14,7 @@ buildFuture = true
 disableKinds = ["rss"]
 
 [outputs]
-    home = ["HTML", "CSS"]
+    home = ["HTML"]
 
 [Params]
 #    tagline = "ZSAMMA BASCHDLA" # Subtitle of your site
