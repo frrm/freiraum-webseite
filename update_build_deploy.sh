@@ -6,17 +6,17 @@
 # - if anything has changed or when forced:
 #   - build pages
 #   - if successful: update website on webserver (via rsync)
-#   - if not successful: copy log to webserver
+#   - on failure: leave the published site unchanged during preparation
 #   - TODO: if not successful: alert admin
 #
 # Requires:
-#   git, hugo, rsync, flock
+#   git, docker compose, make, rsync, flock
 #
 # Notes:
 #   - directory-/filenames are defined at the top of this file
 #   - WEBDIR: must exist and needs write-access
-#   - OUTDIR: must exist and needs write-access
-#   - Logs to LOGFILE.
+#   - OUTDIR: parent directory must exist and be writable
+#   - Logs to stdout and stderr; the cron job redirects these to a private file.
 #   - locking: a lockfile with flock is used to handle concurrent calls
 #     to this script. Note that since flock is used, the lockfile may also
 #     exist without being locked.
@@ -36,7 +36,6 @@ WEBDIR="/var/www/html"
 OUTDIR="../output"
 EXCLUDEOUT="radio/"	    # exclude from overwriting/deleting by rsync
 FLOCKFILE="../.lock_hugo"
-LOGFILE="../update.log"	    # should be the same as in the cronjob
 
 #----------------------
 cd "$(dirname "$0")" || exit
@@ -53,49 +52,37 @@ cd "$(dirname "$0")" || exit
 # flock
 # (automatically unlocked at exit)
 exec {lock_fd}>"$FLOCKFILE"
-flock "$lock_fd"
+flock "$lock_fd" || exit 1
 
 # date -> logfile
 echo "-----------------------"
 date "+%Y-%m-%d %H:%M:%S"
 
-# update website-contents
-BUILD=0
-#TODO: check "git pull"-success
-git pull 2>&1 | grep -q "^Already up[- ]to[- ]date.$"
-ret=$?
-# anything changed?
-if [ "$ret" == 0 ]; then
+# Update the checkout before deciding whether a build is needed.
+git pull --ff-only || exit 1
+after=$(git rev-parse HEAD) || exit 1
+STATEFILE="${OUTDIR}.revision"
+previous=$(cat "$STATEFILE" 2>/dev/null || :)
+if [ "$previous" = "$after" ] && [ "${1:-}" != "force" ]; then
     echo "- Nothing changed."
-else
-    echo "- Rebuild after change."
-    BUILD=1
+    exit 0
 fi
 
-# build necessary?
-if [ "$BUILD" == 0 ] && [ "$1" == "force" ]; then
-    echo "- Rebuild forced."
-    BUILD=1
-fi
-if [ "$BUILD" == "0" ]; then
+# Never publish a partial feed or build.
+make events || exit 1
+stage=$(mktemp -d "${OUTDIR}.XXXXXX") || exit 1
+trap 'rm -rf "$stage"' EXIT
+stage=$(cd "$stage" && pwd) || exit 1
+echo "- Build site."
+make build || exit 1
+cp -a public/. "$stage/" || exit 1
+chmod -R a+rX "$stage/" || exit 1
+echo "- rsync to webserver..."
+if ! rsync -as --exclude="$EXCLUDEOUT" --delete-after "$stage/" "$WEBDIR"; then
+    trap - EXIT
+    echo "- rsync failed; staged build retained at $stage" >&2
     exit 1
 fi
-
-# build
-echo "- Build via hugo."
-hugo -d "$OUTDIR" --cleanDestinationDir
-ret=$?
-if [ "$ret" == 0 ]; then
-    # update webserver
-    chmod -R a+rX "$OUTDIR/"
-    echo "- rsync to webserver..."
-    rsync -as --exclude="$EXCLUDEOUT" --delete-after "$OUTDIR/" "$WEBDIR"
-    #TODO: check rsync-success
-    echo "DONE"
-else
-    echo "FAILED ($ret)"
-    # copy logfile to webserver
-    chmod a+r "$LOGFILE"
-    cp -p "$LOGFILE" "$WEBDIR/"
-fi
-
+printf '%s\n' "$after" > "${STATEFILE}.tmp" || exit 1
+mv "${STATEFILE}.tmp" "$STATEFILE" || exit 1
+echo "DONE"

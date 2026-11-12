@@ -1,0 +1,5 @@
+# Server deployment
+
+The existing cron entry can run `update_build_deploy.sh` or pass `force` to rebuild even if the last successfully deployed revision is unchanged. The server needs Git, Docker with Compose, make, rsync and flock. The checkout must be able to fast-forward its configured upstream and the cron user must be able to run Docker. Configure `WEBDIR`, `OUTDIR`, `EXCLUDEOUT`, and `FLOCKFILE` at the top of the script for the server. The parent of `OUTDIR` must be writable. Keep the cron log outside the web root.
+
+A deployment refreshes the legacy event files before building the full site. The refresh restores the previous files on failure and requires at least one generated event. It builds before syncing; a failed preparation leaves the published site untouched. A failed rsync can leave a partial update; the script reports and retains the staged directory for recovery, and the next invocation retries. The revision of the last successful sync is stored alongside `OUTDIR` in `output.revision` (or the corresponding configured name). Existing `radio/` data is excluded from syncing and deletion.
