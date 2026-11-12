@@ -1,0 +1,5 @@
+.git
+public
+resources/_gen
+.events-backup
+__pycache__

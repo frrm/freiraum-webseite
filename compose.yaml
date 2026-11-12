@@ -1,0 +1,12 @@
+services:
+  site:
+    build: .
+    working_dir: /site
+    user: "${LOCAL_UID:-1000}:${LOCAL_GID:-1000}"
+    environment:
+      HUGO_CACHEDIR: /tmp/hugo-cache
+    volumes:
+      - .:/site
+    ports:
+      - "127.0.0.1:1313:1313"
+    command: hugo server --bind 0.0.0.0 --baseURL http://localhost:1313 --poll 1s

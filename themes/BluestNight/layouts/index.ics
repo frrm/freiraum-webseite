@@ -1,7 +1,7 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 CALSCALE:GREGORIAN
-{{ range $.Site.Data.events }}
+{{ range hugo.Data.events }}
 BEGIN:VEVENT
 UID:{{ md5 .name }}{{ md5 .startDatetime }}@{{ .Site.BaseURL }}
 SUMMARY:{{ .name }}

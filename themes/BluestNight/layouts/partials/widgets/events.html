@@ -12,7 +12,7 @@
 	        <p>Dies wird angezeigt weil JavaScript nicht verwendet wird!</p>
 	    </div>
 	    <!-- sort events by date -->
-	{{- $events_sorted := where (sort $.Site.Data.events "startDatetime" "asc") "startDatetime" "ge" (now.Format "2006-01-02") -}}
+	{{- $events_sorted := where (sort (default dict hugo.Data.events) "startDatetime" "asc") "startDatetime" "ge" (now.Format "2006-01-02") -}}
 	<!-- get list of YYYY-MM of the events -->
 	{{- $.Scratch.Set "months" slice -}}
 	{{- range $events_sorted -}}
