@@ -37,6 +37,7 @@
   #main-nav { display: none; }
 
   #menu-toggle {
+    margin-top: 0.5rem;
     display: block;
     cursor: pointer;
   }
