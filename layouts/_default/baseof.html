@@ -17,7 +17,7 @@
     {{- if (not (eq ($.Scratch.Get "desc") "")) -}}
     <meta name="description" itemprop="description" content="{{ replace ($.Scratch.Get "desc") "\n" " " }}" id="desc">
     {{- end -}}
-    {{- if .RelPermalink -}}<link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} Feed" href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}">{{ end }}
+    {{- with .Site.GetPage "/post" }}{{ with .OutputFormats.Get "RSS" }}<link rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }} News Feed" href="{{ .Permalink }}">{{ end }}{{ end }}
     {{- if .Params.tags -}}
       <meta name="keywords" itemprop="keywords" content="{{ delimit .Params.tags "," }}" id="keywords">
     {{- end -}}

@@ -10,11 +10,11 @@ PygmentsStyle = "monokai"
 DefaultContentLanguage = "de"
 buildFuture = true
 
-# workaround to disable outdated ccc/index.xml
-disableKinds = ["rss"]
-
 [outputs]
     home = ["HTML"]
+    section = ["HTML"]
+    taxonomy = ["HTML"]
+    term = ["HTML"]
 
 [Params]
 #    tagline = "ZSAMMA BASCHDLA" # Subtitle of your site
