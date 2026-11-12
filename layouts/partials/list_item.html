@@ -11,7 +11,7 @@
   <div>
     <header class="post-list-title">
       <a href="{{ .Permalink }}">
-        <h2 itemprop="headline">{{ .Title }}</h2>
+        <h2 itemprop="headline">{{ .Title }}{{ if ne .Language.Lang site.Language.Lang }} <small lang="en">(German)</small>{{ end }}</h2>
       </a>
       <p class="post-metadata row">
         <span class="row-item">
@@ -30,7 +30,7 @@
         {{- if .Params.categories -}}
         <span class="row-item">
           <span class="fa fa-folder"></span>
-          {{ range $index, $category := .Params.categories }}{{ if gt $index 0 }}, {{ end }}<a href="{{ "categories/" | relURL }}{{ . | urlize | lower }}" rel="category">{{ . | humanize | title }}</a>{{ end }}
+          {{ range $index, $category := .Params.categories }}{{ if gt $index 0 }}, {{ end }}<a href="{{ "categories/" | relLangURL }}{{ . | urlize | lower }}" rel="category">{{ . | humanize | title }}</a>{{ end }}
         </span>
         {{- end -}}
       </p>
@@ -38,7 +38,7 @@
     <div class="post-list-summary" itemprop="description">
         {{- $page := . -}}
         {{- with .Description -}}
-          {{ . | markdownify }} <a href="{{ $page.Permalink }}">[Read more...]</a>
+          {{ . | markdownify }} <a href="{{ $page.Permalink }}">[{{ i18n "readMore" }}]</a>
         {{- else -}}
           {{ .Content }}
         {{- end -}}
