@@ -33,7 +33,7 @@ for (const [name, path] of cases) for (const [device, viewport] of [['desktop',{
   const label = `${name}-${device}-${theme}`;
   let present = [];
   for (const [side, root] of [['before',before],['after',after]]) {
-    const file = resolve(root, '.' + path, 'index.html');
+    const file = resolve(root, '.' + decodeURIComponent(path), 'index.html');
     if (!existsSync(file)) { present.push(false); continue; }
     present.push(true);
     const context = await browser.newContext({viewport, colorScheme:theme, locale: path.startsWith('/en/') ? 'en-US' : 'de-DE', timezoneId:'Europe/Berlin', reducedMotion:'reduce'});
