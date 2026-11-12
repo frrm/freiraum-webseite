@@ -7,6 +7,19 @@ const { pathToFileURL } = require('node:url');
 const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
 const marker = route => `<!-- visual-review-page:${crypto.createHash('sha256').update(route).digest('hex')} -->`;
 
+function validPng(file) {
+  const stat = fs.lstatSync(file);
+  if (!stat.isFile() || stat.size < 33 || stat.size > 10 * 1024 * 1024) return false;
+  const fd = fs.openSync(file, 'r');
+  const header = Buffer.alloc(24);
+  try { if (fs.readSync(fd, header, 0, 24, 0) !== 24) return false; }
+  finally { fs.closeSync(fd); }
+  if (!header.subarray(0, 8).equals(Buffer.from([137,80,78,71,13,10,26,10])) ||
+      header.readUInt32BE(8) !== 13 || header.toString('ascii', 12, 16) !== 'IHDR') return false;
+  const width = header.readUInt32BE(16), height = header.readUInt32BE(20);
+  return width > 0 && height > 0 && width <= 4096 && height <= 4096 && width * height <= 8_000_000;
+}
+
 function readReport(directory, head, base) {
   const index = path.join(directory, 'index.html');
   if (!fs.lstatSync(index).isFile() || fs.statSync(index).size > 2 * 1024 * 1024) throw Error('Invalid report index');
@@ -23,8 +36,7 @@ function readReport(directory, head, base) {
       if (!/^[a-z0-9-]+-desktop-light$/.test(match[1])) throw Error('Invalid screenshot filename');
       const filename = `${match[1]}-${match[2]}.png`;
       const file = path.join(directory, filename);
-      if (!fs.lstatSync(file).isFile() || fs.statSync(file).size > 10 * 1024 * 1024 ||
-          !fs.readFileSync(file).subarray(0, 8).equals(Buffer.from([137,80,78,71,13,10,26,10]))) throw Error('Invalid screenshot');
+      if (!validPng(file)) throw Error('Invalid screenshot');
       name = match[1].replace(/-desktop-light$/, '');
       images[match[2]] = filename;
     }
@@ -36,7 +48,18 @@ function readReport(directory, head, base) {
 
 function selectPages(pages, files) {
   const translationsOnly = files.length > 0 && files.every(file => file.filename.startsWith('content/') && file.filename.endsWith('.en.md'));
-  return [...pages.values()].filter(page => !translationsOnly || (page.route.startsWith('/en/') && page.name.startsWith('changed-')));
+  return [...pages.values()].filter(page => !translationsOnly || page.route.startsWith('/en/'));
+}
+
+function eligiblePr(pr, repository) {
+  return pr.head.repo?.full_name === repository && pr.head.ref.startsWith('modernize/');
+}
+
+function selectRun(runs, pr, repository) {
+  return runs.filter(item => item.event === 'pull_request' && item.head_sha === pr.head.sha &&
+    item.head_repository?.full_name === repository && item.head_branch === pr.head.ref &&
+    item.pull_requests?.some(link => link.number === pr.number && link.base.sha === pr.base.sha))
+    .sort((a, b) => b.id - a.id)[0];
 }
 
 function commentBody(page, pr, images, report, comparison) {
@@ -53,26 +76,33 @@ async function publish({ github, context, core }) {
   const { PNG } = require(path.resolve('publisher/tests/visual/node_modules/pngjs'));
   const pixelmatch = (await import(pathToFileURL(path.resolve('publisher/tests/visual/node_modules/pixelmatch/index.js')).href)).default;
   let prs = await github.paginate(github.rest.pulls.list, {owner, repo, state: 'open', per_page: 100});
-  if (context.eventName === 'workflow_run') prs = prs.filter(pr => pr.head.sha === context.payload.workflow_run.head_sha);
-  else if (context.payload.inputs?.pull_request) prs = prs.filter(pr => String(pr.number) === context.payload.inputs.pull_request);
-  else prs = prs.filter(pr => pr.head.ref.startsWith('modernize/'));
+  prs = prs.filter(pr => eligiblePr(pr, repository));
+  if (context.payload.inputs?.pull_request) prs = prs.filter(pr => String(pr.number) === context.payload.inputs.pull_request);
   let incomplete = false;
   for (const initial of prs.sort((a, b) => a.number - b.number)) {
-    let pr = (await github.rest.pulls.get({owner, repo, pull_number: initial.number})).data;
-    let run;
-    for (let attempt = 0; attempt < 30; attempt++) {
-      const response = await github.rest.actions.listWorkflowRuns({owner, repo, workflow_id: 'visual-review.yml', head_sha: pr.head.sha, per_page: 100});
-      run = response.data.workflow_runs.sort((a,b) => b.id-a.id)[0];
-      if (run?.status === 'completed') break;
-      await pause(20000);
+    let tmp;
+    try {
+    const pr = (await github.rest.pulls.get({owner, repo, pull_number: initial.number})).data;
+    if (!eligiblePr(pr, repository)) continue;
+    const response = await github.rest.actions.listWorkflowRuns({owner, repo, workflow_id: 'visual-review.yml', head_sha: pr.head.sha, per_page: 100});
+    const run = selectRun(response.data.workflow_runs, pr, repository);
+    if (run?.status !== 'completed' || run.conclusion !== 'success') {
+      core.warning(`PR #${pr.number}: current visual CI is not successful yet`);
+      if (context.eventName !== 'workflow_run') incomplete = true;
+      continue;
     }
-    if (run?.conclusion !== 'success') { core.warning(`PR #${pr.number}: visual CI is not successful yet`); incomplete = true; continue; }
     const artifacts = await github.paginate(github.rest.actions.listWorkflowRunArtifacts, {owner, repo, run_id: run.id, per_page: 100});
     const artifact = artifacts.find(item => item.name === `visual-review-${pr.head.sha}` && !item.expired);
     if (!artifact) throw Error(`PR #${pr.number}: missing visual report`);
-    const directory = path.resolve(`reports/pr-${pr.number}-${pr.head.sha}`);
-    fs.mkdirSync(directory, {recursive: true});
-    execFileSync('gh', ['run', 'download', String(run.id), '--repo', repository, '--name', artifact.name, '--dir', directory], {stdio: 'ignore'});
+    if (artifact.size_in_bytes > 256 * 1024 * 1024) throw Error(`PR #${pr.number}: visual report exceeds size limit`);
+    fs.mkdirSync('reports', {recursive: true});
+    tmp = fs.mkdtempSync(path.resolve('reports/visual-'));
+    const archive = path.join(tmp, 'report.zip');
+    const directory = path.join(tmp, 'files');
+    const fd = fs.openSync(archive, 'wx');
+    try { execFileSync('gh', ['api', `repos/${repository}/actions/artifacts/${artifact.id}/zip`], {stdio: ['ignore', fd, 'ignore']}); }
+    finally { fs.closeSync(fd); }
+    execFileSync('python3', ['publisher/.github/scripts/extract-visual.py', archive, directory], {stdio: 'ignore'});
     const pages = readReport(directory, pr.head.sha, pr.base.sha);
     const files = await github.paginate(github.rest.pulls.listFiles, {owner, repo, pull_number: pr.number, per_page: 100});
     const selected = selectPages(pages, files);
@@ -114,15 +144,23 @@ async function publish({ github, context, core }) {
     catch { git('commit', '-m', `Visual evidence for PR #${pr.number} at ${pr.head.sha}`); git('push', 'origin', 'HEAD:review/modernization-screenshots'); }
     const revision = git('rev-parse', 'HEAD');
     for (const {page, destinations, comparison} of prepared) {
+      await pause(1250);
+      const latest = (await github.rest.pulls.get({owner, repo, pull_number: pr.number})).data;
+      if (latest.head.sha !== pr.head.sha || latest.base.sha !== pr.base.sha || latest.head.repo?.full_name !== repository) throw Error(`PR #${pr.number} changed during comment publication`);
       const images = Object.fromEntries(Object.entries(destinations).map(([kind, file]) => [kind, `https://raw.githubusercontent.com/${repository}/${revision}/${file}`]));
       const body = commentBody(page, pr, images, `${context.serverUrl}/${repository}/actions/runs/${run.id}/artifacts/${artifact.id}`, comparison);
       const existing = comments.find(comment => comment.user?.login === 'github-actions[bot]' && comment.body.includes(marker(page.route)));
-      await pause(1250);
       if (existing) await github.rest.issues.updateComment({owner, repo, comment_id: existing.id, body});
       else await github.rest.issues.createComment({owner, repo, issue_number: pr.number, body});
     }
     core.info(`PR #${pr.number}: published ${prepared.length} page comments`);
+    } catch (error) {
+      incomplete = true;
+      core.warning(`PR #${initial.number}: ${error.message}`);
+    } finally {
+      if (tmp) fs.rmSync(tmp, {recursive: true, force: true});
+    }
   }
   if (incomplete) core.setFailed('Some PRs still need successful visual reports; rerun after their checks finish.');
 }
-module.exports = { publish, readReport, selectPages, commentBody, marker };
+module.exports = { publish, readReport, selectPages, selectRun, eligiblePr, commentBody, marker };

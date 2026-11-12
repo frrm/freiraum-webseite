@@ -4,7 +4,9 @@ on:
     paths:
       - .github/workflows/visual-comments.yml
       - .github/scripts/visual-comments.cjs
+      - .github/scripts/extract-visual.py
       - tests/visual/test-publisher.cjs
+      - tests/visual/test_extract_visual.py
   workflow_run:
     workflows: [Visual review]
     types: [completed]
@@ -33,8 +35,9 @@ jobs:
           ref: ${{ github.event_name == 'workflow_run' && github.event.repository.default_branch || github.sha }}
           path: publisher
           persist-credentials: false
-      - run: npm ci --prefix publisher/tests/visual
+      - run: npm ci --ignore-scripts --prefix publisher/tests/visual
       - run: node publisher/tests/visual/test-publisher.cjs
+      - run: python3 publisher/tests/visual/test_extract_visual.py
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           ref: review/modernization-screenshots
