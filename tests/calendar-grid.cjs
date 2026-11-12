@@ -1,0 +1,13 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const vm = require('node:vm');
+const source = fs.readFileSync('static/modules/calendar.js', 'utf8').replace(/  const manager = new CalendarManager\(\);[\s\S]*$/, 'globalThis.CalendarManager = CalendarManager;');
+const elements = { 'cal-app': { lang: 'en' }, calendar: {}, 'event-details': { style: {} } };
+const context = { document: { getElementById: id => elements[id] }, Intl, Date, console };
+vm.runInNewContext(source, context);
+const manager = new context.CalendarManager();
+manager.currentMonth = new Date(Date.UTC(2026, 10, 1));
+manager.masters = [{ title: 'Cross month', categories: [], start: new Date(Date.UTC(2026, 9, 31)), end: new Date(Date.UTC(2026, 10, 2, 23, 59, 59)) }];
+manager.renderCalendar();
+assert.equal((elements.calendar.innerHTML.match(/class="event-tag/g) || []).length, 2);
+assert.match(elements.calendar.innerHTML, /day-number">1<\/span>[\s\S]*?Cross month/);

@@ -18,7 +18,8 @@ build:
 
 check: build
 	docker compose run --rm site ./tests/site-smoke.sh
-	docker compose run --rm site python3 -m unittest discover -s tests -p 'test_author_content.py'
+	docker compose run --rm site python3 -m unittest discover -s tests -p 'test_*.py'
+	docker compose run --rm site node tests/calendar-grid.cjs
 	docker compose run --rm site python3 tests/check-multilingual.py
 	docker compose run --rm site sh -c 'hugo --contentDir tests/fixtures/content --destination /tmp/render-check --cleanDestinationDir --minify --panicOnWarning && python3 tests/check-render.py'
 
@@ -28,9 +29,6 @@ events:
 clean:
 	rm -rf public resources/_gen
 
-.PHONY: fixtures
-fixtures:
-	docker compose run --rm site python3 -c "from pathlib import Path; Path('data').mkdir(exist_ok=True); Path('data/events.json').write_text('[]\n')"
 new-post:
 	docker compose run --rm site sh -c 'python3 tools/author_content.py post "$$DATE" "$$TITLE"'
 
@@ -39,3 +37,7 @@ new-seminar:
 
 translations:
 	docker compose run --rm site python3 tools/author_content.py translations
+
+.PHONY: fixtures
+fixtures:
+	docker compose run --rm site python3 -c "from datetime import date; from events_create import create_snapshot; create_snapshot('tests/fixtures/calendar.ics', 'data/calendar', date(2026, 10, 1))"

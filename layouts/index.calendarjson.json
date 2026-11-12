@@ -1,0 +1,1 @@
+{{- with hugo.Data.calendar.snapshot -}}{{ dict "fetchedAt" .fetchedAt "events" .events | jsonify | safeJS }}{{- else -}}{"events":[]}{{- end -}}

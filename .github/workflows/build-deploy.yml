@@ -23,8 +23,16 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Prepare build tools
+        run: make bootstrap
+      - name: Refresh release calendar
+        if: github.event_name != 'pull_request'
+        run: make events
+      - name: Prepare deterministic PR calendar
+        if: github.event_name == 'pull_request'
+        run: make fixtures
       - name: Build and check
-        run: make bootstrap check
+        run: make check
       - uses: cpina/github-action-push-to-another-repository@55306faa4ed53b815ae49e564af8cfb359d32ae2 # v1.7.3
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
         env:

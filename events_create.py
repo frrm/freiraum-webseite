@@ -22,11 +22,15 @@ Requires:  pip install icalendar recurring-ical-events
 """
 
 import argparse
+import base64
+import os
+import tempfile
 import json
 import re
 import sys
 import urllib.request
-from datetime import date, datetime, time, timedelta
+import uuid
+from datetime import date, datetime, time, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -215,6 +219,79 @@ def events_create(year=None, source=DEFAULT_SOURCE, outdir=".", force=False, dry
     return 0
 
 
+
+def create_snapshot(source=DEFAULT_SOURCE, output="data/calendar", today=None, dry_run=False):
+    """Fetch and validate once before replacing the published snapshot."""
+    import icalendar
+    import recurring_ical_events
+
+    raw = load_ics(source)
+    if not raw.strip().upper().startswith(b"BEGIN:VCALENDAR") or not raw.strip().upper().endswith(b"END:VCALENDAR"):
+        raise ValueError("Invalid calendar envelope")
+    calendar = icalendar.Calendar.from_ical(raw)
+    if calendar.name != "VCALENDAR" or calendar.errors:
+        raise ValueError("Invalid calendar")
+    for component in calendar.walk("VEVENT"):
+        if (not component.get("DTSTART") and component.get("RECURRENCE-ID")
+                and str(component.get("STATUS", "")).upper() == "CANCELLED"):
+            component.add("DTSTART", component.decoded("RECURRENCE-ID"))
+        if component.errors or not component.get("UID") or not component.get("DTSTART"):
+            raise ValueError("Invalid calendar event")
+    first = today or datetime.now(LOCAL_TZ).date()
+    last = first + timedelta(days=365)
+    occurrences = recurring_ical_events.of(calendar).between(first, last)
+    records = []
+    for occurrence in occurrences:
+        event = build_event(occurrence)
+        if not event or event["end"].date() < first or event["start"].date() >= last:
+            continue
+        single = icalendar.Calendar()
+        single.add("prodid", "-//Freiraum//Calendar//EN")
+        single.add("version", "2.0")
+        # Expansion already applies exceptions and exclusions; export only this occurrence.
+        item = icalendar.Event.from_ical(occurrence.to_ical())
+        recurrence = occurrence.get("RECURRENCE-ID") or occurrence.get("DTSTART")
+        stable_id = f"{occurrence['UID']}:{recurrence.to_ical().decode('utf-8')}"
+        item.pop("UID", None)
+        item.add("UID", f"{uuid.uuid5(uuid.NAMESPACE_URL, stable_id)}@frrm.de")
+        for key in ("RRULE", "RDATE", "EXDATE", "EXRULE", "RECURRENCE-ID"):
+            item.pop(key, None)
+        for key in ("DTSTART", "DTEND"):
+            if key in item and isinstance(item[key].dt, datetime):
+                value = item[key].dt
+                if value.tzinfo is None:
+                    value = value.replace(tzinfo=LOCAL_TZ)
+                item.pop(key)
+                item.add(key, value.astimezone(timezone.utc))
+        single.add_component(item)
+        records.append({
+            "name": event["name"], "start": event["start"].isoformat(),
+            "end": event["end"].isoformat(), "allDay": isinstance(occurrence["DTSTART"].dt, date) and not isinstance(occurrence["DTSTART"].dt, datetime),
+            "location": event["location"], "description": event["description"],
+            "category": event["category"],
+            "ics": base64.b64encode(single.to_ical()).decode("ascii"),
+        })
+    records.sort(key=lambda item: item["start"])
+    if dry_run:
+        return 0
+    output = Path(output)
+    output.mkdir(parents=True, exist_ok=True)
+    contents = json.dumps({
+        "fetchedAt": datetime.now(timezone.utc).isoformat(),
+        "source": base64.b64encode(raw).decode("ascii"),
+        "events": records,
+    }, ensure_ascii=False).encode()
+    with tempfile.NamedTemporaryFile(dir=output, delete=False) as staged:
+        try:
+            staged.write(contents)
+            staged.flush()
+            os.fsync(staged.fileno())
+            os.replace(staged.name, output / "snapshot.json")
+        finally:
+            if os.path.exists(staged.name):
+                os.unlink(staged.name)
+    return 0
+
 #----------------------
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
@@ -229,11 +306,13 @@ if __name__ == "__main__":
                         help="overwrite existing files")
     parser.add_argument("-n", "--dry-run", action="store_true",
                         help="only show what would be written")
+    parser.add_argument("--snapshot", action="store_true", help="write the website calendar snapshot to --outdir")
     args = parser.parse_args()
 
     try:
-        sys.exit(events_create(args.year, args.source, args.outdir, args.force, args.dry_run))
-    except OSError as err:                       # network and file errors
+        sys.exit(create_snapshot(args.source, args.outdir, dry_run=args.dry_run) if args.snapshot else
+                 events_create(args.year, args.source, args.outdir, args.force, args.dry_run))
+    except (OSError, ValueError) as err:                       # network and file errors
         sys.exit(f"Error: {err}")
 
 #=========================================
