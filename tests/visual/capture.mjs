@@ -2,7 +2,7 @@ import { chromium } from 'playwright';
 import { PNG } from 'pngjs';
 import pixelmatch from 'pixelmatch';
 import { createServer } from 'node:http';
-import { readFileSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
+import { readFileSync, existsSync, mkdirSync, writeFileSync, statSync } from 'node:fs';
 import { resolve, extname } from 'node:path';
 
 const [before, after, output] = process.argv.slice(2).map(x => resolve(x));
@@ -16,7 +16,7 @@ const server = createServer((req,res) => {
   const parts = url.pathname.split('/'); const root = parts[1] === 'before' ? before : after;
   let path = resolve(root, '.' + decodeURIComponent('/' + parts.slice(2).join('/')));
   if (!path.startsWith(root + '/') && path !== root) { res.writeHead(403); return res.end(); }
-  if (!extname(path)) path += '/index.html';
+  if (existsSync(path) && statSync(path).isDirectory()) path = resolve(path, 'index.html');
   if (!existsSync(path)) { res.writeHead(404); return res.end('Not present in this revision'); }
   res.writeHead(200, {'Content-Type':mime[extname(path)] || 'application/octet-stream'}); res.end(readFileSync(path));
 });

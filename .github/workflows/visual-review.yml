@@ -73,6 +73,7 @@ jobs:
           cd tests/visual
           python3 -m unittest discover -s . -p 'test_*.py'
           npm ci
+          node test-capture.mjs
           if [ ! -f /tmp/visual/base/Dockerfile ]; then export VISUAL_LEGACY=true; fi
           python3 changed-pages.py /tmp/visual/base.csv /tmp/visual/head.csv > /tmp/visual/changed-pages.json
           export VISUAL_EXTRA=/tmp/visual/changed-pages.json
