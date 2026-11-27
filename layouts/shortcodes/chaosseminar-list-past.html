@@ -1,29 +1,63 @@
-<!-- get sorted list of past seminars -->
-{{- $.Scratch.Set "seminars_past" slice -}}
-{{- $.Scratch.Set "years" slice -}}
+{{- $past := slice -}}
 {{- range partial "seminar_pages.html" . -}}
-  {{- if .Params.ChaosSeminar -}}
-    {{- if .Params.date -}}
-      {{- if lt (dateFormat "2006-01-02" .Params.date) (dateFormat "2006-01-02" now) -}}
-        {{- $.Scratch.Add "seminars_past" . -}}
-        {{- $.Scratch.Add "years" (dateFormat "2006" .Params.date) -}}
+  {{- if and .Params.ChaosSeminar .Params.date (lt (dateFormat "2006-01-02" .Params.date) (now.Format "2006-01-02")) -}}
+    {{- $past = $past | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- $past = sort $past ".Params.date" "desc" -}}
+{{- $years := slice -}}
+{{- range $past -}}{{- $years = $years | append (dateFormat "2006" .Params.date) -}}{{- end -}}
+{{- $years = uniq $years -}}
+{{- $de := eq .Site.Language.Lang "de" -}}
+<link rel="stylesheet" href="{{ "css/seminar-archive.css" | relURL }}">
+<script defer src="{{ "js/seminar-archive.js" | relURL }}"></script>
+<div class="media-filter" data-seminar-filter>
+  <label>{{ if $de }}Jahr{{ else }}Year{{ end }}
+    <select name="year"><option value="all">{{ if $de }}Alle Jahre{{ else }}All years{{ end }}</option>
+      {{- range $years }}<option value="{{ . }}">{{ . }}</option>{{ end -}}
+    </select>
+  </label>
+  <label>{{ if $de }}Medium{{ else }}Media{{ end }}
+    <select name="media">
+      <option value="all">{{ if $de }}Alle Medien{{ else }}All media{{ end }}</option>
+      <option value="video">Video</option><option value="audio">Audio</option>
+      <option value="slides">{{ if $de }}Folien{{ else }}Slides{{ end }}</option>
+      <option value="other">{{ if $de }}Sonstiges{{ else }}Other{{ end }}</option>
+    </select>
+  </label>
+</div>
+<div class="seminar-archive">
+  {{- range $year := $years -}}
+  <section data-year-group="{{ $year }}">
+  <h3>{{ $year }}</h3>
+  <ul>
+  {{- range $seminar := $past -}}
+    {{- if eq (dateFormat "2006" $seminar.Params.date) $year -}}
+    {{- $types := slice -}}
+    {{- /* A scalar Archiv value is a notice, not a resource, so it adds no media type. */ -}}
+    {{- with $seminar.Params.ChaosSeminar.archiv -}}
+      {{- if reflect.IsSlice . -}}
+        {{- range . -}}
+          {{- $label := lower (index (split (index . 0) ":") 0) -}}
+          {{- $url := lower (index (split (index . 1) "?") 0) -}}
+          {{- $type := "other" -}}
+          {{- if in $label "video" -}}{{- $type = "video" -}}
+          {{- else if or (in $label "audio") (in $label "podcast") -}}{{- $type = "audio" -}}
+          {{- else if or (in $label "folien") (in $label "slides") -}}{{- $type = "slides" -}}
+          {{- else if findRE `\.(mp4|m4v|3gp|ogv|avi|mov|webm)$` $url -}}{{- $type = "video" -}}
+          {{- else if findRE `\.(mp3|ogg|opus)$` $url -}}{{- $type = "audio" -}}
+          {{- else if strings.HasSuffix $url ".pdf" -}}{{- $type = "slides" -}}
+          {{- end -}}
+          {{- $types = $types | append $type -}}
+        {{- end -}}
       {{- end -}}
     {{- end -}}
-  {{- end -}}
-{{- end -}}
-
-{{- $years := uniq ($.Scratch.Get "years") -}}
-{{- $seminars_past_sorted := sort ($.Scratch.Get "seminars_past") ".Params.date" "desc" -}}
-<!-- list all past seminars, grouped by year -->
-{{- range $year := $years -}}
-<h3>{{ $year }}</h3>
-<ul>
-  {{- range $seminar := $seminars_past_sorted -}}
-    {{- if eq (dateFormat "2006" $seminar.Params.date) $year -}}
-      <li>
-      {{ dateFormat "2006-01-02" .Params.date }}: <a href="{{ .RelPermalink }}"{{ if ne .Language.Lang site.Language.Lang }} hreflang="{{ .Language.Lang }}" lang="{{ .Language.Lang }}"{{ end }}>{{ if .Params.ChaosSeminar.thema }}{{ .Params.ChaosSeminar.thema }}{{ else }}{{ .Params.title }}{{ end }}</a>{{ if ne .Language.Lang site.Language.Lang }} <small lang="en">(German)</small>{{ end }}
-      </li>
+    <li data-year="{{ $year }}" data-media="{{ delimit (uniq $types) " " }}">
+      {{ dateFormat "2006-01-02" $seminar.Params.date }}: <a href="{{ $seminar.RelPermalink }}"{{ if ne $seminar.Language.Lang site.Language.Lang }} hreflang="{{ $seminar.Language.Lang }}" lang="{{ $seminar.Language.Lang }}"{{ end }}>{{ with $seminar.Params.ChaosSeminar.thema }}{{ . }}{{ else }}{{ $seminar.Params.title }}{{ end }}</a>{{ if ne $seminar.Language.Lang site.Language.Lang }} <small lang="en">(German)</small>{{ end }}
+    </li>
     {{- end -}}
   {{- end -}}
-</ul>
-{{- end -}}
+  </ul>
+  </section>
+  {{- end -}}
+</div>

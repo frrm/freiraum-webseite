@@ -8,7 +8,9 @@ Thema = ""
 Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Marcus"
-Archiv = []
+Archiv = [
+	["Folien:PDF", "2019-06-10_vortragsfoliensatz_chaosseminar_chinesisch_hanscript.pdf", ""]
+	]
 +++
 
 {{< chaosseminar >}}

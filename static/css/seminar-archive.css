@@ -1,0 +1,2 @@
+.media-filter { display: flex; flex-wrap: wrap; gap: .75rem; margin-block: 1rem; }
+.seminar-archive [hidden] { display: none; }
