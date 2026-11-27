@@ -9,8 +9,9 @@
 .media-lightbox [data-next] { right: .5rem; }
 .post-content a[href*="/images/"] img { max-width: 100%; height: auto; }
 .media-panorama { width: min(100%, 600px); aspect-ratio: 3 / 2; }
-.media-panorama > a, .media-panorama img { display: block; width: 100%; height: 100%; }
+.media-panorama > a, .media-panorama > a > img { display: block; width: 100%; height: 100%; }
 .media-panorama > a { position: relative; }
-.media-panorama img { object-fit: cover; }
-.media-panorama span { position: absolute; inset: auto 0 0; padding: .75rem; background: rgb(0 0 0 / 70%); color: white; text-align: center; }
+.media-panorama > a > img { object-fit: cover; }
+.media-panorama.pnlm-container { width: min(100%, 600px); height: auto; }
+.media-panorama > a > span { position: absolute; inset: auto 0 0; padding: .75rem; background: rgb(0 0 0 / 70%); color: white; text-align: center; }
 .media-embed iframe { width: 100%; aspect-ratio: 16 / 9; border: 0; }

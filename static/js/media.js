@@ -1,19 +1,14 @@
 (() => {
   let pannellumPromise;
+  const loadAsset = (tag, props) => new Promise((resolve, reject) => {
+    const el = Object.assign(document.createElement(tag), props, { onload: resolve, onerror: reject });
+    document.head.append(el);
+  });
   const loadPannellum = () => {
-    if (!pannellumPromise) {
-      const css = document.createElement('link');
-      css.rel = 'stylesheet';
-      css.href = '/modules/pannellum.css';
-      document.head.append(css);
-      pannellumPromise = new Promise((resolve, reject) => {
-        const script = document.createElement('script');
-        script.src = '/modules/pannellum.js';
-        script.onload = resolve;
-        script.onerror = reject;
-        document.head.append(script);
-      });
-    }
+    pannellumPromise ||= Promise.all([
+      loadAsset('link', { rel: 'stylesheet', href: '/modules/pannellum.css' }),
+      loadAsset('script', { src: '/modules/pannellum.js' })
+    ]);
     return pannellumPromise;
   };
   window.FreiraumMedia = {
@@ -24,13 +19,19 @@
       trigger.addEventListener('click', event => {
         event.preventDefault();
         trigger.querySelector('span').textContent = trigger.dataset.loading;
-        loadPannellum().then(() => {
-          container.replaceChildren();
-          pannellum.viewer(id, config);
-        }).catch(() => {
+        let viewer;
+        const fail = () => {
+          try { viewer?.destroy(); } catch {}
           container.replaceChildren(trigger);
           trigger.querySelector('span').textContent = trigger.dataset.error;
-        });
+        };
+        loadPannellum().then(() => {
+          container.replaceChildren();
+          viewer = pannellum.viewer(id, config);
+          viewer.on('error', fail);
+          // Errors raised while constructing fire before the listener exists.
+          if (container.querySelector('.pnlm-error-msg')?.style.display === 'table') fail();
+        }).catch(fail);
       }, { once: true });
     }
   };
@@ -54,7 +55,7 @@
     document.addEventListener('click', event => {
       const link = event.target.closest('a');
       const i = links.indexOf(link);
-      if (i < 0) return;
+      if (i < 0 || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
       event.preventDefault();
       opener = link;
       show(i);
@@ -81,6 +82,6 @@
     frame.title = embed.dataset.youtubeTitle;
     frame.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
     frame.allowFullscreen = true;
-    embed.replaceChildren(frame);
+    button.replaceWith(frame);
   });
 })();

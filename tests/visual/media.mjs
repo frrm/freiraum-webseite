@@ -44,6 +44,18 @@ try {
   assert.ok(nextSrc && !nextSrc.endsWith(firstHref.split('/').pop()), 'ArrowRight advances to a different image');
   pass('DE gallery opens, navigates by keyboard, closes with Escape, and restores opener focus');
 
+  const modifiedClicks = await page.evaluate(() => {
+    const link = document.querySelector('a[href*="/images/"] img').closest('a');
+    return ['ctrlKey', 'metaKey', 'shiftKey'].map(key => {
+      let prevented;
+      window.addEventListener('click', event => { prevented = event.defaultPrevented; event.preventDefault(); }, { once: true });
+      link.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true, [key]: true }));
+      return { key, prevented, open: document.querySelector('.media-lightbox').open };
+    });
+  });
+  assert.deepEqual(modifiedClicks.filter(c => c.prevented || c.open), [], 'modified clicks keep native link behaviour');
+  pass('Modified gallery clicks keep native new-tab/window behaviour');
+
   await page.goto(`${base}/en/gallery/`);
   assert.equal(await page.locator('.media-lightbox').getAttribute('aria-label'), 'Image viewer');
   pass('EN gallery has localized dialog label');
@@ -81,6 +93,7 @@ try {
   await youtube.getByRole('button', { name: 'Video auf YouTube laden' }).click();
   await youtube.locator('iframe[src*="youtube-nocookie.com/embed/"]').waitFor();
   assert.ok(youtubeRequests.some(url => url.includes('youtube-nocookie.com/embed/G1m0aX9Lpts')));
+  assert.ok(await youtube.locator('.media-embed a[href*="youtube.com/watch"]').count() > 0, 'direct YouTube link remains next to the player');
   pass('YouTube player loads only after the user clicks');
   await youtubeContext.close();
 
@@ -100,6 +113,8 @@ try {
   assert.equal(panoramaRequests.length, 0, 'Pannellum is not loaded before the user starts the panorama');
   await panorama.locator('[data-panorama-start]').click();
   await panorama.locator('.pnlm-container').waitFor();
+  const frame = await panorama.locator('.media-panorama.pnlm-container').boundingBox();
+  assert.ok(frame.width <= 600 && Math.abs(frame.height - frame.width * 2 / 3) < 2, `active panorama keeps the 600px 3:2 frame (${frame.width}x${frame.height})`);
   await panorama.waitForFunction(() => !!window.__panoInstance);
   await panorama.evaluate(() => window.__panoInstance.lookAt(-10, 168, 80, 0));
   await panorama.waitForFunction(() => document.querySelectorAll('.pnlm-hotspot.pnlm-scene').length >= 2);
@@ -130,6 +145,30 @@ try {
   assert.ok((await fallback.locator('[data-panorama-start]').getAttribute('href')).includes('pano2_main.jpg'));
   pass('Pannellum viewer failure restores the direct-image fallback link');
   await fallbackContext.close();
+
+  const errorContext = await browser.newContext();
+  await errorContext.route('**/*', async route => {
+    const url = new URL(route.request().url());
+    if (url.pathname === '/modules/pannellum.css') {
+      await new Promise(done => setTimeout(done, 500));
+      return route.continue();
+    }
+    if (url.pathname === '/modules/pannellum.js') return route.fulfill({ status: 200, contentType: 'text/javascript', body: `window.pannellum={viewer(id){
+      window.__cssReady=[...document.styleSheets].some(s=>s.href&&s.href.includes('pannellum.css'));
+      const c=document.getElementById(id);c.classList.add('pnlm-container');let handler;
+      setTimeout(()=>handler&&handler('WebGL unsupported'),50);
+      return {on(name,cb){if(name==='error')handler=cb;return this;},destroy(){window.__destroyed=true;c.innerHTML='';c.classList.remove('pnlm-container');}};}};` });
+    return url.hostname === '127.0.0.1' ? route.continue() : route.abort();
+  });
+  const errorPage = await errorContext.newPage();
+  await errorPage.goto(`${base}/about/`);
+  await errorPage.locator('[data-panorama-start]').click();
+  await errorPage.waitForFunction(() => document.querySelector('[data-panorama-start] span')?.textContent.includes('Laden fehlgeschlagen'));
+  assert.ok(await errorPage.evaluate(() => window.__cssReady), 'viewer is constructed only after the Pannellum stylesheet loaded');
+  assert.ok(await errorPage.evaluate(() => window.__destroyed), 'failed viewer is destroyed before restoring the fallback');
+  assert.ok((await errorPage.locator('[data-panorama-start]').getAttribute('href')).includes('pano2_main.jpg'));
+  pass('Pannellum error event restores the fallback after waiting for its stylesheet');
+  await errorContext.close();
 } finally {
   await browser.close();
   server.close();
