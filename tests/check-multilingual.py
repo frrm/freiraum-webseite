@@ -45,3 +45,7 @@ for image in contact.images:
     url = urlparse(urljoin("https://example.org/en/contact/", image))
     if url.netloc == "example.org":
         assert (Path("public") / url.path.lstrip("/")).exists(), url.path
+
+seminars = Page("public/en/ccc/chaosseminar/index.html")
+fallbacks = [link for link in seminars.links if link.get("hreflang") == "de"]
+assert fallbacks, "English seminar index lists no German fallback seminars"
