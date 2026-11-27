@@ -1,7 +1,7 @@
 <!-- get sorted list of past seminars -->
 {{- $.Scratch.Set "seminars_past" slice -}}
 {{- $.Scratch.Set "years" slice -}}
-{{- range where .Site.Pages "Section" "ccc" -}}
+{{- range partial "seminar_pages.html" . -}}
   {{- if .Params.ChaosSeminar -}}
     {{- if .Params.date -}}
       {{- if lt (dateFormat "2006-01-02" .Params.date) (dateFormat "2006-01-02" now) -}}
@@ -21,7 +21,7 @@
   {{- range $seminar := $seminars_past_sorted -}}
     {{- if eq (dateFormat "2006" $seminar.Params.date) $year -}}
       <li>
-      {{ dateFormat "2006-01-02" .Params.date }}: <a href="{{ .RelPermalink }}">{{ if .Params.ChaosSeminar.thema }}{{ .Params.ChaosSeminar.thema }}{{ else }}{{ .Params.title }}{{ end }}</a>
+      {{ dateFormat "2006-01-02" .Params.date }}: <a href="{{ .RelPermalink }}"{{ if ne .Language.Lang site.Language.Lang }} hreflang="{{ .Language.Lang }}" lang="{{ .Language.Lang }}"{{ end }}>{{ if .Params.ChaosSeminar.thema }}{{ .Params.ChaosSeminar.thema }}{{ else }}{{ .Params.title }}{{ end }}</a>{{ if ne .Language.Lang site.Language.Lang }} <small lang="en">(German)</small>{{ end }}
       </li>
     {{- end -}}
   {{- end -}}
