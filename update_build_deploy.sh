@@ -68,6 +68,8 @@ if [ "$previous" = "$after" ] && [ "${1:-}" != "force" ]; then
     exit 0
 fi
 
+# Rebuild the toolchain image so Dockerfile/requirements changes apply.
+make bootstrap || exit 1
 # Never publish a partial feed or build.
 make events || exit 1
 stage=$(mktemp -d "${OUTDIR}.XXXXXX") || exit 1
@@ -77,6 +79,8 @@ echo "- Build site."
 make build || exit 1
 cp -a public/. "$stage/" || exit 1
 chmod -R a+rX "$stage/" || exit 1
+# Invalidate the marker first so an interrupted sync is retried next run.
+rm -f "$STATEFILE" || exit 1
 echo "- rsync to webserver..."
 if ! rsync -as --exclude="$EXCLUDEOUT" --delete-after "$stage/" "$WEBDIR"; then
     trap - EXIT

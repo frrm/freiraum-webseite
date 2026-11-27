@@ -15,6 +15,7 @@ case "$1" in rev-parse) echo revision;; pull) exit "${FAIL_GIT:-0}";; esac
 STUB
 cat > "$tmp/bin/make" <<'STUB'
 #!/bin/sh
+if [ "$1" = bootstrap ]; then exit "${FAIL_BOOTSTRAP:-0}"; fi
 if [ "$1" = events ]; then exit "${FAIL_FEED:-0}"; fi
 exit "${FAIL_BUILD:-0}"
 STUB
@@ -29,7 +30,7 @@ exit 0
 STUB
 chmod +x "$tmp/bin/"*
 export PATH="$tmp/bin:$PATH" TEST_TMP="$tmp"
-for fail in FAIL_GIT FAIL_FEED FAIL_BUILD; do
+for fail in FAIL_GIT FAIL_BOOTSTRAP FAIL_FEED FAIL_BUILD; do
     rm -f "$tmp/rsync"
     if env "$fail=1" bash "$tmp/site/deploy.sh" force; then exit 1; fi
     test ! -e "$tmp/rsync"
@@ -41,3 +42,8 @@ test -n "$(find "$tmp" -maxdepth 1 -type d -name 'output.*' -print -quit)"
 rm -f "$tmp/rsync"
 bash "$tmp/site/deploy.sh"
 test ! -e "$tmp/rsync"
+# A failed sync at the already-deployed revision must be retried by the next run.
+if FAIL_RSYNC=1 bash "$tmp/site/deploy.sh" force; then exit 1; fi
+rm -f "$tmp/rsync"
+bash "$tmp/site/deploy.sh"
+test -e "$tmp/rsync"
