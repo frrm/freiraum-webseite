@@ -7,7 +7,7 @@ categories = ["ChaosSeminar"]
 Thema = ""
 Termin = "2007-11-12 20:07½"
 Ort = "Uni Ulm, Hörsaal H20"
-Vortragende = "Marcel Linden, Michael Feiri, Stefan Schlott, Nico Roeser; ggf. weitere"
+Vortragende = "Marcel Linden, Michael Feiri, Stefan Schlott, Nico Roeser; possibly others"
 Archiv = [
 	["", "https://archiv.ulm.ccc.de/chaosseminar/200711-vorrat/cs-200711-vorrat_audio.mp3", "84974498"],
 	["", "https://archiv.ulm.ccc.de/chaosseminar/200711-vorrat/cs-200711-vorrat_audio.ogg", "66156194"],

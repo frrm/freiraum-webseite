@@ -7,7 +7,7 @@ categories = ["ChaosSeminar"]
 Thema = ""
 Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
-Vortragende = "viele Referenten"
+Vortragende = "many speakers"
 Archiv = [
 	["", "https://archiv.ulm.ccc.de/chaosseminar/200905-surprise/cs-200905-surprise_audio.mp3", "65870106"],
 	["", "https://archiv.ulm.ccc.de/chaosseminar/200905-surprise/cs-200905-surprise_audio.ogg", "51631745"],

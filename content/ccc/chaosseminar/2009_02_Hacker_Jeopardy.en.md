@@ -7,7 +7,7 @@ categories = ["ChaosSeminar"]
 Thema = ""
 Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
-Vortragende = "Moderatoren: Frank und Björn"
+Vortragende = "Hosts: Frank and Björn"
 Archiv = []
 +++
 

@@ -7,7 +7,7 @@ categories = ["ChaosSeminar"]
 Thema = ""
 Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
-Vortragende = "Jonathan Häberle, Alexander Bernauer, Michael Feiri, Ulrich Dangel, Markus Schaber, und ggf. noch Überraschungsgäste"
+Vortragende = "Jonathan Häberle, Alexander Bernauer, Michael Feiri, Ulrich Dangel, Markus Schaber, and possibly surprise guests"
 Archiv = [
 	["", "https://archiv.ulm.ccc.de/chaosseminar/200706-desktops/cs-200706-desktops_audio.mp3", "76663641"],
 	["", "https://archiv.ulm.ccc.de/chaosseminar/200706-desktops/cs-200706-desktops_audio.ogg", "58702896"],

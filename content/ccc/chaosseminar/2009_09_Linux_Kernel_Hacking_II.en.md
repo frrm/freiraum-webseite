@@ -9,7 +9,7 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Georg Gottleuber"
 Archiv = [
-	["Codebeispiele im Quelltext:TAR.GZ", "https://archiv.ulm.ccc.de/chaosseminar/200909-linuxkernel2/minimodule.tar.gz", "1205"],
+	["Source code examples:TAR.GZ", "https://archiv.ulm.ccc.de/chaosseminar/200909-linuxkernel2/minimodule.tar.gz", "1205"],
 	["", "https://archiv.ulm.ccc.de/chaosseminar/200909-linuxkernel2/cs-200909-kernel2_audio.mp3", "43862204"],
 	["", "https://archiv.ulm.ccc.de/chaosseminar/200909-linuxkernel2/cs-200909-kernel2_audio.ogg", "32874566"],
 	["", "https://archiv.ulm.ccc.de/chaosseminar/200909-linuxkernel2/cs-200909-kernel2_slides.pdf", "188681"],
