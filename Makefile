@@ -30,10 +30,10 @@ clean:
 	rm -rf public resources/_gen
 
 new-post:
-	docker compose run --rm site sh -c 'python3 tools/author_content.py post "$$DATE" "$$TITLE"'
+	docker compose run --rm -e DATE -e TITLE site sh -c 'python3 tools/author_content.py post "$$DATE" "$$TITLE"'
 
 new-seminar:
-	docker compose run --rm site sh -c 'python3 tools/author_content.py seminar "$$DATE" "$$TITLE"'
+	docker compose run --rm -e DATE -e TITLE site sh -c 'python3 tools/author_content.py seminar "$$DATE" "$$TITLE"'
 
 translations:
 	docker compose run --rm site python3 tools/author_content.py translations
