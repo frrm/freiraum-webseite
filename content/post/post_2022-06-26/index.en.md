@@ -17,7 +17,7 @@ Various topics are planned for future meetups, for example:
 - Different types of locks:
   - Combination locks
   - "Standard" pin tumbler locks
-  - Disc detainer locks (e.g. mailbox locks), lever locks
+  - Wafer locks (e.g. mailbox locks), slider locks
   - Dimple locks
   - Rotating disc cylinders
   - Tubular locks
