@@ -1,4 +1,4 @@
-<article itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+<article lang="{{ .Language.Lang }}" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
   {{- if .Params.thumbnail -}}
   <div>
     <figure>
@@ -30,7 +30,7 @@
         {{- if .Params.categories -}}
         <span class="row-item">
           <span class="fa fa-folder"></span>
-          {{ range $index, $category := .Params.categories }}{{ if gt $index 0 }}, {{ end }}<a href="{{ "categories/" | relLangURL }}{{ . | urlize | lower }}" rel="category">{{ . | humanize | title }}</a>{{ end }}
+          {{ range $index, $category := .GetTerms "categories" }}{{ if gt $index 0 }}, {{ end }}<a href="{{ .RelPermalink }}" rel="category">{{ .LinkTitle | humanize | title }}</a>{{ end }}
         </span>
         {{- end -}}
       </p>
