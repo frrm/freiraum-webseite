@@ -1,0 +1,10 @@
+{{- /* Seminar pages of the current language, plus untranslated German seminars as fallback. */ -}}
+{{- $pages := where site.Pages "Section" "ccc" -}}
+{{- if ne site.Language.Lang "de" -}}
+  {{- with index (where hugo.Sites "Language.Lang" "de") 0 -}}
+    {{- range where .Pages "Section" "ccc" -}}
+      {{- if not .IsTranslated -}}{{- $pages = $pages | append . -}}{{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $pages -}}

@@ -1,11 +1,7 @@
 {{- $past := slice -}}
-{{- $site := .Site -}}
-{{- if eq .Site.Language.Lang "en" -}}{{- range hugo.Sites -}}{{- if eq .Language.Lang "de" -}}{{- $site = . -}}{{- end -}}{{- end -}}{{- end -}}
-{{- range where $site.Pages "Section" "ccc" -}}
+{{- range partial "seminar_pages.html" . -}}
   {{- if and .Params.ChaosSeminar .Params.date (lt (dateFormat "2006-01-02" .Params.date) (now.Format "2006-01-02")) -}}
-    {{- $seminar := . -}}
-    {{- if eq $.Site.Language.Lang "en" -}}{{- range .Translations -}}{{- if eq .Language.Lang "en" -}}{{- $seminar = . -}}{{- end -}}{{- end -}}{{- end -}}
-    {{- $past = $past | append $seminar -}}
+    {{- $past = $past | append . -}}
   {{- end -}}
 {{- end -}}
 {{- $past = sort $past ".Params.date" "desc" -}}
@@ -57,7 +53,7 @@
       {{- end -}}
     {{- end -}}
     <li data-year="{{ $year }}" data-media="{{ delimit (uniq $types) " " }}">
-      {{ dateFormat "2006-01-02" $seminar.Params.date }}: <a href="{{ $seminar.RelPermalink }}"{{ if and (not $de) (eq $seminar.Language.Lang "de") }} lang="de"{{ end }}>{{ with $seminar.Params.ChaosSeminar.thema }}{{ . }}{{ else }}{{ $seminar.Params.title }}{{ end }}</a>{{ if and (not $de) (eq $seminar.Language.Lang "de") }} <span lang="en">(German)</span>{{ end }}
+      {{ dateFormat "2006-01-02" $seminar.Params.date }}: <a href="{{ $seminar.RelPermalink }}"{{ if ne $seminar.Language.Lang site.Language.Lang }} hreflang="{{ $seminar.Language.Lang }}" lang="{{ $seminar.Language.Lang }}"{{ end }}>{{ with $seminar.Params.ChaosSeminar.thema }}{{ . }}{{ else }}{{ $seminar.Params.title }}{{ end }}</a>{{ if ne $seminar.Language.Lang site.Language.Lang }} <small lang="en">(German)</small>{{ end }}
     </li>
     {{- end -}}
   {{- end -}}
