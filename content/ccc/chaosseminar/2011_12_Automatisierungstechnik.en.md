@@ -4,7 +4,7 @@ date = "2011-12-12"
 categories = ["ChaosSeminar"]
 
 [ChaosSeminar]
-Thema = "FUP, KOP, Ladder Diagram - Programmieren in der Automatisierungstechnik"
+Thema = "FUP, KOP, Ladder Diagram - Programming in Automation Engineering"
 Termin = ""
 Ort = "University of Ulm, Lecture Hall H20"
 Vortragende = "Markus Schaber"

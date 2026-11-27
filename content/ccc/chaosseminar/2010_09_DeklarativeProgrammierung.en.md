@@ -22,7 +22,7 @@ Archiv = [
 
 An apple is a fruit. Every fruit is healthy. Is an apple healthy?
 
-Toaster->toast( Toastbrot );
+Toaster->toasten( Toastbrot );
 
 People have sought many ways to model their problems in an intermediate language. These are the “paradigms” of programming.
 

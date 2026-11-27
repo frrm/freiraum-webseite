@@ -1,5 +1,5 @@
 +++
-title = "Copyright and Priority Disputes"
+title = "Copyright and Priority Deposits"
 date = "2010-01-11"
 categories = ["ChaosSeminar"]
 

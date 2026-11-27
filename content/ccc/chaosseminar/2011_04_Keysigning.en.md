@@ -5,9 +5,9 @@ categories = ["ChaosSeminar"]
 
 [ChaosSeminar]
 Thema = ""
-Termin = "2011-04-11; Erklärungen ab 20:07½, Keysigning selbst etwas später"
+Termin = "2011-04-11; explanations from 20:07½, the keysigning itself a little later"
 Ort = "University of Ulm, Lecture Hall H20"
-Vortragende = "Organisation: Matou, Hannes, Nico, weitere"
+Vortragende = "Organisation: Matou, Hannes, Nico, others"
 Archiv = [
 	["", "https://archiv.ulm.ccc.de/chaosseminar/201104-keysigning/cs-201104-keysigning_audio.mp3", "45902367"],
 	["", "https://archiv.ulm.ccc.de/chaosseminar/201104-keysigning/cs-201104-keysigning_audio.ogg", "34286029"],
