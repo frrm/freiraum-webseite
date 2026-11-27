@@ -14,7 +14,7 @@ buildFuture = true
 disableKinds = ["rss"]
 
 [outputs]
-    home = ["HTML"]
+    home = ["HTML", "CalendarICS", "CalendarJSON"]
 
 [Params]
 #    tagline = "ZSAMMA BASCHDLA" # Subtitle of your site
@@ -84,3 +84,13 @@ weight = 2
 name = "News"
 url = "/en/post/"
 weight = 1
+[mediaTypes."text/calendar"]
+  suffixes = ["ics"]
+[outputFormats.CalendarICS]
+  mediaType = "text/calendar"
+  baseName = "calendar"
+  isPlainText = true
+[outputFormats.CalendarJSON]
+  mediaType = "application/json"
+  baseName = "calendar"
+  isPlainText = true

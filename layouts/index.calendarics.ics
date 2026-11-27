@@ -1,0 +1,1 @@
+{{- with hugo.Data.calendar.snapshot -}}{{ .source | base64Decode | safeHTML }}{{- end -}}
