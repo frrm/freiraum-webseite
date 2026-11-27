@@ -237,8 +237,10 @@ def create_snapshot(source=DEFAULT_SOURCE, output="data/calendar", today=None, d
             component.add("DTSTART", component.decoded("RECURRENCE-ID"))
         if component.errors or not component.get("UID") or not component.get("DTSTART"):
             raise ValueError("Invalid calendar event")
-    first = today or datetime.now(LOCAL_TZ).date()
-    last = first + timedelta(days=365)
+    today = today or datetime.now(LOCAL_TZ).date()
+    # Keep the whole current month for the month view; list views filter by end date.
+    first = today.replace(day=1)
+    last = today + timedelta(days=365)
     occurrences = recurring_ical_events.of(calendar).between(first, last)
     records = []
     for occurrence in occurrences:
@@ -268,7 +270,7 @@ def create_snapshot(source=DEFAULT_SOURCE, output="data/calendar", today=None, d
             "name": event["name"], "start": event["start"].isoformat(),
             "end": event["end"].isoformat(), "allDay": isinstance(occurrence["DTSTART"].dt, date) and not isinstance(occurrence["DTSTART"].dt, datetime),
             "location": event["location"], "description": event["description"],
-            "category": event["category"],
+            "categories": get_categories(occurrence),
             "ics": base64.b64encode(single.to_ical()).decode("ascii"),
         })
     records.sort(key=lambda item: item["start"])
@@ -278,6 +280,7 @@ def create_snapshot(source=DEFAULT_SOURCE, output="data/calendar", today=None, d
     output.mkdir(parents=True, exist_ok=True)
     contents = json.dumps({
         "fetchedAt": datetime.now(timezone.utc).isoformat(),
+        "from": first.isoformat(), "until": last.isoformat(),
         "source": base64.b64encode(raw).decode("ascii"),
         "events": records,
     }, ensure_ascii=False).encode()

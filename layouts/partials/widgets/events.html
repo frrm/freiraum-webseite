@@ -2,7 +2,7 @@
 {{- $en := eq .Site.Language.Lang "en" -}}
 {{- $events := slice -}}
 {{- with hugo.Data.calendar.snapshot -}}
-  {{- $events = .events -}}
+  {{- $events = where .events "end" "ge" ((time.In "Europe/Berlin" now).Format "2006-01-02") -}}
 {{- end -}}
 <div class="widget" data-pagefind-ignore>
   <header><h4><a href="{{ "events/" | relLangURL }}">{{ if $en }}Upcoming events{{ else }}Nächste Treffen{{ end }}</a></h4></header>

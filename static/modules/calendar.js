@@ -100,8 +100,12 @@
       try {
         const response = await fetch(app.dataset.calendarUrl);
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        this.masters = (await response.json()).events.map(e => ({
-          title: e.name, categories: e.category ? e.category.split(', ') : [],
+        const data = await response.json();
+        const month = iso => iso && new Date(Date.UTC(Number(iso.slice(0, 4)), Number(iso.slice(5, 7)) - 1, 1));
+        this.firstMonth = month(data.from);
+        this.lastMonth = month(data.until);
+        this.masters = data.events.map(e => ({
+          title: e.name, categories: e.categories || [],
           start: new Date(Date.UTC(...e.start.slice(0, 19).split(/[-T:]/).map((n, i) => Number(n) - (i === 1 ? 1 : 0)))),
           end: new Date(Date.UTC(...e.end.slice(0, 19).split(/[-T:]/).map((n, i) => Number(n) - (i === 1 ? 1 : 0)))),
           dateString: e.start, allDay: e.allDay, description: e.description,
@@ -168,15 +172,22 @@
         return;
       }
 
+      // Only months covered by the snapshot can be shown completely.
+      const updateButtons = () => {
+        prevBtn.disabled = Boolean(this.firstMonth) && this.currentMonth <= this.firstMonth;
+        nextBtn.disabled = Boolean(this.lastMonth) && this.currentMonth >= this.lastMonth;
+      };
       const change = delta => {
         this.currentMonth.setUTCMonth(this.currentMonth.getUTCMonth() + delta);
         this.renderCalendar();
         this.updateMonthYear();
+        updateButtons();
       };
 
       prevBtn.addEventListener('click', () => change(-1));
       nextBtn.addEventListener('click', () => change(1));
       this.updateMonthYear();
+      updateButtons();
     }
 
     updateMonthYear() {

@@ -46,6 +46,18 @@ class CalendarSnapshotTest(unittest.TestCase):
             events_create.create_snapshot(str(source), temp, date(2026, 10, 1), dry_run=True)
             self.assertEqual((output / 'snapshot.json').read_bytes(), data)
 
+    def test_month_history_and_categories(self):
+        source = Path(__file__).parent / 'fixtures/calendar.ics'
+        with tempfile.TemporaryDirectory() as temp:
+            events_create.create_snapshot(str(source), temp, date(2026, 11, 11))
+            snapshot = json.loads((Path(temp) / 'snapshot.json').read_text())
+            self.assertEqual((snapshot['from'], snapshot['until']), ('2026-11-01', '2027-11-11'))
+            events = {e['name']: e for e in snapshot['events']}
+            self.assertNotIn('Ongoing', events)
+            self.assertEqual(events['Moved']['start'], '2026-11-02T19:00:00')
+            self.assertEqual(events['Weekly']['categories'], ['Montagstreff'])
+            self.assertEqual(events['All day']['categories'], ['Planning, review'])
+
     def test_empty_calendar_is_valid(self):
         with tempfile.TemporaryDirectory() as temp:
             source = Path(temp) / 'empty.ics'

@@ -37,6 +37,7 @@
     background: var(--cal-accent); color: var(--cal-accent-text);
   }
   #cal-app .month-nav button:hover { filter: brightness(.92); }
+  #cal-app .month-nav button:disabled { opacity: .4; cursor: default; filter: none; }
   #cal-app #month-year { min-width: 11em; text-align: center; font-weight: 600; font-size: 1.15rem; }
 
   /* Calendar grid */
@@ -103,7 +104,7 @@
 {{- $en := eq .Page.Language.Lang "en" -}}
 {{- $events := slice -}}
 {{- with hugo.Data.calendar.snapshot -}}
-  {{- $events = .events -}}
+  {{- $events = where .events "end" "ge" ((time.In "Europe/Berlin" now).Format "2006-01-02") -}}
 {{- end -}}
 <div id="cal-app" lang="{{ .Page.Language.Lang }}" data-calendar-url="{{ "calendar.json" | relURL }}" data-pagefind-ignore>
   <!-- Interactive UI: hidden until JavaScript is running -->
