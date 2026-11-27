@@ -10,6 +10,16 @@ for (const path of ['/ccc/chaosseminar/','/en/ccc/chaosseminar/']) {
  const shown=await page.locator('.seminar-archive li:visible').evaluateAll(x=>x.map(y=>y.dataset.year)); assert(shown.length>0 && shown.length<all && shown.every(v=>v===year));
  await filter.locator('[name=year]').selectOption('all'); await filter.locator('[name=media]').selectOption('video');
  const vids=await page.locator('.seminar-archive li:visible').evaluateAll(x=>x.map(y=>y.dataset.media)); assert(vids.length>0 && vids.every(v=>v.split(' ').includes('video')));
+ const groups=await page.locator('.seminar-archive [data-year-group]:visible').evaluateAll(x=>x.map(y=>y.dataset.yearGroup)); assert(groups.length>0 && groups.every(g=>vids.length && g));
+ const media=async href=>page.locator(`.seminar-archive li:has(a[href*="${href}"])`).getAttribute('data-media');
+ if (path === '/ccc/chaosseminar/') {
+  assert.equal(await media('2016_04_sichereautos'), '');
+  assert((await media('2025_04_reinforcement_learning')).split(' ').includes('slides'));
+  assert((await media('2025_02_embedded-software-entwicklung')).split(' ').includes('video'));
+  assert.deepEqual((await media('2004_01_multimedia_formate')).split(' '), ['slides']);
+ }
+ await filter.locator('[name=media]').selectOption('all'); await filter.locator('[name=year]').selectOption(year);
+ assert.deepEqual(await page.locator('.seminar-archive [data-year-group]:visible').evaluateAll(x=>x.map(y=>y.dataset.yearGroup)), [year]);
  console.log(path,all,year,shown.length,'videos',vids.length); await page.close();
- const nojs=await browser.newPage({javaScriptEnabled:false}); await nojs.goto((process.env.SITE_URL || 'http://127.0.0.1:18419')+path); assert.equal(await nojs.locator('.seminar-archive li:visible').count(),all); await nojs.close();
+ const nojs=await browser.newPage({javaScriptEnabled:false}); await nojs.goto((process.env.SITE_URL || 'http://127.0.0.1:18419')+path); assert.equal(await nojs.locator('.seminar-archive li:visible').count(),all); assert((await nojs.locator('.seminar-archive h3').count())>10); await nojs.close();
 } await browser.close()})().catch(e=>{console.error(e);process.exit(1)});

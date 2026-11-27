@@ -9,6 +9,7 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "Markus Schnalke"
 Archiv = [
+	["Folien:HTML", "http://marmaro.de/docs/chaosseminar/unix-phil/", ""],
 	["", "https://archiv.ulm.ccc.de/chaosseminar/201003-unixphil/cs-201003-unixphil_audio.mp3", "61670400"],
 	["", "https://archiv.ulm.ccc.de/chaosseminar/201003-unixphil/cs-201003-unixphil_audio.ogg", "46081074"],
 	["", "https://archiv.ulm.ccc.de/chaosseminar/201003-unixphil/cs-201003-unixphil_video.m4v", "70583826"],

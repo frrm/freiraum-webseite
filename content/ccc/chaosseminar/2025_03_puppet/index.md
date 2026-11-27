@@ -8,7 +8,9 @@ Thema = ""
 Termin = "2025-03-11 19:00"
 Ort = "Temporärhaus Neu-Ulm"
 Vortragende = "Marcus"
-Archiv = []
+Archiv = [
+	["Folien:PDF", "2025-03-11_chaosseminar_openvox_puppet_grundlagen_1001_hiera.pdf", ""]
+	]
 +++
 
 {{< chaosseminar >}}

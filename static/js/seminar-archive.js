@@ -1,8 +1,15 @@
 document.querySelectorAll('[data-seminar-filter]').forEach(filters => {
-  const list = filters.nextElementSibling;
-  const apply = () => list.querySelectorAll('[data-year]').forEach(item => {
-    item.hidden = (filters.querySelector('[name="year"]').value !== 'all' && item.dataset.year !== filters.querySelector('[name="year"]').value)
-      || (filters.querySelector('[name="media"]').value !== 'all' && !item.dataset.media.split(' ').includes(filters.querySelector('[name="media"]').value));
-  });
+  const archive = filters.nextElementSibling;
+  const year = filters.querySelector('[name="year"]');
+  const media = filters.querySelector('[name="media"]');
+  const apply = () => {
+    archive.querySelectorAll('li[data-year]').forEach(item => {
+      item.hidden = (year.value !== 'all' && item.dataset.year !== year.value)
+        || (media.value !== 'all' && !item.dataset.media.split(' ').includes(media.value));
+    });
+    archive.querySelectorAll('[data-year-group]').forEach(group => {
+      group.hidden = !group.querySelector('li:not([hidden])');
+    });
+  };
   filters.addEventListener('change', apply);
 });

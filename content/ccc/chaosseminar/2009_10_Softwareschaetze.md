@@ -9,6 +9,7 @@ Termin = ""
 Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = "meillo (markus schnalke)"
 Archiv = [
+	["Folien:HTML", "http://marmaro.de/docs/chaosseminar/treasuries/", ""],
 	["", "https://archiv.ulm.ccc.de/chaosseminar/200910-softwareschaetze/cs-200910-softwareschaetze_audio.mp3", "79120980"],
 	["", "https://archiv.ulm.ccc.de/chaosseminar/200910-softwareschaetze/cs-200910-softwareschaetze_audio.ogg", "62411512"],
 	["", "https://archiv.ulm.ccc.de/chaosseminar/200910-softwareschaetze/cs-200910-softwareschaetze_video.m4v", "123810395"],

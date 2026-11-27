@@ -30,25 +30,38 @@
     </select>
   </label>
 </div>
-<ul class="seminar-archive">
+<div class="seminar-archive">
+  {{- range $year := $years -}}
+  <section data-year-group="{{ $year }}">
+  <h3>{{ $year }}</h3>
+  <ul>
   {{- range $seminar := $past -}}
+    {{- if eq (dateFormat "2006" $seminar.Params.date) $year -}}
     {{- $types := slice -}}
+    {{- /* A scalar Archiv value is a notice, not a resource, so it adds no media type. */ -}}
     {{- with $seminar.Params.ChaosSeminar.archiv -}}
       {{- if reflect.IsSlice . -}}
         {{- range . -}}
-          {{- $url := lower (index . 1) -}}
-          {{- if or (strings.HasSuffix $url ".mp4") (strings.HasSuffix $url ".m4v") (strings.HasSuffix $url ".3gp") (strings.HasSuffix $url ".ogv") -}}
-            {{- $types = $types | append "video" -}}
-          {{- else if or (strings.HasSuffix $url ".mp3") (strings.HasSuffix $url ".ogg") (strings.HasSuffix $url ".opus") -}}
-            {{- $types = $types | append "audio" -}}
-          {{- else if strings.HasSuffix $url ".pdf" -}}
-            {{- $types = $types | append "slides" -}}
-          {{- else -}}{{- $types = $types | append "other" -}}{{- end -}}
+          {{- $label := lower (index (split (index . 0) ":") 0) -}}
+          {{- $url := lower (index (split (index . 1) "?") 0) -}}
+          {{- $type := "other" -}}
+          {{- if in $label "video" -}}{{- $type = "video" -}}
+          {{- else if or (in $label "audio") (in $label "podcast") -}}{{- $type = "audio" -}}
+          {{- else if or (in $label "folien") (in $label "slides") -}}{{- $type = "slides" -}}
+          {{- else if findRE `\.(mp4|m4v|3gp|ogv|avi|mov|webm)$` $url -}}{{- $type = "video" -}}
+          {{- else if findRE `\.(mp3|ogg|opus)$` $url -}}{{- $type = "audio" -}}
+          {{- else if strings.HasSuffix $url ".pdf" -}}{{- $type = "slides" -}}
+          {{- end -}}
+          {{- $types = $types | append $type -}}
         {{- end -}}
-      {{- else -}}{{- $types = $types | append "other" -}}{{- end -}}
+      {{- end -}}
     {{- end -}}
-    <li data-year="{{ dateFormat "2006" $seminar.Params.date }}" data-media="{{ delimit (uniq $types) " " }}">
+    <li data-year="{{ $year }}" data-media="{{ delimit (uniq $types) " " }}">
       {{ dateFormat "2006-01-02" $seminar.Params.date }}: <a href="{{ $seminar.RelPermalink }}"{{ if and (not $de) (eq $seminar.Language.Lang "de") }} lang="de"{{ end }}>{{ with $seminar.Params.ChaosSeminar.thema }}{{ . }}{{ else }}{{ $seminar.Params.title }}{{ end }}</a>{{ if and (not $de) (eq $seminar.Language.Lang "de") }} <span lang="en">(German)</span>{{ end }}
     </li>
+    {{- end -}}
   {{- end -}}
-</ul>
+  </ul>
+  </section>
+  {{- end -}}
+</div>
