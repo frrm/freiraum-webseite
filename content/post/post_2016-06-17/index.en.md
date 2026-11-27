@@ -7,7 +7,7 @@ hide_readingtime = true
 +++
 If you’re not into Perl, you most probably missed all the changes this languages is going through last years. I would like to briefly introduce those and if you find it interesting we can have some discussion about.
 
-**Veranstaltung: Hello From Planet Perl**
+**Event: Hello From Planet Perl**
 
 Sunday, Jun 19, 2016, 11:00 AM
 
