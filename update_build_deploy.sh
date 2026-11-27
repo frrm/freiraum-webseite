@@ -10,7 +10,7 @@
 #   - TODO: if not successful: alert admin
 #
 # Requires:
-#   git, hugo, rsync, flock
+#   git, hugo, rsync, flock, Node.js (npx, for the Pagefind search index)
 #
 # Notes:
 #   - directory-/filenames are defined at the top of this file
@@ -85,6 +85,11 @@ fi
 echo "- Build via hugo."
 hugo -d "$OUTDIR" --cleanDestinationDir
 ret=$?
+if [ "$ret" == 0 ]; then
+    echo "- Build search index via pagefind."
+    npx --yes pagefind@1.6.0 --site "$OUTDIR" --root-selector "main article#post-article"
+    ret=$?
+fi
 if [ "$ret" == 0 ]; then
     # update webserver
     chmod -R a+rX "$OUTDIR/"
