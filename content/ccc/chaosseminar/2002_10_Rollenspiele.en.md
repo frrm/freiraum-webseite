@@ -23,4 +23,4 @@ Role-playing is a hobby that many people who do not know it have no idea about, 
 
 Role-players are neither poor lunatics running through the woods in kilts with axes, nor computer addicts detached from reality. And there is no single kind of role-playing game. This talk explains the term, offers a brief overview of its history, and describes the main forms, from classic pen-and-paper games and LARPs to computer role-playing games.
 
-Anyone interested in this rather unusual hobby, or simply curious to look beyond their usual horizons, is very welcome. Warning: Diablo II is not a role-playing game. *g*
+Anyone interested in this rather unusual hobby, or simply curious to look beyond their usual horizons, is very welcome. Warning: Diablo II is not a role-playing game. \*g\*
