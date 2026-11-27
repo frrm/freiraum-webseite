@@ -6,7 +6,7 @@ categories = ["ChaosSeminar"]
 [ChaosSeminar]
 Thema = ""
 Termin = "2016-10-10 20:15"
-Ort = "Uni Ulm, Hörsaal H22"
+Ort = "University of Ulm, Lecture Hall H22"
 Vortragende = "meillo"
 Archiv = [
     ["", "https://archiv.ulm.ccc.de/chaosseminar/201610-encoding/cs-201610-encoding_audio.mp3",  "83045400"],

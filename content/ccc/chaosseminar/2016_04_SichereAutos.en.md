@@ -8,7 +8,7 @@ Thema = ""
 Termin = ""
 Ort = "University of Ulm, Lecture Hall H20"
 Vortragende = "Frank"
-Archiv = "Es wird zu diesem Chaosseminar keine Aufzeichnung geben."
+Archiv = "There will be no recording of this Chaos Seminar."
 +++
 
 {{< chaosseminar >}}

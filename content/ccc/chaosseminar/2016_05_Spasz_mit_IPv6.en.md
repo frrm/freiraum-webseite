@@ -4,7 +4,7 @@ date = "2016-05-09"
 categories = ["ChaosSeminar"]
 
 [ChaosSeminar]
-Thema = "Spaß mit IPv6, widersprechenden Standards und Herstellerimplementierungen"
+Thema = "Fun with IPv6, conflicting standards and vendor implementations"
 Termin = ""
 Ort = "University of Ulm, Lecture Hall H20"
 Vortragende = "Marcus"
