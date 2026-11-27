@@ -1,11 +1,16 @@
 {{ define "main_content" }}
-<main id="post-list" class="row-item small-full medium-two-thirds">
+<main id="main" class="row-item small-full medium-two-thirds">
   {{- if not .IsHome -}}
 	<header id="page-header">
 		<!-- manually translate hardcoded names -->
 		<h1 id="page-title">{{ replace .Title "Posts" "Blog" }}</h1>
 	</header>
 	{{- end -}}
+  {{ if .IsHome }}
+  <section class="hero"><p class="eyebrow">Hackerspace Ulm</p><h1>{{ i18n "heroTitle" }}</h1><p>{{ i18n "heroText" }}</p><div class="actions"><a class="button" href="{{ "about/" | relLangURL }}">{{ i18n "discover" }}</a><a href="{{ "contact/" | relLangURL }}">{{ i18n "findUs" }}</a></div></section>
+  <section class="home-events" aria-label="{{ i18n "nextMeetings" }}">{{ partial "widgets/events.html" . }}</section>
+  <h2>{{ i18n "news" }}</h2>
+  {{ end }}
   {{ .Content }}
   {{- if (or (not (isset .Params "hide_list")) (not .Params.hide_list)) -}}
     {{- if .IsHome -}}
