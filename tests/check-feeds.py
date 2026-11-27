@@ -29,6 +29,15 @@ class Head(HTMLParser):
 
 
 root = Path("public")
+ORIGIN = ("https", "www.frrm.de")
+
+
+def absolute(url):
+    parsed = urlparse(url or "")
+    assert (parsed.scheme, parsed.hostname) == ORIGIN, url
+    return parsed
+
+
 expected_feeds = {"post/index.xml", "en/post/index.xml"}
 feeds = {path.relative_to(root).as_posix(): path for path in root.rglob("*.xml")
          if not path.relative_to(root).parts[0] == "feeds"
@@ -42,7 +51,10 @@ for relative, path in feeds.items():
     assert channel is not None
     expected_lang = "en" if relative.startswith("en/") else "de"
     assert channel.findtext("language") == expected_lang
-    assert urlparse(channel.findtext("link")).path == "/" + relative.removesuffix("index.xml")
+    assert absolute(channel.findtext("link")).path == "/" + relative.removesuffix("index.xml")
+    for item in channel.findall("item"):
+        absolute(item.findtext("link"))
+        assert item.findtext("guid") == item.findtext("link")
     if expected_lang == "de":
         assert channel.findall("item")
 
@@ -53,7 +65,7 @@ for relative, feed_path in (("about/index.html", "/post/index.xml"),
                             ("en/about/index.html", "/en/post/index.xml")):
     head = Head(root / relative)
     canonical = [link["href"] for link in head.links if link.get("rel") == "canonical"]
-    assert len(canonical) == 1 and urlparse(canonical[0]).path == "/" + relative.removesuffix("index.html")
+    assert len(canonical) == 1 and absolute(canonical[0]).path == "/" + relative.removesuffix("index.html")
     feed_links = [link for link in head.links if link.get("type") == "application/rss+xml"]
     assert len(feed_links) == 1 and urlparse(feed_links[0].get("href", "")).path == feed_path
     assert all(link.get("href") for link in head.links)
@@ -71,7 +83,7 @@ for relative, about_path in (("de/sitemap.xml", "/about/"),
     sitemap = ET.parse(root / relative).getroot()
     urls = sitemap.findall("sm:url", ns)
     locs = {url.findtext("sm:loc", namespaces=ns) for url in urls}
-    assert any(urlparse(loc).path == about_path for loc in locs)
+    assert any(absolute(loc).path == about_path for loc in locs)
     assert all(link.get("href") for link in sitemap.findall(".//xhtml:link", ns))
     about = next(url for url in urls if urlparse(url.findtext("sm:loc", namespaces=ns)).path == about_path)
     alternates = {link.get("hreflang"): urlparse(link.get("href", "")).path

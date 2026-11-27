@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "https://www.frrm.de/" # publication origin for feeds, canonical and sitemap URLs
 relativeurls = true
 title = "Freiraum"
 author = "Der Andere"
