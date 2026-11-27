@@ -11,7 +11,7 @@ CCC Erfa Ulm runs a regular series of public talks. Admission is, of course, fre
 
 The talks normally take place at [Freiraum](/contact) at 7 pm on (almost) every second Monday of the month.
 
-You can find all past and planned topics and dates below; the talks are also announced in the [calendar](/events#Termine) and on the [news mailing list](/ccc/#öffentliche-mailingliste).
+You can find all past and planned topics and dates below; the talks are also announced in the [calendar](/events#calendar) and on the [news mailing list](/ccc/#public-mailing-list).
 
 If you miss a talk, most seminars also have a recording available — as a video or as a more convenient podcast in various formats.
 
