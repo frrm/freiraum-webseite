@@ -6,3 +6,4 @@
 .events-side img,.events-by-month img{width:1em;height:1em;vertical-align:middle}.handwriting p{text-indent:2em}.allura{font-family:allura}.calligraffiti{font-family:calligraffiti}.dancing-script{font-family:dancingscript}.euphoria-script{font-family:euphoriascript}.journal{font-family:journal}.kingthings-wrote{font-family:kingthings-wrote}.note-this{font-family:note-this}.vag-handwritten{font-family:vag-handwritten}.daniel{font-family:daniel}.daniel-black{font-family:danielblack}
 
 .language-switch{margin-left:auto;display:flex;gap:.7rem;font-size:.9rem}.language-switch [aria-current]{font-weight:700}
+.site-header :focus-visible,.hero :focus-visible{outline-color:#fff}#cal-app a{color:#006c55}
