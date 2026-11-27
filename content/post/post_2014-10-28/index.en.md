@@ -1,0 +1,10 @@
++++
+author ="Martin"
+title = "Group meeting for Creative Writing"
+date = "2014-10-28"
+categories = ["Projects"]
+hide_readingtime = true
++++
+A group of people who meet every week to write together and provide mutual support and feedback chose the Freiraum as their prefered location.
+
+The meeting time is 15:30 each Saturday. The last Saturday each month will be for feedback/critique.

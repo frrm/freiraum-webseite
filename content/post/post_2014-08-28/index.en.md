@@ -1,0 +1,8 @@
++++
+author ="Jani"
+title = "Open Street Map group meeting"
+date = "2014-08-28"
+categories = ["Announcements"]
+hide_readingtime = true
++++
+On Tuesday 2nd of September there will Open Street Map (OSM) group meeting in Hackerspace Ulm starting at 7 pm.
