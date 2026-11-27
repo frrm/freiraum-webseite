@@ -49,10 +49,12 @@ Ort = "Uni Ulm, Hörsaal H20"
 Vortragende = ""
 Archiv = []'''
         body = "{{< chaosseminar >}}\n\n"
-    if target.exists():
-        raise FileExistsError(f"refusing to overwrite {target}")
     target.parent.mkdir(parents=True, exist_ok=True)
-    target.write_text(f"+++\n{metadata}\n+++\n\n{body}", encoding="utf-8")
+    try:
+        with target.open("x", encoding="utf-8") as draft:
+            draft.write(f"+++\n{metadata}\n+++\n\n{body}")
+    except FileExistsError as error:
+        raise FileExistsError(f"refusing to overwrite {target}") from error
     return target
 
 
