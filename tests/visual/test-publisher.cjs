@@ -1,0 +1,53 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const os = require('node:os');
+const path = require('node:path');
+const {readReport, selectPages, selectRun, eligiblePr, commentBody, marker} = require('../../.github/scripts/visual-comments.cjs');
+const directory = fs.mkdtempSync(path.join(os.tmpdir(), 'visual-publisher-'));
+const head = 'a'.repeat(40), base = 'b'.repeat(40);
+try {
+  const route = '/en/post/example/';
+  const name = 'changed-' + Buffer.from(route).toString('hex');
+  const file = name + '-desktop-light-after.png';
+  const png = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+/aZ8AAAAASUVORK5CYII=', 'base64');
+  fs.writeFileSync(path.join(directory, file), png);
+  const html = `Base: ${base}; head: ${head}.<section><h2>${route} — desktop / light: Not comparable</h2><a href="${file}">image</a></section>`;
+  fs.writeFileSync(path.join(directory, 'index.html'), html);
+  const pages = readReport(directory, head, base);
+  assert.equal(pages.get(route).after, file);
+  assert.throws(() => readReport(directory, 'c'.repeat(40), base), /current PR/);
+  assert.equal(pages.get(route).changed, undefined);
+  const all = new Map([...pages, ['/', {route:'/',name:'home'}], ['/post/example/',{route:'/post/example/',name:'changed-source'}]]);
+  assert.equal(selectPages(all,[{filename:'content/post/example/index.en.md'}]).length,1);
+  assert.equal(selectPages(all,[{filename:'layouts/baseof.html'}]).length,3);
+  // Reports listing changed routes restrict content PRs to those pages, including representative routes they changed.
+  fs.writeFileSync(path.join(directory, 'index.html'), html.replace('<section>', `<ul id="changed-routes"><li>${route}</li><li>/post/example/</li></ul><section>`) +
+    `<section><h2>/en/events/ — desktop / light: Not comparable</h2></section><section><h2>/post/example/ — desktop / light: Not comparable</h2></section>`);
+  const listed = readReport(directory, head, base);
+  assert.deepEqual([...listed.values()].map(page => [page.route, page.changed]), [[route, true], ['/en/events/', false], ['/post/example/', true]]);
+  assert.deepEqual(selectPages(listed,[{filename:'content/post/example/index.en.md'}]).map(page => page.route), [route]);
+  assert.deepEqual(selectPages(listed,[{filename:'content/post/example/index.md'}]).map(page => page.route), [route, '/post/example/']);
+  assert.equal(selectPages(listed,[{filename:'content/post/example/index.md'}, {filename:'layouts/baseof.html'}]).length, 3);
+  const standard = new Map([['/en/events/', {route:'/en/events/',name:'events-en',changed:true}]]);
+  assert.equal(selectPages(standard,[{filename:'content/events.en.md'}]).length,1);
+  fs.writeFileSync(path.join(directory, 'index.html'), html);
+  const pr = {number: 8, head: {sha: head, ref:'modernize/one', repo:{full_name:'owner/repo'}}, base:{sha:base}};
+  assert(eligiblePr(pr, 'owner/repo'));
+  assert(!eligiblePr({...pr, head:{...pr.head, repo:{full_name:'fork/repo'}}}, 'owner/repo'));
+  assert(!eligiblePr({...pr, head:{...pr.head, ref:'other/one'}}, 'owner/repo'));
+  const matching = {id:1, event:'pull_request', head_sha:head, head_branch:pr.head.ref, head_repository:{full_name:'owner/repo'}, pull_requests:[{number:8,base:{sha:base}}]};
+  assert.equal(selectRun([{...matching,id:3,event:'push'}, {...matching,id:2,pull_requests:[{number:8,base:{sha:head}}]}, matching],pr,'owner/repo'),matching);
+  const body = commentBody(pages.get(route), {head:{sha:head},base:{sha:base}}, {after:'https://example.org/after.png'}, 'https://example.org/report', 'New page');
+  assert(body.includes('No comparable baseline') && body.includes(marker(route)) && body.includes(head));
+  const huge = Buffer.from(png); huge.writeUInt32BE(0xffffffff, 16);
+  fs.writeFileSync(path.join(directory, file), huge);
+  assert.throws(() => readReport(directory,head,base), /screenshot/);
+  fs.writeFileSync(path.join(directory, file), png);
+  fs.writeFileSync(path.join(directory, 'index.html'), html.replace(file, '../outside-desktop-light-after.png'));
+  assert.throws(() => readReport(directory,head,base), /filename/);
+  fs.writeFileSync(path.join(directory, 'index.html'), html);
+  fs.unlinkSync(path.join(directory,file));
+  fs.symlinkSync(path.join(directory,'index.html'),path.join(directory,file));
+  assert.throws(() => readReport(directory,head,base), /screenshot/);
+  console.log('Publisher checks passed: page selection, revisions, missing baselines and artifact boundaries');
+} finally { fs.rmSync(directory,{recursive:true,force:true}); }

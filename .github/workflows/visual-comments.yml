@@ -1,0 +1,50 @@
+name: Publish visual review comments
+on:
+  pull_request:
+    paths:
+      - .github/workflows/visual-comments.yml
+      - .github/scripts/visual-comments.cjs
+      - .github/scripts/extract-visual.py
+      - tests/visual/test-publisher.cjs
+      - tests/visual/test_extract_visual.py
+  workflow_run:
+    workflows: [Visual review]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      pull_request:
+        description: PR number (blank refreshes all modernization PRs)
+        required: false
+permissions:
+  contents: read
+concurrency:
+  group: visual-review-comments
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.event_name != 'pull_request' || (github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.head.ref == 'modernize/30-visual-comments')
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      actions: read
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.event_name == 'workflow_run' && github.event.repository.default_branch || github.sha }}
+          path: publisher
+          persist-credentials: false
+      - run: npm ci --ignore-scripts --prefix publisher/tests/visual
+      - run: node publisher/tests/visual/test-publisher.cjs
+      - run: python3 publisher/tests/visual/test_extract_visual.py
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: review/modernization-screenshots
+          path: evidence
+      - uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        env:
+          GH_TOKEN: ${{ github.token }}
+        with:
+          script: |
+            await require(process.env.GITHUB_WORKSPACE + '/publisher/.github/scripts/visual-comments.cjs').publish({github, context, core});
