@@ -1,0 +1,6 @@
+{{- partial "media-assets.html" . -}}
+{{- $de := eq .Site.Language.Lang "de" -}}
+<div class="media-embed" data-youtube="{{ .Get "id" }}" data-youtube-title="{{ if $de }}YouTube-Video{{ else }}YouTube video{{ end }}">
+  <button type="button" data-load-youtube>{{ if $de }}Video auf YouTube laden{{ else }}Load YouTube video{{ end }}</button>
+  <a href="https://www.youtube.com/watch?v={{ .Get "id" }}" rel="noopener noreferrer">{{ if $de }}Direkt zu YouTube{{ else }}Open directly on YouTube{{ end }}</a>
+</div>

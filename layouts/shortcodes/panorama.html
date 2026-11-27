@@ -1,19 +1,12 @@
-<script type="text/javascript" src="/modules/pannellum.js"></script>
-    <style>
-    #{{ .Get "name" }} {
-        width: 600px;
-        height: 400px;
-    }
-    </style>
-
-<link rel="stylesheet" href="/modules/pannellum.css"/>
-<div id="{{ .Get "name" }}"></div>
+    {{ partial "media-assets.html" . }}
+{{ $de := eq .Site.Language.Lang "de" }}
+<div id="{{ .Get "name" }}" class="media-panorama"><a data-loading="{{ if $de }}Panorama wird geladen …{{ else }}Loading panorama …{{ end }}" data-error="{{ if $de }}Laden fehlgeschlagen; Bild direkt öffnen{{ else }}Loading failed; open image directly{{ end }}" href="{{ .Get "src" }}" data-panorama-start><img src="{{ .Get "src" }}" alt="{{ if $de }}360°-Panorama; interaktive Ansicht starten{{ else }}360° panorama; start interactive view{{ end }}"><span>{{ if $de }}Interaktive Panoramaansicht starten{{ else }}Start interactive panorama{{ end }}</span></a></div>
 <script>
-pannellum.viewer('{{ .Get "name" }}', {
+document.addEventListener('DOMContentLoaded', () => FreiraumMedia.panorama('{{ .Get "name" }}', {
     "type": "equirectangular",
     "panorama": "{{ .Get "src" }}",
     "autoLoad": true,
     "showZoomCtrl": false,
     "hotSpotDebug": true
-});
+}, '{{ .Get "src" }}'));
 </script>

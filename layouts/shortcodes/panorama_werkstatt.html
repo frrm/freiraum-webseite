@@ -1,15 +1,8 @@
-<script type="text/javascript" src="/modules/pannellum.js"></script>
-    <style>
-    #pano_werkstatt{
-        width: 600px;
-        height: 400px;
-    }
-    </style>
-
-<link rel="stylesheet" href="/modules/pannellum.css"/>
-<div id="pano_werkstatt"></div>
+    {{ partial "media-assets.html" . }}
+{{ $de := eq .Site.Language.Lang "de" }}
+<div id="pano_werkstatt" class="media-panorama"><a data-loading="{{ if $de }}Panorama wird geladen …{{ else }}Loading panorama …{{ end }}" data-error="{{ if $de }}Laden fehlgeschlagen; Bild direkt öffnen{{ else }}Loading failed; open image directly{{ end }}" href="/images/pano_werkstatt.jpg" data-panorama-start><img src="/images/pano_werkstatt.jpg" alt="{{ if $de }}360°-Panorama; interaktive Ansicht starten{{ else }}360° panorama; start interactive view{{ end }}"><span>{{ if $de }}Interaktive Panoramaansicht starten{{ else }}Start interactive panorama{{ end }}</span></a></div>
 <script>
-pannellum.viewer('pano_werkstatt', {
+document.addEventListener('DOMContentLoaded', () => FreiraumMedia.panorama('pano_werkstatt', {
     "type": "equirectangular",
     "panorama": "/images/pano_werkstatt.jpg",
     "autoLoad": true,
@@ -117,5 +110,5 @@ pannellum.viewer('pano_werkstatt', {
             "text": "Mobiler Hotspot",
         }
         ]    
-});
+}, '/images/pano_werkstatt.jpg'));
 </script>
