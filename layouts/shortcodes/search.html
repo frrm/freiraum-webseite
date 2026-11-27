@@ -1,5 +1,7 @@
+{{- /* The English post section has no German fallbacks yet; the English home page lists them. */ -}}
 {{- $news := "post/" | relURL -}}
 {{- with .Page.Site.GetPage "/post" -}}{{- $news = .RelPermalink -}}{{- end -}}
+{{- if eq .Page.Language.Lang "en" -}}{{- $news = .Page.Site.Home.RelPermalink -}}{{- end -}}
 {{- $archive := "ccc/chaosseminar/" | relURL -}}
 {{- with .Page.Site.GetPage "/ccc/chaosseminar" -}}{{- $archive = .RelPermalink -}}{{- end -}}
 <link href="{{ "pagefind/pagefind-ui.css" | relURL }}" rel="stylesheet">
