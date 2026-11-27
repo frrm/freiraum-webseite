@@ -1,0 +1,40 @@
+[skip]
+other = "Skip to content"
+[menu]
+other = "Menu"
+[navigation]
+other = "Main navigation"
+[theme]
+other = "Change colour scheme"
+[search]
+other = "Search"
+[contact]
+other = "Contact"
+[heroTitle]
+other = "Space for ideas, technology and community."
+[heroText]
+other = "At Freiraum, people meet to make, learn and share. Come by and join in."
+[discover]
+other = "Discover Freiraum"
+[findUs]
+other = "Find us →"
+[nextMeetings]
+other = "Upcoming meetings"
+[news]
+other = "News"
+[notFound]
+other = "Page not found"
+[notFoundText]
+other = "Sorry, this page could not be found."
+[home]
+other = "Back to the homepage"
+[older]
+other = "Older posts"
+[newer]
+other = "Newer posts"
+[readMore]
+other = "Read more"
+[unavailable]
+other = "No German translation available"
+[language]
+other = "Language"

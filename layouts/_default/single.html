@@ -17,7 +17,7 @@
         {{- if .Params.categories -}}
         <span class="row-item">
           <span class="fa fa-folder"></span>
-          {{ range $index, $category := .Params.categories }}{{ if gt $index 0 }}, {{ end }}<a href="{{ "categories/" | relURL }}{{ . | urlize | lower }}" rel="category">{{ . | humanize | title }}</a>{{ end }}
+          {{ range $index, $category := .Params.categories }}{{ if gt $index 0 }}, {{ end }}<a href="{{ "categories/" | relLangURL }}{{ . | urlize | lower }}" rel="category">{{ . | humanize | title }}</a>{{ end }}
         </span>
         {{- end -}}
 <!--         {{- if not .Params.hide_readingtime -}}
@@ -41,9 +41,9 @@
         <li class="row-item">{{if (eq (len .Site.Taxonomies.tags) 1) }}<i class="fa fa-tag"></i>{{ else }}<i class="fa fa-tags"></i>{{ end }}&nbsp;&nbsp;</li>
     		{{- range .Params.tags -}}
     		<li itemprop="relatedUrl" itemscope itemtype="http://schema.org/URL">
-    			{{- $.Scratch.Set "link" "/tags/" -}}
+    			{{- $.Scratch.Set "link" "tags/" -}}
     			{{- $.Scratch.Add "link" . -}}
-    			<a class="row-item button" href="{{ $.Scratch.Get "link" | lower | urlize | relURL }}" rel="tag" itemprop="url">{{ . | humanize | lower }}</a>
+    			<a class="row-item button" href="{{ $.Scratch.Get "link" | lower | urlize | relLangURL }}" rel="tag" itemprop="url">{{ . | humanize | lower }}</a>
     		</li>
     		{{- end -}}
     	</ul>

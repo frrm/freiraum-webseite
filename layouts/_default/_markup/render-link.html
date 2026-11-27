@@ -1,6 +1,25 @@
 {{- $url := .Destination -}}
 {{- $parsed := urls.Parse $url -}}
+{{- $german := false -}}
+{{- $base := .Page.RelPermalink -}}
+{{- if eq .Page.Language.Lang "en" -}}
+  {{- with where .Page.Translations "Language.Lang" "de" -}}{{- $base = (index . 0).RelPermalink -}}{{- end -}}
+  {{- if and (not $parsed.IsAbs) (not $parsed.Host) $parsed.Path -}}
+    {{- $path := $parsed.Path -}}
+    {{- if not (strings.HasPrefix $path "/") -}}{{- $path = path.Join $base $path -}}{{- end -}}
+    {{- with site.GetPage $path -}}
+      {{- $url = .RelPermalink -}}
+      {{- with $parsed.RawQuery }}{{ $url = printf "%s?%s" $url . }}{{ end -}}
+      {{- with $parsed.Fragment }}{{ $url = printf "%s#%s" $url . }}{{ end -}}
+    {{- else -}}
+      {{- with index (where hugo.Sites "Language.Lang" "de") 0 -}}
+        {{- with .GetPage $path }}{{ $german = true }}{{ end -}}
+      {{- end -}}
+      {{- if not (strings.HasPrefix $url "/") -}}{{- $url = printf "%s%s" $base $url -}}{{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
 {{- if and (not $parsed.IsAbs) (not $parsed.Host) (not (strings.HasPrefix $url "/")) -}}
   {{- $url = printf "%s%s" .Page.RelPermalink $url -}}
 {{- end -}}
-<a href="{{ $url }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
+<a href="{{ $url }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $german }} hreflang="de"{{ end }}>{{ .Text | safeHTML }}{{ if $german }} <span lang="en">(German)</span>{{ end }}</a>

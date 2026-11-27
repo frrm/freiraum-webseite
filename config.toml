@@ -72,3 +72,15 @@ disableKinds = ["rss"]
 
 [markup.goldmark.renderer]
 unsafe = true
+
+[languages.de]
+label = "Deutsch"
+weight = 1
+[languages.en]
+label = "English"
+weight = 2
+
+[[languages.en.menu.main]]
+name = "News"
+url = "/en/post/"
+weight = 1

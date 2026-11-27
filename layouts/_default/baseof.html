@@ -51,11 +51,17 @@
     <div id="site-container">
       <div id="site-header">
         <header class="small-text-center medium-text-left">
-          <a href="{{ "/" | relURL }}">
+          <a href="{{ .Site.Home.RelPermalink }}">
             <span id="site-title" itemprop="name">{{ .Site.Title }} - {{ .Site.Params.clubname }}</span><br>
             <span id="site-title2" itemprop="name">{{ .Site.Params.title2 }}</span>
             {{ with .Site.Params.tagline }}<br/><span id="site-tagline">{{ . }}</span>{{ end }}
           </a>
+          <div class="language-switch" aria-label="{{ i18n "language" }}">
+            {{- range .AllTranslations -}}
+              {{- if eq .Language.Lang $.Language.Lang -}}<span aria-current="page">{{ .Language.Label }}</span>{{- else -}} <a href="{{ .RelPermalink }}" hreflang="{{ .Language.Lang }}">{{ .Language.Label }}</a>{{- end -}}
+            {{- end -}}
+            {{- if not .IsTranslated }} <span>{{ i18n "unavailable" }}</span>{{ end -}}
+          </div>
         </header>
         <label for="menu-toggle-box"><div id="menu-toggle" class="main-nav no-select"><span><span class="fa fa-bars"></span> MENU</span></div></label>
         <input type="checkbox" id="menu-toggle-box" class="hide"/>

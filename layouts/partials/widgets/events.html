@@ -1,15 +1,15 @@
 {{- if .Site.Params.widgets.upcoming_events -}}
 <div class="widget">
 	<header>
-		<h4><a href="/events/#termine"><span class="fa fa-calendar"></span> nächste Treffen</a></h4>
+		<h4><a href="{{ "events/" | relLangURL }}#{{ if eq .Site.Language.Lang "en" }}calendar{{ else }}terminkalender{{ end }}"><span class="fa fa-calendar"></span> {{ i18n "nextMeetings" }}</a></h4>
 	</header>
 	<ul class="events-side" data-ics-url="/kalender" data-count="{{ .Site.Params.num_events | default 10 }}">
-		<li>Termine werden geladen …</li>
+		<li>{{ if eq .Site.Language.Lang "en" }}Loading events …{{ else }}Termine werden geladen …{{ end }}</li>
 	</ul>
 	<script type="module" src="/modules/next-events.js"></script>
 	<noscript>
 	    <div id="no-js-content">
-	        <p>Dies wird angezeigt weil JavaScript nicht verwendet wird!</p>
+	        <p>{{ if eq .Site.Language.Lang "en" }}JavaScript is disabled.{{ else }}JavaScript ist deaktiviert.{{ end }}</p>
 	    </div>
 	    <!-- sort events by date -->
 	{{- $events_sorted := where (sort (default dict hugo.Data.events) "startDatetime" "asc") "startDatetime" "ge" (now.Format "2006-01-02") -}}
@@ -42,7 +42,7 @@
 	  {{- end -}}
 	</ul>
 	{{ end }}
-	<b>weitere folgen...</b>
+	<b>{{ if eq .Site.Language.Lang "en" }}More to follow...{{ else }}Weitere folgen...{{ end }}</b>
 	</noscript>
 </div>
 {{- end -}}

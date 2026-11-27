@@ -1,0 +1,40 @@
+[skip]
+other = "Zum Inhalt springen"
+[menu]
+other = "Menü"
+[navigation]
+other = "Hauptnavigation"
+[theme]
+other = "Farbschema wechseln"
+[search]
+other = "Suche"
+[contact]
+other = "Kontakt"
+[heroTitle]
+other = "Raum für Ideen, Technik und Gemeinschaft."
+[heroText]
+other = "Im Freiraum treffen sich Menschen zum Basteln, Lernen und Austauschen. Komm vorbei und mach mit."
+[discover]
+other = "Den Freiraum entdecken"
+[findUs]
+other = "So findest du uns →"
+[nextMeetings]
+other = "Nächste Treffen"
+[news]
+other = "Neuigkeiten"
+[notFound]
+other = "Seite nicht gefunden"
+[notFoundText]
+other = "Diese Seite gibt es hier leider nicht."
+[home]
+other = "Zur Startseite"
+[older]
+other = "ältere Einträge"
+[newer]
+other = "neuere Einträge"
+[readMore]
+other = "Weiterlesen"
+[unavailable]
+other = "Keine englische Übersetzung verfügbar"
+[language]
+other = "Sprache"

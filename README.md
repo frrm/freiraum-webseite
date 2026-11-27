@@ -137,6 +137,12 @@ Weitere Platzhalter können bei Bedarf angelegt werden.
 
 ## Inhalte anlegen
 
+Neue Beitrags- und Chaosseminar-Entwürfe mit validiertem Datum und sicherem
+Nicht-Überschreiben legt `python3 tools/author_content.py post YYYY-MM-DD "Titel"`
+beziehungsweise `python3 tools/author_content.py seminar YYYY-MM-DD "Titel"` an.
+`python3 tools/author_content.py translations` listet Markdown-Seiten ohne
+passende `.en.md`-Übersetzung.
+
 ### Post anlegen
 
 TODO: `post/post_YYYY-MM-DD` oder `post/YYYY-MM-DD`?
@@ -253,3 +259,12 @@ Das CalDAV-Synchronisationsskript wird dabei nicht ausgeführt.
 In Artikeln relative Links und Bilder als Markdown schreiben, damit sie auch
 in Übersichten auf die richtige Artikel-URL zeigen. Für rohes HTML absolute
 Pfade verwenden.
+
+### Inhalte und Übersetzungen
+
+Neue Entwürfe entstehen mit `make new-post DATE=YYYY-MM-DD TITLE="Titel"`
+oder `make new-seminar DATE=YYYY-MM-DD TITLE="Titel"`. Der Befehl verweigert
+bestehende Dateien zu überschreiben. `make translations` listet fehlende
+englische Dateien; ein Ergebnis mit fehlenden Übersetzungen gibt Status 1 zurück.
+Englische Markdown-Dateien liegen als `name.en.md` neben ihren deutschen
+Gegenstücken. Bilder und Dokumente bleiben an ihrem bisherigen Ort.

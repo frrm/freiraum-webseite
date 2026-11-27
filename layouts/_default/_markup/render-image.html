@@ -1,6 +1,10 @@
 {{- $url := .Destination -}}
 {{- $parsed := urls.Parse $url -}}
 {{- if and (not $parsed.IsAbs) (not $parsed.Host) (not (strings.HasPrefix $url "/")) -}}
-  {{- $url = printf "%s%s" .Page.RelPermalink $url -}}
+  {{- $base := .Page.RelPermalink -}}
+  {{- if eq .Page.Language.Lang "en" -}}
+    {{- with where .Page.Translations "Language.Lang" "de" -}}{{- $base = (index . 0).RelPermalink -}}{{- end -}}
+  {{- end -}}
+  {{- $url = printf "%s%s" $base $url -}}
 {{- end -}}
 <img src="{{ $url }}" alt="{{ .PlainText }}"{{ with .Title }} title="{{ . }}"{{ end }}>

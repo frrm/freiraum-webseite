@@ -28,7 +28,7 @@ Die beste Möglichkeit um Kontakt aufzunehmen ist einfach mal vorbei zu kommen:
   * [Anfahrtsbeschreibung von free FM](http://www.freefm.de/kontakt/anfahrt)
   * Karte: [OpenStreetMap](https://www.openstreetmap.org/?mlat=48.40060&mlon=9.99131#map=14/48.40060/9.99131)
 
-[![](osm-frrm.jpg)](https://www.openstreetmap.org/?mlat=48.40060&mlon=9.99131#map=14/48.40060/9.99131)
+[![Karte des Freiraums auf OpenStreetMap](osm-frrm.jpg)](https://www.openstreetmap.org/?mlat=48.40060&mlon=9.99131#map=14/48.40060/9.99131)
 (&copy; [OpenStreetMap](https://openstreetmap.org/copyright))
 
 <!--
