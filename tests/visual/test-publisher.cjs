@@ -16,11 +16,21 @@ try {
   const pages = readReport(directory, head, base);
   assert.equal(pages.get(route).after, file);
   assert.throws(() => readReport(directory, 'c'.repeat(40), base), /current PR/);
+  assert.equal(pages.get(route).changed, undefined);
   const all = new Map([...pages, ['/', {route:'/',name:'home'}], ['/post/example/',{route:'/post/example/',name:'changed-source'}]]);
   assert.equal(selectPages(all,[{filename:'content/post/example/index.en.md'}]).length,1);
-  const standard = new Map([['/en/events/', {route:'/en/events/',name:'events-en'}]]);
-  assert.equal(selectPages(standard,[{filename:'content/events.en.md'}]).length,1);
   assert.equal(selectPages(all,[{filename:'layouts/baseof.html'}]).length,3);
+  // Reports listing changed routes restrict content PRs to those pages, including representative routes they changed.
+  fs.writeFileSync(path.join(directory, 'index.html'), html.replace('<section>', `<ul id="changed-routes"><li>${route}</li><li>/post/example/</li></ul><section>`) +
+    `<section><h2>/en/events/ — desktop / light: Not comparable</h2></section><section><h2>/post/example/ — desktop / light: Not comparable</h2></section>`);
+  const listed = readReport(directory, head, base);
+  assert.deepEqual([...listed.values()].map(page => [page.route, page.changed]), [[route, true], ['/en/events/', false], ['/post/example/', true]]);
+  assert.deepEqual(selectPages(listed,[{filename:'content/post/example/index.en.md'}]).map(page => page.route), [route]);
+  assert.deepEqual(selectPages(listed,[{filename:'content/post/example/index.md'}]).map(page => page.route), [route, '/post/example/']);
+  assert.equal(selectPages(listed,[{filename:'content/post/example/index.md'}, {filename:'layouts/baseof.html'}]).length, 3);
+  const standard = new Map([['/en/events/', {route:'/en/events/',name:'events-en',changed:true}]]);
+  assert.equal(selectPages(standard,[{filename:'content/events.en.md'}]).length,1);
+  fs.writeFileSync(path.join(directory, 'index.html'), html);
   const pr = {number: 8, head: {sha: head, ref:'modernize/one', repo:{full_name:'owner/repo'}}, base:{sha:base}};
   assert(eligiblePr(pr, 'owner/repo'));
   assert(!eligiblePr({...pr, head:{...pr.head, repo:{full_name:'fork/repo'}}}, 'owner/repo'));

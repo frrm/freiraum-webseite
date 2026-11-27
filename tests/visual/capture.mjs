@@ -24,7 +24,9 @@ await new Promise(r => server.listen(0, '127.0.0.1', r));
 const port = server.address().port;
 const browser = await chromium.launch({headless:true});
 const cases = [ ['home','/'], ['events','/events/'], ['events-calendar','/events/'], ['posts','/post/'], ['home-en','/en/'], ['events-en','/en/events/'], ['contact','/contact/'], ['seminars','/ccc/chaosseminar/'], ['gallery','/gallery/'], ['search','/search/'] ];
-if (process.env.VISUAL_EXTRA) for (const path of JSON.parse(readFileSync(process.env.VISUAL_EXTRA, 'utf8'))) {
+// Routes of changed content pages, listed separately so publishers can tell them from representative pages.
+const changed = process.env.VISUAL_EXTRA ? JSON.parse(readFileSync(process.env.VISUAL_EXTRA, 'utf8')) : [];
+for (const path of changed) {
   if (!cases.some(([, existing]) => existing === path)) cases.push([`changed-${Buffer.from(path).toString('hex')}`, path]);
 }
 let rows = '';
@@ -70,5 +72,5 @@ for (const [name, path] of cases) for (const [device, viewport] of [['desktop',{
   rows += `<section><h2>${path} — ${device} / ${theme}: ${diff}</h2><div class="images">${['before','after','diff'].map((side,i) => `<figure><figcaption>${side}</figcaption>${(i===2 ? present.every(Boolean) : present[i]) ? `<a href="${label}-${side}.png"><img src="${label}-${side}.png"></a>` : '<p>Not present in this revision</p>'}</figure>`).join('')}</div></section>`;
   console.log(label, diff);
 }
-writeFileSync(`${output}/index.html`, `<!doctype html><meta charset="utf-8"><title>Visual comparison</title><style>body{font:16px sans-serif;margin:2rem} .images{display:flex;gap:1rem} figure{margin:0;flex:1;min-width:0} img{width:100%;border:1px solid #aaa} section{margin:2rem 0}</style><h1>Visual comparison</h1><p>Base: ${process.env.VISUAL_BASE || "not supplied"}; head: ${process.env.VISUAL_HEAD || "not supplied"}.</p><p>Fixed time: 2026-10-01 12:00 UTC. Browser network restricted to local assets; calendar is a local fixture and build-time events data is empty. Missing pages are labelled. ${process.env.VISUAL_LEGACY === "true" ? "The original baseline requires build-only compatibility edits: pagination.pagerSize to paginate, empty events data and numeric formatter compatibility with Hugo 0.84.4." : ""}</p>${rows}`);
+writeFileSync(`${output}/index.html`, `<!doctype html><meta charset="utf-8"><title>Visual comparison</title><style>body{font:16px sans-serif;margin:2rem} .images{display:flex;gap:1rem} figure{margin:0;flex:1;min-width:0} img{width:100%;border:1px solid #aaa} section{margin:2rem 0}</style><h1>Visual comparison</h1><p>Base: ${process.env.VISUAL_BASE || "not supplied"}; head: ${process.env.VISUAL_HEAD || "not supplied"}.</p><p>Fixed time: 2026-10-01 12:00 UTC. Browser network restricted to local assets; calendar is a local fixture and build-time events data is empty. Missing pages are labelled. ${process.env.VISUAL_LEGACY === "true" ? "The original baseline requires build-only compatibility edits: pagination.pagerSize to paginate, empty events data and numeric formatter compatibility with Hugo 0.84.4." : ""}</p><h2>Changed content routes</h2><ul id="changed-routes">${changed.map(path => `<li>${path}</li>`).join('')}</ul>${rows}`);
 } finally { await browser.close(); server.close(); }

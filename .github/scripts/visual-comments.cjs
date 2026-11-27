@@ -26,6 +26,9 @@ function readReport(directory, head, base) {
   const html = fs.readFileSync(index, 'utf8');
   if (!/^[a-f0-9]{40}$/.test(head) || !/^[a-f0-9]{40}$/.test(base) ||
       !html.includes(`Base: ${base}; head: ${head}.`)) throw Error('Report does not match the current PR revisions');
+  // Reports from before the changed-route list existed leave `changed` undefined.
+  const list = html.match(/<ul id="changed-routes">([\s\S]*?)<\/ul>/);
+  const changed = list && new Set([...list[1].matchAll(/<li>([^<]+)<\/li>/g)].map(match => match[1]));
   const pages = new Map();
   for (const section of html.matchAll(/<section><h2>([^<]+) — desktop \/ light:[\s\S]*?<\/section>/g)) {
     const route = section[1];
@@ -40,15 +43,17 @@ function readReport(directory, head, base) {
       name = match[1].replace(/-desktop-light$/, '');
       images[match[2]] = filename;
     }
-    pages.set(route, {route, name, ...images});
+    pages.set(route, {route, name, changed: changed ? changed.has(route) : undefined, ...images});
   }
   if (!pages.size) throw Error('Report contains no page comparisons');
   return pages;
 }
 
+// Content-only PRs comment on their changed pages; representative pages are reserved for layout/code PRs.
 function selectPages(pages, files) {
-  const translationsOnly = files.length > 0 && files.every(file => file.filename.startsWith('content/') && file.filename.endsWith('.en.md'));
-  return [...pages.values()].filter(page => !translationsOnly || page.route.startsWith('/en/'));
+  const contentOnly = files.length > 0 && files.every(file => file.filename.startsWith('content/'));
+  const translationsOnly = contentOnly && files.every(file => file.filename.endsWith('.en.md'));
+  return [...pages.values()].filter(page => (!contentOnly || page.changed !== false) && (!translationsOnly || page.route.startsWith('/en/')));
 }
 
 function eligiblePr(pr, repository) {
@@ -106,7 +111,7 @@ async function publish({ github, context, core }) {
     const pages = readReport(directory, pr.head.sha, pr.base.sha);
     const files = await github.paginate(github.rest.pulls.listFiles, {owner, repo, pull_number: pr.number, per_page: 100});
     const selected = selectPages(pages, files);
-    if (!selected.length) throw Error(`PR #${pr.number}: no changed-page screenshots selected`);
+    if (!selected.length) { core.info(`PR #${pr.number}: no changed-page screenshots to publish`); continue; }
     const comments = await github.paginate(github.rest.issues.listComments, {owner, repo, issue_number: pr.number, per_page: 100});
     const todo = selected.filter(page => !comments.some(comment => comment.user?.login === 'github-actions[bot]' && comment.body.includes(marker(page.route)) && comment.body.includes(`Head: \`${pr.head.sha}\`; base: \`${pr.base.sha}\``)));
     if (!todo.length) { core.info(`PR #${pr.number}: comments already current`); continue; }

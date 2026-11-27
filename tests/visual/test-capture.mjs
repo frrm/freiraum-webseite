@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { mkdtempSync, mkdirSync, writeFileSync, existsSync, rmSync } from 'node:fs';
+import { mkdtempSync, mkdirSync, writeFileSync, existsSync, rmSync, readFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -23,5 +23,7 @@ try {
     const prefix = `changed-${Buffer.from(route).toString('hex')}-desktop-light`;
     for (const kind of ['before','after','diff']) assert(existsSync(join(root,'report',`${prefix}-${kind}.png`)), route + kind);
   }
+  const report = readFileSync(join(root,'report','index.html'), 'utf8');
+  assert(report.includes('<ul id="changed-routes"><li>/guide.v2/</li><li>/umlaut-%C3%BC.v2/</li></ul>'));
   console.log('Screenshot server renders dotted directory routes and produces comparisons');
 } finally { rmSync(root,{recursive:true,force:true}); }
