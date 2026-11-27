@@ -1,5 +1,5 @@
 +++
-title = "Translation"
+title = "Fun with Translation and Unicode"
 date = "2014-12-08"
 categories = ["ChaosSeminar"]
 
