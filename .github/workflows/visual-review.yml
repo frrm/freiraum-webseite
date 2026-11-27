@@ -77,6 +77,7 @@ jobs:
           if [ ! -f /tmp/visual/base/Dockerfile ]; then export VISUAL_LEGACY=true; fi
           python3 changed-pages.py /tmp/visual/base.csv /tmp/visual/head.csv > /tmp/visual/changed-pages.json
           export VISUAL_EXTRA=/tmp/visual/changed-pages.json
+          node navigation.mjs /tmp/visual/out-head
           node capture.mjs /tmp/visual/out-base /tmp/visual/out-head /tmp/visual/report
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:

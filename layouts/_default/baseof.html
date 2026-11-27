@@ -63,8 +63,8 @@
             {{- if not .IsTranslated }} <span>{{ i18n "unavailable" }}</span>{{ end -}}
           </div>
         </header>
-        <label for="menu-toggle-box"><div id="menu-toggle" class="main-nav no-select"><span><span class="fa fa-bars"></span> MENU</span></div></label>
-        <input type="checkbox" id="menu-toggle-box" class="hide"/>
+        <input type="checkbox" id="menu-toggle-box" aria-label="Menu" aria-controls="main-nav"/>
+        <label for="menu-toggle-box" id="menu-toggle" class="main-nav no-select"><span class="fa fa-bars" aria-hidden="true"></span> MENU</label>
         <nav id="main-nav">
           <ul class="menu">
           {{- partial "nested_menu.html" (dict "menu" .Site.Menus.main "page" . "site" .Site) . -}}
@@ -79,73 +79,73 @@
       <footer class="row">
         <div class="small-full medium-half row-item small-text-center medium-text-left"><small>&copy; {{now.Format "2006"}} <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><span itemprop="name">{{ .Site.Title }}</span></span>.</small></div>
         <div class="small-full medium-half row-item small-text-center medium-text-right" id="social-icons">
-          {{ with .Site.Params.social.deviantart }}<a href="https://{{ . }}.deviantart.com">
+          {{ with .Site.Params.social.deviantart }}<a aria-label="Deviantart" href="https://{{ . }}.deviantart.com">
             <span class="fa-brands fa-deviantart"></span>
           </a>{{ end }}
-          {{ with .Site.Params.social.facebook }}<a href="https://facebook.com/{{ . }}">
+          {{ with .Site.Params.social.facebook }}<a aria-label="Facebook" href="https://facebook.com/{{ . }}">
             <span class="fa-brands fa-facebook"></span>
           </a>{{ end }}
-          {{ with .Site.Params.social.github }}<a href="https://github.com/{{ . }}">
+          {{ with .Site.Params.social.github }}<a aria-label="Github" href="https://github.com/{{ . }}">
             <span class="fa-brands fa-github"></span>
           </a>{{ end }}
-          {{ with .Site.Params.social.gitlab }}<a href="https://gitlab.com/{{ . }}">
+          {{ with .Site.Params.social.gitlab }}<a aria-label="Gitlab" href="https://gitlab.com/{{ . }}">
             <span class="fa-brands fa-gitlab"></span>
           </a>{{ end }}
-          {{ with .Site.Params.social.googleplus }}<a href="https://plus.google.com/{{ . }}">
+          {{ with .Site.Params.social.googleplus }}<a aria-label="Google Plus" href="https://plus.google.com/{{ . }}">
             <span class="fa-brands fa-google-plus"></span>
           </a>{{ end }}
-          {{ with .Site.Params.social.instagram }}<a href="https://instagram.com/{{ . }}">
+          {{ with .Site.Params.social.instagram }}<a aria-label="Instagram" href="https://instagram.com/{{ . }}">
             <span class="fa-brands fa-instagram"></span>
           </a>{{ end }}
-          {{ with .Site.Params.social.linkedin }}<a href="https://linkedin.com/in/{{ . }}">
+          {{ with .Site.Params.social.linkedin }}<a aria-label="Linkedin" href="https://linkedin.com/in/{{ . }}">
             <span class="fa-brands fa-linkedin"></span>
           </a>{{ end }}
-          {{ with .Site.Params.social.medium }}<a href="https://medium.com/@{{ . }}">
+          {{ with .Site.Params.social.medium }}<a aria-label="Medium" href="https://medium.com/@{{ . }}">
             <span class="fa-brands fa-medium"></span>
           </a>{{ end }}
-          {{ with .Site.Params.social.pinterest }}<a href="https://pinterest.com/{{ . }}">
+          {{ with .Site.Params.social.pinterest }}<a aria-label="Pinterest" href="https://pinterest.com/{{ . }}">
             <span class="fa-brands fa-pinterest"></span>
           </a>{{ end }}
-          {{ with .Site.Params.social.quora }}<a href="https://quora.com/profile/{{ . }}">
+          {{ with .Site.Params.social.quora }}<a aria-label="Quora" href="https://quora.com/profile/{{ . }}">
             <span class="fa-brands fa-quora"></span>
           </a>{{ end }}
-          {{ with .Site.Params.social.reddit }}<a href="https://www.reddit.com/user/{{ . }}">
+          {{ with .Site.Params.social.reddit }}<a aria-label="Reddit" href="https://www.reddit.com/user/{{ . }}">
             <span class="fa-brands fa-reddit-alien"></span>
           </a>{{ end }}
-          {{ with .Site.Params.social.slack_org }}<a href="https://{{ . }}.slack.com">
+          {{ with .Site.Params.social.slack_org }}<a aria-label="Slack" href="https://{{ . }}.slack.com">
             <span class="fa-brands fa-slack"></span>
           </a>{{ end }}
-          {{ with .Site.Params.social.soundcloud }}<a href="https://soundcloud.com/{{ . }}">
+          {{ with .Site.Params.social.soundcloud }}<a aria-label="Soundcloud" href="https://soundcloud.com/{{ . }}">
             <span class="fa-brands fa-soundcloud"></span>
           </a>{{ end }}
-          {{ with .Site.Params.social.spotify }}<a href="https://open.spotify.com/user/{{ . }}">
+          {{ with .Site.Params.social.spotify }}<a aria-label="Spotify" href="https://open.spotify.com/user/{{ . }}">
             <span class="fa-brands fa-spotify"></span>
           </a>{{ end }}
-          {{ with .Site.Params.social.steam }}<a href="https://steamcommunity.com/{{ . }}">
+          {{ with .Site.Params.social.steam }}<a aria-label="Steam" href="https://steamcommunity.com/{{ . }}">
             <span class="fa-brands fa-steam"></span>
           </a>{{ end }}
-          {{ with .Site.Params.social.telegram }}<a href="http://t.me/{{ . }}">
+          {{ with .Site.Params.social.telegram }}<a aria-label="Telegram" href="http://t.me/{{ . }}">
             <span class="fa-brands fa-telegram"></span>
           </a>{{ end }}
-          {{ with .Site.Params.social.tumblr }}<a href="https://{{ . }}.tumblr.com/">
+          {{ with .Site.Params.social.tumblr }}<a aria-label="Tumblr" href="https://{{ . }}.tumblr.com/">
             <span class="fa-brands fa-tumblr"></span>
           </a>{{ end }}
-          {{ with .Site.Params.social.twitch }}<a href="https://www.twitch.tv/{{ . }}">
+          {{ with .Site.Params.social.twitch }}<a aria-label="Twitch" href="https://www.twitch.tv/{{ . }}">
             <span class="fa-brands fa-twitch"></span>
           </a>{{ end }}
-          {{ with .Site.Params.social.twitter }}<a href="https://twitter.com/{{ . }}">
+          {{ with .Site.Params.social.twitter }}<a aria-label="Twitter" href="https://twitter.com/{{ . }}">
             <span class="fa-brands fa-twitter"></span>
           </a>{{ end }}
-          {{ with .Site.Params.social.vimeo }}<a href="https://vimeo.com/{{ . }}">
+          {{ with .Site.Params.social.vimeo }}<a aria-label="Vimeo" href="https://vimeo.com/{{ . }}">
             <span class="fa-brands fa-vimeo"></span>
           </a>{{ end }}
-          {{ with .Site.Params.social.youtube }}<a href="https://www.youtube.com/user/{{ . }}">
+          {{ with .Site.Params.social.youtube }}<a aria-label="Youtube" href="https://www.youtube.com/user/{{ . }}">
             <span class="fa-brands fa-youtube"></span>
           </a>{{ end }}
-          {{ with .Site.Params.social.wiki }}<a href="{{ . }}">
+          {{ with .Site.Params.social.wiki }}<a aria-label="Wiki" href="{{ . }}">
             <span class="fa-brands fa-wikipedia-w"></span>
           </a>{{ end }}
-          {{ with .Site.Params.social.mastodon }}<a rel="me" href="https://{{ . }}">
+          {{ with .Site.Params.social.mastodon }}<a aria-label="Mastodon" rel="me" href="https://{{ . }}">
             <span class="fa-brands fa-mastodon"></span>
           </a>{{ end }}
         </div>
