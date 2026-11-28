@@ -7,3 +7,4 @@ update_events.log
 __pycache__/
 resources/_gen/
 .hugo_build.lock
+dist/

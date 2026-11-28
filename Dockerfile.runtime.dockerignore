@@ -1,0 +1,7 @@
+**
+!public/
+!public/**
+!container/
+!container/nginx.conf
+!container/security-headers.conf
+!Dockerfile.runtime
